@@ -1,0 +1,52 @@
+name: Expandir lojas oficiais
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/expand-official-stores.js'
+      - '.github/workflows/expand-official-stores.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: expand-official-stores
+  cancel-in-progress: true
+
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Adicionar ofertas oficiais verificadas
+        run: node scripts/expand-official-stores.js
+      - name: Validar catálogo
+        run: node scripts/validate-site.js
+      - name: Salvar catálogo com proteção contra conflito
+        shell: bash
+        run: |
+          set -e
+          git config user.name "radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ofertas.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma oferta nova passou pelas validações."
+            exit 0
+          fi
+          git commit -m "data: ampliar ofertas de lojas oficiais"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          echo "Não foi possível publicar após 3 tentativas."
+          exit 1
