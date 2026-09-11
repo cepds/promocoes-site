@@ -1,0 +1,2 @@
+Build solicitado em 2026-09-11T20:30:21Z
+Interface PWA v10 com filtros, favoritos, comparação, histórico, painel e regra 220V.
