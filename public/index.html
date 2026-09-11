@@ -9,10 +9,15 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Radar" />
   <title>Radar de Promoções</title>
-  <meta name="description" content="Catálogo de promoções com histórico de preço, frete e comparação." />
+  <meta name="description" content="Catálogo de promoções com histórico de preço, frete, comparação e ofertas verificadas." />
+  <meta property="og:title" content="Radar de Promoções" />
+  <meta property="og:description" content="Compare preço, frete, histórico e confiança da loja em um só lugar." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://promocoes-65707.web.app/" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./style.css?v=10" />
+  <link rel="stylesheet" href="./enhancements.css?v=1" />
 </head>
 <body>
   <header class="site-header compact-header">
@@ -108,6 +113,7 @@
 
   <script src="./fetch-fallback.js?v=1"></script>
   <script src="./app.js?v=11"></script>
+  <script src="./enhancements.js?v=1"></script>
   <script src="./auto-refresh.js?v=1"></script>
   <script>
     let installPrompt = null;
