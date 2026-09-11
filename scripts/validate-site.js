@@ -16,6 +16,7 @@ const requiredFiles = [
   'public/index.html',
   'public/style.css',
   'public/enhancements.css',
+  'public/commerce.css',
   'public/fetch-fallback.js',
   'public/app.js',
   'public/enhancements.js',
