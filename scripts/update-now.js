@@ -1,3 +1,4 @@
+// execução imediata do catálogo validado
 const fs = require('fs');
 const path = 'data/ofertas.json';
 const data = JSON.parse(fs.readFileSync(path, 'utf8'));
