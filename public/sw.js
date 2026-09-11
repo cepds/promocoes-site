@@ -1,14 +1,17 @@
-const CACHE_NAME = "radar-promocoes-v4";
+const CACHE_NAME = "radar-promocoes-v5";
 const DATA_CACHE = "radar-promocoes-data-v1";
 const APP_SHELL = [
   "/",
   "/index.html",
   "/style.css?v=10",
+  "/enhancements.css?v=1",
   "/fetch-fallback.js?v=1",
   "/app.js?v=11",
+  "/enhancements.js?v=1",
   "/auto-refresh.js?v=1",
   "/produto.html",
   "/produto.js?v=2",
+  "/produto-enhancements.js?v=1",
   "/admin.html",
   "/admin.js?v=2",
   "/manifest.webmanifest",
