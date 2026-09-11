@@ -1,14 +1,16 @@
-const CACHE_NAME = "radar-promocoes-v3";
+const CACHE_NAME = "radar-promocoes-v4";
+const DATA_CACHE = "radar-promocoes-data-v1";
 const APP_SHELL = [
   "/",
   "/index.html",
   "/style.css?v=10",
-  "/app.js?v=10",
+  "/fetch-fallback.js?v=1",
+  "/app.js?v=11",
   "/auto-refresh.js?v=1",
   "/produto.html",
-  "/produto.js?v=1",
+  "/produto.js?v=2",
   "/admin.html",
-  "/admin.js?v=1",
+  "/admin.js?v=2",
   "/manifest.webmanifest",
   "/icon.svg"
 ];
@@ -19,29 +21,47 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("activate", event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))));
+  event.waitUntil(
+    caches.keys().then(keys => Promise.all(
+      keys.filter(key => ![CACHE_NAME, DATA_CACHE].includes(key)).map(key => caches.delete(key))
+    ))
+  );
   self.clients.claim();
 });
 
+async function networkFirst(request, cacheName, fallbackRequest = null) {
+  try {
+    const response = await fetch(request);
+    if (response && response.ok) {
+      const cache = await caches.open(cacheName);
+      await cache.put(request, response.clone());
+    }
+    return response;
+  } catch (error) {
+    const cached = await caches.match(request);
+    if (cached) return cached;
+    if (fallbackRequest) {
+      const fallback = await caches.match(fallbackRequest);
+      if (fallback) return fallback;
+    }
+    throw error;
+  }
+}
+
 self.addEventListener("fetch", event => {
   const request = event.request;
-  const url = new URL(request.url);
   if (request.method !== "GET") return;
 
-  if (url.hostname === "api.github.com" && url.pathname.includes("/repos/cepds/promocoes-site/contents/data/ofertas.json")) {
-    event.respondWith(fetch(request).then(response => {
-      const copy = response.clone();
-      caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
-      return response;
-    }).catch(() => caches.match(request)));
+  const url = new URL(request.url);
+  const isCatalogApi = url.hostname === "api.github.com" && url.pathname.includes("/repos/cepds/promocoes-site/contents/data/ofertas.json");
+  const isCatalogRaw = url.hostname === "raw.githubusercontent.com" && url.pathname === "/cepds/promocoes-site/main/data/ofertas.json";
+
+  if (isCatalogApi || isCatalogRaw) {
+    event.respondWith(networkFirst(request, DATA_CACHE));
     return;
   }
 
   if (url.origin === self.location.origin) {
-    event.respondWith(fetch(request).then(response => {
-      const copy = response.clone();
-      caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
-      return response;
-    }).catch(() => caches.match(request).then(cached => cached || caches.match("/index.html"))));
+    event.respondWith(networkFirst(request, CACHE_NAME, "/index.html"));
   }
 });
