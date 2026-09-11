@@ -15,13 +15,16 @@ function isHttps(value) {
 const requiredFiles = [
   'public/index.html',
   'public/style.css',
+  'public/enhancements.css',
   'public/fetch-fallback.js',
   'public/app.js',
+  'public/enhancements.js',
   'public/auto-refresh.js',
   'public/sw.js',
   'public/manifest.webmanifest',
   'public/produto.html',
   'public/produto.js',
+  'public/produto-enhancements.js',
   'public/admin.html',
   'public/admin.js',
   'data/ofertas.json',
@@ -36,9 +39,11 @@ for (const file of requiredFiles) {
 const jsFiles = [
   'public/fetch-fallback.js',
   'public/app.js',
+  'public/enhancements.js',
   'public/auto-refresh.js',
   'public/sw.js',
   'public/produto.js',
+  'public/produto-enhancements.js',
   'public/admin.js'
 ];
 
@@ -107,6 +112,11 @@ if (data) {
     if (count < 10) warn(`${category}: ${count}/10 ofertas ativas. A automação deve priorizar esta categoria.`);
   }
 
+  const stale = active.filter(o => {
+    const d = o.ultimaVerificacao ? new Date(o.ultimaVerificacao) : null;
+    return !d || Number.isNaN(d.getTime()) || Date.now() - d.getTime() > 18 * 60 * 60 * 1000;
+  }).length;
+  if (stale) warn(`${stale} oferta(s) sem verificação nas últimas 18 horas.`);
   if (!data.geradoEm) warn('Campo geradoEm ausente.');
 }
 
