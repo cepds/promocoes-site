@@ -1,10 +1,11 @@
-const CACHE_NAME = "radar-promocoes-v6";
+const CACHE_NAME = "radar-promocoes-v7";
 const DATA_CACHE = "radar-promocoes-data-v1";
 const APP_SHELL = [
   "/",
   "/index.html",
   "/style.css?v=10",
   "/enhancements.css?v=2",
+  "/commerce.css?v=1",
   "/fetch-fallback.js?v=1",
   "/app.js?v=11",
   "/enhancements.js?v=1",
