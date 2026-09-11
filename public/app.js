@@ -13,6 +13,10 @@ const els = {
   category: document.querySelector("#category"),
   store: document.querySelector("#store"),
   sort: document.querySelector("#sort"),
+  categoryChips: document.querySelector("#categoryChips"),
+  statOffers: document.querySelector("#statOffers"),
+  statStores: document.querySelector("#statStores"),
+  statDiscount: document.querySelector("#statDiscount"),
 };
 
 let allOffers = [];
@@ -42,7 +46,11 @@ function isFresh(value) {
 }
 
 function money(value) {
-  return asNumber(value).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+  return asNumber(value).toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+    minimumFractionDigits: 2,
+  });
 }
 
 function text(value, fallback = "Não informado") {
@@ -69,7 +77,19 @@ function safeUrl(url) {
 }
 
 function fallbackImage() {
-  const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><rect width="800" height="500" fill="#f3f4f6"/><text x="400" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" fill="#9ca3af">Sem imagem</text></svg>';
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+      <defs>
+        <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0" stop-color="#f8fafc"/>
+          <stop offset="1" stop-color="#eef2f7"/>
+        </linearGradient>
+      </defs>
+      <rect width="800" height="600" fill="url(#g)"/>
+      <circle cx="400" cy="255" r="52" fill="#e2e8f0"/>
+      <path d="M370 260h60M400 230v60" stroke="#94a3b8" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+      <text x="400" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#94a3b8">Imagem indisponível</text>
+    </svg>`;
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
@@ -79,16 +99,33 @@ function decodeBase64Utf8(value) {
   return new TextDecoder("utf-8").decode(bytes);
 }
 
+function setStatus(message, ok = true) {
+  const label = els.status?.querySelector("span:last-child");
+  const dot = els.status?.querySelector(".status-dot");
+  if (label) label.textContent = message;
+  else if (els.status) els.status.textContent = message;
+  if (dot) {
+    dot.style.background = ok ? "#22c55e" : "#f97316";
+    dot.style.boxShadow = ok
+      ? "0 0 0 4px rgba(34,197,94,.12)"
+      : "0 0 0 4px rgba(249,115,22,.12)";
+  }
+}
+
 async function fetchPayload() {
-  const response = await fetch(DATA_API_URL, { cache: "no-store" });
+  const response = await fetch(`${DATA_API_URL}&t=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`GitHub API HTTP ${response.status}`);
   const file = await response.json();
   if (file.encoding !== "base64" || !file.content) throw new Error("Resposta de dados inválida");
   return JSON.parse(decodeBase64Utf8(file.content));
 }
 
+function activeOffers() {
+  return allOffers.filter(o => o.ativa !== false && isFresh(o.ultimaVerificacao));
+}
+
 function uniqueValues(key) {
-  return [...new Set(allOffers.map(o => text(o[key], "")).filter(Boolean))]
+  return [...new Set(activeOffers().map(o => text(o[key], "")).filter(Boolean))]
     .sort((a, b) => a.localeCompare(b, "pt-BR"));
 }
 
@@ -100,16 +137,45 @@ function populateSelect(select, values, label) {
   if (values.includes(current)) select.value = current;
 }
 
+function renderCategoryChips() {
+  const categories = uniqueValues("categoria");
+  const selected = els.category.value;
+
+  els.categoryChips.innerHTML = ["", ...categories].map(category => {
+    const label = category || "Todas";
+    const active = selected === category ? " active" : "";
+    return `<button class="category-chip${active}" type="button" data-category="${escapeHtml(category)}">${escapeHtml(label)}</button>`;
+  }).join("");
+
+  els.categoryChips.querySelectorAll(".category-chip").forEach(button => {
+    button.addEventListener("click", () => {
+      els.category.value = button.dataset.category || "";
+      renderCategoryChips();
+      render();
+    });
+  });
+}
+
+function updateStats() {
+  const rows = activeOffers();
+  const stores = new Set(rows.map(o => text(o.loja, "")).filter(Boolean));
+  const bestDiscount = rows.reduce((max, o) => Math.max(max, asNumber(o.desconto)), 0);
+
+  els.statOffers.textContent = rows.length;
+  els.statStores.textContent = stores.size;
+  els.statDiscount.textContent = `${Math.round(bestDiscount)}%`;
+}
+
 function render() {
   const term = els.search.value.trim().toLocaleLowerCase("pt-BR");
   const category = els.category.value;
   const store = els.store.value;
   const sort = els.sort.value;
 
-  let rows = allOffers.filter(o => o.ativa !== false && isFresh(o.ultimaVerificacao));
+  let rows = activeOffers();
 
   if (term) {
-    rows = rows.filter(o => [o.nome, o.categoria, o.loja, o.cupom]
+    rows = rows.filter(o => [o.nome, o.categoria, o.loja, o.cupom, o.observacoes]
       .some(v => text(v, "").toLocaleLowerCase("pt-BR").includes(term)));
   }
   if (category) rows = rows.filter(o => text(o.categoria, "") === category);
@@ -133,27 +199,48 @@ function render() {
     const url = safeUrl(o.url);
     const image = safeUrl(o.imagem) || fallbackImage();
     const checked = asDate(o.ultimaVerificacao);
+    const coupon = text(o.cupom, "");
+    const cashback = text(o.cashback, "");
+    const shipping = text(o.frete, "");
+    const savingValue = previous > current && current > 0 ? previous - current : 0;
+
+    const perks = [
+      coupon && coupon.toLocaleLowerCase("pt-BR") !== "não informado"
+        ? `<span class="perk coupon">Cupom: ${escapeHtml(coupon)}</span>`
+        : "",
+      shipping && shipping.toLocaleLowerCase("pt-BR") !== "não informado"
+        ? `<span class="perk">Frete: ${escapeHtml(shipping)}</span>`
+        : "",
+      cashback && cashback.toLocaleLowerCase("pt-BR") !== "não informado"
+        ? `<span class="perk">Cashback: ${escapeHtml(cashback)}</span>`
+        : "",
+    ].filter(Boolean).join("");
 
     return `
       <article class="card">
         <div class="image-wrap">
-          <img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}">
-          ${discount > 0 ? `<div class="badge">${Math.round(discount)}% OFF</div>` : ""}
+          <img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}" loading="lazy">
+          ${discount > 0 ? `<div class="badge">-${Math.round(discount)}%</div>` : ""}
+          <div class="store-pill" title="${escapeHtml(text(o.loja))}">${escapeHtml(text(o.loja))}</div>
         </div>
+
         <div class="card-body">
-          <div class="meta"><span>${escapeHtml(text(o.categoria))}</span><span>${escapeHtml(text(o.loja))}</span></div>
-          <h2 class="product-name">${escapeHtml(text(o.nome))}</h2>
-          <div>
+          <span class="category-label">${escapeHtml(text(o.categoria))}</span>
+          <h3 class="product-name">${escapeHtml(text(o.nome))}</h3>
+
+          <div class="price-block">
             <div class="old-price">${previous > current && previous > 0 ? money(previous) : ""}</div>
-            <div class="price">${current > 0 ? money(current) : "Preço não informado"}</div>
+            <div class="price-line">
+              <div class="price">${current > 0 ? money(current) : "Preço indisponível"}</div>
+              ${savingValue > 0 ? `<span class="saving">economize ${money(savingValue)}</span>` : ""}
+            </div>
           </div>
-          <div class="details">
-            <div class="detail"><span>Cupom</span><b>${escapeHtml(text(o.cupom))}</b></div>
-            <div class="detail"><span>Cashback</span><b>${escapeHtml(text(o.cashback))}</b></div>
-            <div class="detail"><span>Frete</span><b>${escapeHtml(text(o.frete))}</b></div>
-            ${checked ? `<div class="detail"><span>Verificado</span><b>${checked.toLocaleString("pt-BR")}</b></div>` : ""}
-          </div>
-          ${url ? `<a class="buy" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Ver oferta</a>` : ""}
+
+          ${perks ? `<div class="perks">${perks}</div>` : ""}
+
+          ${checked ? `<div class="verified">Verificado em ${checked.toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}</div>` : ""}
+
+          ${url ? `<a class="buy" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Ver oferta na loja →</a>` : ""}
         </div>
       </article>`;
   }).join("");
@@ -167,30 +254,38 @@ function render() {
 
 async function loadOffers() {
   try {
-    els.status.textContent = "Carregando ofertas…";
+    setStatus("Atualizando ofertas…", true);
     els.error.classList.add("hidden");
 
     const payload = await fetchPayload();
     allOffers = Array.isArray(payload.ofertas) ? payload.ofertas : [];
 
-    populateSelect(els.category, uniqueValues("categoria"), "Todas");
-    populateSelect(els.store, uniqueValues("loja"), "Todas");
+    populateSelect(els.category, uniqueValues("categoria"), "Todas as categorias");
+    populateSelect(els.store, uniqueValues("loja"), "Todas as lojas");
+    renderCategoryChips();
+    updateStats();
 
     els.updated.textContent = payload.geradoEm
-      ? `Atualizado: ${new Date(payload.geradoEm).toLocaleString("pt-BR")}`
-      : "";
-    els.status.textContent = "Base atualizada";
+      ? `Atualizado ${new Date(payload.geradoEm).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}`
+      : "Atualização automática";
+
+    setStatus("Ofertas atualizadas", true);
     render();
   } catch (err) {
     console.error(err);
-    els.status.textContent = "Erro ao carregar";
+    setStatus("Falha na atualização", false);
     els.error.classList.remove("hidden");
     els.errorMessage.textContent = `Não foi possível carregar a base de promoções. ${err.message || ""}`;
   }
 }
 
-[els.search, els.category, els.store, els.sort].forEach(el => {
-  el.addEventListener(el === els.search ? "input" : "change", render);
+els.search.addEventListener("input", render);
+els.store.addEventListener("change", render);
+els.sort.addEventListener("change", render);
+els.category.addEventListener("change", () => {
+  renderCategoryChips();
+  render();
 });
 
+window.loadOffers = loadOffers;
 loadOffers();
