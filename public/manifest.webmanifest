@@ -1,7 +1,7 @@
 {
   "name": "Radar de Promoções",
   "short_name": "Radar",
-  "description": "Catálogo de promoções atualizado automaticamente.",
+  "description": "Promoções com histórico de preço, frete e comparação.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -9,6 +9,11 @@
   "theme_color": "#0f172a",
   "lang": "pt-BR",
   "orientation": "any",
+  "categories": ["shopping", "utilities"],
+  "shortcuts": [
+    {"name":"Ofertas","short_name":"Ofertas","url":"/"},
+    {"name":"Painel","short_name":"Painel","url":"/admin.html"}
+  ],
   "icons": [
     {
       "src": "/icon.svg",
