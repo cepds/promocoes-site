@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Painel • Radar de Promoções</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./style.css?v=10" />
+</head>
+<body>
+  <header class="app-header-simple"><div class="container"><a class="brand" href="./"><span class="brand-mark">%</span><span><strong>Radar</strong><small>Painel</small></span></a><a class="back-link" href="./">← Catálogo</a></div></header>
+  <main class="container admin-page">
+    <div class="section-heading"><div><h1 style="margin:0">Painel do catálogo</h1><p class="section-subtitle">Visão de qualidade, cobertura e histórico.</p></div><div class="section-meta"><span id="adminUpdated">Carregando…</span></div></div>
+    <section id="adminStats" class="admin-grid"></section>
+    <section class="admin-card" style="margin-top:18px"><h2>Categorias</h2><div id="categoryHealth"></div></section>
+    <section class="admin-card" style="margin-top:18px"><h2>Pendências</h2><div id="issues"></div></section>
+    <section class="admin-card" style="margin-top:18px"><h2>Alterações recentes</h2><div id="changeLog" class="log-list"></div></section>
+  </main>
+  <script src="./admin.js?v=1"></script>
+</body>
+</html>
