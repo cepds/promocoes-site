@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-11T21:03:58.059Z",
+  "geradoEm": "2026-09-11T20:57:32.136Z",
   "total": 43,
   "ofertas": [
     {
@@ -31,10 +31,7 @@
       "scoreOferta": 55,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "CR45242",
-      "modeloFabricante": "CR45242",
-      "produtoGrupo": "multimoveis-cr45242-260cm"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-sofa-luna-180-vinho",
@@ -218,8 +215,7 @@
       "scoreOferta": 68,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "estoqueStatus": "Em estoque"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "meli-sofa-cama-ipanema-200",
@@ -253,8 +249,7 @@
       "scoreOferta": 69,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "estoqueStatus": "Em estoque"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "rack-sevilla-led-70",
@@ -376,10 +371,7 @@
       "scoreOferta": 47,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "PTV40M9GR2CGB",
-      "modeloFabricante": "PTV40M9GR2CGB",
-      "produtoGrupo": "philco-ptv40m9gr2cgb-40-bivolt"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-lg-gbb472-476",
@@ -411,10 +403,7 @@
       "scoreOferta": 40,
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "GB-B472PFSF",
-      "modeloFabricante": "GB-B472PFSF",
-      "produtoGrupo": "lg-gb-b472pfsf-476l-bivolt"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "norotech-parafusadeira-48v",
@@ -476,10 +465,7 @@
       "scoreOferta": 47,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "S3NQ18KLQAC",
-      "modeloFabricante": "S3NQ18KLQAC",
-      "produtoGrupo": "lg-s3nq18klqac-18000-frio-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-samsung-ar09-ultra-ai",
@@ -510,10 +496,7 @@
       "scoreOferta": 45,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "AR09DYFZAWKNAZ",
-      "modeloFabricante": "AR09DYFZAWKNAZ",
-      "produtoGrupo": "samsung-ar09dyfzawknaz-9000-frio-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "ps5-slim-disk-1tb",
@@ -576,10 +559,7 @@
       "scoreOferta": 40,
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "55C6K",
-      "modeloFabricante": "55C6K",
-      "produtoGrupo": "tcl-55c6k-55-bivolt"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "meli-semp-43s62",
@@ -614,11 +594,7 @@
       "scoreOferta": 55,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "43S62",
-      "modeloFabricante": "43S62",
-      "produtoGrupo": "semp-43s62-43-bivolt",
-      "estoqueStatus": "Em estoque"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "meli-bosch-gsr714e-220v",
@@ -653,11 +629,7 @@
       "scoreOferta": 71,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "GSR 7-14 E",
-      "modeloFabricante": "GSR 7-14 E",
-      "produtoGrupo": "bosch-gsr-7-14-e-400w-220v",
-      "estoqueStatus": "Em estoque"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-tcl-55p7l-55-qled",
@@ -694,10 +666,7 @@
       "scoreOferta": 43,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "55P7L",
-      "modeloFabricante": "55P7L",
-      "produtoGrupo": "tcl-55p7l-55-bivolt"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-xiaomi-redmi-15c-256gb-azul",
@@ -807,10 +776,7 @@
       "scoreOferta": 41,
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "BWF16AB",
-      "modeloFabricante": "BWF16AB",
-      "produtoGrupo": "brastemp-bwf16ab-16kg-branca-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-mueller-family-aquatec-12kg-220v-khkb67e324",
@@ -885,10 +851,7 @@
       "scoreOferta": 40,
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "LFC12",
-      "modeloFabricante": "LFC12",
-      "produtoGrupo": "electrolux-lfc12-12kg-cinza-onix-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-mueller-energy-8kg-220v-kac0gf324b",
@@ -1037,10 +1000,7 @@
       "scoreOferta": 41,
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "BWF18AB",
-      "modeloFabricante": "BWF18AB",
-      "produtoGrupo": "brastemp-bwf18ab-18kg-branca-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-consul-cwn16ab-16kg-220v-ckce4623fk",
@@ -1077,10 +1037,7 @@
       "scoreOferta": 41,
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "CWN16AB",
-      "modeloFabricante": "CWN16AB",
-      "produtoGrupo": "consul-cwn16ab-16kg-branca-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-colormaq-lca14-14kg-220v-fe46ke30e3",
@@ -1117,10 +1074,7 @@
       "scoreOferta": 36,
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "LCA14",
-      "modeloFabricante": "LCA14",
-      "produtoGrupo": "colormaq-lca14-14kg-branca-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-dfn41-371l-220v",
@@ -1158,10 +1112,7 @@
       "scoreOferta": 48,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "DFN41",
-      "modeloFabricante": "DFN41",
-      "produtoGrupo": "electrolux-dfn41-371l-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-led17-17kg-220v",
@@ -1199,10 +1150,7 @@
       "scoreOferta": 75,
       "classificacaoOferta": "Excelente",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "LED17",
-      "modeloFabricante": "LED17",
-      "produtoGrupo": "electrolux-led17-17kg-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-led15-15kg-220v",
@@ -1240,10 +1188,7 @@
       "scoreOferta": 78,
       "classificacaoOferta": "Excelente",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "LED15",
-      "modeloFabricante": "LED15",
-      "produtoGrupo": "electrolux-led15-15kg-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-lfb12-12kg-220v",
@@ -1281,10 +1226,7 @@
       "scoreOferta": 54,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "LFB12",
-      "modeloFabricante": "LFB12",
-      "produtoGrupo": "electrolux-lfb12-12kg-branca-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-lee18-18kg-220v",
@@ -1322,10 +1264,7 @@
       "scoreOferta": 53,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "LEE18",
-      "modeloFabricante": "LEE18",
-      "produtoGrupo": "electrolux-lee18-18kg-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "brastemp-bwf16ab-16kg-220v",
@@ -1363,11 +1302,7 @@
       "scoreOferta": 60,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "BWF16AB",
-      "modeloFabricante": "BWF16AB",
-      "produtoGrupo": "brastemp-bwf16ab-16kg-branca-220v",
-      "estoqueStatus": "Em estoque"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "brastemp-bwt16a9-16kg-220v",
@@ -1405,10 +1340,7 @@
       "scoreOferta": 64,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "BWT16A9",
-      "modeloFabricante": "BWT16A9",
-      "produtoGrupo": "brastemp-bwt16a9-16kg-cinza-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-eaf31-airfryer-4l-220v",
@@ -1446,10 +1378,7 @@
       "scoreOferta": 66,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "EAF31",
-      "modeloFabricante": "EAF31",
-      "produtoGrupo": "electrolux-eaf31-4l-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-eaf180-airfryer-7l-220v",
@@ -1487,10 +1416,7 @@
       "scoreOferta": 81,
       "classificacaoOferta": "Excelente",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "EAF180",
-      "modeloFabricante": "EAF180",
-      "produtoGrupo": "electrolux-eaf180-7l-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-ji09f-ar-9000-220v",
@@ -1528,10 +1454,7 @@
       "scoreOferta": 70,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "JI09F/JE09F",
-      "modeloFabricante": "JI09F/JE09F",
-      "produtoGrupo": "electrolux-ji09f-je09f-9000-frio-220v"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "electrolux-yi12r-ar-12000-220v",
@@ -1569,10 +1492,7 @@
       "scoreOferta": 62,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "modelo": "YI12R/YE12R",
-      "modeloFabricante": "YI12R/YE12R",
-      "produtoGrupo": "electrolux-yi12r-ye12r-12000-quente-frio-220v"
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -1736,13 +1656,6 @@
       "produto": "Smart TV TCL 55” QLED 4K P7L Google TV 120Hz",
       "id": "magalu-tcl-55p7l-55-qled",
       "detalhe": "Nova oferta validada e adicionada ao catálogo."
-    },
-    {
-      "data": "2026-09-11T21:03:58.059Z",
-      "tipo": "dados_comerciais_enriquecidos",
-      "produto": "Catálogo",
-      "id": "catalogo",
-      "detalhe": "30 oferta(s) receberam modelo/grupo de produto e/ou estoque estruturado somente a partir de dados já confirmados no catálogo."
     }
   ]
 }
