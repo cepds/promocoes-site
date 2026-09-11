@@ -7,12 +7,17 @@
     if(!title||root.querySelector('.share-actions'))return;
     const price=root.querySelector('.detail-price')?.textContent?.trim()||'';
     const store=[...root.querySelectorAll('p')].find(p=>p.textContent?.startsWith('Loja:'))?.textContent?.replace(/^Loja:\s*/,'')||'';
+    const image=root.querySelector('.detail-image')?.src||'';
+    const offerUrl=root.querySelector('.buy')?.href||location.href;
     const desc=`${title.textContent.trim()} ${price}${store?` na ${store}`:''}. Compare preço, frete e histórico no Radar de Promoções.`;
     ensureMeta('description').setAttribute('content',desc);
     ensureMeta('og:title','property').setAttribute('content',title.textContent.trim());
     ensureMeta('og:description','property').setAttribute('content',desc);
     ensureMeta('og:type','property').setAttribute('content','product');
     ensureMeta('og:url','property').setAttribute('content',location.href);
+    if(image)ensureMeta('og:image','property').setAttribute('content',image);
+    const numericPrice=Number(price.replace(/[^\d,]/g,'').replace(',','.'))||0;
+    const ld=document.createElement('script');ld.type='application/ld+json';ld.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Product',name:title.textContent.trim(),image:image?[image]:undefined,description:desc,offers:{'@type':'Offer',url:offerUrl,priceCurrency:'BRL',price:numericPrice||undefined,availability:'https://schema.org/InStock',seller:store?{'@type':'Organization',name:store}:undefined}});document.head.appendChild(ld);
     const actions=document.createElement('div');actions.className='share-actions';
     const share=document.createElement('button');share.type='button';share.className='share-offer';share.textContent='Compartilhar oferta';
     const help=document.createElement('button');help.type='button';help.className='score-help';help.textContent='Como funciona a nota?';
