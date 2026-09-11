@@ -1,0 +1,25 @@
+.tag-multi-store{background:#e0f2fe!important;color:#075985!important}
+.payment-note,.delivery-note{display:flex;align-items:center;gap:6px;color:#64748b;font-size:10px;line-height:1.35}
+.payment-note:before{content:"$";width:17px;height:17px;display:grid;place-items:center;border-radius:50%;background:#ecfdf3;color:#15803d;font-size:9px;font-weight:950;flex:0 0 auto}
+.delivery-note:before{content:"↗";width:17px;height:17px;display:grid;place-items:center;border-radius:50%;background:#eff6ff;color:#1d4ed8;font-size:9px;font-weight:950;flex:0 0 auto}
+.commercial-details{display:grid;gap:8px;margin:12px 0;padding:12px;border:1px solid #e5eaf0;border-radius:13px;background:#f8fafc}
+.commercial-row{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;font-size:12px}
+.commercial-row>strong{color:#475569;flex:0 0 auto}
+.commercial-row>span,.commercial-values{color:#334155;text-align:right}
+.commercial-values{display:grid;gap:3px}
+.commercial-values span{display:block}
+.alternatives-card{margin-top:20px}
+.alternatives-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:12px}
+.alternatives-head h2{margin:0 0 4px;font-size:20px}
+.alternatives-head p{margin:0;color:#64748b;font-size:12px}
+.alternatives-head>strong{white-space:nowrap;padding:6px 9px;border-radius:999px;background:#eff6ff;color:#1d4ed8;font-size:11px}
+.alternatives-list{display:grid}
+.alternative-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center;padding:13px 0;border-top:1px solid #eef2f7}
+.alternative-row:first-child{border-top:0}
+.alternative-row>div:first-child{display:grid;gap:4px}
+.alternative-row small{display:block;color:#64748b;font-size:10px}
+.alternative-price{display:grid;justify-items:end;gap:4px}
+.alternative-price>b{font-size:16px}
+.alternative-price a{display:inline-flex;align-items:center;justify-content:center;min-height:32px;padding:0 10px;border-radius:9px;background:#0f172a;color:#fff;text-decoration:none;font-size:10px;font-weight:900}
+@media(max-width:760px){.commercial-row{display:grid;gap:5px}.commercial-row>span,.commercial-values{text-align:left}.alternatives-head{align-items:center}.alternative-row{grid-template-columns:1fr}.alternative-price{justify-items:start}}
+@media(prefers-color-scheme:dark){.payment-note,.delivery-note{color:#cbd5e1}.commercial-details{background:#1d2025;border-color:#303846}.commercial-row>strong,.commercial-row>span,.commercial-values{color:#e5e7eb}.alternative-row{border-color:#303846}.alternatives-head p,.alternative-row small{color:#94a3b8}.tag-multi-store{background:#0c4a6e!important;color:#bae6fd!important}}
