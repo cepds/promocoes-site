@@ -83,6 +83,26 @@ function offerKey(o) {
   return String(o.id || o.url || o.nome || "");
 }
 
+function voltageCompatible(o) {
+  const raw = [o.voltagem, o.nome, o.observacoes]
+    .filter(Boolean)
+    .join(" ")
+    .toLocaleLowerCase("pt-BR");
+
+  const bivolt = /\bbivolt\b|\b(?:100|110|127)\s*[-\/]\s*240\s*v\b|\b(?:110|127)\s*\/\s*220\s*v\b/.test(raw);
+  if (bivolt) return true;
+
+  const has220 = /\b220\s*v(?:olts?)?\b|\b220v\b/.test(raw);
+  const has110or127 = /\b(?:110|127)\s*v(?:olts?)?\b|\b(?:110|127)v\b/.test(raw);
+
+  if (has110or127 && !has220) return false;
+  if (has220) return true;
+
+  // Itens sem voltagem aplicável (ex.: sofás e móveis) continuam permitidos.
+  // Para novos produtos elétricos, a automação exige confirmação de 220V/bivolt.
+  return true;
+}
+
 function decodeBase64Utf8(value) {
   const binary = atob(String(value || "").replace(/\s/g, ""));
   const bytes = Uint8Array.from(binary, ch => ch.charCodeAt(0));
@@ -114,6 +134,7 @@ function activeOffers() {
   return allOffers.filter(o => {
     const key = offerKey(o);
     return o.ativa !== false
+      && voltageCompatible(o)
       && Boolean(validImageUrl(o.imagem))
       && !brokenImages.has(key);
   });
