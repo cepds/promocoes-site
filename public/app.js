@@ -1,4 +1,4 @@
-const DATA_URL = "https://raw.githubusercontent.com/cepds/promocoes-site/main/data/ofertas.json";
+const DATA_API_URL = "https://api.github.com/repos/cepds/promocoes-site/contents/data/ofertas.json?ref=main";
 const MAX_AGE_HOURS = 18;
 
 const els = {
@@ -19,7 +19,12 @@ let allOffers = [];
 
 function asNumber(value) {
   if (typeof value === "number") return value;
-  const n = Number(String(value ?? "").replace(/[^\d,.-]/g, "").replace(/\./g, "").replace(",", "."));
+  const raw = String(value ?? "").trim();
+  if (!raw) return 0;
+  const normalized = raw.includes(",")
+    ? raw.replace(/\./g, "").replace(",", ".").replace(/[^\d.-]/g, "")
+    : raw.replace(/[^\d.-]/g, "");
+  const n = Number(normalized);
   return Number.isFinite(n) ? n : 0;
 }
 
@@ -58,25 +63,40 @@ function safeUrl(url) {
   try {
     const parsed = new URL(url);
     return ["http:", "https:"].includes(parsed.protocol) ? parsed.href : "";
-  } catch { return ""; }
+  } catch {
+    return "";
+  }
 }
 
 function fallbackImage() {
-  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
-      <rect width="800" height="500" fill="#f3f4f6"/>
-      <text x="400" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" fill="#9ca3af">Sem imagem</text>
-    </svg>`)} `;
+  const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><rect width="800" height="500" fill="#f3f4f6"/><text x="400" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" fill="#9ca3af">Sem imagem</text></svg>';
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function decodeBase64Utf8(value) {
+  const binary = atob(String(value || "").replace(/\s/g, ""));
+  const bytes = Uint8Array.from(binary, ch => ch.charCodeAt(0));
+  return new TextDecoder("utf-8").decode(bytes);
+}
+
+async function fetchPayload() {
+  const response = await fetch(DATA_API_URL, { cache: "no-store" });
+  if (!response.ok) throw new Error(`GitHub API HTTP ${response.status}`);
+  const file = await response.json();
+  if (file.encoding !== "base64" || !file.content) throw new Error("Resposta de dados inválida");
+  return JSON.parse(decodeBase64Utf8(file.content));
 }
 
 function uniqueValues(key) {
   return [...new Set(allOffers.map(o => text(o[key], "")).filter(Boolean))]
-    .sort((a,b) => a.localeCompare(b, "pt-BR"));
+    .sort((a, b) => a.localeCompare(b, "pt-BR"));
 }
 
 function populateSelect(select, values, label) {
   const current = select.value;
-  select.innerHTML = `<option value="">${label}</option>` + values.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join("");
+  select.innerHTML = `<option value="">${label}</option>` + values
+    .map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`)
+    .join("");
   if (values.includes(current)) select.value = current;
 }
 
@@ -95,7 +115,7 @@ function render() {
   if (category) rows = rows.filter(o => text(o.categoria, "") === category);
   if (store) rows = rows.filter(o => text(o.loja, "") === store);
 
-  rows.sort((a,b) => {
+  rows.sort((a, b) => {
     if (sort === "discount") return asNumber(b.desconto) - asNumber(a.desconto);
     if (sort === "priceAsc") return asNumber(a.precoAtual) - asNumber(b.precoAtual);
     if (sort === "priceDesc") return asNumber(b.precoAtual) - asNumber(a.precoAtual);
@@ -117,7 +137,7 @@ function render() {
     return `
       <article class="card">
         <div class="image-wrap">
-          <img src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}" onerror="this.src='${fallbackImage()}'">
+          <img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}">
           ${discount > 0 ? `<div class="badge">${Math.round(discount)}% OFF</div>` : ""}
         </div>
         <div class="card-body">
@@ -133,33 +153,44 @@ function render() {
             <div class="detail"><span>Frete</span><b>${escapeHtml(text(o.frete))}</b></div>
             ${checked ? `<div class="detail"><span>Verificado</span><b>${checked.toLocaleString("pt-BR")}</b></div>` : ""}
           </div>
-          <a class="buy" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Ver oferta</a>
+          ${url ? `<a class="buy" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Ver oferta</a>` : ""}
         </div>
       </article>`;
   }).join("");
+
+  els.offers.querySelectorAll(".product-image").forEach(img => {
+    img.addEventListener("error", () => {
+      img.src = fallbackImage();
+    }, { once: true });
+  });
 }
 
 async function loadOffers() {
   try {
     els.status.textContent = "Carregando ofertas…";
-    const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
+    els.error.classList.add("hidden");
+
+    const payload = await fetchPayload();
     allOffers = Array.isArray(payload.ofertas) ? payload.ofertas : [];
 
     populateSelect(els.category, uniqueValues("categoria"), "Todas");
     populateSelect(els.store, uniqueValues("loja"), "Todas");
 
-    els.updated.textContent = payload.geradoEm ? `Atualizado: ${new Date(payload.geradoEm).toLocaleString("pt-BR")}` : "";
+    els.updated.textContent = payload.geradoEm
+      ? `Atualizado: ${new Date(payload.geradoEm).toLocaleString("pt-BR")}`
+      : "";
     els.status.textContent = "Base atualizada";
     render();
   } catch (err) {
     console.error(err);
     els.status.textContent = "Erro ao carregar";
     els.error.classList.remove("hidden");
-    els.errorMessage.textContent = "Não foi possível carregar a base de promoções.";
+    els.errorMessage.textContent = `Não foi possível carregar a base de promoções. ${err.message || ""}`;
   }
 }
 
-[els.search, els.category, els.store, els.sort].forEach(el => el.addEventListener(el === els.search ? "input" : "change", render));
+[els.search, els.category, els.store, els.sort].forEach(el => {
+  el.addEventListener(el === els.search ? "input" : "change", render);
+});
+
 loadOffers();
