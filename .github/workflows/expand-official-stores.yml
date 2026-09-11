@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/expand-official-stores.js'
+      - 'scripts/expand-official-now.js'
       - '.github/workflows/expand-official-stores.yml'
 
 permissions:
@@ -27,6 +28,8 @@ jobs:
           node-version: '24'
       - name: Adicionar ofertas oficiais verificadas
         run: node scripts/expand-official-stores.js
+      - name: Adicionar ofertas oficiais complementares
+        run: node scripts/expand-official-now.js
       - name: Validar catálogo
         run: node scripts/validate-site.js
       - name: Salvar catálogo com proteção contra conflito
