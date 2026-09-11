@@ -9,52 +9,36 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Radar" />
   <title>Radar de Promoções</title>
-  <meta name="description" content="Catálogo de promoções atualizado automaticamente." />
+  <meta name="description" content="Catálogo de promoções com histórico de preço, frete e comparação." />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./style.css?v=6" />
+  <link rel="stylesheet" href="./style.css?v=10" />
 </head>
 <body>
   <header class="site-header compact-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#" aria-label="Radar de Promoções">
+      <a class="brand" href="./" aria-label="Radar de Promoções">
         <span class="brand-mark">%</span>
-        <span>
-          <strong>Radar</strong>
-          <small>Promoções</small>
-        </span>
+        <span><strong>Radar</strong><small>Promoções</small></span>
       </a>
-
-      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end">
-        <button id="installApp" class="header-status hidden" type="button" style="cursor:pointer;color:inherit">
-          Instalar app
-        </button>
-        <div class="header-status" id="status">
-          <span class="status-dot"></span>
-          <span>Carregando ofertas…</span>
-        </div>
-      </div>
+      <nav class="top-actions" aria-label="Ações">
+        <a class="ghost-action" href="./admin.html">Painel</a>
+        <button id="favoritesToggle" class="ghost-action" type="button">♡ Favoritos <span id="favoritesCount">0</span></button>
+        <button id="compareToggle" class="ghost-action" type="button">⇄ Comparar <span id="compareCount">0</span></button>
+        <button id="installApp" class="ghost-action hidden" type="button">Instalar app</button>
+        <div class="header-status" id="status"><span class="status-dot"></span><span>Carregando…</span></div>
+      </nav>
     </div>
 
     <div class="container hero compact-hero">
       <div class="hero-copy">
         <h1>Radar de Promoções</h1>
-        <p>Frete de referência: CEP 72620-405 • atualização automática às 09h e 18h.</p>
+        <p>CEP 72620-405 • somente 220V/bivolt nos produtos elétricos • atualização às 09h e 18h.</p>
       </div>
-
       <div class="hero-stats" aria-label="Resumo do catálogo">
-        <div class="stat-card">
-          <span class="stat-label">Produtos</span>
-          <strong id="statOffers">0</strong>
-        </div>
-        <div class="stat-card">
-          <span class="stat-label">Lojas</span>
-          <strong id="statStores">0</strong>
-        </div>
-        <div class="stat-card">
-          <span class="stat-label">Maior desconto</span>
-          <strong id="statDiscount">0%</strong>
-        </div>
+        <div class="stat-card"><span class="stat-label">Produtos</span><strong id="statOffers">0</strong></div>
+        <div class="stat-card"><span class="stat-label">Lojas</span><strong id="statStores">0</strong></div>
+        <div class="stat-card"><span class="stat-label">Maior desconto</span><strong id="statDiscount">0%</strong></div>
       </div>
     </div>
   </header>
@@ -67,92 +51,70 @@
           <input id="search" type="search" placeholder="Buscar produto, categoria ou loja…" autocomplete="off" />
         </div>
 
-        <div class="filter-row">
-          <label>
-            <span>Categoria</span>
-            <select id="category"><option value="">Todas as categorias</option></select>
-          </label>
-          <label>
-            <span>Loja</span>
-            <select id="store"><option value="">Todas as lojas</option></select>
-          </label>
-          <label>
-            <span>Ordenar</span>
-            <select id="sort">
-              <option value="newest">Mais recentes</option>
-              <option value="discount">Maior desconto</option>
-              <option value="priceAsc">Menor preço</option>
-              <option value="priceDesc">Maior preço</option>
-            </select>
-          </label>
+        <div class="filter-row primary-filters">
+          <label><span>Categoria</span><select id="category"><option value="">Todas as categorias</option></select></label>
+          <label><span>Loja</span><select id="store"><option value="">Todas as lojas</option></select></label>
+          <label><span>Ordenar</span><select id="sort">
+            <option value="newest">Mais recentes</option>
+            <option value="score">Melhor oferta</option>
+            <option value="discount">Maior desconto</option>
+            <option value="totalAsc">Menor total com frete</option>
+            <option value="priceAsc">Menor preço</option>
+            <option value="priceDesc">Maior preço</option>
+          </select></label>
+        </div>
+
+        <div class="advanced-filters">
+          <label><span>Preço mín.</span><input id="minPrice" type="number" min="0" step="50" placeholder="R$ 0" /></label>
+          <label><span>Preço máx.</span><input id="maxPrice" type="number" min="0" step="50" placeholder="Sem limite" /></label>
+          <label><span>Desconto mín.</span><select id="minDiscount">
+            <option value="0">Qualquer</option><option value="10">10%+</option><option value="20">20%+</option><option value="30">30%+</option><option value="40">40%+</option>
+          </select></label>
+          <label class="check-filter"><input id="freeShipping" type="checkbox" /><span>Frete grátis</span></label>
+          <button id="clearFilters" class="clear-filter" type="button">Limpar filtros</button>
         </div>
       </div>
-
-      <div class="category-strip-wrap">
-        <div class="category-strip" id="categoryChips" aria-label="Categorias"></div>
-      </div>
+      <div class="category-strip-wrap"><div class="category-strip" id="categoryChips" aria-label="Categorias"></div></div>
     </section>
 
     <section class="container offers-section">
       <div class="section-heading">
-        <div><h2>Produtos</h2></div>
-        <div class="section-meta">
-          <strong id="count">0 ofertas</strong>
-          <span id="updated"></span>
-        </div>
+        <div><h2>Produtos</h2><p class="section-subtitle">Desconto, frete, histórico e confiança em um só lugar.</p></div>
+        <div class="section-meta"><strong id="count">0 ofertas</strong><span id="updated"></span></div>
       </div>
-
       <section id="offers" class="grid"></section>
-
-      <section id="empty" class="state-card hidden">
-        <div class="state-icon">⌕</div>
-        <h3>Nenhum produto encontrado</h3>
-        <p>Tente outro termo ou remova algum filtro.</p>
-      </section>
-
-      <section id="error" class="state-card hidden">
-        <div class="state-icon">!</div>
-        <h3>Não foi possível carregar os produtos</h3>
-        <p id="errorMessage"></p>
-      </section>
+      <section id="empty" class="state-card hidden"><div class="state-icon">⌕</div><h3>Nenhum produto encontrado</h3><p>Tente outro termo ou remova algum filtro.</p></section>
+      <section id="error" class="state-card hidden"><div class="state-icon">!</div><h3>Não foi possível carregar os produtos</h3><p id="errorMessage"></p></section>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <strong>Radar de Promoções</strong>
-      <p>Frete calculado para CEP 72620-405 quando a loja permitir consulta automática. Confirme preço, estoque e frete na loja antes da compra.</p>
+  <aside id="comparePanel" class="drawer hidden" aria-label="Comparação de produtos">
+    <div class="drawer-backdrop" data-close-compare></div>
+    <div class="drawer-card">
+      <div class="drawer-head"><div><strong>Comparar produtos</strong><small>Selecione até 3</small></div><button type="button" class="icon-button" data-close-compare>×</button></div>
+      <div id="compareContent" class="compare-content"></div>
+      <button id="clearCompare" class="secondary-button" type="button">Limpar comparação</button>
     </div>
-  </footer>
+  </aside>
 
-  <script src="./app.js?v=8"></script>
+  <nav class="mobile-nav" aria-label="Navegação do app">
+    <a href="./" class="mobile-nav-item active"><span>⌂</span><small>Início</small></a>
+    <button id="mobileFavorites" class="mobile-nav-item" type="button"><span>♡</span><small>Favoritos</small></button>
+    <button id="mobileCompare" class="mobile-nav-item" type="button"><span>⇄</span><small>Comparar</small></button>
+    <a href="./admin.html" class="mobile-nav-item"><span>▦</span><small>Painel</small></a>
+  </nav>
+
+  <footer class="site-footer"><div class="container footer-inner"><strong>Radar de Promoções</strong><p>Frete de referência para CEP 72620-405. Confirme preço, estoque e condições na loja.</p></div></footer>
+
+  <script src="./app.js?v=10"></script>
   <script src="./auto-refresh.js?v=1"></script>
   <script>
     let installPrompt = null;
     const installButton = document.getElementById('installApp');
-
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
-    }
-
-    window.addEventListener('beforeinstallprompt', event => {
-      event.preventDefault();
-      installPrompt = event;
-      installButton?.classList.remove('hidden');
-    });
-
-    installButton?.addEventListener('click', async () => {
-      if (!installPrompt) return;
-      installPrompt.prompt();
-      await installPrompt.userChoice;
-      installPrompt = null;
-      installButton.classList.add('hidden');
-    });
-
-    window.addEventListener('appinstalled', () => {
-      installPrompt = null;
-      installButton?.classList.add('hidden');
-    });
+    if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+    window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); installPrompt = e; installButton?.classList.remove('hidden'); });
+    installButton?.addEventListener('click', async () => { if (!installPrompt) return; installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; installButton.classList.add('hidden'); });
+    window.addEventListener('appinstalled', () => { installPrompt = null; installButton?.classList.add('hidden'); });
   </script>
 </body>
 </html>
