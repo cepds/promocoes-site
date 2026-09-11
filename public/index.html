@@ -3,71 +3,125 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#111827" />
-  <title>Radar de Promoções</title>
-  <meta name="description" content="Promoções verificadas de lojas confiáveis." />
-  <link rel="stylesheet" href="./style.css" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Radar de Promoções — Ofertas verificadas</title>
+  <meta name="description" content="Promoções verificadas em lojas confiáveis, atualizadas automaticamente duas vezes ao dia." />
+  <link rel="stylesheet" href="./style.css?v=5" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="container header-inner">
-      <div>
-        <p class="eyebrow">PROMOÇÕES VERIFICADAS</p>
-        <h1>Radar de Promoções</h1>
-        <p class="subtitle">Ofertas de várias categorias, atualizadas duas vezes ao dia.</p>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#" aria-label="Radar de Promoções">
+        <span class="brand-mark">%</span>
+        <span>
+          <strong>Radar</strong>
+          <small>Promoções</small>
+        </span>
+      </a>
+
+      <div class="header-status" id="status">
+        <span class="status-dot"></span>
+        <span>Carregando ofertas…</span>
       </div>
-      <div class="status" id="status">Carregando…</div>
+    </div>
+
+    <div class="container hero">
+      <div class="hero-copy">
+        <span class="kicker">OFERTAS REAIS • PREÇOS VERIFICADOS</span>
+        <h1>Promoções boas de verdade,<br><span>sem perder tempo procurando.</span></h1>
+        <p>Reunimos ofertas de lojas confiáveis, verificamos preços e removemos promoções vencidas automaticamente.</p>
+      </div>
+
+      <div class="hero-stats" aria-label="Resumo das ofertas">
+        <div class="stat-card">
+          <span class="stat-label">Ofertas ativas</span>
+          <strong id="statOffers">0</strong>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Lojas</span>
+          <strong id="statStores">0</strong>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Maior desconto</span>
+          <strong id="statDiscount">0%</strong>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="filters">
-      <label>
-        <span>Buscar</span>
-        <input id="search" type="search" placeholder="Ex.: geladeira, sofá, TV…" />
-      </label>
-      <label>
-        <span>Categoria</span>
-        <select id="category"><option value="">Todas</option></select>
-      </label>
-      <label>
-        <span>Loja</span>
-        <select id="store"><option value="">Todas</option></select>
-      </label>
-      <label>
-        <span>Ordenar</span>
-        <select id="sort">
-          <option value="newest">Mais recentes</option>
-          <option value="discount">Maior desconto</option>
-          <option value="priceAsc">Menor preço</option>
-          <option value="priceDesc">Maior preço</option>
-        </select>
-      </label>
+  <main>
+    <section class="container discovery">
+      <div class="search-panel">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+          <input id="search" type="search" placeholder="Buscar produto, categoria, loja ou cupom…" autocomplete="off" />
+        </div>
+
+        <div class="filter-row">
+          <label>
+            <span>Categoria</span>
+            <select id="category"><option value="">Todas as categorias</option></select>
+          </label>
+          <label>
+            <span>Loja</span>
+            <select id="store"><option value="">Todas as lojas</option></select>
+          </label>
+          <label>
+            <span>Ordenar</span>
+            <select id="sort">
+              <option value="newest">Mais recentes</option>
+              <option value="discount">Maior desconto</option>
+              <option value="priceAsc">Menor preço</option>
+              <option value="priceDesc">Maior preço</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="category-strip-wrap">
+        <div class="category-strip" id="categoryChips" aria-label="Categorias rápidas"></div>
+      </div>
     </section>
 
-    <section class="summary">
-      <strong id="count">0 ofertas</strong>
-      <span id="updated"></span>
-    </section>
+    <section class="container offers-section">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">SELEÇÃO ATUAL</span>
+          <h2>Melhores ofertas encontradas</h2>
+        </div>
+        <div class="section-meta">
+          <strong id="count">0 ofertas</strong>
+          <span id="updated"></span>
+        </div>
+      </div>
 
-    <section id="offers" class="grid"></section>
-    <section id="empty" class="empty hidden">
-      <h2>Nenhuma oferta disponível</h2>
-      <p>Tente remover algum filtro ou aguarde a próxima atualização.</p>
-    </section>
-    <section id="error" class="empty hidden">
-      <h2>Não foi possível carregar as ofertas</h2>
-      <p id="errorMessage"></p>
+      <section id="offers" class="grid"></section>
+
+      <section id="empty" class="state-card hidden">
+        <div class="state-icon">⌕</div>
+        <h3>Nenhuma oferta encontrada</h3>
+        <p>Tente outro termo ou remova algum filtro.</p>
+      </section>
+
+      <section id="error" class="state-card hidden">
+        <div class="state-icon">!</div>
+        <h3>Não foi possível carregar as ofertas</h3>
+        <p id="errorMessage"></p>
+      </section>
     </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>Preços e condições podem mudar. Confirme sempre na loja antes de comprar.</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Radar de Promoções</strong>
+        <p>Ofertas verificadas automaticamente em lojas confiáveis.</p>
+      </div>
+      <p>Preços, estoque, frete e condições podem mudar. Confirme na loja antes da compra.</p>
     </div>
   </footer>
 
-  <script src="./app.js?v=3"></script>
+  <script src="./app.js?v=5"></script>
   <script src="./auto-refresh.js?v=1"></script>
 </body>
 </html>
