@@ -1,13 +1,11 @@
 name: Firebase Hosting Deploy
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'public/**'
-      - 'firebase.json'
-      - '.firebaserc'
   workflow_dispatch:
+
+concurrency:
+  group: firebase-hosting-live
+  cancel-in-progress: true
 
 env:
   FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707 }}
@@ -15,15 +13,20 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - name: Firebase connection status
+      - uses: actions/checkout@v5
+
+      - name: Verificar configuração do Firebase
         run: |
           if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
-            echo "Firebase service-account secret ainda não configurado; deploy automático será ignorado."
+            echo "Credencial do Firebase ainda não configurada. Nenhum deploy será tentado."
+            echo "### Firebase Hosting" >> "$GITHUB_STEP_SUMMARY"
+            echo "Deploy não executado porque a credencial FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707 ainda não foi configurada." >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "Firebase conectado; deploy será executado."
+            echo "Credencial encontrada. Deploy será executado."
           fi
+
       - name: Deploy to Firebase Hosting
         if: env.FIREBASE_SERVICE_ACCOUNT != ''
         uses: FirebaseExtended/action-hosting-deploy@v0
