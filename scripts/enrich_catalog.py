@@ -1,3 +1,4 @@
+# disparo imediato 2026-09-11
 import json
 from pathlib import Path
 from datetime import datetime, timezone
