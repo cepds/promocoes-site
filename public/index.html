@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0f172a" />
-  <title>Radar de Promoções — Ofertas verificadas</title>
-  <meta name="description" content="Promoções verificadas em lojas confiáveis, atualizadas automaticamente duas vezes ao dia." />
-  <link rel="stylesheet" href="./style.css?v=5" />
+  <title>Radar de Promoções</title>
+  <meta name="description" content="Catálogo de promoções atualizado automaticamente." />
+  <link rel="stylesheet" href="./style.css?v=6" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header compact-header">
     <div class="container nav-wrap">
       <a class="brand" href="#" aria-label="Radar de Promoções">
         <span class="brand-mark">%</span>
@@ -25,16 +25,15 @@
       </div>
     </div>
 
-    <div class="container hero">
+    <div class="container hero compact-hero">
       <div class="hero-copy">
-        <span class="kicker">OFERTAS REAIS • PREÇOS VERIFICADOS</span>
-        <h1>Promoções boas de verdade,<br><span>sem perder tempo procurando.</span></h1>
-        <p>Reunimos ofertas de lojas confiáveis, verificamos preços e removemos promoções vencidas automaticamente.</p>
+        <h1>Radar de Promoções</h1>
+        <p>Atualização automática às 09h e 18h.</p>
       </div>
 
-      <div class="hero-stats" aria-label="Resumo das ofertas">
+      <div class="hero-stats" aria-label="Resumo do catálogo">
         <div class="stat-card">
-          <span class="stat-label">Ofertas ativas</span>
+          <span class="stat-label">Produtos</span>
           <strong id="statOffers">0</strong>
         </div>
         <div class="stat-card">
@@ -54,7 +53,7 @@
       <div class="search-panel">
         <div class="search-box">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
-          <input id="search" type="search" placeholder="Buscar produto, categoria, loja ou cupom…" autocomplete="off" />
+          <input id="search" type="search" placeholder="Buscar produto, categoria ou loja…" autocomplete="off" />
         </div>
 
         <div class="filter-row">
@@ -79,15 +78,14 @@
       </div>
 
       <div class="category-strip-wrap">
-        <div class="category-strip" id="categoryChips" aria-label="Categorias rápidas"></div>
+        <div class="category-strip" id="categoryChips" aria-label="Categorias"></div>
       </div>
     </section>
 
     <section class="container offers-section">
       <div class="section-heading">
         <div>
-          <span class="section-kicker">SELEÇÃO ATUAL</span>
-          <h2>Melhores ofertas encontradas</h2>
+          <h2>Produtos</h2>
         </div>
         <div class="section-meta">
           <strong id="count">0 ofertas</strong>
@@ -99,13 +97,13 @@
 
       <section id="empty" class="state-card hidden">
         <div class="state-icon">⌕</div>
-        <h3>Nenhuma oferta encontrada</h3>
+        <h3>Nenhum produto encontrado</h3>
         <p>Tente outro termo ou remova algum filtro.</p>
       </section>
 
       <section id="error" class="state-card hidden">
         <div class="state-icon">!</div>
-        <h3>Não foi possível carregar as ofertas</h3>
+        <h3>Não foi possível carregar os produtos</h3>
         <p id="errorMessage"></p>
       </section>
     </section>
@@ -113,15 +111,12 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div>
-        <strong>Radar de Promoções</strong>
-        <p>Ofertas verificadas automaticamente em lojas confiáveis.</p>
-      </div>
+      <strong>Radar de Promoções</strong>
       <p>Preços, estoque, frete e condições podem mudar. Confirme na loja antes da compra.</p>
     </div>
   </footer>
 
-  <script src="./app.js?v=6"></script>
+  <script src="./app.js?v=7"></script>
   <script src="./auto-refresh.js?v=1"></script>
 </body>
 </html>
