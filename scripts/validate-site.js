@@ -15,6 +15,7 @@ function isHttps(value) {
 const requiredFiles = [
   'public/index.html',
   'public/style.css',
+  'public/fetch-fallback.js',
   'public/app.js',
   'public/auto-refresh.js',
   'public/sw.js',
@@ -33,6 +34,7 @@ for (const file of requiredFiles) {
 }
 
 const jsFiles = [
+  'public/fetch-fallback.js',
   'public/app.js',
   'public/auto-refresh.js',
   'public/sw.js',
@@ -92,6 +94,17 @@ if (data) {
 
   if (Number(data.total) !== active.length) {
     fail(`Campo total (${data.total}) não confere com ofertas ativas (${active.length}).`);
+  }
+
+  const targetCategories = ['Sofás','TVs','Celulares','Informática','Geladeiras','Máquinas de lavar','Air Fryers','Móveis','Ferramentas','Cozinha','Climatização','Games'];
+  const counts = new Map(targetCategories.map(category => [category, 0]));
+  active.forEach(o => {
+    const category = String(o.categoria || '').trim();
+    if (counts.has(category)) counts.set(category, counts.get(category) + 1);
+  });
+  for (const category of targetCategories) {
+    const count = counts.get(category) || 0;
+    if (count < 10) warn(`${category}: ${count}/10 ofertas ativas. A automação deve priorizar esta categoria.`);
   }
 
   if (!data.geradoEm) warn('Campo geradoEm ausente.');
