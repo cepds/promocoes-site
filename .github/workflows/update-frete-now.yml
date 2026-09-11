@@ -1,0 +1,63 @@
+name: Atualizar frete CEP 72620-405
+
+on:
+  push:
+    paths:
+      - '.github/workflows/update-frete-now.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Atualizar campos de frete
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          path = Path('data/ofertas.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+
+          for oferta in data.get('ofertas', []):
+              if oferta.get('ativa', True) is False:
+                  continue
+
+              oferta['cepFrete'] = '72620-405'
+
+              # Só preserva frete numérico já confirmado. Textos genéricos
+              # como "Consulte o CEP" ou "Grátis, sujeito ao CEP" não são
+              # tratados como confirmação para este CEP específico.
+              valor = oferta.get('freteValor')
+              if isinstance(valor, (int, float)) and valor >= 0:
+                  oferta['freteValor'] = round(float(valor), 2)
+                  oferta['freteGratis'] = valor == 0
+                  oferta['frete'] = 'Grátis' if valor == 0 else f"R$ {valor:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
+                  preco = oferta.get('precoAtual')
+                  if isinstance(preco, (int, float)) and preco >= 0:
+                      oferta['precoComFrete'] = round(float(preco) + float(valor), 2)
+              else:
+                  oferta['frete'] = 'Consulte na loja'
+                  oferta.pop('freteValor', None)
+                  oferta.pop('freteGratis', None)
+                  oferta.pop('precoComFrete', None)
+
+          data['geradoEm'] = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+          data['total'] = sum(1 for o in data.get('ofertas', []) if o.get('ativa', True) is not False)
+          path.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ofertas.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "data: adicionar CEP de referência 72620-405"
+          git push
