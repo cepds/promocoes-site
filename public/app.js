@@ -20,6 +20,7 @@ const els = {
 };
 
 let allOffers = [];
+const brokenImages = new Set();
 
 function asNumber(value) {
   if (typeof value === "number") return value;
@@ -69,28 +70,24 @@ function escapeHtml(value) {
 
 function safeUrl(url) {
   try {
-    const parsed = new URL(url);
+    const parsed = new URL(String(url || "").trim());
     return ["http:", "https:"].includes(parsed.protocol) ? parsed.href : "";
   } catch {
     return "";
   }
 }
 
-function fallbackImage() {
-  const svg = `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-      <defs>
-        <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-          <stop offset="0" stop-color="#f8fafc"/>
-          <stop offset="1" stop-color="#eef2f7"/>
-        </linearGradient>
-      </defs>
-      <rect width="800" height="600" fill="url(#g)"/>
-      <circle cx="400" cy="255" r="52" fill="#e2e8f0"/>
-      <path d="M370 260h60M400 230v60" stroke="#94a3b8" stroke-width="10" stroke-linecap="round" opacity=".8"/>
-      <text x="400" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#94a3b8">Imagem indisponível</text>
-    </svg>`;
-  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+function validImageUrl(value) {
+  try {
+    const parsed = new URL(String(value || "").trim());
+    return parsed.protocol === "https:" ? parsed.href : "";
+  } catch {
+    return "";
+  }
+}
+
+function offerKey(o) {
+  return String(o.id || o.url || o.nome || "");
 }
 
 function decodeBase64Utf8(value) {
@@ -121,7 +118,13 @@ async function fetchPayload() {
 }
 
 function activeOffers() {
-  return allOffers.filter(o => o.ativa !== false && isFresh(o.ultimaVerificacao));
+  return allOffers.filter(o => {
+    const key = offerKey(o);
+    return o.ativa !== false
+      && isFresh(o.ultimaVerificacao)
+      && Boolean(validImageUrl(o.imagem))
+      && !brokenImages.has(key);
+  });
 }
 
 function uniqueValues(key) {
@@ -197,12 +200,13 @@ function render() {
     const previous = asNumber(o.precoAnterior);
     const discount = asNumber(o.desconto);
     const url = safeUrl(o.url);
-    const image = safeUrl(o.imagem) || fallbackImage();
+    const image = validImageUrl(o.imagem);
     const checked = asDate(o.ultimaVerificacao);
     const coupon = text(o.cupom, "");
     const cashback = text(o.cashback, "");
     const shipping = text(o.frete, "");
     const savingValue = previous > current && current > 0 ? previous - current : 0;
+    const key = offerKey(o);
 
     const perks = [
       coupon && coupon.toLocaleLowerCase("pt-BR") !== "não informado"
@@ -217,9 +221,9 @@ function render() {
     ].filter(Boolean).join("");
 
     return `
-      <article class="card">
+      <article class="card" data-offer-key="${escapeHtml(key)}">
         <div class="image-wrap">
-          <img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}" loading="lazy">
+          <img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}" loading="lazy" decoding="async">
           ${discount > 0 ? `<div class="badge">-${Math.round(discount)}%</div>` : ""}
           <div class="store-pill" title="${escapeHtml(text(o.loja))}">${escapeHtml(text(o.loja))}</div>
         </div>
@@ -237,9 +241,7 @@ function render() {
           </div>
 
           ${perks ? `<div class="perks">${perks}</div>` : ""}
-
           ${checked ? `<div class="verified">Verificado em ${checked.toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}</div>` : ""}
-
           ${url ? `<a class="buy" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Ver oferta na loja →</a>` : ""}
         </div>
       </article>`;
@@ -247,7 +249,12 @@ function render() {
 
   els.offers.querySelectorAll(".product-image").forEach(img => {
     img.addEventListener("error", () => {
-      img.src = fallbackImage();
+      const card = img.closest(".card");
+      const key = card?.dataset.offerKey || "";
+      if (key) brokenImages.add(key);
+      renderCategoryChips();
+      updateStats();
+      render();
     }, { once: true });
   });
 }
@@ -259,6 +266,7 @@ async function loadOffers() {
 
     const payload = await fetchPayload();
     allOffers = Array.isArray(payload.ofertas) ? payload.ofertas : [];
+    brokenImages.clear();
 
     populateSelect(els.category, uniqueValues("categoria"), "Todas as categorias");
     populateSelect(els.store, uniqueValues("loja"), "Todas as lojas");
