@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111827" />
+  <title>Radar de Promoções</title>
+  <meta name="description" content="Promoções verificadas de lojas confiáveis." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container header-inner">
+      <div>
+        <p class="eyebrow">PROMOÇÕES VERIFICADAS</p>
+        <h1>Radar de Promoções</h1>
+        <p class="subtitle">Ofertas de várias categorias, atualizadas duas vezes ao dia.</p>
+      </div>
+      <div class="status" id="status">Carregando…</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="filters">
+      <label>
+        <span>Buscar</span>
+        <input id="search" type="search" placeholder="Ex.: geladeira, sofá, TV…" />
+      </label>
+      <label>
+        <span>Categoria</span>
+        <select id="category"><option value="">Todas</option></select>
+      </label>
+      <label>
+        <span>Loja</span>
+        <select id="store"><option value="">Todas</option></select>
+      </label>
+      <label>
+        <span>Ordenar</span>
+        <select id="sort">
+          <option value="newest">Mais recentes</option>
+          <option value="discount">Maior desconto</option>
+          <option value="priceAsc">Menor preço</option>
+          <option value="priceDesc">Maior preço</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="summary">
+      <strong id="count">0 ofertas</strong>
+      <span id="updated"></span>
+    </section>
+
+    <section id="offers" class="grid"></section>
+    <section id="empty" class="empty hidden">
+      <h2>Nenhuma oferta disponível</h2>
+      <p>Tente remover algum filtro ou aguarde a próxima atualização.</p>
+    </section>
+    <section id="error" class="empty hidden">
+      <h2>Não foi possível carregar as ofertas</h2>
+      <p id="errorMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Preços e condições podem mudar. Confirme sempre na loja antes de comprar.</p>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
