@@ -1,5 +1,5 @@
 const DATA_API_URL = "https://api.github.com/repos/cepds/promocoes-site/contents/data/ofertas.json?ref=main";
-const MAX_AGE_HOURS = 18;
+const FIXED_CEP = "72620-405";
 
 const els = {
   offers: document.querySelector("#offers"),
@@ -37,13 +37,6 @@ function asDate(value) {
   if (!value) return null;
   const d = new Date(value);
   return Number.isNaN(d.getTime()) ? null : d;
-}
-
-function isFresh(value) {
-  const d = asDate(value);
-  if (!d) return false;
-  const age = Date.now() - d.getTime();
-  return age >= 0 && age <= MAX_AGE_HOURS * 60 * 60 * 1000;
 }
 
 function money(value) {
@@ -121,7 +114,6 @@ function activeOffers() {
   return allOffers.filter(o => {
     const key = offerKey(o);
     return o.ativa !== false
-      && isFresh(o.ultimaVerificacao)
       && Boolean(validImageUrl(o.imagem))
       && !brokenImages.has(key);
   });
@@ -169,6 +161,48 @@ function updateStats() {
   els.statDiscount.textContent = `${Math.round(bestDiscount)}%`;
 }
 
+function hasOwnValue(obj, key) {
+  return Object.prototype.hasOwnProperty.call(obj, key)
+    && obj[key] !== null
+    && obj[key] !== undefined
+    && String(obj[key]).trim() !== "";
+}
+
+function shippingInfo(o, current) {
+  const raw = text(o.frete, "");
+  const lower = raw.toLocaleLowerCase("pt-BR");
+  const explicitFree = o.freteGratis === true || lower.includes("frete grátis") || lower.includes("frete gratis") || lower === "grátis" || lower === "gratis";
+
+  let freightValue = null;
+  if (explicitFree) {
+    freightValue = 0;
+  } else if (hasOwnValue(o, "freteValor")) {
+    const n = asNumber(o.freteValor);
+    if (Number.isFinite(n) && n >= 0) freightValue = n;
+  } else {
+    const match = raw.match(/R\$\s*([\d.]+(?:,\d{1,2})?)/i);
+    if (match) {
+      const n = asNumber(match[1]);
+      if (Number.isFinite(n) && n >= 0) freightValue = n;
+    }
+  }
+
+  let label = "Consulte na loja";
+  if (explicitFree) label = "Grátis";
+  else if (freightValue !== null) label = money(freightValue);
+  else if (raw && !["não informado", "consulte o cep", "consulte cep"].includes(lower)) label = raw;
+
+  let total = null;
+  if (hasOwnValue(o, "precoComFrete")) {
+    const n = asNumber(o.precoComFrete);
+    if (Number.isFinite(n) && n > 0) total = n;
+  } else if (current > 0 && freightValue !== null) {
+    total = current + freightValue;
+  }
+
+  return { label, total };
+}
+
 function render() {
   const term = els.search.value.trim().toLocaleLowerCase("pt-BR");
   const category = els.category.value;
@@ -204,16 +238,17 @@ function render() {
     const checked = asDate(o.ultimaVerificacao);
     const coupon = text(o.cupom, "");
     const cashback = text(o.cashback, "");
-    const shipping = text(o.frete, "");
     const savingValue = previous > current && current > 0 ? previous - current : 0;
     const key = offerKey(o);
+    const shipping = shippingInfo(o, current);
 
     const perks = [
       coupon && coupon.toLocaleLowerCase("pt-BR") !== "não informado"
         ? `<span class="perk coupon">Cupom: ${escapeHtml(coupon)}</span>`
         : "",
-      shipping && shipping.toLocaleLowerCase("pt-BR") !== "não informado"
-        ? `<span class="perk">Frete: ${escapeHtml(shipping)}</span>`
+      `<span class="perk">Frete CEP ${FIXED_CEP}: ${escapeHtml(shipping.label)}</span>`,
+      shipping.total !== null
+        ? `<span class="perk coupon">Total c/ frete: ${escapeHtml(money(shipping.total))}</span>`
         : "",
       cashback && cashback.toLocaleLowerCase("pt-BR") !== "não informado"
         ? `<span class="perk">Cashback: ${escapeHtml(cashback)}</span>`
@@ -240,7 +275,7 @@ function render() {
             </div>
           </div>
 
-          ${perks ? `<div class="perks">${perks}</div>` : ""}
+          <div class="perks">${perks}</div>
           ${checked ? `<div class="verified">Verificado em ${checked.toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}</div>` : ""}
           ${url ? `<a class="buy" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Ver oferta na loja →</a>` : ""}
         </div>
