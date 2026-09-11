@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-11T21:03:58.059Z",
-  "total": 43,
+  "geradoEm": "2026-09-11T21:04:23.879Z",
+  "total": 47,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1573,6 +1573,158 @@
       "modelo": "YI12R/YE12R",
       "modeloFabricante": "YI12R/YE12R",
       "produtoGrupo": "electrolux-yi12r-ye12r-12000-quente-frio-220v"
+    },
+    {
+      "id": "electrolux-it70s-481l-bivolt-oficial",
+      "nome": "Geladeira Electrolux Frost Free Inverter 481L AutoSense SmartBivolt IT70S",
+      "categoria": "Geladeiras",
+      "loja": "Loja Oficial Electrolux",
+      "seloLoja": "Loja Oficial",
+      "precoAtual": 4099,
+      "precoAnterior": 4749,
+      "desconto": 13,
+      "cupom": "Não informado",
+      "cashback": "Não informado",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "voltagem": "Bivolt",
+      "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-inverter-481l-efficient-com-autosense-smartbivolt-duplex-cor-inox-look--it70s-/p",
+      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/292196-640-640?aspect=true&format=auto&height=640&v=639102196893570000&width=640",
+      "observacoes": "Preço, disponibilidade e SmartBivolt confirmados na Loja Oficial Electrolux em 11/09/2026.",
+      "scoreOferta": 54,
+      "ativa": true,
+      "dataEncontrada": "2026-09-11T21:04:23.879Z",
+      "ultimaVerificacao": "2026-09-11T21:04:23.879Z",
+      "historicoPrecos": [
+        {
+          "data": "2026-09-11T21:04:23.879Z",
+          "preco": 4099,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 4099,
+      "precoMedioHistorico": 4099,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "electrolux-eaf45-56l-220v-oficial",
+      "nome": "Air Fryer Electrolux por Rita Lobo 5,6L Digital EAF45 220V",
+      "categoria": "Air Fryers",
+      "loja": "Loja Oficial Electrolux",
+      "seloLoja": "Loja Oficial",
+      "precoAtual": 399.9,
+      "precoAnterior": 589.9,
+      "desconto": 32,
+      "cupom": "Não informado",
+      "cashback": "Não informado",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "voltagem": "220V",
+      "url": "https://loja.electrolux.com.br/air-fryer-electrolux-por-rita-lobo5-6l-experience-eaf45/p",
+      "imagem": "https://lojarcell.vtexassets.com/arquivos/ids/191731/fritadeira-eletrica-electrolux-5-6l-eaf45-1400w-cinza-220v-3.jpg.jpg?v=638804906924230000",
+      "observacoes": "Preço e variante 220V confirmados na Loja Oficial Electrolux em 11/09/2026. Imagem corresponde ao modelo EAF45.",
+      "scoreOferta": 72,
+      "ativa": true,
+      "dataEncontrada": "2026-09-11T21:04:23.879Z",
+      "ultimaVerificacao": "2026-09-11T21:04:23.879Z",
+      "historicoPrecos": [
+        {
+          "data": "2026-09-11T21:04:23.879Z",
+          "preco": 399.9,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 399.9,
+      "precoMedioHistorico": 399.9,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "wap-air-fryer-family-4l-220v-oficial",
+      "nome": "Fritadeira Elétrica WAP Air Fryer Family 4L 1500W 220V",
+      "categoria": "Air Fryers",
+      "loja": "Loja WAP",
+      "seloLoja": "Loja Oficial",
+      "precoAtual": 236.97,
+      "precoAnterior": 599.9,
+      "desconto": 60,
+      "cupom": "Não informado",
+      "cashback": "Não informado",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "voltagem": "220V",
+      "url": "https://parceiros.wap.ind.br/fritadeira-eletrica-wap-air-fryer-family-4l/p",
+      "imagem": "https://www.guimepa.com.br/cdn/shop/files/airfry-fritadeira-sem-_leo-4l-220v-1500w-wap-1129522-fw009532-4.jpg?v=1757503326",
+      "observacoes": "Preço à vista e referência FW009532 (220V) confirmados em página da WAP em 11/09/2026. Imagem corresponde ao mesmo modelo 220V.",
+      "scoreOferta": 88,
+      "ativa": true,
+      "dataEncontrada": "2026-09-11T21:04:23.879Z",
+      "ultimaVerificacao": "2026-09-11T21:04:23.879Z",
+      "historicoPrecos": [
+        {
+          "data": "2026-09-11T21:04:23.879Z",
+          "preco": 236.97,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 236.97,
+      "precoMedioHistorico": 236.97,
+      "classificacaoOferta": "Excelente",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "tramontina-ravena-5p-27899286-oficial",
+      "nome": "Jogo de Panelas Tramontina Ravena Starflon Max 5 Peças",
+      "categoria": "Cozinha",
+      "loja": "Tramontina Store",
+      "seloLoja": "Loja Oficial",
+      "precoAtual": 239,
+      "precoAnterior": 572,
+      "desconto": 56,
+      "cupom": "Cupom disponível",
+      "cashback": "Não informado",
+      "frete": "Frete grátis",
+      "freteValor": 0,
+      "freteGratis": true,
+      "cepFrete": "72620-405",
+      "precoComFrete": 239,
+      "voltagem": null,
+      "url": "https://www.tramontina.com.br/jogo-de-panelas-tramontina-ravena-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-5-pecas/27899286.html",
+      "imagem": "https://precolandia.vtexassets.com/arquivos/ids/243112/Jogo-de-Panelas-5-Pecas-com-Tampa-De-Vidro-Ravena-Azul-Tramontina-precolandia-089672-1d.jpg?v=638472412754600000",
+      "observacoes": "Preço à vista, desconto, disponibilidade e referência 27899286 confirmados na Tramontina Store em 11/09/2026. Frete grátis anunciado pela loja; imagem corresponde ao conjunto Ravena.",
+      "scoreOferta": 92,
+      "ativa": true,
+      "dataEncontrada": "2026-09-11T21:04:23.879Z",
+      "ultimaVerificacao": "2026-09-11T21:04:23.879Z",
+      "historicoPrecos": [
+        {
+          "data": "2026-09-11T21:04:23.879Z",
+          "preco": 239,
+          "freteValor": 0,
+          "precoComFrete": 239
+        }
+      ],
+      "menorPrecoHistorico": 239,
+      "precoMedioHistorico": 239,
+      "classificacaoOferta": "Excelente",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -1743,6 +1895,34 @@
       "produto": "Catálogo",
       "id": "catalogo",
       "detalhe": "30 oferta(s) receberam modelo/grupo de produto e/ou estoque estruturado somente a partir de dados já confirmados no catálogo."
+    },
+    {
+      "data": "2026-09-11T21:04:23.879Z",
+      "tipo": "adicionado",
+      "produto": "Geladeira Electrolux Frost Free Inverter 481L AutoSense SmartBivolt IT70S",
+      "id": "electrolux-it70s-481l-bivolt-oficial",
+      "detalhe": "Oferta verificada adicionada de Loja Oficial Electrolux."
+    },
+    {
+      "data": "2026-09-11T21:04:23.879Z",
+      "tipo": "adicionado",
+      "produto": "Air Fryer Electrolux por Rita Lobo 5,6L Digital EAF45 220V",
+      "id": "electrolux-eaf45-56l-220v-oficial",
+      "detalhe": "Oferta verificada adicionada de Loja Oficial Electrolux."
+    },
+    {
+      "data": "2026-09-11T21:04:23.879Z",
+      "tipo": "adicionado",
+      "produto": "Fritadeira Elétrica WAP Air Fryer Family 4L 1500W 220V",
+      "id": "wap-air-fryer-family-4l-220v-oficial",
+      "detalhe": "Oferta verificada adicionada de Loja WAP."
+    },
+    {
+      "data": "2026-09-11T21:04:23.879Z",
+      "tipo": "adicionado",
+      "produto": "Jogo de Panelas Tramontina Ravena Starflon Max 5 Peças",
+      "id": "tramontina-ravena-5p-27899286-oficial",
+      "detalhe": "Oferta verificada adicionada de Tramontina Store."
     }
   ]
 }
