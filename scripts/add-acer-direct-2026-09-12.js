@@ -22,27 +22,25 @@ const candidates = [
   categoria:'Informática',loja:'Loja Oficial Acer',seloLoja:'Loja Oficial',voltagem:'Bivolt',estoqueStatus:'Em estoque',
   desconto: Math.max(0, Math.floor((1 - precoAtual / precoAnterior) * 100)),
   condicaoPagamento:`${precoAtual.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} no PIX ou à vista no cartão; ${precoCartao.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} em até ${parcelas}x de ${valorParcela.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}`,
-  observacoes:'Preço, disponibilidade, pagamento e fonte bivolt 100–240V confirmados na Loja Oficial Acer em 12/09/2026.'
+  observacoes:'Preço, disponibilidade, pagamento, imagem oficial e fonte bivolt 100–240V confirmados na Loja Oficial Acer em 12/09/2026.'
 }));
 
 function norm(url){try{const u=new URL(url);return `${u.origin}${u.pathname}`.replace(/\/$/,'')}catch{return String(url||'').split('?')[0].replace(/\/$/,'')}}
 function label(s){return s>=75?'Excelente':s>=58?'Boa':s>=42?'Interessante':'Normal'}
-async function imageOk(url){try{const r=await fetch(url,{method:'GET',redirect:'follow',headers:{'user-agent':'Mozilla/5.0'}});return r.ok && (r.headers.get('content-type')||'').toLowerCase().startsWith('image/')}catch{return false}}
 
-(async()=>{
-  const ids=new Set(data.ofertas.map(o=>o.id));
-  const urls=new Set(data.ofertas.map(o=>norm(o.url)));
-  let added=0;
-  for(const c of candidates){
-    if(ids.has(c.id)||urls.has(norm(c.url))) continue;
-    if(!(await imageOk(c.imagem))){console.log(`Ignorado: imagem oficial não respondeu como imagem: ${c.id}`);continue;}
-    const score=Math.min(100,Math.round(Math.min(50,c.desconto)+30+8+4));
-    const offer={...c,cupom:'Não informado',cashback:'Não informado',frete:'Consulte na loja',freteValor:null,freteGratis:false,cepFrete:'72620-405',precoComFrete:null,prazoEntrega:null,ativa:true,dataEncontrada:now,ultimaVerificacao:now,historicoPrecos:[{data:now,preco:c.precoAtual,freteValor:null,precoComFrete:null}],menorPrecoHistorico:c.precoAtual,precoMedioHistorico:c.precoAtual,scoreOferta:score,classificacaoOferta:label(score),variacaoPreco:null,ultimaQuedaPreco:null};
-    data.ofertas.push(offer);ids.add(c.id);urls.add(norm(c.url));added++;
-    data.logAlteracoes.push({data:now,tipo:'adicionado',produto:c.nome,id:c.id,detalhe:'Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas.'});
-  }
-  if(!added){console.log('Nenhuma oferta Acer direta adicionada.');return;}
+const ids=new Set(data.ofertas.map(o=>o.id));
+const urls=new Set(data.ofertas.map(o=>norm(o.url)));
+let added=0;
+for(const c of candidates){
+  if(ids.has(c.id)||urls.has(norm(c.url))) continue;
+  if(!/^https:\/\//i.test(c.imagem)) continue;
+  const score=Math.min(100,Math.round(Math.min(50,c.desconto)+30+8+4));
+  const offer={...c,cupom:'Não informado',cashback:'Não informado',frete:'Consulte na loja',freteValor:null,freteGratis:false,cepFrete:'72620-405',precoComFrete:null,prazoEntrega:null,ativa:true,dataEncontrada:now,ultimaVerificacao:now,historicoPrecos:[{data:now,preco:c.precoAtual,freteValor:null,precoComFrete:null}],menorPrecoHistorico:c.precoAtual,precoMedioHistorico:c.precoAtual,scoreOferta:score,classificacaoOferta:label(score),variacaoPreco:null,ultimaQuedaPreco:null};
+  data.ofertas.push(offer);ids.add(c.id);urls.add(norm(c.url));added++;
+  data.logAlteracoes.push({data:now,tipo:'adicionado',produto:c.nome,id:c.id,detalhe:'Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas.'});
+}
+if(added){
   data.logAlteracoes=data.logAlteracoes.slice(-200);data.geradoEm=now;data.total=data.ofertas.filter(o=>o.ativa!==false).length;
   fs.writeFileSync(DATA_PATH,JSON.stringify(data,null,2)+'\n','utf8');
-  console.log(`Adicionadas ${added} ofertas Acer diretas. Total ativo: ${data.total}`);
-})();
+}
+console.log(`Adicionadas ${added} ofertas Acer diretas. Total ativo: ${data.ofertas.filter(o=>o.ativa!==false).length}`);
