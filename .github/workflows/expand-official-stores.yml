@@ -7,6 +7,7 @@ on:
       - 'scripts/expand-official-stores.js'
       - 'scripts/expand-official-now.js'
       - 'scripts/add-acer-informatica-2026-09-12.js'
+      - 'scripts/add-acer-direct-2026-09-12.js'
       - '.github/workflows/expand-official-stores.yml'
 
 permissions:
@@ -33,6 +34,8 @@ jobs:
         run: node scripts/expand-official-now.js
       - name: Adicionar ofertas Acer de Informática
         run: node scripts/add-acer-informatica-2026-09-12.js
+      - name: Adicionar ofertas Acer com imagens oficiais diretas
+        run: node scripts/add-acer-direct-2026-09-12.js
       - name: Validar catálogo
         run: node scripts/validate-site.js
       - name: Salvar catálogo e backups com proteção contra conflito
