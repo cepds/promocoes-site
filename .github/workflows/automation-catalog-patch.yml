@@ -1,0 +1,34 @@
+name: Apply catalog automation patch
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/automation-patch.json'
+      - 'scripts/automation-apply-patch.mjs'
+      - '.github/workflows/automation-catalog-patch.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Apply patch and create backup
+        run: node scripts/automation-apply-patch.mjs
+      - name: Commit generated catalog files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ofertas.json data/backups data/catalog-stats.json
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git commit -m 'chore: apply catalog automation patch'
+          git push
