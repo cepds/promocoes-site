@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-13T21:04:03.529Z",
-  "total": 59,
+  "geradoEm": "2026-09-13T12:03:18.196Z",
+  "total": 58,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -2419,51 +2419,6 @@
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
-    },
-    {
-      "id": "kabum-switch-oled-mario-wonder-nso",
-      "nome": "Console Nintendo Switch OLED + Super Mario Bros. Wonder + 3 meses Nintendo Switch Online",
-      "categoria": "Games",
-      "loja": "KaBuM!",
-      "seloLoja": "Vendido pela KaBuM!",
-      "modelo": "NT000053NSW",
-      "modeloFabricante": "NT000053NSW",
-      "produtoGrupo": "nintendo-switch-oled-mario-wonder-nso-nt000053nsw",
-      "precoAtual": 2199,
-      "precoPix": 2199,
-      "precoAvista": 2199,
-      "precoCartao": 2199,
-      "parcelas": 10,
-      "valorParcela": 219.9,
-      "condicaoPagamento": "R$ 2.199,00 no Pix ou em 10x de R$ 219,90 sem juros",
-      "precoAnterior": 2699,
-      "desconto": 18,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "voltagem": "Bivolt",
-      "url": "https://www.kabum.com.br/produto/940533/console-nintendo-switch-oled-super-mario-bros-wonder-3mo-nos-nt000053nsw",
-      "observacoes": "Preço e venda/entrega pela KaBuM! confirmados em 13/09/2026.",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/940533/console-nintendo-switch-oled-super-mario-bros-wonder-3mo-nos-nt000053nsw_1762171038_m.jpg",
-      "ativa": true,
-      "dataEncontrada": "2026-09-13T21:04:03.529Z",
-      "ultimaVerificacao": "2026-09-13T21:04:03.529Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-13T21:04:03.529Z",
-          "preco": 2199,
-          "freteValor": 0,
-          "precoComFrete": 0
-        }
-      ],
-      "menorPrecoHistorico": 2199,
-      "precoMedioHistorico": 2199,
-      "scoreOferta": 66,
-      "classificacaoOferta": "Boa"
     }
   ],
   "logAlteracoes": [
@@ -2781,13 +2736,6 @@
       "produto": "Ar-Condicionado Split Electrolux Inverter 24.000 BTUs Color Adapt Quente/Frio JI24R/JE24R",
       "id": "electrolux-ji24r-je24r-24000-qf-220v",
       "detalhe": "Oferta adicionada da Loja Oficial Electrolux com preço, modelo e voltagem 220V verificados."
-    },
-    {
-      "data": "2026-09-13T21:04:03.529Z",
-      "tipo": "adicionado",
-      "produto": "Console Nintendo Switch OLED + Super Mario Bros. Wonder + 3 meses Nintendo Switch Online",
-      "id": "kabum-switch-oled-mario-wonder-nso",
-      "detalhe": "Preço e venda/entrega pela KaBuM! confirmados em 13/09/2026."
     }
   ]
 }
