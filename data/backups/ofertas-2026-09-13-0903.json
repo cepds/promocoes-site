@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-13T12:03:18.196Z",
-  "total": 58,
+  "geradoEm": "2026-09-12T21:07:30.655Z",
+  "total": 60,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1333,7 +1333,7 @@
       "categoria": "Máquinas de lavar",
       "loja": "Loja Oficial Brastemp",
       "seloLoja": "Loja Oficial",
-      "precoAtual": 2152,
+      "precoAtual": 1999.99,
       "precoAnterior": 2499,
       "desconto": 20,
       "cupom": "Não informado",
@@ -1346,38 +1346,28 @@
       "voltagem": "220V",
       "url": "https://www.brastemp.com.br/maquina-de-lavar-brastemp-16kg-branca-bwf16ab/p",
       "imagem": "https://brastemp.vtexassets.com/arquivos/ids/287901/Brastemp_Lavadora_BWF16AB_Imagem_Frontal_jpg.jpg?v=639155698862570000",
-      "ativa": false,
+      "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-13T12:03:18.196Z",
-      "observacoes": "Preço e variante 220V revalidados na Loja Oficial Brastemp em 13/09/2026; preço promocional anterior encerrou.",
+      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
+      "observacoes": "Oferta e disponibilidade confirmadas na Loja Oficial Brastemp em 11/09/2026 para variante 220V.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
           "preco": 1999.99,
           "freteValor": null,
           "precoComFrete": null
-        },
-        {
-          "data": "2026-09-13T12:03:18.196Z",
-          "preco": 2152,
-          "freteValor": null,
-          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 1999.99,
-      "precoMedioHistorico": 2075.99,
+      "precoMedioHistorico": 1999.99,
       "scoreOferta": 60,
       "classificacaoOferta": "Boa",
-      "variacaoPreco": 152.01,
+      "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "modelo": "BWF16AB",
       "modeloFabricante": "BWF16AB",
       "produtoGrupo": "brastemp-bwf16ab-16kg-branca-220v",
-      "estoqueStatus": "Em estoque",
-      "precoCartao": 2152,
-      "parcelas": 8,
-      "valorParcela": 269,
-      "condicaoPagamento": "R$ 2.152,00 em até 8x de R$ 269,00 sem juros"
+      "estoqueStatus": "Em estoque"
     },
     {
       "id": "brastemp-bwt16a9-16kg-220v",
@@ -1745,12 +1735,12 @@
       "modelo": "BRM52MK",
       "modeloFabricante": "BRM52MK",
       "produtoGrupo": "brastemp-brm52mk-415l-inox-220v",
-      "precoAtual": 3300.29,
+      "precoAtual": 3299.99,
       "precoAnterior": 4129,
-      "precoCartao": 3473.99,
-      "parcelas": 10,
-      "valorParcela": 347.39,
-      "condicaoPagamento": "R$ 3.300,29 no Pix; R$ 3.473,99 em até 10x de R$ 347,39 sem juros",
+      "precoCartao": 3299.99,
+      "parcelas": 7,
+      "valorParcela": 471.43,
+      "condicaoPagamento": "Até 7x sem juros",
       "desconto": 20,
       "cupom": "Não informado",
       "cashback": "Não informado",
@@ -1763,32 +1753,24 @@
       "voltagem": "220V",
       "url": "https://www.brastemp.com.br/geladeira-brastemp-duplex-415l-inox/p",
       "imagem": "https://brastemp.vtexassets.com/arquivos/ids/285013/01_Brastemp_Geladeira_BRM52MK_Imagem_Frontal.jpg?v=639119588561500000",
-      "ativa": false,
+      "ativa": true,
       "dataEncontrada": "2026-09-12T12:06:08.071Z",
-      "ultimaVerificacao": "2026-09-13T12:03:18.196Z",
-      "observacoes": "Preço e variante 220V revalidados na Loja Oficial Brastemp em 13/09/2026; preço efetivo ficou acima do promocional registrado.",
+      "ultimaVerificacao": "2026-09-12T12:06:08.071Z",
+      "observacoes": "Preço e variante 220V confirmados na Loja Oficial Brastemp em 12/09/2026.",
       "historicoPrecos": [
         {
           "data": "2026-09-12T12:06:08.071Z",
           "preco": 3299.99,
           "freteValor": null,
           "precoComFrete": null
-        },
-        {
-          "data": "2026-09-13T12:03:18.196Z",
-          "preco": 3300.29,
-          "freteValor": null,
-          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 3299.99,
-      "precoMedioHistorico": 3300.14,
+      "precoMedioHistorico": 3299.99,
       "scoreOferta": 60,
       "classificacaoOferta": "Boa",
-      "variacaoPreco": 0.3,
-      "ultimaQuedaPreco": null,
-      "precoPix": 3300.29,
-      "precoAvista": 3300.29
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     },
     {
       "id": "brastemp-brm51mb-415l-branca-220v",
@@ -1845,14 +1827,14 @@
       "modelo": "BFO4VBR",
       "modeloFabricante": "BFO4VBR",
       "produtoGrupo": "brastemp-bfo4vbr-4b-inox-220v",
-      "precoAtual": 2696.86,
+      "precoAtual": 2553.04,
       "precoAnterior": 3739,
-      "precoPix": 2696.86,
-      "precoAvista": 2696.86,
-      "precoCartao": 2869,
+      "precoPix": 2553.04,
+      "precoAvista": 2553.04,
+      "precoCartao": 2632,
       "parcelas": 8,
-      "valorParcela": 358.62,
-      "condicaoPagamento": "R$ 2.696,86 no Pix; R$ 2.869,00 em até 8x de R$ 358,62 sem juros",
+      "valorParcela": 329,
+      "condicaoPagamento": "R$ 2.553,04 no Pix; cartão em até 8x de R$ 329,00 sem juros",
       "desconto": 32,
       "cupom": "Não informado",
       "cashback": "Não informado",
@@ -1865,29 +1847,23 @@
       "voltagem": "220V",
       "url": "https://www.brastemp.com.br/fogao-brastemp-4-bocas-inox-com-mesa-de-vidro-dupla-chama-e-grill-eletrico-bfo4vbr/p",
       "imagem": "https://brastemp.vtexassets.com/arquivos/ids/264074/01_Brastemp_Fogao_BFO4VBR_Imagem_Frontal_4.jpg?v=638973675429130000",
-      "ativa": false,
+      "ativa": true,
       "dataEncontrada": "2026-09-12T12:06:08.071Z",
-      "ultimaVerificacao": "2026-09-13T12:03:18.196Z",
-      "observacoes": "Preço e variante 220V revalidados na Loja Oficial Brastemp em 13/09/2026; página também indicou indisponibilidade para o CEP consultado e o preço subiu acima do promocional registrado.",
+      "ultimaVerificacao": "2026-09-12T12:06:08.071Z",
+      "observacoes": "Preço Pix, preço no cartão, parcelamento e variante 220V confirmados na Loja Oficial Brastemp em 12/09/2026.",
       "historicoPrecos": [
         {
           "data": "2026-09-12T12:06:08.071Z",
           "preco": 2553.04,
           "freteValor": null,
           "precoComFrete": null
-        },
-        {
-          "data": "2026-09-13T12:03:18.196Z",
-          "preco": 2696.86,
-          "freteValor": null,
-          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 2553.04,
-      "precoMedioHistorico": 2624.95,
+      "precoMedioHistorico": 2553.04,
       "scoreOferta": 72,
       "classificacaoOferta": "Boa",
-      "variacaoPreco": 143.82,
+      "variacaoPreco": null,
       "ultimaQuedaPreco": null
     },
     {
@@ -2379,46 +2355,6 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
-    },
-    {
-      "id": "electrolux-ji24r-je24r-24000-qf-220v",
-      "nome": "Ar-Condicionado Split Electrolux Inverter 24.000 BTUs Color Adapt Quente/Frio JI24R/JE24R",
-      "categoria": "Climatização",
-      "loja": "Loja Oficial Electrolux",
-      "seloLoja": "Loja Oficial",
-      "modelo": "JI24R/JE24R",
-      "modeloFabricante": "JI24R/JE24R",
-      "produtoGrupo": "electrolux-ji24r-je24r-24000-quente-frio-220v",
-      "precoAtual": 3799,
-      "precoAnterior": 4599,
-      "desconto": 17,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "voltagem": "220V",
-      "url": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-inverter-24000-btus-color-adapt-quente-frio-ji24r-je24r-/p",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/291654-360-360?aspect=true&format=auto&height=360&v=639100679775670000&width=360",
-      "ativa": true,
-      "dataEncontrada": "2026-09-13T12:03:18.196Z",
-      "ultimaVerificacao": "2026-09-13T12:03:18.196Z",
-      "observacoes": "Preço, modelo e voltagem 220V confirmados na Loja Oficial Electrolux em 13/09/2026. EANs das unidades externa e interna constam na página oficial, mas não foram consolidados como um único EAN do conjunto.",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-13T12:03:18.196Z",
-          "preco": 3799,
-          "freteValor": null,
-          "precoComFrete": null
-        }
-      ],
-      "menorPrecoHistorico": 3799,
-      "precoMedioHistorico": 3799,
-      "scoreOferta": 35,
-      "classificacaoOferta": "Normal",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -2708,34 +2644,6 @@
       "produto": "Notebook Acer Aspire 5 A515-45-R478 Ryzen 5 16GB 512GB Linux",
       "id": "acer-a515-45-r478",
       "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-13T12:03:18.196Z",
-      "tipo": "preco_subiu_removido",
-      "produto": "Máquina de Lavar Brastemp 16Kg Branca Smart Sensor BWF16AB",
-      "id": "brastemp-bwf16ab-16kg-220v",
-      "detalhe": "Preço verificado subiu de R$ 1999.99 para R$ 2152.00; oferta desativada conforme regra de retenção."
-    },
-    {
-      "data": "2026-09-13T12:03:18.196Z",
-      "tipo": "preco_subiu_removido",
-      "produto": "Geladeira Brastemp Frost Free Duplex 415L Inox BRM52MK 220V",
-      "id": "brastemp-brm52mk-415l-inox-220v",
-      "detalhe": "Preço verificado subiu de R$ 3299.99 para R$ 3300.29; oferta desativada conforme regra de retenção."
-    },
-    {
-      "data": "2026-09-13T12:03:18.196Z",
-      "tipo": "preco_subiu_removido",
-      "produto": "Fogão Brastemp 4 Bocas Inox Mesa de Vidro Dupla Chama e Grill BFO4VBR 220V",
-      "id": "brastemp-bfo4vbr-fogao-4b-220v",
-      "detalhe": "Preço verificado subiu de R$ 2553.04 para R$ 2696.86; oferta desativada conforme regra de retenção."
-    },
-    {
-      "data": "2026-09-13T12:03:18.196Z",
-      "tipo": "adicionado",
-      "produto": "Ar-Condicionado Split Electrolux Inverter 24.000 BTUs Color Adapt Quente/Frio JI24R/JE24R",
-      "id": "electrolux-ji24r-je24r-24000-qf-220v",
-      "detalhe": "Oferta adicionada da Loja Oficial Electrolux com preço, modelo e voltagem 220V verificados."
     }
   ]
 }
