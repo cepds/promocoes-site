@@ -1,0 +1,66 @@
+{
+  "geradoEm": "2026-09-13T21:01:59.067Z",
+  "totalAtivas": 58,
+  "categorias": {
+    "Sofás": {
+      "ativas": 8,
+      "faltam": 2,
+      "lojasDistintas": 5
+    },
+    "TVs": {
+      "ativas": 4,
+      "faltam": 6,
+      "lojasDistintas": 4
+    },
+    "Celulares": {
+      "ativas": 1,
+      "faltam": 9,
+      "lojasDistintas": 1
+    },
+    "Informática": {
+      "ativas": 10,
+      "faltam": 0,
+      "lojasDistintas": 1
+    },
+    "Geladeiras": {
+      "ativas": 4,
+      "faltam": 6,
+      "lojasDistintas": 3
+    },
+    "Máquinas de lavar": {
+      "ativas": 15,
+      "faltam": 0,
+      "lojasDistintas": 9
+    },
+    "Air Fryers": {
+      "ativas": 4,
+      "faltam": 6,
+      "lojasDistintas": 2
+    },
+    "Móveis": {
+      "ativas": 1,
+      "faltam": 9,
+      "lojasDistintas": 1
+    },
+    "Ferramentas": {
+      "ativas": 2,
+      "faltam": 8,
+      "lojasDistintas": 2
+    },
+    "Cozinha": {
+      "ativas": 3,
+      "faltam": 7,
+      "lojasDistintas": 3
+    },
+    "Climatização": {
+      "ativas": 5,
+      "faltam": 5,
+      "lojasDistintas": 3
+    },
+    "Games": {
+      "ativas": 1,
+      "faltam": 9,
+      "lojasDistintas": 1
+    }
+  }
+}
