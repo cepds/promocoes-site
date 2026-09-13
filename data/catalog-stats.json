@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-13T21:04:03.529Z",
-  "totalAtivas": 59,
+  "geradoEm": "2026-09-13T21:06:03.280Z",
+  "totalAtivas": 64,
   "categorias": {
     "Sofás": {
       "ativas": 8,
@@ -13,9 +13,9 @@
       "lojasDistintas": 4
     },
     "Celulares": {
-      "ativas": 1,
-      "faltam": 9,
-      "lojasDistintas": 1
+      "ativas": 4,
+      "faltam": 6,
+      "lojasDistintas": 2
     },
     "Informática": {
       "ativas": 10,
@@ -58,9 +58,9 @@
       "lojasDistintas": 3
     },
     "Games": {
-      "ativas": 2,
-      "faltam": 8,
-      "lojasDistintas": 2
+      "ativas": 4,
+      "faltam": 6,
+      "lojasDistintas": 3
     }
   }
 }
