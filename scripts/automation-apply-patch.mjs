@@ -16,7 +16,6 @@ function saoPauloStamp(){
 }
 function num(v){ const n=Number(v); return Number.isFinite(n)?n:null; }
 function https(v){ try{return new URL(String(v)).protocol==='https:'}catch{return false} }
-function offerKey(o){ return String(o?.id||o?.url||''); }
 function historyStats(o){
   const h=Array.isArray(o.historicoPrecos)?o.historicoPrecos:[];
   const vals=h.map(x=>num(x?.preco)).filter(v=>v&&v>0);
@@ -45,6 +44,20 @@ function ensureHistory(o, stamp, previous){
   o.historicoPrecos=o.historicoPrecos.slice(-60);
   const st=historyStats(o); o.menorPrecoHistorico=st.min; o.precoMedioHistorico=st.avg;
   if(previous!=null && cur<previous){ o.variacaoPreco=cur-previous; o.ultimaQuedaPreco={data:stamp,valorAnterior:previous,valorNovo:cur}; }
+}
+async function resolveOgImage(url){
+  try{
+    const r=await fetch(url,{redirect:'follow',headers:{'user-agent':'Mozilla/5.0 CatalogBot/1.0','accept':'text/html,application/xhtml+xml'}});
+    if(!r.ok) return null;
+    const html=await r.text();
+    const patterns=[
+      /<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/i,
+      /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image(?::secure_url)?["']/i,
+      /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i
+    ];
+    for(const p of patterns){const m=html.match(p);if(m&&https(m[1]))return m[1].replaceAll('&amp;','&');}
+  }catch(e){ console.warn(`Imagem automática falhou para ${url}: ${e.message}`); }
+  return null;
 }
 function validateNew(o){
   for(const k of ['id','nome','categoria','loja','precoAtual','url','imagem']) if(o[k]===undefined||o[k]===null||o[k]==='') throw new Error(`Nova oferta sem ${k}: ${o.id||o.nome||'sem id'}`);
@@ -93,9 +106,11 @@ for(const u of updates){
 }
 
 for(const input of adds){
-  const o=structuredClone(input); validateNew(o);
-  const urlKey=String(o.url).split('?')[0].replace(/\/$/,'');
+  const o=structuredClone(input);
+  const urlKey=String(o.url||'').split('?')[0].replace(/\/$/,'');
   if(byId.has(String(o.id))||byUrl.has(urlKey)) continue;
+  if(!https(o.imagem) && https(o.url)) o.imagem=await resolveOgImage(o.url);
+  try{ validateNew(o); }catch(e){ console.warn(`Oferta ignorada: ${e.message}`); continue; }
   o.ativa=o.ativa!==false; o.dataEncontrada=o.dataEncontrada||stamp; o.ultimaVerificacao=o.ultimaVerificacao||stamp;
   ensureHistory(o,stamp,null);
   if(o.scoreOferta==null) o.scoreOferta=basicScore(o);
