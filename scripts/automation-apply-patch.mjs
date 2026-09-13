@@ -45,17 +45,40 @@ function ensureHistory(o, stamp, previous){
   const st=historyStats(o); o.menorPrecoHistorico=st.min; o.precoMedioHistorico=st.avg;
   if(previous!=null && cur<previous){ o.variacaoPreco=cur-previous; o.ultimaQuedaPreco={data:stamp,valorAnterior:previous,valorNovo:cur}; }
 }
+function cleanCandidate(raw){
+  if(!raw) return null;
+  const s=String(raw).replaceAll('\\/','/').replaceAll('&amp;','&').replaceAll('\\u0026','&');
+  if(!https(s)) return null;
+  const lower=s.toLowerCase();
+  if(/logo|favicon|sprite|icon[-_.]/.test(lower)) return null;
+  return s;
+}
 async function resolveOgImage(url){
   try{
-    const r=await fetch(url,{redirect:'follow',headers:{'user-agent':'Mozilla/5.0 CatalogBot/1.0','accept':'text/html,application/xhtml+xml'}});
+    const r=await fetch(url,{redirect:'follow',headers:{'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36','accept':'text/html,application/xhtml+xml'}});
     if(!r.ok) return null;
     const html=await r.text();
     const patterns=[
       /<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/i,
       /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image(?::secure_url)?["']/i,
-      /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i
+      /<meta[^>]+name=["']twitter:image(?::src)?["'][^>]+content=["']([^"']+)["']/i,
+      /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image(?::src)?["']/i,
+      /["']image["']\s*:\s*["'](https?:\\?\/\\?\/[^"']+)["']/i,
+      /["']image["']\s*:\s*\[\s*["'](https?:\\?\/\\?\/[^"']+)["']/i,
+      /["']imageUrl["']\s*:\s*["'](https?:\\?\/\\?\/[^"']+)["']/i,
+      /["']imageURL["']\s*:\s*["'](https?:\\?\/\\?\/[^"']+)["']/i,
+      /["']thumbnailUrl["']\s*:\s*["'](https?:\\?\/\\?\/[^"']+)["']/i,
+      /["']mainImage["']\s*:\s*["'](https?:\\?\/\\?\/[^"']+)["']/i
     ];
-    for(const p of patterns){const m=html.match(p);if(m&&https(m[1]))return m[1].replaceAll('&amp;','&');}
+    for(const p of patterns){const m=html.match(p);const c=cleanCandidate(m?.[1]);if(c)return c;}
+    const generic=[...html.matchAll(/https?:\\?\/\\?\/[^"'<>\s]+\.(?:jpe?g|png|webp)(?:\?[^"'<>\s]*)?/gi)]
+      .map(m=>cleanCandidate(m[0]))
+      .filter(Boolean)
+      .sort((a,b)=>{
+        const score=x=>/(product|produto|media|image|imagem|assets|vtexassets|magazineluiza|carrefour|kabum|fastshop|ponto)/i.test(x)?1:0;
+        return score(b)-score(a);
+      });
+    return generic[0]||null;
   }catch(e){ console.warn(`Imagem automática falhou para ${url}: ${e.message}`); }
   return null;
 }
