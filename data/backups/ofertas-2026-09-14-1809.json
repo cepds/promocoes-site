@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-14T21:09:48.417Z",
-  "total": 127,
+  "geradoEm": "2026-09-14T21:07:52.566Z",
+  "total": 126,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -4874,49 +4874,6 @@
       "precoMedioHistorico": 899.99,
       "scoreOferta": 43,
       "classificacaoOferta": "Interessante"
-    },
-    {
-      "id": "carrefour-moto-g06-256-latte-337452195",
-      "nome": "Smartphone Motorola Moto G06 4G 256GB 4GB RAM Latte",
-      "categoria": "Celulares",
-      "loja": "Carrefour",
-      "seloLoja": "Vendido pelo Carrefour",
-      "modelo": "Moto G06 256GB Latte",
-      "produtoGrupo": "motorola-moto-g06-256gb-latte",
-      "precoAtual": 899.1,
-      "precoAnterior": 1049,
-      "precoPix": 899.1,
-      "precoAvista": 899.1,
-      "precoCartao": 999,
-      "parcelas": 12,
-      "valorParcela": 83.25,
-      "condicaoPagamento": "R$ 899,10 no Pix; R$ 999,00 em até 12x de R$ 83,25 sem juros",
-      "desconto": 10,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "url": "https://www.carrefour.com.br/produto/smartphone-motorola-moto-g06-256gb-12gb-4gb-ram-8gb-ram-boost-camera-50mp-com-ai-bateria-de-5200-mah-tela-69-latte-337452195",
-      "observacoes": "Preço, condição Pix/cartão e venda/entrega pelo Carrefour confirmados em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://carrefourbr.vtexassets.com/arquivos/ids/205249837/3987795_1.jpg?v=638963151837600000",
-      "ativa": true,
-      "dataEncontrada": "2026-09-14T21:09:48.417Z",
-      "ultimaVerificacao": "2026-09-14T21:09:48.417Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-14T21:09:48.417Z",
-          "preco": 899.1,
-          "freteValor": null,
-          "precoComFrete": null
-        }
-      ],
-      "menorPrecoHistorico": 899.1,
-      "precoMedioHistorico": 899.1,
-      "scoreOferta": 53,
-      "classificacaoOferta": "Interessante"
     }
   ],
   "logAlteracoes": [
@@ -5731,13 +5688,6 @@
       "produto": "SSD Adata Legend 860 500GB M.2 PCIe 4.0 NVMe",
       "id": "kabum-adata-legend860-500gb-703111",
       "detalhe": "Preço, modelo e venda/entrega pela KaBuM! confirmados em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T21:09:48.417Z",
-      "tipo": "adicionado",
-      "produto": "Smartphone Motorola Moto G06 4G 256GB 4GB RAM Latte",
-      "id": "carrefour-moto-g06-256-latte-337452195",
-      "detalhe": "Preço, condição Pix/cartão e venda/entrega pelo Carrefour confirmados em 14/09/2026. Frete e prazo dependem da consulta do CEP."
     }
   ]
 }

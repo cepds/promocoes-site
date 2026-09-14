@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-14T21:07:52.566Z",
-  "totalAtivas": 126,
+  "geradoEm": "2026-09-14T21:09:48.417Z",
+  "totalAtivas": 127,
   "categorias": {
     "Sofás": {
       "ativas": 10,
@@ -13,8 +13,8 @@
       "lojasDistintas": 5
     },
     "Celulares": {
-      "ativas": 9,
-      "faltam": 1,
+      "ativas": 10,
+      "faltam": 0,
       "lojasDistintas": 3
     },
     "Informática": {
