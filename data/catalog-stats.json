@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-13T21:06:03.280Z",
-  "totalAtivas": 64,
+  "geradoEm": "2026-09-14T12:10:52.647Z",
+  "totalAtivas": 71,
   "categorias": {
     "Sofás": {
       "ativas": 8,
@@ -23,8 +23,8 @@
       "lojasDistintas": 1
     },
     "Geladeiras": {
-      "ativas": 4,
-      "faltam": 6,
+      "ativas": 8,
+      "faltam": 2,
       "lojasDistintas": 3
     },
     "Máquinas de lavar": {
@@ -33,8 +33,8 @@
       "lojasDistintas": 9
     },
     "Air Fryers": {
-      "ativas": 4,
-      "faltam": 6,
+      "ativas": 7,
+      "faltam": 3,
       "lojasDistintas": 2
     },
     "Móveis": {

@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-14T12:10:52.647Z",
-  "total": 71,
+  "geradoEm": "2026-09-13T21:06:03.280Z",
+  "total": 64,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1143,7 +1143,7 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/214052/Refrigerador_DFN41_Frontal_1000x1000_principal.jpg?v=638804364273430000",
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
+      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
       "observacoes": "Oferta confirmada na Loja Oficial Electrolux em 11/09/2026. Página oferece variante 220V.",
       "historicoPrecos": [
         {
@@ -1151,12 +1151,6 @@
           "preco": 3469,
           "freteValor": null,
           "precoComFrete": null
-        },
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 3469,
-          "freteValor": 0,
-          "precoComFrete": 0
         }
       ],
       "menorPrecoHistorico": 3469,
@@ -1167,8 +1161,7 @@
       "ultimaQuedaPreco": null,
       "modelo": "DFN41",
       "modeloFabricante": "DFN41",
-      "produtoGrupo": "electrolux-dfn41-371l-220v",
-      "estoqueStatus": "Em estoque"
+      "produtoGrupo": "electrolux-dfn41-371l-220v"
     },
     {
       "id": "electrolux-led17-17kg-220v",
@@ -1489,7 +1482,7 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/268574/7909569478103_1-1000x1000.jpg.jpg?v=638778161841770000",
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
+      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
       "observacoes": "Oferta confirmada na Loja Oficial Electrolux em 11/09/2026. Página oferece variante 220V.",
       "historicoPrecos": [
         {
@@ -1497,12 +1490,6 @@
           "preco": 999.9,
           "freteValor": null,
           "precoComFrete": null
-        },
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 999.9,
-          "freteValor": 0,
-          "precoComFrete": 0
         }
       ],
       "menorPrecoHistorico": 999.9,
@@ -1513,8 +1500,7 @@
       "ultimaQuedaPreco": null,
       "modelo": "EAF180",
       "modeloFabricante": "EAF180",
-      "produtoGrupo": "electrolux-eaf180-7l-220v",
-      "estoqueStatus": "Em estoque"
+      "produtoGrupo": "electrolux-eaf180-7l-220v"
     },
     {
       "id": "electrolux-ji09f-ar-9000-220v",
@@ -1659,27 +1645,20 @@
       "scoreOferta": 72,
       "ativa": true,
       "dataEncontrada": "2026-09-11T21:04:23.879Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
+      "ultimaVerificacao": "2026-09-11T21:04:23.879Z",
       "historicoPrecos": [
         {
           "data": "2026-09-11T21:04:23.879Z",
           "preco": 399.9,
           "freteValor": null,
           "precoComFrete": null
-        },
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 399.9,
-          "freteValor": 0,
-          "precoComFrete": 0
         }
       ],
       "menorPrecoHistorico": 399.9,
       "precoMedioHistorico": 399.9,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "estoqueStatus": "Em estoque"
+      "ultimaQuedaPreco": null
     },
     {
       "id": "wap-air-fryer-family-4l-220v-oficial",
@@ -2703,288 +2682,6 @@
       "precoMedioHistorico": 5199.9,
       "scoreOferta": 48,
       "classificacaoOferta": "Interessante"
-    },
-    {
-      "id": "electrolux-eaf20-airfryer-32l-220v",
-      "nome": "Air Fryer Electrolux por Rita Lobo 3,2L Digital EAF20 220V",
-      "categoria": "Air Fryers",
-      "loja": "Loja Oficial Electrolux",
-      "seloLoja": "Loja Oficial",
-      "modelo": "EAF20",
-      "modeloFabricante": "EAF20",
-      "produtoGrupo": "electrolux-eaf20-32l-220v",
-      "precoAtual": 429.9,
-      "precoAnterior": 689.9,
-      "desconto": 37,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "voltagem": "220V",
-      "url": "https://loja.electrolux.com.br/air-fryer-electrolux-por-rita-lobo-32l-digital-cinza-experience-com-funcao-virar-1400w--eaf20-/p",
-      "observacoes": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/222842/219311-800-800-1.jpg?v=638810338299630000",
-      "ativa": true,
-      "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 429.9,
-          "freteValor": 0,
-          "precoComFrete": 0
-        }
-      ],
-      "menorPrecoHistorico": 429.9,
-      "precoMedioHistorico": 429.9,
-      "scoreOferta": 85,
-      "classificacaoOferta": "Excelente"
-    },
-    {
-      "id": "electrolux-eaf41-airfryer-56l-220v",
-      "nome": "Air Fryer Electrolux por Rita Lobo 5,6L Efficient EAF41 220V",
-      "categoria": "Air Fryers",
-      "loja": "Loja Oficial Electrolux",
-      "seloLoja": "Loja Oficial",
-      "modelo": "EAF41",
-      "modeloFabricante": "EAF41",
-      "produtoGrupo": "electrolux-eaf41-56l-220v",
-      "precoAtual": 429.9,
-      "precoAnterior": 499.9,
-      "desconto": 14,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "voltagem": "220V",
-      "url": "https://loja.electrolux.com.br/air-fryer-electrolux-por-rita-lobo-5-6-l-vermelha-escura-efficient-timer-e-conveccao-1400w-eaf41/p",
-      "observacoes": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/268078/7909569471326_1-1000x1000.jpg.jpg?v=638754154534030000",
-      "ativa": true,
-      "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 429.9,
-          "freteValor": 0,
-          "precoComFrete": 0
-        }
-      ],
-      "menorPrecoHistorico": 429.9,
-      "precoMedioHistorico": 429.9,
-      "scoreOferta": 62,
-      "classificacaoOferta": "Boa"
-    },
-    {
-      "id": "electrolux-eaf170-airfryer-51l-220v",
-      "nome": "Air Fryer Electrolux por Rita Lobo 5,1L Expert com Visor EAF170 220V",
-      "categoria": "Air Fryers",
-      "loja": "Loja Oficial Electrolux",
-      "seloLoja": "Loja Oficial",
-      "ean": "7909569478752",
-      "gtin": "7909569478752",
-      "codigoBarras": "7909569478752",
-      "modelo": "EAF170",
-      "modeloFabricante": "EAF170",
-      "produtoGrupo": "electrolux-eaf170-51l-220v",
-      "precoAtual": 529.9,
-      "precoAnterior": 729.9,
-      "desconto": 27,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "voltagem": "220V",
-      "url": "https://loja.electrolux.com.br/air-fryer-electrolux-por-rita-lobo-5-1l-cinza-expert-c-visor-1500w--eaf170-/p",
-      "observacoes": "Preço, modelo, EAN informado na página, variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/291442/AirFryer_EAF170_Perspective_Electrolux_1000x1000-1000x1000.raw.jpg?v=639097161745870000",
-      "ativa": true,
-      "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 529.9,
-          "freteValor": 0,
-          "precoComFrete": 0
-        }
-      ],
-      "menorPrecoHistorico": 529.9,
-      "precoMedioHistorico": 529.9,
-      "scoreOferta": 75,
-      "classificacaoOferta": "Excelente"
-    },
-    {
-      "id": "electrolux-tf38-320l-220v",
-      "nome": "Geladeira Electrolux Frost Free 320L Duplex Branca TF38 220V",
-      "categoria": "Geladeiras",
-      "loja": "Loja Oficial Electrolux",
-      "seloLoja": "Loja Oficial",
-      "ean": "7909569472187",
-      "gtin": "7909569472187",
-      "codigoBarras": "7909569472187",
-      "modelo": "TF38",
-      "modeloFabricante": "TF38",
-      "produtoGrupo": "electrolux-tf38-320l-branca-220v",
-      "precoAtual": 2499,
-      "precoAnterior": 3189,
-      "desconto": 21,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "voltagem": "220V",
-      "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-320l-duplex-branca-tf38/p",
-      "observacoes": "Preço, modelo TF38, EAN específico 220V 7909569472187 e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/292138/Refrigerator_TF38_Front_Electrolux_Portuguese-1000x1000.raw.jpg?v=639102192178870000",
-      "ativa": true,
-      "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 2499,
-          "freteValor": 0,
-          "precoComFrete": 0
-        }
-      ],
-      "menorPrecoHistorico": 2499,
-      "precoMedioHistorico": 2499,
-      "scoreOferta": 69,
-      "classificacaoOferta": "Boa"
-    },
-    {
-      "id": "electrolux-tf71s-481l-220v",
-      "nome": "Geladeira Electrolux Frost Free 481L AutoSense Duplex Inox Look TF71S 220V",
-      "categoria": "Geladeiras",
-      "loja": "Loja Oficial Electrolux",
-      "seloLoja": "Loja Oficial",
-      "modelo": "TF71S",
-      "modeloFabricante": "TF71S",
-      "produtoGrupo": "electrolux-tf71s-481l-inox-220v",
-      "precoAtual": 3599,
-      "precoAnterior": 4299,
-      "desconto": 16,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "voltagem": "220V",
-      "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-481l-efficient-autosense-duplex-inox-look--tf71s-/p",
-      "observacoes": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/288177/TF71S-FRONTAL-1000x1000.jpg?v=639050281486370000",
-      "ativa": true,
-      "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 3599,
-          "freteValor": 0,
-          "precoComFrete": 0
-        }
-      ],
-      "menorPrecoHistorico": 3599,
-      "precoMedioHistorico": 3599,
-      "scoreOferta": 64,
-      "classificacaoOferta": "Boa"
-    },
-    {
-      "id": "electrolux-if41b-380l-220v",
-      "nome": "Geladeira Electrolux Frost Free Inverter 380L AutoSense Black Inox IF41B 220V",
-      "categoria": "Geladeiras",
-      "loja": "Loja Oficial Electrolux",
-      "seloLoja": "Loja Oficial",
-      "ean": "7909569522585",
-      "gtin": "7909569522585",
-      "codigoBarras": "7909569522585",
-      "modelo": "IF41B",
-      "modeloFabricante": "IF41B",
-      "produtoGrupo": "electrolux-if41b-380l-black-inox-220v",
-      "precoAtual": 2899,
-      "precoAnterior": 3499,
-      "desconto": 17,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "voltagem": "220V",
-      "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-380l-autosense-inverter-black-inox-look--if41b-/p",
-      "observacoes": "Preço, modelo IF41B, EAN específico 220V 7909569522585 e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/292269/7909569522578_1-1000x1000.jpg?v=639102414409870000",
-      "ativa": true,
-      "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 2899,
-          "freteValor": 0,
-          "precoComFrete": 0
-        }
-      ],
-      "menorPrecoHistorico": 2899,
-      "precoMedioHistorico": 2899,
-      "scoreOferta": 65,
-      "classificacaoOferta": "Boa"
-    },
-    {
-      "id": "electrolux-it70-481l-bivolt-oficial",
-      "nome": "Geladeira Electrolux Frost Free Inverter 481L AutoSense SmartBivolt Branca IT70",
-      "categoria": "Geladeiras",
-      "loja": "Loja Oficial Electrolux",
-      "seloLoja": "Loja Oficial",
-      "modelo": "IT70",
-      "modeloFabricante": "IT70",
-      "produtoGrupo": "electrolux-it70-481l-branca-bivolt",
-      "precoAtual": 3949,
-      "precoAnterior": 4399,
-      "desconto": 10,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
-      "voltagem": "Bivolt",
-      "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-inverter-481l-efficient-com-autosense-smartbivolt-duplex-cor-branca---it70-/p",
-      "observacoes": "Preço, modelo, SmartBivolt e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/296936/7909569446232_1-1000x1000.jpg?v=639239466749330000",
-      "ativa": true,
-      "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-14T12:10:52.647Z",
-          "preco": 3949,
-          "freteValor": 0,
-          "precoComFrete": 0
-        }
-      ],
-      "menorPrecoHistorico": 3949,
-      "precoMedioHistorico": 3949,
-      "scoreOferta": 58,
-      "classificacaoOferta": "Boa"
     }
   ],
   "logAlteracoes": [
@@ -3344,76 +3041,6 @@
       "produto": "Console PlayStation 5 Slim com Leitor, ASTRO BOT e Gran Turismo 7",
       "id": "carrefour-ps5-slim-disk-astro-gt7",
       "detalhe": "Preço e venda/entrega pelo Carrefour confirmados em 13/09/2026."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "atualizado",
-      "produto": "Geladeira Electrolux Frost Free 371L Drink Express Duplex DFN41",
-      "id": "electrolux-dfn41-371l-220v",
-      "detalhe": "Preço R$ 3.469,00 e variante 220V revalidados na Loja Oficial Electrolux em 14/09/2026; frete continua dependente de consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "atualizado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 5,6L Digital EAF45 220V",
-      "id": "electrolux-eaf45-56l-220v-oficial",
-      "detalhe": "Preço R$ 399,90 e variante 220V revalidados na Loja Oficial Electrolux em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "atualizado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 7L Digital Expert EAF180",
-      "id": "electrolux-eaf180-airfryer-7l-220v",
-      "detalhe": "Preço R$ 999,90 e variante 220V revalidados na Loja Oficial Electrolux em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 3,2L Digital EAF20 220V",
-      "id": "electrolux-eaf20-airfryer-32l-220v",
-      "detalhe": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 5,6L Efficient EAF41 220V",
-      "id": "electrolux-eaf41-airfryer-56l-220v",
-      "detalhe": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 5,1L Expert com Visor EAF170 220V",
-      "id": "electrolux-eaf170-airfryer-51l-220v",
-      "detalhe": "Preço, modelo, EAN informado na página, variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free 320L Duplex Branca TF38 220V",
-      "id": "electrolux-tf38-320l-220v",
-      "detalhe": "Preço, modelo TF38, EAN específico 220V 7909569472187 e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free 481L AutoSense Duplex Inox Look TF71S 220V",
-      "id": "electrolux-tf71s-481l-220v",
-      "detalhe": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free Inverter 380L AutoSense Black Inox IF41B 220V",
-      "id": "electrolux-if41b-380l-220v",
-      "detalhe": "Preço, modelo IF41B, EAN específico 220V 7909569522585 e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free Inverter 481L AutoSense SmartBivolt Branca IT70",
-      "id": "electrolux-it70-481l-bivolt-oficial",
-      "detalhe": "Preço, modelo, SmartBivolt e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
     }
   ]
 }
