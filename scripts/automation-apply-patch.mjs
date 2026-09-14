@@ -14,7 +14,7 @@ function saoPauloStamp(){
   const g=t=>parts.find(p=>p.type===t)?.value||'';
   return `${g('year')}-${g('month')}-${g('day')}-${g('hour')}${g('minute')}`;
 }
-function num(v){ const n=Number(v); return Number.isFinite(n)?n:null; }
+function num(v){ if(v===null||v===undefined||v==='') return null; const n=Number(v); return Number.isFinite(n)?n:null; }
 function https(v){ try{return new URL(String(v)).protocol==='https:'}catch{return false} }
 function historyStats(o){
   const h=Array.isArray(o.historicoPrecos)?o.historicoPrecos:[];
