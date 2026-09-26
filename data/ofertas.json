@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-14T21:09:48.417Z",
+  "geradoEm": "2026-09-26T08:57:05-03:00",
   "total": 127,
   "ofertas": [
     {
@@ -3757,30 +3757,42 @@
       "loja": "Tramontina Store",
       "seloLoja": "Loja Oficial",
       "modelo": "23117027",
-      "precoAtual": 12.9,
-      "precoPix": 12.9,
-      "precoAvista": 12.9,
+      "precoAtual": 12.94,
+      "precoPix": 12.94,
+      "precoAvista": 12.94,
       "desconto": 43,
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
       "url": "https://www.tramontina.com.br/faca-chef-tramontina-lyf-com-lamina-em-aco-inox-e-cabo-de-polipropileno-pcr-verde-natureza-7%22/23117027.html",
-      "observacoes": "Preço à vista e promoção confirmados na Loja Oficial Tramontina em 14/09/2026.",
+      "observacoes": "Oferta desativada: o preço efetivo subiu de R$ 12,90 para R$ 12,94 na Loja Oficial Tramontina.",
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/23117027PDM001G.jpg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-09-26T08:57:05-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
           "preco": 12.9,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-09-26T08:57:05-03:00",
+          "preco": 12.94,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 12.9,
-      "precoMedioHistorico": 12.9,
+      "precoMedioHistorico": 12.92,
       "scoreOferta": 86,
-      "classificacaoOferta": "Excelente"
+      "classificacaoOferta": "Excelente",
+      "precoAnterior": 12.9,
+      "precoCartao": 12.94,
+      "parcelas": 1,
+      "valorParcela": 12.94,
+      "condicaoPagamento": "R$ 12,94 à vista; página oficial exibe 5% OFF à vista.",
+      "variacaoPreco": 0.31
     },
     {
       "id": "kabum-dualsense-007-1027438",
@@ -4131,9 +4143,9 @@
       "nome": "Smart TV TCL Advanced 65 polegadas 4K QLED T6C Google TV",
       "categoria": "TVs",
       "loja": "Carrefour",
-      "seloLoja": "Vendido pelo Carrefour",
+      "seloLoja": "Vendido e entregue pelo Carrefour",
       "modelo": "65T6C",
-      "produtoGrupo": "tcl-65t6c-bivolt",
+      "produtoGrupo": "tcl-65t6c-65-bivolt",
       "precoAtual": 3749,
       "precoPix": 3749,
       "precoCartao": 3946.32,
@@ -4143,13 +4155,13 @@
       "voltagem": "Bivolt",
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
-      "estoqueStatus": "Em estoque",
+      "estoqueStatus": "Disponível",
       "url": "https://www.carrefour.com.br/produto/smart-tv-tcl-advanced-4k-qled-tv-65-polegadas-t6c-google-tv-processador-aipq-tela-hva-dolby-vision-e-hdr10-340352289",
-      "observacoes": "Preço, modelo, voltagem Bivolt e venda/entrega pelo Carrefour confirmados em 14/09/2026.",
+      "observacoes": "Preço, pagamento, modelo, voltagem Bivolt e venda/entrega pelo Carrefour confirmados em 26/09/2026. Frete e prazo dependem da consulta do CEP.",
       "imagem": "https://carrefourbr.vtexassets.com/arquivos/ids/215943824/4461894_1.jpg?v=639196546715700000",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-09-26T08:57:05-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -4161,7 +4173,10 @@
       "menorPrecoHistorico": 3749,
       "precoMedioHistorico": 3749,
       "scoreOferta": 48,
-      "classificacaoOferta": "Interessante"
+      "classificacaoOferta": "Interessante",
+      "precoAvista": 3749,
+      "condicaoPagamento": "R$ 3.749,00 à vista no Pix (5% OFF) ou R$ 3.946,32 em até 10x de R$ 394,63 sem juros.",
+      "modeloFabricante": "65T6C"
     },
     {
       "id": "carrefour-tv-samsung-un50u8600f-334669958",
@@ -4917,6 +4932,48 @@
       "precoMedioHistorico": 899.1,
       "scoreOferta": 53,
       "classificacaoOferta": "Interessante"
+    },
+    {
+      "id": "tramontina-faca-legumes-lyf-3-23113023",
+      "nome": "Faca de Legumes e Frutas Tramontina LYF 3 polegadas Verde Natureza",
+      "categoria": "Cozinha",
+      "loja": "Tramontina Store",
+      "seloLoja": "Loja Oficial",
+      "modelo": "23113023",
+      "modeloFabricante": "23113023",
+      "produtoGrupo": "tramontina-23113023",
+      "precoAtual": 4.7,
+      "precoAnterior": 9.9,
+      "precoPix": 4.7,
+      "precoAvista": 4.7,
+      "precoCartao": 4.7,
+      "parcelas": 1,
+      "valorParcela": 4.7,
+      "condicaoPagamento": "R$ 4,70 à vista (5% OFF à vista); parcela mínima de R$ 50,00.",
+      "desconto": 50,
+      "frete": "Consulte na loja",
+      "cepFrete": "72620-405",
+      "url": "https://www.tramontina.com.br/faca-de-legumes-e-frutas-tramontina-lyf-com-lamina-em-aco-inox-e-cabo-de-polipropileno-pcr-verde-natureza-3%22/23113023.html",
+      "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/23113023PDM001G.jpg",
+      "ativa": true,
+      "estoqueStatus": "Disponível",
+      "dataEncontrada": "2026-09-26T08:57:05-03:00",
+      "ultimaVerificacao": "2026-09-26T08:57:05-03:00",
+      "observacoes": "Preço, referência, disponibilidade para compra e imagem oficial confirmados na Loja Oficial Tramontina em 26/09/2026. Frete e prazo dependem da consulta do CEP.",
+      "historicoPrecos": [
+        {
+          "data": "2026-09-26T08:57:05-03:00",
+          "preco": 4.7,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 4.7,
+      "precoMedioHistorico": 4.7,
+      "scoreOferta": 78,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -5738,6 +5795,27 @@
       "produto": "Smartphone Motorola Moto G06 4G 256GB 4GB RAM Latte",
       "id": "carrefour-moto-g06-256-latte-337452195",
       "detalhe": "Preço, condição Pix/cartão e venda/entrega pelo Carrefour confirmados em 14/09/2026. Frete e prazo dependem da consulta do CEP."
+    },
+    {
+      "data": "2026-09-26T08:57:05-03:00",
+      "tipo": "desativado",
+      "produto": "Faca Chef Tramontina LYF 7 polegadas Verde Natureza",
+      "id": "tramontina-faca-chef-lyf-7-23117027",
+      "detalhe": "Oferta desativada porque o preço efetivo subiu de R$ 12,90 para R$ 12,94 na Loja Oficial Tramontina."
+    },
+    {
+      "data": "2026-09-26T08:57:05-03:00",
+      "tipo": "verificado",
+      "produto": "Smart TV TCL Advanced 65 polegadas 4K QLED T6C Google TV",
+      "id": "carrefour-tv-tcl-65t6c-340352289",
+      "detalhe": "Preço Pix de R$ 3.749,00, cartão de R$ 3.946,32 em 10x, modelo 65T6C, Bivolt e venda/entrega pelo Carrefour confirmados."
+    },
+    {
+      "data": "2026-09-26T08:57:05-03:00",
+      "tipo": "adicionado",
+      "produto": "Faca de Legumes e Frutas Tramontina LYF 3 polegadas Verde Natureza",
+      "id": "tramontina-faca-legumes-lyf-3-23113023",
+      "detalhe": "Preço à vista de R$ 4,70, referência 23113023, disponibilidade e imagem oficial confirmados na Tramontina Store."
     }
   ]
 }
