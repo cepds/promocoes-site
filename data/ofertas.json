@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-26T08:57:05-03:00",
-  "total": 127,
+  "geradoEm": "2026-09-26T17:59:17-03:00",
+  "total": 126,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1392,9 +1392,9 @@
       "categoria": "Máquinas de lavar",
       "loja": "Loja Oficial Brastemp",
       "seloLoja": "Loja Oficial",
-      "precoAtual": 2105.19,
-      "precoAnterior": 2769,
-      "desconto": 24,
+      "precoAtual": 2199.95,
+      "precoAnterior": 2105.19,
+      "desconto": 23,
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1405,27 +1405,40 @@
       "voltagem": "220V",
       "url": "https://www.brastemp.com.br/maquina-de-lavar-brastemp-16kg-cinza-timer-pro-bwt16a9-326199279/p",
       "imagem": "https://brastemp.vtexassets.com/arquivos/ids/287789/Brastemp_Lavadora_BWT16A9_Imagem_Frontal_jpg.jpg?v=639154206955070000",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
-      "observacoes": "Oferta confirmada na Loja Oficial Brastemp em 11/09/2026. Página oferece variante 220V.",
+      "ultimaVerificacao": "2026-09-26T17:59:17-03:00",
+      "observacoes": "Oferta desativada: o preço Pix da variante 220V subiu de R$ 2.105,19 para R$ 2.199,95 na Loja Oficial Brastemp.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
           "preco": 2105.19,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-09-26T17:59:17-03:00",
+          "preco": 2199.95,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 2105.19,
-      "precoMedioHistorico": 2105.19,
-      "scoreOferta": 64,
-      "classificacaoOferta": "Boa",
-      "variacaoPreco": null,
+      "precoMedioHistorico": 2152.57,
+      "scoreOferta": 55,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": 4.5,
       "ultimaQuedaPreco": null,
       "modelo": "BWT16A9",
       "modeloFabricante": "BWT16A9",
-      "produtoGrupo": "brastemp-bwt16a9-16kg-cinza-220v"
+      "produtoGrupo": "brastemp-bwt16a9-16kg-cinza-220v",
+      "precoPix": 2199.95,
+      "precoAvista": 2199.95,
+      "precoCartao": 2267.99,
+      "parcelas": 8,
+      "valorParcela": 283.49,
+      "condicaoPagamento": "R$ 2.199,95 no Pix ou R$ 2.267,99 em até 8x de R$ 283,49 sem juros.",
+      "estoqueStatus": "Disponível"
     },
     {
       "id": "electrolux-eaf31-airfryer-4l-220v",
@@ -4870,13 +4883,13 @@
       "valorParcela": 105.88,
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
-      "estoqueStatus": "Em estoque",
+      "estoqueStatus": "Disponível",
       "url": "https://www.kabum.com.br/produto/703111/ssd-adata-legend-860-500gb-m-2-2280-pcie-gen-4x4-nvme-leitura-6000mb-s-gravacao-5000mb-s-compativel-com-ps5-preto-sleg-860-500gcs",
-      "observacoes": "Preço, modelo e venda/entrega pela KaBuM! confirmados em 14/09/2026.",
+      "observacoes": "Preço Pix, parcelamento, modelo e venda/entrega pela KaBuM! confirmados em 26/09/2026. Frete e prazo dependem da consulta do CEP.",
       "imagem": "https://images.kabum.com.br/produtos/fotos/703111/ssd-adata-legend-860-500gb-m-2-2280-pcie-gen-4x4-nvme-leitura-6000mb-s-gravacao-5000mb-s-compativel-com-ps5-preto-sleg-860-500gcs_1742817337_m.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-09-26T17:59:17-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -4888,7 +4901,11 @@
       "menorPrecoHistorico": 899.99,
       "precoMedioHistorico": 899.99,
       "scoreOferta": 43,
-      "classificacaoOferta": "Interessante"
+      "classificacaoOferta": "Interessante",
+      "precoCartao": 1058.8,
+      "precoAvista": 899.99,
+      "condicaoPagamento": "R$ 899,99 à vista no Pix ou 10x de R$ 105,88 sem juros.",
+      "modeloFabricante": "SLEG-860-500GCS"
     },
     {
       "id": "carrefour-moto-g06-256-latte-337452195",
@@ -5816,6 +5833,20 @@
       "produto": "Faca de Legumes e Frutas Tramontina LYF 3 polegadas Verde Natureza",
       "id": "tramontina-faca-legumes-lyf-3-23113023",
       "detalhe": "Preço à vista de R$ 4,70, referência 23113023, disponibilidade e imagem oficial confirmados na Tramontina Store."
+    },
+    {
+      "data": "2026-09-26T17:59:17-03:00",
+      "tipo": "desativado",
+      "produto": "Máquina de Lavar Brastemp 16Kg Cinza Timer Pro BWT16A9",
+      "id": "brastemp-bwt16a9-16kg-220v",
+      "detalhe": "Oferta 220V desativada porque o preço Pix subiu de R$ 2.105,19 para R$ 2.199,95 na Loja Oficial Brastemp."
+    },
+    {
+      "data": "2026-09-26T17:59:17-03:00",
+      "tipo": "verificado",
+      "produto": "SSD Adata Legend 860 500GB M.2 PCIe 4.0 NVMe",
+      "id": "kabum-adata-legend860-500gb-703111",
+      "detalhe": "Preço Pix de R$ 899,99, parcelamento em 10x de R$ 105,88, modelo e venda/entrega pela KaBuM! confirmados."
     }
   ]
 }
