@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-26T17:59:17-03:00",
-  "total": 126,
+  "geradoEm": "2026-09-27T09:00:24-03:00",
+  "total": 125,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -740,13 +740,13 @@
       "nome": "Lavadora Midea Wave Agitator 13kg Branco 220V",
       "categoria": "Máquinas de lavar",
       "loja": "Webcontinental Marketplace no Magalu",
-      "precoAtual": 1727.9,
-      "precoAnterior": 1799.9,
-      "desconto": 4,
+      "precoAtual": 1859.91,
+      "precoAnterior": 1727.9,
+      "desconto": 7,
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/lavadora-midea-wave-agitator-13kg-branco-220v/p/jb8djafkka/ed/lava/",
       "imagem": "https://a-static.mlcdn.com.br/90x90/lavadora-midea-wave-agitator-13kg-branco-220v/lojawebcontinentalmarketplace/mkp002648006517/01e9098f84ecceba44055cd87324ba18.jpeg",
-      "observacoes": "Preço, disponibilidade e voltagem 220V verificados. Vendido e entregue por Webcontinental Marketplace.",
+      "observacoes": "Oferta desativada: o preço Pix da variante 220V subiu de R$ 1.727,90 para R$ 1.859,91. Vendido e entregue por Webcontinental Marketplace no Magalu.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -754,23 +754,36 @@
       "freteGratis": false,
       "cepFrete": "72620-405",
       "precoComFrete": null,
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-11T20:46:39.144Z",
+      "ultimaVerificacao": "2026-09-27T09:00:24-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
           "preco": 1727.9,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-09-27T09:00:24-03:00",
+          "preco": 1859.91,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 1727.9,
-      "precoMedioHistorico": 1727.9,
-      "scoreOferta": 40,
-      "classificacaoOferta": "Normal",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "precoMedioHistorico": 1793.91,
+      "scoreOferta": 42,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": 7.64,
+      "ultimaQuedaPreco": null,
+      "precoPix": 1859.91,
+      "precoAvista": 1859.91,
+      "precoCartao": 1999.9,
+      "parcelas": 10,
+      "valorParcela": 199.99,
+      "condicaoPagamento": "R$ 1.859,91 no Pix (7% de desconto) ou R$ 1.999,90 em até 10x de R$ 199,99 sem juros.",
+      "estoqueStatus": "Disponível"
     },
     {
       "id": "magalu-brastemp-bwf16ab-16kg-220v-ak4d73dhff",
@@ -2636,43 +2649,52 @@
       "nome": "Console PlayStation 5 Slim Digital 825GB com ASTRO BOT e Gran Turismo 7",
       "categoria": "Games",
       "loja": "Carrefour",
-      "seloLoja": "Vendido pelo Carrefour",
+      "seloLoja": "Vendido e entregue pelo Carrefour",
       "modelo": "PlayStation 5 Slim Digital 825GB",
       "produtoGrupo": "sony-ps5-slim-digital-825gb-astro-gt7",
-      "precoAtual": 4699.9,
-      "precoPix": 4699.9,
-      "precoAvista": 4699.9,
-      "precoCartao": 4699.9,
+      "precoAtual": 4299,
+      "precoPix": 4299,
+      "precoAvista": 4299,
+      "precoCartao": 4299,
       "parcelas": 12,
-      "valorParcela": 391.65,
-      "condicaoPagamento": "R$ 4.699,90 no Pix ou em até 12x de R$ 391,65 sem juros",
-      "desconto": 0,
+      "valorParcela": 358.25,
+      "condicaoPagamento": "R$ 4.299,00 à vista no Pix ou em até 12x de R$ 358,25 sem juros.",
+      "desconto": 6,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
       "cepFrete": "72620-405",
       "precoComFrete": null,
       "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
+      "estoqueStatus": "Disponível",
       "voltagem": "Bivolt",
       "url": "https://www.carrefour.com.br/produto/console-playstation-5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-336324399",
-      "observacoes": "Preço e venda/entrega pelo Carrefour confirmados em 13/09/2026. Pacote inclui ASTRO BOT e Gran Turismo 7.",
+      "observacoes": "Preço, pagamento, disponibilidade e venda/entrega pelo Carrefour confirmados em 27/09/2026. Pacote inclui ASTRO BOT e Gran Turismo 7; frete e prazo dependem da consulta do CEP.",
       "imagem": "https://carrefourbr.vtexassets.com/arquivos/ids/206809121/3997502_1.jpg?v=638991812904700000",
       "ativa": true,
       "dataEncontrada": "2026-09-13T21:06:03.280Z",
-      "ultimaVerificacao": "2026-09-13T21:06:03.280Z",
+      "ultimaVerificacao": "2026-09-27T09:00:24-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-13T21:06:03.280Z",
           "preco": 4699.9,
           "freteValor": 0,
           "precoComFrete": 0
+        },
+        {
+          "data": "2026-09-27T09:00:24-03:00",
+          "preco": 4299,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 4699.9,
-      "precoMedioHistorico": 4699.9,
-      "scoreOferta": 48,
-      "classificacaoOferta": "Interessante"
+      "menorPrecoHistorico": 4299,
+      "precoMedioHistorico": 4499.45,
+      "scoreOferta": 72,
+      "classificacaoOferta": "Boa",
+      "precoAnterior": 4699.9,
+      "variacaoPreco": -8.53,
+      "ultimaQuedaPreco": "2026-09-27T09:00:24-03:00"
     },
     {
       "id": "carrefour-ps5-slim-disk-astro-gt7",
@@ -5847,6 +5869,20 @@
       "produto": "SSD Adata Legend 860 500GB M.2 PCIe 4.0 NVMe",
       "id": "kabum-adata-legend860-500gb-703111",
       "detalhe": "Preço Pix de R$ 899,99, parcelamento em 10x de R$ 105,88, modelo e venda/entrega pela KaBuM! confirmados."
+    },
+    {
+      "data": "2026-09-27T09:00:24-03:00",
+      "tipo": "queda",
+      "produto": "Console PlayStation 5 Slim Digital 825GB com ASTRO BOT e Gran Turismo 7",
+      "id": "carrefour-ps5-slim-digital-astro-gt7-825",
+      "detalhe": "Preço caiu de R$ 4.699,90 para R$ 4.299,00 no Carrefour; pagamento e disponibilidade confirmados."
+    },
+    {
+      "data": "2026-09-27T09:00:24-03:00",
+      "tipo": "desativado",
+      "produto": "Lavadora Midea Wave Agitator 13kg Branco 220V",
+      "id": "magalu-midea-wave-13kg-220v-jb8djafkka",
+      "detalhe": "Oferta 220V desativada porque o preço Pix subiu de R$ 1.727,90 para R$ 1.859,91 no Magalu."
     }
   ]
 }
