@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-27T09:00:24-03:00",
+  "geradoEm": "2026-09-27T17:57:47-03:00",
   "total": 125,
   "ofertas": [
     {
@@ -796,7 +796,7 @@
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/maquina-de-lavar-roupas-brastemp-16kg-bwf16ab-branca-220-volts/p/ak4d73dhff/ed/lava/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/maquina-de-lavar-roupas-brastemp-16kg-bwf16ab-branca-220-volts/lojastaqi/100082852/bc92228cf77c0e84d091e5dfba7d554f.jpg",
-      "observacoes": "Preço, disponibilidade e voltagem 220V verificados. Vendido e entregue por Lojas TaQi.",
+      "observacoes": "Preço, pagamento, disponibilidade, modelo BWF16AB/BWF16ABBNA e voltagem 220V confirmados em 27/09/2026. Vendido e entregue por Lojas TaQi no Magalu; frete e prazo dependem da consulta do CEP.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -806,7 +806,7 @@
       "precoComFrete": null,
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-11T20:46:39.144Z",
+      "ultimaVerificacao": "2026-09-27T17:57:47-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
@@ -822,8 +822,15 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "modelo": "BWF16AB",
-      "modeloFabricante": "BWF16AB",
-      "produtoGrupo": "brastemp-bwf16ab-16kg-branca-220v"
+      "modeloFabricante": "BWF16ABBNA",
+      "produtoGrupo": "brastemp-bwf16ab-bwf16abbna-16kg-branca-220v",
+      "precoPix": 2436.66,
+      "precoAvista": 2436.66,
+      "precoCartao": 2564.9,
+      "parcelas": 10,
+      "valorParcela": 256.49,
+      "condicaoPagamento": "R$ 2.436,66 no Pix (5% OFF) ou R$ 2.564,90 em até 10x de R$ 256,49 sem juros.",
+      "estoqueStatus": "Disponível"
     },
     {
       "id": "magalu-mueller-family-aquatec-12kg-220v-khkb67e324",
@@ -2701,16 +2708,16 @@
       "nome": "Console PlayStation 5 Slim com Leitor, ASTRO BOT e Gran Turismo 7",
       "categoria": "Games",
       "loja": "Carrefour",
-      "seloLoja": "Vendido pelo Carrefour",
-      "modelo": "PlayStation 5 Slim Disk",
-      "produtoGrupo": "sony-ps5-slim-disk-astro-gt7",
+      "seloLoja": "Vendido e entregue pelo Carrefour",
+      "modelo": "PlayStation 5 Slim Disk 1TB",
+      "produtoGrupo": "sony-ps5-slim-disk-1tb-astro-gt7",
       "precoAtual": 5199.9,
       "precoPix": 5199.9,
       "precoAvista": 5199.9,
       "precoCartao": 5199.9,
       "parcelas": 12,
       "valorParcela": 433.32,
-      "condicaoPagamento": "R$ 5.199,90 no Pix ou em até 12x de R$ 433,32 sem juros",
+      "condicaoPagamento": "R$ 5.199,90 à vista no Pix ou em até 12x de R$ 433,32 sem juros.",
       "desconto": 0,
       "frete": "Consulte na loja",
       "freteValor": null,
@@ -2718,14 +2725,14 @@
       "cepFrete": "72620-405",
       "precoComFrete": null,
       "prazoEntrega": null,
-      "estoqueStatus": "Em estoque",
+      "estoqueStatus": "Disponível",
       "voltagem": "Bivolt",
       "url": "https://www.carrefour.com.br/produto/console-playstation-5-slim-disk-pacote-astro-bot-e-gran-turismo-7-336324400",
-      "observacoes": "Preço e venda/entrega pelo Carrefour confirmados em 13/09/2026.",
+      "observacoes": "Preço, pagamento, disponibilidade, armazenamento de 1TB e venda/entrega pelo Carrefour confirmados em 27/09/2026. Frete e prazo dependem da consulta do CEP.",
       "imagem": "https://carrefourbr.vtexassets.com/arquivos/ids/201583605/3998088_1.jpg?v=638935451757170000",
       "ativa": true,
       "dataEncontrada": "2026-09-13T21:06:03.280Z",
-      "ultimaVerificacao": "2026-09-13T21:06:03.280Z",
+      "ultimaVerificacao": "2026-09-27T17:57:47-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-13T21:06:03.280Z",
@@ -2737,7 +2744,8 @@
       "menorPrecoHistorico": 5199.9,
       "precoMedioHistorico": 5199.9,
       "scoreOferta": 48,
-      "classificacaoOferta": "Interessante"
+      "classificacaoOferta": "Interessante",
+      "modeloFabricante": "PlayStation 5 Slim Disk 1TB"
     },
     {
       "id": "electrolux-eaf20-airfryer-32l-220v",
@@ -5883,6 +5891,20 @@
       "produto": "Lavadora Midea Wave Agitator 13kg Branco 220V",
       "id": "magalu-midea-wave-13kg-220v-jb8djafkka",
       "detalhe": "Oferta 220V desativada porque o preço Pix subiu de R$ 1.727,90 para R$ 1.859,91 no Magalu."
+    },
+    {
+      "data": "2026-09-27T17:57:47-03:00",
+      "tipo": "verificado",
+      "produto": "Console PlayStation 5 Slim com Leitor, ASTRO BOT e Gran Turismo 7",
+      "id": "carrefour-ps5-slim-disk-astro-gt7",
+      "detalhe": "Preço de R$ 5.199,90, parcelamento em 12x, armazenamento de 1TB e venda/entrega pelo Carrefour confirmados."
+    },
+    {
+      "data": "2026-09-27T17:57:47-03:00",
+      "tipo": "verificado",
+      "produto": "Máquina de Lavar Brastemp 16Kg BWF16AB Branca 220V",
+      "id": "magalu-brastemp-bwf16ab-16kg-220v-ak4d73dhff",
+      "detalhe": "Preço Pix de R$ 2.436,66, cartão de R$ 2.564,90 em 10x, modelo e variante 220V confirmados no Magalu."
     }
   ]
 }
