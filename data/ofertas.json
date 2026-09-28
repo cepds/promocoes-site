@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-09-27T17:57:47-03:00",
-  "total": 125,
+  "geradoEm": "2026-09-28T09:02:56-03:00",
+  "total": 126,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -380,6 +380,51 @@
       "modelo": "PTV40M9GR2CGB",
       "modeloFabricante": "PTV40M9GR2CGB",
       "produtoGrupo": "philco-ptv40m9gr2cgb-40-bivolt"
+    },
+    {
+      "id": "philco-oficial-ptv40m9gr2cgb",
+      "nome": "Smart TV 40” Philco LED Roku PTV40M9GR2CGB",
+      "categoria": "TVs",
+      "loja": "Loja Oficial Philco",
+      "seloLoja": "Loja Oficial",
+      "modelo": "PTV40M9GR2CGB",
+      "modeloFabricante": "PTV40M9GR2CGB",
+      "produtoGrupo": "philco-ptv40m9gr2cgb-40-bivolt",
+      "precoAtual": 1499.9,
+      "precoAnterior": 2409.9,
+      "precoCartao": 1499.9,
+      "parcelas": 10,
+      "valorParcela": 149.99,
+      "condicaoPagamento": "10x de R$ 149,99 sem juros",
+      "desconto": 38,
+      "frete": "",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "voltagem": "Bivolt",
+      "url": "https://www.philco.com.br/smart-tv-40-philco-led-roku-ptv40m9gr2cgb/p",
+      "imagem": "https://philco.vtexassets.com/arquivos/ids/281973-150-auto?aspect=true&height=auto&v=639120336918200000&width=150",
+      "ativa": true,
+      "dataEncontrada": "2026-09-28T09:02:56-03:00",
+      "ultimaVerificacao": "2026-09-28T09:02:56-03:00",
+      "observacoes": "Preço e parcelamento exibidos na Loja Oficial Philco. Frete e prazo dependem da consulta do CEP e não foram confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-09-28T09:02:56-03:00",
+          "preco": 1499.9,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 1499.9,
+      "precoMedioHistorico": 1499.9,
+      "scoreOferta": 68,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     },
     {
       "id": "magalu-lg-gbb472-476",
@@ -5905,6 +5950,13 @@
       "produto": "Máquina de Lavar Brastemp 16Kg BWF16AB Branca 220V",
       "id": "magalu-brastemp-bwf16ab-16kg-220v-ak4d73dhff",
       "detalhe": "Preço Pix de R$ 2.436,66, cartão de R$ 2.564,90 em 10x, modelo e variante 220V confirmados no Magalu."
+    },
+    {
+      "data": "2026-09-28T09:02:56-03:00",
+      "tipo": "adicionado",
+      "produto": "Smart TV 40” Philco LED Roku PTV40M9GR2CGB",
+      "id": "philco-oficial-ptv40m9gr2cgb",
+      "detalhe": "Nova opção na Loja Oficial Philco por R$ 1.499,90, em 10x sem juros; modelo PTV40M9GR2CGB e bivolt confirmados."
     }
   ]
 }
