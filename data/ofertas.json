@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-29T09:02:19-03:00",
+  "geradoEm": "2026-09-29T18:05:33-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -1805,7 +1805,7 @@
       "seloLoja": "Loja Oficial",
       "precoAtual": 239,
       "precoAnterior": 572,
-      "desconto": 56,
+      "desconto": 53,
       "cupom": "Cupom disponível",
       "cashback": "Não informado",
       "frete": "Frete grátis",
@@ -1816,11 +1816,11 @@
       "voltagem": null,
       "url": "https://www.tramontina.com.br/jogo-de-panelas-tramontina-ravena-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-5-pecas/27899286.html",
       "imagem": "https://precolandia.vtexassets.com/arquivos/ids/243112/Jogo-de-Panelas-5-Pecas-com-Tampa-De-Vidro-Ravena-Azul-Tramontina-precolandia-089672-1d.jpg?v=638472412754600000",
-      "observacoes": "Preço à vista, desconto, disponibilidade e referência 27899286 confirmados na Tramontina Store em 11/09/2026. Frete grátis anunciado pela loja; imagem corresponde ao conjunto Ravena.",
+      "observacoes": "Preço de R$ 239,00 à vista, cartão em até 5x sem juros, desconto de 53%, referência 27899286 e disponibilidade confirmados na Tramontina Store. Frete grátis anunciado pela loja; prazo para o CEP não confirmado.",
       "scoreOferta": 92,
       "ativa": true,
       "dataEncontrada": "2026-09-11T21:04:23.879Z",
-      "ultimaVerificacao": "2026-09-11T21:04:23.879Z",
+      "ultimaVerificacao": "2026-09-29T18:05:33-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T21:04:23.879Z",
@@ -1833,7 +1833,16 @@
       "precoMedioHistorico": 239,
       "classificacaoOferta": "Excelente",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "ultimaQuedaPreco": null,
+      "precoAvista": 239,
+      "precoCartao": 251.58,
+      "parcelas": 5,
+      "valorParcela": 50.32,
+      "condicaoPagamento": "R$ 239,00 à vista ou 5x de R$ 50,32 sem juros (total R$ 251,58)",
+      "estoqueStatus": "Disponível para compra",
+      "modelo": "27899286",
+      "modeloFabricante": "27899286",
+      "produtoGrupo": "tramontina-27899286-ravena-5p"
     },
     {
       "id": "brastemp-brm52mk-415l-inox-220v",
@@ -5964,6 +5973,13 @@
       "produto": "Smart TV 40” Philco LED Roku PTV40M9GR2CGB",
       "id": "philco-oficial-ptv40m9gr2cgb",
       "detalhe": "Preço de R$ 1.499,90, 10x de R$ 149,99 sem juros, modelo PTV40M9GR2CGB, bivolt e disponibilidade para compra confirmados na Loja Oficial Philco."
+    },
+    {
+      "data": "2026-09-29T18:05:33-03:00",
+      "tipo": "verificado",
+      "produto": "Jogo de Panelas Tramontina Ravena Starflon Max 5 Peças",
+      "id": "tramontina-ravena-5p-27899286-oficial",
+      "detalhe": "Preço à vista de R$ 239,00 e cartão em 5x de R$ 50,32 sem juros confirmados; oferta permanece disponível na Tramontina Store."
     }
   ]
 }
