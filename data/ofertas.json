@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-28T09:02:56-03:00",
+  "geradoEm": "2026-09-29T09:02:19-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -409,8 +409,8 @@
       "imagem": "https://philco.vtexassets.com/arquivos/ids/281973-150-auto?aspect=true&height=auto&v=639120336918200000&width=150",
       "ativa": true,
       "dataEncontrada": "2026-09-28T09:02:56-03:00",
-      "ultimaVerificacao": "2026-09-28T09:02:56-03:00",
-      "observacoes": "Preço e parcelamento exibidos na Loja Oficial Philco. Frete e prazo dependem da consulta do CEP e não foram confirmados.",
+      "ultimaVerificacao": "2026-09-29T09:02:19-03:00",
+      "observacoes": "Preço de R$ 1.499,90 e parcelamento em 10x de R$ 149,99 sem juros confirmados na Loja Oficial Philco. A página anuncia 5% no Pix, mas o valor final depende da aplicação no pagamento. Frete e prazo dependem da consulta do CEP e não foram confirmados.",
       "historicoPrecos": [
         {
           "data": "2026-09-28T09:02:56-03:00",
@@ -5957,6 +5957,13 @@
       "produto": "Smart TV 40” Philco LED Roku PTV40M9GR2CGB",
       "id": "philco-oficial-ptv40m9gr2cgb",
       "detalhe": "Nova opção na Loja Oficial Philco por R$ 1.499,90, em 10x sem juros; modelo PTV40M9GR2CGB e bivolt confirmados."
+    },
+    {
+      "data": "2026-09-29T09:02:19-03:00",
+      "tipo": "verificado",
+      "produto": "Smart TV 40” Philco LED Roku PTV40M9GR2CGB",
+      "id": "philco-oficial-ptv40m9gr2cgb",
+      "detalhe": "Preço de R$ 1.499,90, 10x de R$ 149,99 sem juros, modelo PTV40M9GR2CGB, bivolt e disponibilidade para compra confirmados na Loja Oficial Philco."
     }
   ]
 }
