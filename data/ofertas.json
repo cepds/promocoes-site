@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-29T18:05:33-03:00",
+  "geradoEm": "2026-09-30T09:01:58-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -3648,11 +3648,11 @@
       "freteGratis": true,
       "cepFrete": "72620-405",
       "url": "https://www.tramontina.com.br/panela-de-pressao-tramontina-solar-em-aco-inox-fundo-triplo-com-5-dispositivos-de-seguranca-22-cm-6-l/62516223.html",
-      "observacoes": "Preço e condição de pagamento confirmados na Loja Oficial Tramontina em 14/09/2026.",
+      "observacoes": "Preço de R$ 759,05 à vista, cartão de R$ 799,00 em até 10x de R$ 79,90 sem juros, referência 62516223 e disponibilidade confirmados na Loja Oficial Tramontina. Frete grátis anunciado pela loja; prazo para o CEP não confirmado.",
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62516223PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-09-30T09:01:58-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -3664,7 +3664,10 @@
       "menorPrecoHistorico": 759.05,
       "precoMedioHistorico": 759.05,
       "scoreOferta": 60,
-      "classificacaoOferta": "Boa"
+      "classificacaoOferta": "Boa",
+      "modeloFabricante": "62516223",
+      "produtoGrupo": "tramontina-62516223-solar-pressao-6l",
+      "estoqueStatus": "Disponível para compra"
     },
     {
       "id": "tramontina-solar-pressao-3l-62511223",
@@ -5980,6 +5983,13 @@
       "produto": "Jogo de Panelas Tramontina Ravena Starflon Max 5 Peças",
       "id": "tramontina-ravena-5p-27899286-oficial",
       "detalhe": "Preço à vista de R$ 239,00 e cartão em 5x de R$ 50,32 sem juros confirmados; oferta permanece disponível na Tramontina Store."
+    },
+    {
+      "data": "2026-09-30T09:01:58-03:00",
+      "tipo": "verificado",
+      "produto": "Panela de Pressão Tramontina Solar Aço Inox Fundo Triplo 6L",
+      "id": "tramontina-solar-pressao-6l-62516223",
+      "detalhe": "Preço à vista de R$ 759,05, cartão de R$ 799,00 em 10x sem juros e disponibilidade confirmados na Tramontina Store."
     }
   ]
 }
