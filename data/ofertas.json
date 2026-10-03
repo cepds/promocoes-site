@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-03T08:57:44-03:00",
+  "geradoEm": "2026-10-03T18:04:13-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -3802,27 +3802,39 @@
       "precoCartao": 811,
       "parcelas": 10,
       "valorParcela": 81.1,
-      "condicaoPagamento": "R$ 770,45 à vista; R$ 811,00 em até 10x de R$ 81,10 sem juros",
-      "frete": "Consulte na loja",
+      "condicaoPagamento": "R$ 770,45 à vista (5% OFF) ou R$ 811,00 em até 10x de R$ 81,10 sem juros",
+      "frete": "Frete grátis",
       "cepFrete": "72620-405",
       "url": "https://www.tramontina.com.br/jogo-de-panelas-tramontina-loreto-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-com-cabos-e-alcas-grafite-7-pecas/20399083.html",
-      "observacoes": "Preço e parcelamento confirmados na Loja Oficial Tramontina em 14/09/2026.",
+      "observacoes": "Preço à vista de R$ 770,45, cartão de R$ 811,00 em 10x de R$ 81,10 sem juros, referência 20399083, frete grátis e disponibilidade confirmados na Loja Oficial Tramontina em 03/10/2026.",
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399083PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-10-03T18:04:13-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
           "preco": 770.45,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-03T18:04:13-03:00",
+          "preco": 770.45,
+          "freteValor": 0,
+          "precoComFrete": 770.45
         }
       ],
       "menorPrecoHistorico": 770.45,
       "precoMedioHistorico": 770.45,
       "scoreOferta": 43,
-      "classificacaoOferta": "Interessante"
+      "classificacaoOferta": "Interessante",
+      "modeloFabricante": "20399083",
+      "produtoGrupo": "tramontina-20399083-loreto-7p-grafite",
+      "freteValor": 0,
+      "freteGratis": true,
+      "precoComFrete": 770.45,
+      "estoqueStatus": "Disponível para compra"
     },
     {
       "id": "tramontina-kit-lyf-25p-28399205",
@@ -6021,6 +6033,13 @@
       "produto": "Panela de Pressão Tramontina Brava Aço Inox Fundo Triplo 4,5L",
       "id": "tramontina-brava-pressao-45l-62416200",
       "detalhe": "Preço à vista de R$ 521,55, cartão de R$ 549,00 em 10x de R$ 54,90 sem juros, referência 62416200, frete grátis e disponibilidade confirmados na Tramontina Store."
+    },
+    {
+      "data": "2026-10-03T18:04:13-03:00",
+      "tipo": "verificado",
+      "produto": "Jogo de Panelas Tramontina Loreto Starflon Max Grafite 7 Peças",
+      "id": "tramontina-loreto-panelas-7p-20399083",
+      "detalhe": "Preço à vista de R$ 770,45, cartão de R$ 811,00 em 10x de R$ 81,10 sem juros, referência 20399083, frete grátis e disponibilidade confirmados na Tramontina Store."
     }
   ]
 }
