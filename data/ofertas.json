@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-01T09:01:45-03:00",
+  "geradoEm": "2026-10-03T08:57:44-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -3763,16 +3763,16 @@
       "desconto": 5,
       "parcelas": 10,
       "valorParcela": 54.9,
-      "condicaoPagamento": "R$ 521,55 à vista; R$ 549,00 em até 10x de R$ 54,90 sem juros",
+      "condicaoPagamento": "R$ 521,55 à vista (5% OFF) ou R$ 549,00 em até 10x de R$ 54,90 sem juros",
       "frete": "Frete grátis",
       "freteGratis": true,
       "cepFrete": "72620-405",
       "url": "https://www.tramontina.com.br/panela-de-pressao-tramontina-brava-em-aco-inox-com-fundo-triplo-20-cm-4-5-l/62416200.html",
-      "observacoes": "Preço, parcelamento e disponibilidade confirmados na Loja Oficial Tramontina em 14/09/2026.",
+      "observacoes": "Preço à vista de R$ 521,55, cartão de R$ 549,00 em 10x de R$ 54,90 sem juros, referência 62416200, frete grátis e disponibilidade confirmados na Loja Oficial Tramontina em 03/10/2026.",
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62416200PDM002G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-10-03T08:57:44-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -3784,7 +3784,10 @@
       "menorPrecoHistorico": 521.55,
       "precoMedioHistorico": 521.55,
       "scoreOferta": 60,
-      "classificacaoOferta": "Boa"
+      "classificacaoOferta": "Boa",
+      "modeloFabricante": "62416200",
+      "produtoGrupo": "tramontina-62416200-brava-pressao-45l",
+      "estoqueStatus": "Disponível para compra"
     },
     {
       "id": "tramontina-loreto-panelas-7p-20399083",
@@ -6011,6 +6014,13 @@
       "produto": "Panela de Pressão Tramontina Solar Aço Inox Fundo Triplo 4,5L",
       "id": "tramontina-solar-pressao-45l-62513223",
       "detalhe": "Preço à vista de R$ 664,05, cartão de R$ 699,00 em 10x de R$ 69,90 sem juros, referência 62513223 e disponibilidade confirmados na Tramontina Store."
+    },
+    {
+      "data": "2026-10-03T08:57:44-03:00",
+      "tipo": "verificado",
+      "produto": "Panela de Pressão Tramontina Brava Aço Inox Fundo Triplo 4,5L",
+      "id": "tramontina-brava-pressao-45l-62416200",
+      "detalhe": "Preço à vista de R$ 521,55, cartão de R$ 549,00 em 10x de R$ 54,90 sem juros, referência 62416200, frete grátis e disponibilidade confirmados na Tramontina Store."
     }
   ]
 }
