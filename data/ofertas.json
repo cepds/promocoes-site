@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-03T18:04:13-03:00",
+  "geradoEm": "2026-10-04T08:57:46-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -4595,11 +4595,11 @@
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
       "url": "https://www.tramontina.com.br/chave-combinada-11-mm-tramontina-basic-com-corpo-em-aco-especial-cromado/41128111.html",
-      "observacoes": "Preço confirmado na Loja Oficial Tramontina em 14/09/2026.",
+      "observacoes": "Preço à vista de R$ 16,15, referência 41128111 e disponibilidade confirmados na Loja Oficial Tramontina em 04/10/2026. Frete depende de consulta para o CEP.",
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/41128111PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-10-04T08:57:46-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -4611,7 +4611,14 @@
       "menorPrecoHistorico": 16.15,
       "precoMedioHistorico": 16.15,
       "scoreOferta": 48,
-      "classificacaoOferta": "Interessante"
+      "classificacaoOferta": "Interessante",
+      "modeloFabricante": "41128111",
+      "produtoGrupo": "tramontina-41128111-chave-combinada-11mm",
+      "precoAvista": 16.15,
+      "parcelas": 1,
+      "valorParcela": 16.15,
+      "condicaoPagamento": "R$ 16,15 à vista (5% OFF à vista)",
+      "estoqueStatus": "Disponível para compra"
     },
     {
       "id": "tramontina-chave-combinada-9-41128109",
@@ -6040,6 +6047,13 @@
       "produto": "Jogo de Panelas Tramontina Loreto Starflon Max Grafite 7 Peças",
       "id": "tramontina-loreto-panelas-7p-20399083",
       "detalhe": "Preço à vista de R$ 770,45, cartão de R$ 811,00 em 10x de R$ 81,10 sem juros, referência 20399083, frete grátis e disponibilidade confirmados na Tramontina Store."
+    },
+    {
+      "data": "2026-10-04T08:57:46-03:00",
+      "tipo": "verificado",
+      "produto": "Chave Combinada 11 mm Tramontina Basic Aço Cromado",
+      "id": "tramontina-chave-combinada-11-41128111",
+      "detalhe": "Preço à vista de R$ 16,15, referência 41128111 e disponibilidade confirmados na Tramontina Store; frete permanece sujeito a consulta."
     }
   ]
 }
