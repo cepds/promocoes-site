@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-04T08:57:46-03:00",
+  "geradoEm": "2026-10-04T17:58:18-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -4633,11 +4633,11 @@
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
       "url": "https://www.tramontina.com.br/chave-combinada-9-mm-tramontina-basic-com-corpo-em-aco-especial-cromado/41128109.html",
-      "observacoes": "Preço confirmado na Loja Oficial Tramontina em 14/09/2026.",
+      "observacoes": "Preço à vista de R$ 15,25, referência 41128109 e disponibilidade confirmados na Loja Oficial Tramontina em 04/10/2026. Frete depende de consulta para o CEP.",
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/41128109PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-10-04T17:58:18-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -4649,7 +4649,14 @@
       "menorPrecoHistorico": 15.25,
       "precoMedioHistorico": 15.25,
       "scoreOferta": 48,
-      "classificacaoOferta": "Interessante"
+      "classificacaoOferta": "Interessante",
+      "modeloFabricante": "41128109",
+      "produtoGrupo": "tramontina-41128109-chave-combinada-9mm",
+      "precoAvista": 15.25,
+      "parcelas": 1,
+      "valorParcela": 15.25,
+      "condicaoPagamento": "R$ 15,25 à vista (5% OFF à vista)",
+      "estoqueStatus": "Disponível para compra"
     },
     {
       "id": "tramontina-serra-marmore-1350w-220-42510021",
@@ -6054,6 +6061,12 @@
       "produto": "Chave Combinada 11 mm Tramontina Basic Aço Cromado",
       "id": "tramontina-chave-combinada-11-41128111",
       "detalhe": "Preço à vista de R$ 16,15, referência 41128111 e disponibilidade confirmados na Tramontina Store; frete permanece sujeito a consulta."
+    },
+    {
+      "data": "2026-10-04T17:58:18-03:00",
+      "tipo": "verificado",
+      "ofertaId": "tramontina-chave-combinada-9-41128109",
+      "detalhes": "Preço à vista de R$ 15,25, referência 41128109 e disponibilidade confirmados na Loja Oficial Tramontina; frete sujeito a consulta para o CEP."
     }
   ]
 }
