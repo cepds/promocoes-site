@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-04T17:58:18-03:00",
+  "geradoEm": "2026-10-05T09:05:13-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -431,16 +431,15 @@
       "nome": "Geladeira LG Frost Free 2 Portas 476L GB-B472PFSF Bivolt",
       "categoria": "Geladeiras",
       "loja": "Magazine Luiza",
-      "precoAtual": 4199,
-      "precoAnterior": 4420,
+      "precoAtual": 3989.05,
+      "precoAnterior": 4199,
       "desconto": 5,
       "url": "https://www.magazineluiza.com.br/geladeira-refrigerador-lg-frost-free-2-portas-476l-gb-b472pfsf-bivolt/p/242184700/ed/ref2/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/geladeira-refrigerador-lg-frost-free-2-portas-476l-gb-b472pfsf-bivolt/magazineluiza/242184700/ec53d0ff0981bc510c6bf04ee4953dfc.jpg",
       "ativa": true,
       "voltagem": "Bivolt",
       "dataEncontrada": "2026-09-11T19:30:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
-      "cupom": "R$ 250 OFF",
+      "ultimaVerificacao": "2026-10-05T09:05:13-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -449,17 +448,32 @@
           "preco": 4199,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-05T09:05:13-03:00",
+          "preco": 3989.05,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 4199,
-      "precoMedioHistorico": 4199,
-      "scoreOferta": 40,
-      "classificacaoOferta": "Normal",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
+      "menorPrecoHistorico": 3989.05,
+      "precoMedioHistorico": 4094.03,
+      "scoreOferta": 76,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": -5,
+      "ultimaQuedaPreco": "2026-10-05T09:05:13-03:00",
       "modelo": "GB-B472PFSF",
       "modeloFabricante": "GB-B472PFSF",
-      "produtoGrupo": "lg-gb-b472pfsf-476l-bivolt"
+      "produtoGrupo": "lg-gb-b472pfsf-476l-bivolt",
+      "precoPix": 3989.05,
+      "precoAvista": 3989.05,
+      "precoCartao": 4199,
+      "parcelas": 10,
+      "valorParcela": 419.9,
+      "condicaoPagamento": "R$ 3.989,05 no Pix (5% OFF) ou R$ 4.199,00 em até 10x de R$ 419,90 sem juros no cartão de crédito",
+      "seloLoja": "Vendido e entregue por Magalu",
+      "estoqueStatus": "Disponível para compra",
+      "observacoes": "Preço de R$ 3.989,05 no Pix e R$ 4.199,00 em até 10x sem juros, venda e entrega pelo Magalu, modelo GB-B472PFSF e voltagem Bivolt confirmados em 05/10/2026. Frete e prazo dependem de consulta para o CEP."
     },
     {
       "id": "norotech-parafusadeira-48v",
@@ -6067,6 +6081,12 @@
       "tipo": "verificado",
       "ofertaId": "tramontina-chave-combinada-9-41128109",
       "detalhes": "Preço à vista de R$ 15,25, referência 41128109 e disponibilidade confirmados na Loja Oficial Tramontina; frete sujeito a consulta para o CEP."
+    },
+    {
+      "data": "2026-10-05T09:05:13-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "magalu-lg-gbb472-476",
+      "detalhes": "Geladeira LG GB-B472PFSF caiu de R$ 4.199,00 para R$ 3.989,05 no Pix; cartão R$ 4.199,00 em até 10x sem juros, vendido e entregue pelo Magalu."
     }
   ]
 }
