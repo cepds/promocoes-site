@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-05T09:05:13-03:00",
+  "geradoEm": "2026-10-05T18:01:05-03:00",
   "total": 126,
   "ofertas": [
     {
@@ -579,16 +579,15 @@
       "nome": "PlayStation 5 Slim Disk 1TB 1 Controle Branco Sony",
       "categoria": "Games",
       "loja": "Magazine Luiza",
-      "precoAtual": 4783.08,
-      "precoAnterior": 5199,
+      "precoAtual": 4691.08,
+      "precoAnterior": 4783.08,
       "desconto": 8,
       "url": "https://www.magazineluiza.com.br/playstation-5-slim-disk-1tb-1-controle-branco-sony/p/240609000/ga/gap5/?seller_id=magazineluiza",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/playstation-5-slim-disk-1tb-1-controle-branco-sony/magazineluiza/240609000/d5d03fa3275793bec8a46b22fb8bf935.jpg",
       "ativa": true,
       "voltagem": "Bivolt",
       "dataEncontrada": "2026-09-11T19:30:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
-      "cupom": "R$ 250 OFF",
+      "ultimaVerificacao": "2026-10-05T18:01:05-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -597,14 +596,32 @@
           "preco": 4783.08,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-05T18:01:05-03:00",
+          "preco": 4691.08,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 4783.08,
-      "precoMedioHistorico": 4783.08,
-      "scoreOferta": 43,
-      "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "menorPrecoHistorico": 4691.08,
+      "precoMedioHistorico": 4737.08,
+      "scoreOferta": 78,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": -1.92,
+      "ultimaQuedaPreco": "2026-10-05T18:01:05-03:00",
+      "seloLoja": "Vendido e entregue por Magalu",
+      "modelo": "PS5 Slim CFI 2114A",
+      "modeloFabricante": "CFI-2114A",
+      "produtoGrupo": "sony-ps5-slim-cfi-2114a-disk-1tb",
+      "precoPix": 4691.08,
+      "precoAvista": 4691.08,
+      "precoCartao": 5099,
+      "parcelas": 10,
+      "valorParcela": 509.9,
+      "condicaoPagamento": "R$ 4.691,08 no Pix (8% OFF) ou R$ 5.099,00 em até 10x de R$ 509,90 sem juros no cartão de crédito",
+      "estoqueStatus": "Disponível para compra",
+      "observacoes": "Preço de R$ 4.691,08 no Pix e R$ 5.099,00 em até 10x sem juros, modelo PS5 Slim CFI 2114A, voltagem Bivolt e venda/entrega pelo Magalu confirmados em 05/10/2026. Frete e prazo dependem de consulta para o CEP."
     },
     {
       "id": "magalu-tcl-55c6k",
@@ -6087,6 +6104,12 @@
       "tipo": "queda_preco",
       "ofertaId": "magalu-lg-gbb472-476",
       "detalhes": "Geladeira LG GB-B472PFSF caiu de R$ 4.199,00 para R$ 3.989,05 no Pix; cartão R$ 4.199,00 em até 10x sem juros, vendido e entregue pelo Magalu."
+    },
+    {
+      "data": "2026-10-05T18:01:05-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "ps5-slim-disk-1tb",
+      "detalhes": "PS5 Slim CFI 2114A caiu de R$ 4.783,08 para R$ 4.691,08 no Pix; cartão R$ 5.099,00 em até 10x sem juros, vendido e entregue pelo Magalu."
     }
   ]
 }
