@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-06T18:03:20-03:00",
+  "geradoEm": "2026-10-07T09:05:31-03:00",
   "total": 125,
   "ofertas": [
     {
@@ -351,15 +351,15 @@
       "nome": "Smart TV 40” Philco LED Roku PTV40M9GR2CGB",
       "categoria": "TVs",
       "loja": "Philco Oficial no Magalu",
-      "precoAtual": 1394.91,
-      "precoAnterior": 1499.9,
-      "desconto": 7,
+      "precoAtual": 1282.41,
+      "precoAnterior": 1394.91,
+      "desconto": 5,
       "url": "https://www.magazineluiza.com.br/smart-tv-40-philco-led-roku-ptv40m9gr2cgb/p/ba8f693c0g/et/tves/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/smart-tv-40-philco-led-roku-ptv40m9gr2cgb/philcooficial/24290/a54e62f849c6d7d9f82a8f7c254bb8a2.jpeg",
       "ativa": true,
       "voltagem": "Bivolt",
       "dataEncontrada": "2026-09-11T19:30:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
+      "ultimaVerificacao": "2026-10-07T09:05:31-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -368,18 +368,32 @@
           "preco": 1394.91,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-07T09:05:31-03:00",
+          "preco": 1282.41,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 1394.91,
-      "precoMedioHistorico": 1394.91,
+      "menorPrecoHistorico": 1282.41,
+      "precoMedioHistorico": 1338.66,
       "seloLoja": "Loja Oficial",
-      "scoreOferta": 47,
-      "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
+      "scoreOferta": 82,
+      "classificacaoOferta": "Excelente",
+      "variacaoPreco": -8.07,
+      "ultimaQuedaPreco": "2026-10-07T09:05:31-03:00",
       "modelo": "PTV40M9GR2CGB",
       "modeloFabricante": "PTV40M9GR2CGB",
-      "produtoGrupo": "philco-ptv40m9gr2cgb-40-bivolt"
+      "produtoGrupo": "philco-ptv40m9gr2cgb-40-bivolt",
+      "precoPix": 1282.41,
+      "precoAvista": 1282.41,
+      "precoCartao": 1349.9,
+      "parcelas": 7,
+      "valorParcela": 192.84,
+      "condicaoPagamento": "R$ 1.282,41 no Pix (5% OFF) ou R$ 1.349,90 em até 7x de R$ 192,84 sem juros no cartão de crédito",
+      "estoqueStatus": "Disponível para compra",
+      "observacoes": "Preço de R$ 1.282,41 no Pix e R$ 1.349,90 em até 7x sem juros, venda e entrega pela Philco Oficial, modelo PTV40M9GR2CGB e voltagem Bivolt confirmados em 07/10/2026. Frete e prazo dependem de consulta para o CEP."
     },
     {
       "id": "philco-oficial-ptv40m9gr2cgb",
@@ -6144,6 +6158,12 @@
       "tipo": "inativado",
       "ofertaId": "magalu-tcl-55c6k",
       "detalhes": "Smart TV TCL 55C6K inativada: preço no Pix subiu de R$ 3.324,05 para R$ 3.609,05. Cupom de R$ 225 OFF anunciado, mas aplicação final não confirmada."
+    },
+    {
+      "data": "2026-10-07T09:05:31-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "magalu-philco-40-roku",
+      "detalhes": "Smart TV Philco 40 PTV40M9GR2CGB caiu de R$ 1.394,91 para R$ 1.282,41 no Pix; cartão R$ 1.349,90 em até 7x sem juros, vendida e entregue pela Philco Oficial."
     }
   ]
 }
