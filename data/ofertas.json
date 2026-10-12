@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-07T09:05:31-03:00",
-  "total": 125,
+  "geradoEm": "2026-10-12T09:15:00-03:00",
+  "total": 126,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5181,6 +5181,51 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "tramontina-paris-7p-vermelho-28599706",
+      "nome": "Jogo de Panelas Tramontina Paris Starflon Max Vermelho 7 Peças",
+      "categoria": "Cozinha",
+      "loja": "Tramontina Store",
+      "seloLoja": "Loja Oficial",
+      "modeloFabricante": "28599706",
+      "produtoGrupo": "tramontina-paris-28599706-vermelho-7p",
+      "precoAtual": 379.57,
+      "precoAnterior": 655,
+      "precoPix": 379.57,
+      "precoAvista": 379.57,
+      "precoCartao": 399.55,
+      "parcelas": 7,
+      "valorParcela": 57.08,
+      "condicaoPagamento": "R$ 379,57 à vista com 5% OFF; R$ 399,55 em até 7x sem juros.",
+      "desconto": 42,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "url": "https://www.tramontina.com.br/jogo-de-panelas-tramontina-paris-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-vermelho-7-pecas/28599706.html",
+      "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599706PDM001W.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-10-12T09:15:00-03:00",
+      "ultimaVerificacao": "2026-10-12T09:15:00-03:00",
+      "observacoes": "Preço e pagamento conferidos na Loja Oficial Tramontina em 12/10/2026. Frete e prazo não confirmados para o CEP; histórico ainda insuficiente para validar preço habitual.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-12T09:15:00-03:00",
+          "preco": 379.57,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 379.57,
+      "precoMedioHistorico": 379.57,
+      "scoreOferta": 55,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -6164,6 +6209,13 @@
       "tipo": "queda_preco",
       "ofertaId": "magalu-philco-40-roku",
       "detalhes": "Smart TV Philco 40 PTV40M9GR2CGB caiu de R$ 1.394,91 para R$ 1.282,41 no Pix; cartão R$ 1.349,90 em até 7x sem juros, vendida e entregue pela Philco Oficial."
+    },
+    {
+      "data": "2026-10-12T09:15:00-03:00",
+      "tipo": "adicionado",
+      "produto": "Jogo de Panelas Tramontina Paris Starflon Max Vermelho 7 Peças",
+      "id": "tramontina-paris-7p-vermelho-28599706",
+      "detalhe": "Preço e condições de pagamento conferidos na Loja Oficial Tramontina em 12/10/2026; frete/prazo não confirmados para o CEP."
     }
   ]
 }
