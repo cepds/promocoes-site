@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-18T18:05:27-03:00",
-  "total": 127,
+  "geradoEm": "2026-10-20T09:03:23-03:00",
+  "total": 128,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5268,6 +5268,55 @@
       "menorPrecoHistorico": 3199,
       "precoMedioHistorico": 3199,
       "observacoes": "Preço exibido na página de categoria da loja oficial Electrolux rastreada em 17/10/2026; confirme preço final, estoque e frete no checkout."
+    },
+    {
+      "id": "cuisinart-airfryer-air-370brb-220v-oficial",
+      "nome": "Fritadeira Elétrica AirFryer Digital Cuisinart 4,2L 220V Preta AIR-370BRB",
+      "categoria": "Air Fryers",
+      "loja": "Cuisinart Brasil",
+      "seloLoja": "Loja oficial",
+      "modelo": "AIR-370BRB",
+      "modeloFabricante": "AIR-370BRB",
+      "produtoGrupo": "air-370brb-220v-preto",
+      "precoAtual": 625.99,
+      "precoAnterior": null,
+      "precoPix": null,
+      "precoAvista": null,
+      "precoCartao": null,
+      "parcelas": 15,
+      "valorParcela": 50.59,
+      "condicaoPagamento": "Página exibe R$ 625,99 e opção de 15x de R$ 50,59; condição à vista não identificada.",
+      "desconto": 0,
+      "cupom": null,
+      "cashback": null,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "voltagem": "220V",
+      "url": "https://www.cuisinartbrasil.com.br/fritadeira-eletrica-airfryer-digital-4-2l-220v-preta-cuisinart/p",
+      "imagem": "https://lojamultilaser.vtexassets.com/arquivos/ids/1543604-800-auto?aspect=true&height=auto&v=639057155506800000&width=800",
+      "ativa": true,
+      "dataEncontrada": "2026-10-20T09:03:23-03:00",
+      "ultimaVerificacao": "2026-10-20T09:03:23-03:00",
+      "observacoes": "Preço e modelo consultados na página da loja Cuisinart Brasil em 20/10/2026. Frete, estoque e condição à vista não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-20T09:03:23-03:00",
+          "preco": 625.99,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 625.99,
+      "precoMedioHistorico": 625.99,
+      "scoreOferta": 50,
+      "classificacaoOferta": "Normal",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -6290,6 +6339,12 @@
       "id": "electrolux-ji18r-je18r-18000-oficial",
       "acao": "nova_oferta",
       "detalhe": "Oferta oficial Electrolux 220V adicionada com modelo e imagem correspondentes; frete e pagamento não presumidos."
+    },
+    {
+      "data": "2026-10-20T09:03:23-03:00",
+      "id": "cuisinart-airfryer-air-370brb-220v-oficial",
+      "acao": "nova_oferta",
+      "detalhe": "Air Fryer Cuisinart AIR-370BRB 220V adicionada; preço consultado na loja, sem presumir frete ou estoque."
     }
   ]
 }
