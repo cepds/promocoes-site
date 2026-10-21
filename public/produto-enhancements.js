@@ -94,7 +94,7 @@
       const total=shippingTotal(o);
       const pay=paymentInfo(o).replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();
       const delivery=deliveryInfo(o);
-      const safe=RadarPolicy.safeHttpsUrl(o.url);
+      const safe=RadarPolicy.safeStoreUrl(o.url);
       if(!safe)return "";
       return `<div class="alternative-row"><div><strong>${esc(o.loja||"Loja")}</strong>${o.seloLoja?`<small>✓ ${esc(o.seloLoja)}</small>`:""}${delivery?`<small>Entrega: ${esc(delivery)}</small>`:""}${pay?`<small>${esc(pay)}</small>`:""}</div><div class="alternative-price"><b>${money(o.precoAtual)||"Preço na loja"}</b>${total?`<small>Total ${money(total)}</small>`:""}<a href="${esc(safe)}" target="_blank" rel="noopener noreferrer">Ver oferta</a></div></div>`;
     }).join("");
