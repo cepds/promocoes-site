@@ -14,6 +14,8 @@
   <meta property="og:description" content="Compare preço, frete, histórico e confiança da loja em um só lugar." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://promocoes-65707.web.app/" />
+  <link rel="canonical" href="https://promocoes-65707.web.app/" />
+  <meta name="robots" content="index,follow" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./style.css?v=10" />
@@ -38,7 +40,7 @@
     <div class="container hero compact-hero">
       <div class="hero-copy">
         <h1>Radar de Promoções</h1>
-        <p>CEP 72620-405 • somente 220V/bivolt nos produtos elétricos • atualização às 09h e 18h.</p>
+        <p>Frete de referência para CEP 72620-405 • somente 220V/bivolt nos produtos elétricos • horários de verificação sujeitos à disponibilidade.</p>
       </div>
       <div class="hero-stats" aria-label="Resumo do catálogo">
         <div class="stat-card"><span class="stat-label">Produtos</span><strong id="statOffers">0</strong></div>
@@ -83,6 +85,8 @@
     </section>
 
     <section class="container offers-section">
+      <div class="state-card freshness-notice hidden" id="freshnessWarning" role="status"></div>
+      <button id="historicalToggle" class="secondary-button" type="button" disabled>Consultar referências antigas</button>
       <div class="section-heading">
         <div><h2>Produtos</h2><p class="section-subtitle">Desconto, frete, histórico e confiança em um só lugar.</p></div>
         <div class="section-meta"><strong id="count">0 ofertas</strong><span id="updated"></span></div>
@@ -109,10 +113,11 @@
     <a href="./admin.html" class="mobile-nav-item"><span>▦</span><small>Painel</small></a>
   </nav>
 
-  <footer class="site-footer"><div class="container footer-inner"><strong>Radar de Promoções</strong><p>Frete de referência para CEP 72620-405. Confirme preço, estoque e condições na loja.</p></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><strong>Radar de Promoções</strong><p>Frete de referência para CEP 72620-405. Confirme preço, estoque e condições na loja. Alguns links podem gerar comissão de afiliado, sem custo extra para você.</p></div></footer>
 
   <script src="./fetch-fallback.js?v=1"></script>
-  <script src="./app.js?v=11"></script>
+  <script src="./catalog-policy.js?v=1"></script>
+  <script src="./app.js?v=12"></script>
   <script src="./auto-refresh.js?v=1"></script>
   <script src="./enhancements.js?v=1"></script>
   <script>
