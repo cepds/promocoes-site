@@ -58,7 +58,8 @@
       const match = raw.match(/R\$\s*([\d.]+(?:,\d{1,2})?)/i);
       if (match) freightValue = number(match[1]);
     }
-    const label = free ? "Grátis" : freightValue !== null
+    const isFree = free || freightValue === 0;
+    const label = isFree ? "Grátis" : freightValue !== null
       ? money(freightValue)
       : raw && !/^(?:não informado|consulte(?: o)? cep)$/i.test(raw)
         ? raw : "Consulte na loja";
@@ -68,7 +69,7 @@
     } else if (number(current) > 0 && freightValue !== null) {
       total = number(current) + freightValue;
     }
-    return { label, total, freightValue, free };
+    return { label, total, freightValue, free: isFree };
   }
   return { MAX_VERIFICATION_AGE_MS, number, safeHttpsUrl, safeStoreUrl, isRecentVerification, shippingInfo };
 });
