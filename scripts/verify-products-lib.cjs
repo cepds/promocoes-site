@@ -63,7 +63,7 @@ function officialSeller(html,record,offer){
  const candidate=normalize(seller);
  if(candidate)return policy.seller.test(candidate);
  if(owner==="electrolux")return true; // venda em domínio direto do fabricante
- const stripped=normalize(html.replace(/<script\\b[^>]*>[\\s\\S]*?<\\/script>/gi," ").replace(/<style\\b[^>]*>[\\s\\S]*?<\\/style>/gi," ").replace(/<[^>]*>/g," ")).slice(0,150000);
+ const stripped=normalize(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi," ").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi," ").replace(/<[^>]*>/g," ")).slice(0,150000);
  const named=owner==="magalu-mobly"?"mobly":owner==="magalu-madeiramadeira"?"madeira madeira":owner.includes("brastemp")?"brastemp":owner.includes("electrolux")?"electrolux":owner==="magalu"?"magalu":owner==="casasbahia"?"casas bahia":owner;
  return (owner==="magalu-mobly"&&stripped.includes("vendido por mobly e entregue por magalu")) || stripped.includes("vendido e entregue por "+named) ||
    (named==="magalu"&&stripped.includes("produto vendido e entregue pelo magalu"));
