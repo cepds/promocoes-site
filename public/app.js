@@ -9,7 +9,6 @@ const els = {
   errorMessage: document.querySelector("#errorMessage"), count: document.querySelector("#count"), updated: document.querySelector("#updated"),
   status: document.querySelector("#status"), search: document.querySelector("#search"), category: document.querySelector("#category"),
   store: document.querySelector("#store"), sort: document.querySelector("#sort"), categoryChips: document.querySelector("#categoryChips"),
-  statOffers: document.querySelector("#statOffers"), statStores: document.querySelector("#statStores"), statDiscount: document.querySelector("#statDiscount"),
   minPrice: document.querySelector("#minPrice"), maxPrice: document.querySelector("#maxPrice"), minDiscount: document.querySelector("#minDiscount"),
   freeShipping: document.querySelector("#freeShipping"), clearFilters: document.querySelector("#clearFilters"), favoritesToggle: document.querySelector("#favoritesToggle"),
   favoritesCount: document.querySelector("#favoritesCount"), compareToggle: document.querySelector("#compareToggle"), compareCount: document.querySelector("#compareCount"),
@@ -120,7 +119,7 @@ function renderCategoryChips() {
   els.categoryChips.querySelectorAll(".category-chip").forEach(b=>b.addEventListener("click",()=>{ els.category.value = b.dataset.category || ""; renderCategoryChips(); render(); }));
 }
 
-function updateStats() { const rows = activeOffers(); els.statOffers.textContent = rows.length; els.statStores.textContent = new Set(rows.map(o=>text(o.loja,"")).filter(Boolean)).size; els.statDiscount.textContent = `${Math.round(rows.reduce((m,o)=>Math.max(m,asNumber(o.desconto)),0))}%`; updateFreshnessUi(); }
+function updateStats() { updateFreshnessUi(); }
 function updateLocalCounters() { els.favoritesCount.textContent = favorites.size; els.compareCount.textContent = compare.size; els.favoritesToggle?.classList.toggle("active", favoritesOnly); }
 
 function filteredRows() {
