@@ -70,9 +70,10 @@
 
   function renderCommercial(current,offers){
     if(root.querySelector(".commercial-details"))return;
-    const payment=paymentInfo(current);
-    const delivery=deliveryInfo(current);
-    const stock=String(current?.estoqueStatus||current?.disponibilidade||"").trim();
+    const isRecent=RadarPolicy.isRecentVerification(current);
+    const payment=isRecent?paymentInfo(current):"";
+    const delivery=isRecent?deliveryInfo(current):"";
+    const stock=isRecent?String(current?.estoqueStatus||current?.disponibilidade||"").trim():"";
     if(payment||delivery||stock){
       const box=document.createElement("section");
       box.className="commercial-details";
@@ -83,7 +84,7 @@
 
     const group=productGroupKey(current);
     if(!group)return;
-    const alternatives=offers.filter(o=>o&&o.ativa!==false&&key(o)!==key(current)&&productGroupKey(o)===group);
+    const alternatives=offers.filter(o=>o&&o.ativa!==false&&key(o)!==key(current)&&productGroupKey(o)===group&&RadarPolicy.isRecentVerification(o));
     if(!alternatives.length)return;
     alternatives.sort((a,b)=>(shippingTotal(a)??Number.MAX_SAFE_INTEGER)-(shippingTotal(b)??Number.MAX_SAFE_INTEGER)||num(a.precoAtual)-num(b.precoAtual));
 
@@ -93,7 +94,9 @@
       const total=shippingTotal(o);
       const pay=paymentInfo(o).replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();
       const delivery=deliveryInfo(o);
-      return `<div class="alternative-row"><div><strong>${esc(o.loja||"Loja")}</strong>${o.seloLoja?`<small>✓ ${esc(o.seloLoja)}</small>`:""}${delivery?`<small>Entrega: ${esc(delivery)}</small>`:""}${pay?`<small>${esc(pay)}</small>`:""}</div><div class="alternative-price"><b>${money(o.precoAtual)||"Preço na loja"}</b>${total?`<small>Total ${money(total)}</small>`:""}<a href="${esc(o.url||"#")}" target="_blank" rel="noopener noreferrer">Ver oferta</a></div></div>`;
+      const safe=RadarPolicy.safeHttpsUrl(o.url);
+      if(!safe)return "";
+      return `<div class="alternative-row"><div><strong>${esc(o.loja||"Loja")}</strong>${o.seloLoja?`<small>✓ ${esc(o.seloLoja)}</small>`:""}${delivery?`<small>Entrega: ${esc(delivery)}</small>`:""}${pay?`<small>${esc(pay)}</small>`:""}</div><div class="alternative-price"><b>${money(o.precoAtual)||"Preço na loja"}</b>${total?`<small>Total ${money(total)}</small>`:""}<a href="${esc(safe)}" target="_blank" rel="noopener noreferrer">Ver oferta</a></div></div>`;
     }).join("");
     section.innerHTML=`<div class="alternatives-head"><div><h2>Mesmo produto em outras lojas</h2><p>Compare o preço final, frete e condição de pagamento.</p></div><strong>${alternatives.length+1} lojas</strong></div><div class="alternatives-list">${rows}</div>`;
     root.appendChild(section);
