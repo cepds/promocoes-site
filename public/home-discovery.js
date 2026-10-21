@@ -99,7 +99,7 @@
       return;
     }
     filtered.forEach(store => {
-      const url = validStoreURL(store.url);
+      const url = validStoreURL((store.destinos||{})[selectedTopic]||store.url);
       if (!url) return;
       const article = el("article","home-store-card");
       const h = el("h4",null,store.nome);
