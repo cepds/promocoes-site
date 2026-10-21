@@ -2,7 +2,7 @@
   const root=document.querySelector('#productDetail');
   if(!root)return;
   if(!document.querySelector('link[data-radar-commerce]')){const l=document.createElement("link");l.rel="stylesheet";l.href="./commerce.css?v=1";l.dataset.radarCommerce="1";document.head.appendChild(l)}
-  const API="https://api.github.com/repos/cepds/promocoes-site/contents/data/ofertas.json?ref=main";
+  const API="./ofertas-verificadas.json";
   let enriched=false, loading=false;
 
   const esc=v=>String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");
@@ -62,10 +62,9 @@
   }
 
   async function loadPayload(){
-    const r=await fetch(`${API}&t=${Date.now()}`,{cache:"no-store"});
-    if(!r.ok)throw new Error(`HTTP ${r.status}`);
-    const f=await r.json();
-    return JSON.parse(decode(f.content));
+    const r=await fetch(API+"?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error("Catalogo verificado indisponivel");
+    return await r.json();
   }
 
   function renderCommercial(current,offers){
@@ -109,7 +108,7 @@
       const payload=await loadPayload();
       const offers=Array.isArray(payload?.ofertas)?payload.ofertas:[];
       const wanted=new URLSearchParams(location.search).get("id")||"";
-      const current=offers.find(o=>key(o)===wanted);
+      const current=offers.find(o=>key(o)===wanted&&RadarPolicy.isConfirmedAvailable(o));
       if(current)renderCommercial(current,offers);
     }catch(error){console.warn("Radar: detalhes comerciais adicionais indisponíveis.",error)}
     finally{loading=false}
