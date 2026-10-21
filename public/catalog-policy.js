@@ -34,6 +34,15 @@
     const age = now - checked;
     return age >= -5 * 60 * 1000 && age <= MAX_VERIFICATION_AGE_MS;
   }
+  function isConfirmedAvailable(offer, now = Date.now()) {
+    return offer?.ativa === true
+      && offer?.fonteTipo === "pagina_publica_estruturada"
+      && offer?.estoqueStatus === "InStock"
+      && number(offer?.precoAtual) > 0
+      && Boolean(safeStoreUrl(offer?.url))
+      && Boolean(safeHttpsUrl(offer?.imagem))
+      && isRecentVerification(offer, now);
+  }
   function money(value) {
     return number(value).toLocaleString("pt-BR", {
       style: "currency", currency: "BRL", minimumFractionDigits: 2
@@ -71,5 +80,5 @@
     }
     return { label, total, freightValue, free: isFree };
   }
-  return { MAX_VERIFICATION_AGE_MS, number, safeHttpsUrl, safeStoreUrl, isRecentVerification, shippingInfo };
+  return { MAX_VERIFICATION_AGE_MS, number, safeHttpsUrl, safeStoreUrl, isRecentVerification, isConfirmedAvailable, shippingInfo };
 });
