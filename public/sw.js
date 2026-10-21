@@ -1,24 +1,22 @@
-const CACHE_NAME = "radar-promocoes-v14";
-const DATA_CACHE = "radar-promocoes-data-v1";
+const CACHE_NAME = "radar-promocoes-v15";
+
 const APP_SHELL = [
   "/",
   "/index.html",
   "/style.css?v=16",
   "/enhancements.css?v=2",
   "/commerce.css?v=1",
-  "/fetch-fallback.js?v=1",
-  "/catalog-policy.js?v=2",
+    "/catalog-policy.js?v=3",
   "/search-engine.js?v=1",
-  "/enxoval.json",
-  "/img/cama-ilustrativo.svg",
+    "/img/cama-ilustrativo.svg",
   "/img/mesa-ilustrativo.svg",
   "/img/banho-ilustrativo.svg",
-  "/app.js?v=16",
+  "/app.js?v=17",
   "/enhancements.js?v=3",
   "/auto-refresh.js?v=1",
   "/produto.html",
-  "/produto.js?v=5",
-  "/produto-enhancements.js?v=1",
+  "/produto.js?v=6",
+  "/produto-enhancements.js?v=2",
   "/admin.html",
   "/admin.js?v=2",
   "/manifest.webmanifest",
@@ -33,7 +31,7 @@ self.addEventListener("install", event => {
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys => Promise.all(
-      keys.filter(key => ![CACHE_NAME, DATA_CACHE].includes(key)).map(key => caches.delete(key))
+      keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))
     ))
   );
   self.clients.claim();
@@ -63,11 +61,10 @@ self.addEventListener("fetch", event => {
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
-  const isCatalogApi = url.hostname === "api.github.com" && url.pathname.includes("/repos/cepds/promocoes-site/contents/data/ofertas.json");
-  const isCatalogRaw = url.hostname === "raw.githubusercontent.com" && url.pathname === "/cepds/promocoes-site/main/data/ofertas.json";
-
-  if (isCatalogApi || isCatalogRaw) {
-    event.respondWith(networkFirst(request, DATA_CACHE));
+  // Nunca armazenar ou servir offline o catálogo verificado: pode conter
+  // itens que já venceram ou ficaram indisponíveis.
+  if(url.origin===self.location.origin && url.pathname==="/ofertas-verificadas.json"){
+    event.respondWith(fetch(request,{cache:"no-store"}));
     return;
   }
 
