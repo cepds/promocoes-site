@@ -1,7 +1,7 @@
 {
   "versao": 1,
   "descricao": "Páginas candidatas de varejistas sem preço ou estoque presumidos. A verificação exige vendedor oficial, imagem HTTPS, preço BRL e disponibilidade em JSON-LD.",
-  "total": 40,
+  "total": 42,
   "produtos": [
     {
       "id": "oficial-mobly-sofacama-3-lugares-casal-premium-preto-195813",
@@ -397,7 +397,7 @@
     },
     {
       "id": "oficial-mobly-1243060",
-      "nome": "Cama Box com Colchão Casal Howie Misto D33 138x188 Branco e Cinza",
+      "nome": "Cama Box com Colchão Casal Howie Misto D33 (17x138x188) Branco e Cinza",
       "categoria": "Camas",
       "loja": "Mobly — Loja Oficial",
       "url": "https://www.mobly.com.br/cama-box-com-colchao-casal-howie-misto-d33-17x138x188-branco-e-cinza-1243060.html",
@@ -409,7 +409,9 @@
       "precoAtual": null,
       "imagem": null,
       "estoqueStatus": "Unknown",
-      "origemCuradoria": "Página pesquisada; só publicar com vendedor, preço, estoque, foto e variante validados"
+      "origemCuradoria": "Página pesquisada; só publicar com vendedor, preço, estoque, foto e variante validados",
+      "produtoGrupo": "howie-d33-casal-17x138x188-branco-cinza",
+      "identidadeRevisada": true
     },
     {
       "id": "oficial-mobly-1328024",
@@ -429,7 +431,7 @@
     },
     {
       "id": "oficial-madeiramadeira-179067",
-      "nome": "Cama Casal Mônaco 193x144 Branco Neve",
+      "nome": "Cama Casal em MDP 193cm x 144cm Mônaco Branco Neve",
       "categoria": "Camas",
       "loja": "MadeiraMadeira — Loja Oficial",
       "url": "https://www.madeiramadeira.com.br/cama-casal-em-mdp-193cm-x-144cm-monaco-branco-179067.html",
@@ -441,7 +443,9 @@
       "precoAtual": null,
       "imagem": null,
       "estoqueStatus": "Unknown",
-      "origemCuradoria": "Página pesquisada; só publicar com vendedor, preço, estoque, foto e variante validados"
+      "origemCuradoria": "Página pesquisada; só publicar com vendedor, preço, estoque, foto e variante validados",
+      "produtoGrupo": "monaco-casal-193x144-branco-neve",
+      "identidadeRevisada": true
     },
     {
       "id": "oficial-madeiramadeira-728755",
@@ -586,6 +590,38 @@
       "imagem": null,
       "estoqueStatus": "Unknown",
       "origemCuradoria": "Página pesquisada; só publicar com vendedor, preço, estoque, foto e variante validados"
+    },
+    {
+      "id": "oficial-magalu-mobly-ga11j3f91e",
+      "nome": "Cama Box com Colchão Casal Howie Espuma D33 (17x138x188) Branco e Cinza Mobly",
+      "categoria": "Camas",
+      "loja": "Mobly — no Magalu",
+      "url": "https://m.magazineluiza.com.br/cama-box-com-colchao-casal-howie-espuma-d33-17x138x188-branco-e-cinza-mobly/p/ga11j3f91e/co/cmbx/",
+      "vendedorEsperado": "magalu-mobly",
+      "produtoGrupo": "howie-d33-casal-17x138x188-branco-cinza",
+      "ativa": true,
+      "lojaOficial": true,
+      "identidadeRevisada": true,
+      "precoAtual": null,
+      "imagem": null,
+      "estoqueStatus": "Unknown",
+      "origemCuradoria": "Mesmo produto e variante conferidos em duas páginas: consultar preço e disponibilidade na execução automática."
+    },
+    {
+      "id": "oficial-magalu-madeiramadeira-760308900",
+      "nome": "Cama Casal em MDP 193cm x 144cm Mônaco Tcil Móveis",
+      "categoria": "Camas",
+      "loja": "MadeiraMadeira — no Magalu",
+      "url": "https://www.magazineluiza.com.br/cama-casal-em-mdp-193cm-x-144cm-monaco-branco-tcil-moveis/p/760308900/mo/camo/",
+      "vendedorEsperado": "magalu-madeiramadeira",
+      "produtoGrupo": "monaco-casal-193x144-branco-neve",
+      "ativa": true,
+      "lojaOficial": true,
+      "identidadeRevisada": true,
+      "precoAtual": null,
+      "imagem": null,
+      "estoqueStatus": "Unknown",
+      "origemCuradoria": "Mesmo produto e variante conferidos em duas páginas: consultar preço e disponibilidade na execução automática."
     }
   ]
 }
