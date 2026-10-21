@@ -39,10 +39,23 @@ test("frete zero conhecido deve ser gratis sem confundir com valor nulo",()=>{
   assert.equal(unknown.free,false);
   assert.equal(unknown.total,null);
 });
-test("fallback de referencias antigas acontece apenas na primeira carga",()=>{
-  const fs=require("node:fs");
-  const source=fs.readFileSync("public/app.js","utf8");
-  assert.match(source,/if \(!historicalModeInitialized\) \{/);
-  assert.match(source,/historicalModeInitialized = true/);
-  assert.match(source,/showHistorical = !showHistorical/);
+test("bloqueia itens antigos, esgotados e sem evidencia",()=>{
+  const now=Date.parse("2026-10-21T15:00:00Z");
+  const base={ativa:true,fonteTipo:"pagina_publica_estruturada",estoqueStatus:"InStock",precoAtual:120,
+    url:"https://www.karsten.com.br/produto",imagem:"https://img.example.com/foto.jpg",
+    ultimaVerificacao:"2026-10-21T14:00:00Z"};
+  assert.equal(policy.isConfirmedAvailable(base,now),true);
+  for(const fields of [
+    {estoqueStatus:"OutOfStock"},{estoqueStatus:"Unknown"},{ativa:false},
+    {fonteTipo:"pagina_publica"},{ultimaVerificacao:"2026-10-20T14:00:00Z"},
+    {precoAtual:0},{url:"https://example.com/invalido"}
+  ])assert.equal(policy.isConfirmedAvailable({...base,...fields},now),false);
+});
+test("frontend não deve usar cache local nem reativar referencias antigas",()=>{
+  const fs=require("node:fs"),app=fs.readFileSync("public/app.js","utf8");
+  const index=fs.readFileSync("public/index.html","utf8");
+  assert.match(app,/\.\/ofertas-verificadas\.json/);
+  assert.doesNotMatch(app,/allOffers = \[\.\.\.main, \.\.\.additional/);
+  assert.doesNotMatch(index,/historicalToggle/);
+  assert.doesNotMatch(index,/fetch-fallback\.js/);
 });
