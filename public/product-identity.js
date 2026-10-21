@@ -19,6 +19,7 @@
    return "";
  }
  function group(p){
+   if(p?.identidadeRevisada===true && /^[a-z0-9-]{15,90}$/.test(String(p.produtoGrupo||"")) && p.vendedorEsperado) return "curated:"+p.produtoGrupo;
    const gtin=String(p?.ean||p?.gtin||p?.codigoBarras||"").replace(/\D/g,"");
    if(gtin.length>=12&&gtin.length<=14)return "ean:"+gtin;
    // Sem marca e SKU do fabricante não se compara só pelo nome comercial.
