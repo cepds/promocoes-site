@@ -83,3 +83,13 @@ node --test tests/*.test.js
 node scripts/validate-site.js
 node scripts/check-verified-catalog.cjs # após execução do verificador
 ```
+
+## Lojas oficiais e novas categorias de casa
+
+A curadoria `data/produtos-oficiais.json` contém páginas de produto de **Mobly, Electrolux, Magazine Luiza (Magalu) e Casas Bahia** em Camas, Sofás, Guarda-roupas, Cadeiras, Mesas e Eletrodomésticos, sem preços, descontos nem imagens inventadas.
+
+Os links de varejistas com marketplace (especialmente Magalu e Casas Bahia) só entram na vitrine depois que a verificação conseguir identificar o **vendedor oficial**; uma página no domínio da loja não prova, por si só, quem vende. Sem confirmação inequívoca, o produto permanece oculto. O verificador também exige imagem HTTPS do JSON-LD Product, preço em BRL e disponibilidade positiva.
+
+O acompanhamento de promoções usa apenas **dois preços realmente confirmados para o mesmo produto**, registrados em execuções separadas. O desconto só é exibido quando houver queda de pelo menos 3% e no máximo 60% em relação à verificação anterior de até 14 dias. Na primeira leitura do produto não se inventa promoção; fretes, descontos por meios de pagamento e cupons precisam de confirmação separada.
+
+Adicionar/editar a curadoria aciona o workflow de verificação e publicação no GitHub. As verificações agendadas continuam às 09h e às 18h (horário de Brasília), sujeitas a atrasos do GitHub. A vitrine da página inicial segue mostrando apenas filtros e produtos, sem cards de lojas nem diretórios de links.
