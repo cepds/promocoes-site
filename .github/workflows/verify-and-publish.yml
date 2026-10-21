@@ -75,3 +75,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707 }}
           channelId: live
           projectId: promocoes-65707
+          # 15.34.1 passou a exigir serviceusage.services.get; versão 15.34.0 funcionou.
+          firebaseToolsVersion: '15.34.0'
