@@ -1,4 +1,4 @@
-const DATA_API_URL = "https://api.github.com/repos/cepds/promocoes-site/contents/data/ofertas.json?ref=main";
+const DATA_API_URL = "./ofertas-verificadas.json";
 const FIXED_CEP = "72620-405";
 const FAVORITES_KEY = "radar:favoritos";
 const COMPARE_KEY = "radar:comparar";
@@ -45,11 +45,11 @@ function setStatus(message, ok = true) {
 }
 
 async function fetchPayload() {
-  const response = await fetch(`${DATA_API_URL}&t=${Date.now()}`, { cache: "no-store" });
-  if (!response.ok) throw new Error(`GitHub API HTTP ${response.status}`);
-  const file = await response.json();
-  if (file.encoding !== "base64" || !file.content) throw new Error("Resposta de dados inválida");
-  return JSON.parse(decodeBase64Utf8(file.content));
+  const response = await fetch(`${DATA_API_URL}?t=${Date.now()}`, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Catálogo indisponível (HTTP ${response.status})`);
+  const data = await response.json();
+  if (!Array.isArray(data.ofertas) || data.versao !== 2) throw new Error("Catálogo verificado inválido");
+  return data;
 }
 
 function is220Compatible(o) {
@@ -65,23 +65,10 @@ function eligibleOffers() {
     && !brokenImages.has(offerKey(o)) && is220Compatible(o));
 }
 function activeOffers() {
-  return eligibleOffers().filter(o => showHistorical || RadarPolicy.isRecentVerification(o));
-}
-function staleOffersCount() {
-  return eligibleOffers().filter(o => !RadarPolicy.isRecentVerification(o)).length;
+  return eligibleOffers().filter(o => RadarPolicy.isConfirmedAvailable(o));
 }
 function updateFreshnessUi() {
-  const expired = staleOffersCount();
-  if (els.historicalToggle) {
-    els.historicalToggle.textContent = showHistorical ? "Ocultar referências antigas" : `Consultar ${expired} referências antigas`;
-    els.historicalToggle.disabled = expired === 0;
-  }
-  if (els.freshnessWarning) {
-    els.freshnessWarning.classList.toggle("hidden", expired === 0);
-    els.freshnessWarning.textContent = showHistorical
-      ? "Preços de referência de verificações anteriores. Confirme o valor e o estoque antes de comprar."
-      : `${expired} produtos têm preços antigos e estão ocultos. Consulte-os como referência, se desejar.`;
-  }
+  if (els.freshnessWarning) els.freshnessWarning.classList.add("hidden");
 }
 
 function shippingInfo(o, current) { return RadarPolicy.shippingInfo(o, current); }
@@ -167,11 +154,11 @@ function render() {
   const rows = filteredRows();
   if (els.empty) {
     const heading = els.empty.querySelector("h3"), note = els.empty.querySelector("p");
-    if (heading) heading.textContent = !showHistorical && activeOffers().length === 0 ? "Nenhuma oferta verificada recentemente" : "Nenhum produto encontrado";
-    if (note) note.textContent = !showHistorical && activeOffers().length === 0
-      ? "As ofertas antigas foram retiradas do catálogo principal. Consulte as referências antigas ou retorne quando houver nova verificação."
+    if (heading) heading.textContent = activeOffers().length === 0 ? "Nenhum produto com preço e estoque confirmados" : "Nenhum produto encontrado";
+    if (note) note.textContent = activeOffers().length === 0
+      ? "A verificação automática não encontrou ofertas comprovadamente disponíveis. Produtos antigos, esgotados ou sem confirmação ficam ocultos."
       : "Tente outro termo ou remova algum filtro.";
-  } els.count.textContent = `${rows.length} ${showHistorical ? (rows.length===1?"referência":"referências") : (rows.length===1?"oferta":"ofertas")}`; els.empty.classList.toggle("hidden",rows.length!==0); els.offers.classList.toggle("hidden",rows.length===0); els.offers.innerHTML = rows.map(renderCard).join("");
+  } els.count.textContent = `${rows.length} ${rows.length===1?"produto":"produtos"}`; els.empty.classList.toggle("hidden",rows.length!==0); els.offers.classList.toggle("hidden",rows.length===0); els.offers.innerHTML = rows.map(renderCard).join("");
   els.offers.querySelectorAll(".product-image").forEach(img=>img.addEventListener("error",()=>{ const card=img.closest(".card"); const key=card?.dataset.offerKey||""; if(key) brokenImages.add(key); renderCategoryChips(); updateStats(); render(); },{once:true}));
   els.offers.querySelectorAll("[data-favorite]").forEach(btn=>btn.addEventListener("click",()=>toggleFavorite(btn.dataset.favorite)));
   els.offers.querySelectorAll("[data-compare]").forEach(input=>input.addEventListener("change",()=>toggleCompare(input.dataset.compare,input.checked)));
@@ -190,47 +177,34 @@ function renderCompare(){
 
 function clearFilters(){ els.search.value=""; els.category.value=""; els.store.value=""; els.minPrice.value=""; els.maxPrice.value=""; els.minDiscount.value="0"; els.freeShipping.checked=false; favoritesOnly=false; renderCategoryChips(); updateLocalCounters(); render(); }
 
-async function fetchLocalEnxoval(){
-  try {
-    const response = await fetch("./enxoval.json?t=" + Date.now(), {cache:"no-store"});
-    if(!response.ok) throw new Error("HTTP " + response.status);
-    const parsed = await response.json();
-    return Array.isArray(parsed.ofertas) ? parsed.ofertas : [];
-  } catch(error) {
-    console.warn("Catálogo de cama, mesa e banho indisponível:", error);
-    return [];
-  }
-}
 async function loadOffers(){
-  try { setStatus("Atualizando…",true); els.error.classList.add("hidden"); const payload=await fetchPayload(); const main = Array.isArray(payload.ofertas) ? payload.ofertas : [];
-    const additional = await fetchLocalEnxoval();
-    const seen = new Set(main.map(o=>String(o.id)));
-    allOffers = [...main, ...additional.filter(o=>{
-      if(!o || !o.id || seen.has(String(o.id)))return false;
-      seen.add(String(o.id));return true;
-    })];
+  try {
+    const payload=await fetchPayload();
+    allOffers=payload.ofertas.filter(o=>RadarPolicy.isConfirmedAvailable(o));
     brokenImages.clear();
-    if (!historicalModeInitialized) {
-      showHistorical = !eligibleOffers().some(o => RadarPolicy.isRecentVerification(o)) && eligibleOffers().length > 0;
-      historicalModeInitialized = true;
-    }
-    document.body.classList.toggle("viewing-historical",showHistorical);
-    populateSelect(els.category,uniqueValues("categoria"),"Todas as categorias"); populateSelect(els.store,uniqueValues("loja"),"Todas as lojas"); renderCategoryChips(); updateStats(); updateLocalCounters();
-    els.updated.textContent="Preços com datas de consulta distintas"; setStatus(activeOffers().length ? (showHistorical ? "Referências antigas" : "Ofertas verificadas") : "Sem ofertas recentes", activeOffers().length > 0 && !showHistorical); render();
-  } catch(err){ console.error(err); setStatus("Falha na atualização",false); els.error.classList.remove("hidden"); els.errorMessage.textContent=`Não foi possível carregar a base. ${err.message||""}`; }
+    showHistorical=false;
+    els.error.classList.add("hidden");
+    populateSelect(els.category,uniqueValues("categoria"),"Todas as categorias");
+    populateSelect(els.store,uniqueValues("loja"),"Todas as lojas");
+    renderCategoryChips(); updateStats(); updateLocalCounters(); render();
+    els.updated.textContent=allOffers.length
+      ? "Preços e estoque verificados recentemente"
+      : "Nenhuma oferta com preço e estoque confirmados";
+  }catch(err){
+    console.warn("Falha ao carregar catálogo verificado",err);
+    allOffers=[];brokenImages.clear();
+    populateSelect(els.category,[],"Todas as categorias");
+    populateSelect(els.store,[],"Todas as lojas");
+    renderCategoryChips(); updateStats(); updateLocalCounters(); render();
+    els.updated.textContent="Sem dados verificados no momento";
+    els.error.classList.remove("hidden");
+    els.errorMessage.textContent="Não foi possível confirmar produtos. Nenhum preço antigo será exibido.";
+  }
 }
 
 [els.search,els.minPrice,els.maxPrice].forEach(el=>el?.addEventListener("input",render)); [els.store,els.sort,els.minDiscount,els.freeShipping].forEach(el=>el?.addEventListener("change",render));
 els.category?.addEventListener("change",()=>{renderCategoryChips();render();}); els.clearFilters?.addEventListener("click",clearFilters);
 els.favoritesToggle?.addEventListener("click",()=>{favoritesOnly=!favoritesOnly;updateLocalCounters();render();}); els.mobileFavorites?.addEventListener("click",()=>{favoritesOnly=!favoritesOnly;updateLocalCounters();render();window.scrollTo({top:document.querySelector(".offers-section")?.offsetTop||0,behavior:"smooth"});});
-els.historicalToggle?.addEventListener("click", () => {
-  showHistorical = !showHistorical;
-  document.body.classList.toggle("viewing-historical",showHistorical);
-  populateSelect(els.category, uniqueValues("categoria"), "Todas as categorias");
-  populateSelect(els.store, uniqueValues("loja"), "Todas as lojas");
-  renderCategoryChips(); updateStats(); updateLocalCounters(); render();
-  setStatus(showHistorical ? "Referências antigas" : (activeOffers().length ? "Ofertas verificadas" : "Sem ofertas recentes"), !showHistorical && activeOffers().length > 0);
-});
 els.compareToggle?.addEventListener("click",openCompare); els.mobileCompare?.addEventListener("click",openCompare); els.clearCompare?.addEventListener("click",()=>{compare.clear();saveLocal(COMPARE_KEY,compare);updateLocalCounters();renderCompare();render();});
 els.comparePanel?.querySelectorAll("[data-close-compare]").forEach(el=>el.addEventListener("click",closeCompare));
 window.loadOffers=loadOffers; loadOffers();
