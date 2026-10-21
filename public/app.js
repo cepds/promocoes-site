@@ -127,7 +127,7 @@ function filteredRows() {
   const minPrice = asNumber(els.minPrice.value); const maxPrice = asNumber(els.maxPrice.value); const minDiscount = asNumber(els.minDiscount.value);
   let rows = activeOffers();
   if (favoritesOnly) rows = rows.filter(o=>favorites.has(offerKey(o)));
-  if (term) rows = rows.filter(o=>[o.nome,o.categoria,o.loja,o.cupom,o.observacoes,o.voltagem,o.seloLoja].some(v=>text(v,"").toLocaleLowerCase("pt-BR").includes(term)));
+  if (term) rows = rows.filter(o=>RadarSearch.match(o,term));
   if (category) rows = rows.filter(o=>text(o.categoria,"")===category);
   if (store) rows = rows.filter(o=>text(o.loja,"")===store);
   if (minPrice > 0) rows = rows.filter(o=>asNumber(o.precoAtual)>=minPrice);
