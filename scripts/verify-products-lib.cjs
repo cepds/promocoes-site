@@ -49,7 +49,9 @@ function officialSeller(html,record,offer){
    magalu:{host:"www.magazineluiza.com.br",seller:/^(?:magalu|magazine luiza)$/},
    casasbahia:{host:"www.casasbahia.com.br",seller:/^casas bahia$/},
    electrolux:{host:"loja.electrolux.com.br",seller:/^electrolux$/},
-   madeiramadeira:{host:"www.madeiramadeira.com.br",seller:/^madeiramadeira$/},
+   madeiramadeira:{host:"www.madeiramadeira.com.br",seller:/^madeira ?madeira$/},
+   "magalu-mobly":{host:"m.magazineluiza.com.br",seller:/^mobly$/},
+   "magalu-madeiramadeira":{host:"www.magazineluiza.com.br",seller:/^madeira ?madeira$/},
    "magalu-brastemp":{host:"www.magazineluiza.com.br",seller:/^brastemp$/},
    "magalu-electrolux":{host:"www.magazineluiza.com.br",seller:/^electrolux$/},
    "carrefour-brastemp":{host:"www.carrefour.com.br",seller:/^brastemp$/},
@@ -62,8 +64,8 @@ function officialSeller(html,record,offer){
  if(candidate)return policy.seller.test(candidate);
  if(owner==="electrolux")return true; // venda em domínio direto do fabricante
  const stripped=normalize(html.replace(/<script\\b[^>]*>[\\s\\S]*?<\\/script>/gi," ").replace(/<style\\b[^>]*>[\\s\\S]*?<\\/style>/gi," ").replace(/<[^>]*>/g," ")).slice(0,150000);
- const named=owner.includes("brastemp")?"brastemp":owner.includes("electrolux")?"electrolux":owner==="magalu"?"magalu":owner==="casasbahia"?"casas bahia":owner;
- return stripped.includes("vendido e entregue por "+named) ||
+ const named=owner==="magalu-mobly"?"mobly":owner==="magalu-madeiramadeira"?"madeira madeira":owner.includes("brastemp")?"brastemp":owner.includes("electrolux")?"electrolux":owner==="magalu"?"magalu":owner==="casasbahia"?"casas bahia":owner;
+ return (owner==="magalu-mobly"&&stripped.includes("vendido por mobly e entregue por magalu")) || stripped.includes("vendido e entregue por "+named) ||
    (named==="magalu"&&stripped.includes("produto vendido e entregue pelo magalu"));
 }
 
