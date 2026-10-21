@@ -17,6 +17,7 @@ const requiredFiles = [
   'public/style.css',
   'public/enhancements.css',
   'public/commerce.css',
+  'public/catalog-policy.js',
   'public/fetch-fallback.js',
   'public/app.js',
   'public/enhancements.js',
