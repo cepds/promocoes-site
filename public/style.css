@@ -122,3 +122,41 @@ body{background:#f5f7fb}
  .card .verified{font-size:9px}
  .card .history-note{font-size:10px}
 }
+
+/* Homepage minimalista: somente painel de filtros e vitrine */
+body{min-height:100vh}
+main{padding-top:18px;padding-bottom:32px}
+.discovery{position:static;margin-top:0;z-index:auto}
+.search-panel{border-radius:16px;padding:16px;box-shadow:0 4px 16px rgba(15,23,42,.045)}
+.filter-shortcuts{display:flex;gap:9px;align-items:center;margin-top:14px;padding-top:12px;border-top:1px solid #edf1f6}
+.filter-shortcut{display:inline-flex;align-items:center;gap:7px;min-height:35px;padding:6px 12px;border-radius:10px;border:1px solid #dae2eb;background:#fff;color:#3c5068;font-size:12px;font-weight:750;cursor:pointer}
+.filter-shortcut:hover,.filter-shortcut.active{background:#ecf4ff;border-color:#a8c8f1;color:#144d9c}
+.filter-shortcut span{display:inline-grid;place-items:center;min-width:19px;padding:2px 5px;border-radius:12px;background:#edf2f9;font-size:10px}
+.category-strip{padding:12px 1px 2px}
+.offers-section{padding:8px 0 38px}
+.section-heading{margin-bottom:12px;align-items:center}
+.section-heading h2{font-size:21px;letter-spacing:-.02em}
+.section-meta span{font-size:10px}
+.smart-tools{display:none!important}
+.freshness-notice{margin-top:5px}
+@media(max-width:760px){
+  main{padding-top:10px}
+  .search-panel{padding:12px;border-radius:13px}
+  .filter-shortcuts{margin-top:10px;padding-top:9px}
+  .offers-section{padding-top:8px}
+  .section-heading{align-items:center;flex-direction:row;gap:8px}
+  .section-heading h2{font-size:20px}
+  .section-meta{justify-items:end;text-align:right}
+}
+@media(max-width:480px){
+  .filter-shortcuts{display:grid;grid-template-columns:1fr 1fr}
+  .filter-shortcut{justify-content:center;padding:6px}
+  .section-heading h2{font-size:18px}
+  .section-meta strong{font-size:11px}
+  .section-meta span{font-size:9px}
+}
+@media(prefers-color-scheme:dark){
+  .filter-shortcut{background:#16181c;color:#e5e7eb;border-color:#343a46}
+  .filter-shortcut.active,.filter-shortcut:hover{background:#1e3b60;color:#e2f2ff;border-color:#487bae}
+  .filter-shortcut span{background:#303846;color:inherit}
+}
