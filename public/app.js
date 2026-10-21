@@ -20,6 +20,7 @@ const els = {
 
 let allOffers = [];
 let showHistorical = false;
+let historicalModeInitialized = false;
 let favoritesOnly = false;
 const brokenImages = new Set();
 let favorites = new Set(loadLocal(FAVORITES_KEY));
