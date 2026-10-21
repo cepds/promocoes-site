@@ -1,4 +1,4 @@
-const CACHE_NAME = "radar-promocoes-v7";
+const CACHE_NAME = "radar-promocoes-v8";
 const DATA_CACHE = "radar-promocoes-data-v1";
 const APP_SHELL = [
   "/",
@@ -7,11 +7,12 @@ const APP_SHELL = [
   "/enhancements.css?v=2",
   "/commerce.css?v=1",
   "/fetch-fallback.js?v=1",
-  "/app.js?v=11",
+  "/catalog-policy.js?v=1",
+  "/app.js?v=12",
   "/enhancements.js?v=1",
   "/auto-refresh.js?v=1",
   "/produto.html",
-  "/produto.js?v=2",
+  "/produto.js?v=3",
   "/produto-enhancements.js?v=1",
   "/admin.html",
   "/admin.js?v=2",
@@ -66,6 +67,7 @@ self.addEventListener("fetch", event => {
   }
 
   if (url.origin === self.location.origin) {
-    event.respondWith(networkFirst(request, CACHE_NAME, "/index.html"));
+    const isNavigation = request.mode === "navigate";
+    event.respondWith(networkFirst(request, CACHE_NAME, isNavigation ? "/index.html" : null));
   }
 });
