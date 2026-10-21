@@ -28,6 +28,10 @@ const requiredFiles = [
   'public/img/banho-ilustrativo.svg',
   'scripts/awin-feed-lib.cjs',
   'scripts/sync-awin-feed.mjs',
+  'scripts/verify-products.mjs',
+  'scripts/verify-products-lib.cjs',
+  'scripts/check-verified-catalog.cjs',
+  'public/ofertas-verificadas.json',
   'public/lojas-casa.json',
   'public/fetch-fallback.js',
   'public/app.js',
@@ -56,6 +60,9 @@ const jsFiles = [
   'public/comparator-discovery.js',
   'scripts/awin-feed-lib.cjs',
   'scripts/sync-awin-feed.mjs',
+  'scripts/verify-products.mjs',
+  'scripts/verify-products-lib.cjs',
+  'scripts/check-verified-catalog.cjs',
   'public/fetch-fallback.js',
   'public/app.js',
   'public/enhancements.js',
@@ -188,6 +195,17 @@ try {
     if(!isHttps(o.imagem))fail('Enxoval com imagem inválida.');
   }
 }catch(error){fail('Falha de integridade no enxoval: '+error.message)}
+
+try {
+  const v=JSON.parse(fs.readFileSync("public/ofertas-verificadas.json","utf8"));
+  if(v.versao!==2||!Array.isArray(v.ofertas)||v.total!==v.ofertas.length)
+    fail("A vitrine publica precisa usar somente o catalogo verificado (versao 2).");
+  const policy=require("../public/catalog-policy.js");
+  for(const offer of v.ofertas||[]){
+    if(!policy.isConfirmedAvailable(offer))
+      fail("Vitrine com produto sem preco e estoque confirmado: "+offer.id);
+  }
+}catch(error){fail("Catalogo verificado invalido: "+error.message)}
 
 if (warnings.length) {
   console.log('\nAvisos:');
