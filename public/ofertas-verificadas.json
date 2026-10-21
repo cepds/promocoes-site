@@ -1,9 +1,9 @@
 {
   "versao": 2,
-  "geradoEm": "2026-10-21T22:02:14.332Z",
+  "geradoEm": "2026-10-21T22:19:55.903Z",
   "validadeHoras": 18,
   "aviso": "Somente produtos com preço em BRL e estoque disponível confirmados nos dados estruturados da loja. Preços podem mudar após a consulta.",
-  "total": 21,
+  "total": 41,
   "ofertas": [
     {
       "id": "cuisinart-airfryer-air-370brb-220v-oficial",
@@ -34,10 +34,10 @@
       "estoqueStatus": "InStock",
       "voltagem": "220V",
       "url": "https://www.cuisinartbrasil.com.br/fritadeira-eletrica-airfryer-digital-4-2l-220v-preta-cuisinart/p",
-      "imagem": "https://lojamultilaser.vtexassets.com/arquivos/ids/1543604-800-auto?aspect=true&height=auto&v=639057155506800000&width=800",
+      "imagem": "https://lojamultilaser.vtexassets.com/arquivos/ids/1543604/20099_00.jpg?v=639057155506800000",
       "ativa": true,
       "dataEncontrada": "2026-10-20T09:03:23-03:00",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "observacoes": "Preço e modelo consultados na página da loja Cuisinart Brasil em 20/10/2026. Frete, estoque e condição à vista não confirmados.",
       "historicoPrecos": [
         {
@@ -54,9 +54,115 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-cadeira-de-escritorio-diretor-giratoria-charles-preta-116427",
+      "nome": "Cadeira de Escritório Diretor Giratória Charles Preta",
+      "categoria": "Cadeiras",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/cadeira-de-escritorio-diretor-giratoria-charles-preta-116427.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 594.98,
+      "imagem": "https://static.mobly.com.br/p/Mobly-Cadeira-de-EscritC3B3rio-Diretor-GiratC3B3ria-Charles-Preta-6250-724611-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 594.98
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-conjunto-com-2-cadeiras-fitz-eiffel-preto-511452",
+      "nome": "Conjunto com 2 Cadeiras Fitz Eiffel Preto",
+      "categoria": "Cadeiras",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/conjunto-com-2-cadeiras-fitz-eiffel-preto-511452.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 658.74,
+      "imagem": "https://static.mobly.com.br/p/Mobly-Conjunto-com-2-Cadeiras-Fitz-Eiffel-Preto-5131-254115-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 658.74
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-conjunto-com-2-cadeiras-palmer-cinza-827528",
+      "nome": "Conjunto com 2 Cadeiras Palmer Cinza",
+      "categoria": "Cadeiras",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/conjunto-com-2-cadeiras-palmer-cinza-827528.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 531.21,
+      "imagem": "https://static.mobly.com.br/p/Mobly-Conjunto-com-2-Cadeiras-Palmer-Cinza-1889-825728-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 531.21
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "karsten-editorial-3501665",
@@ -68,14 +174,14 @@
       "precoAnterior": null,
       "desconto": 0,
       "url": "https://www.karsten.com.br/jogo-de-cama-queen-300-fios-100-algodao-avila-3501665/p",
-      "imagem": "https://promocoes-65707.web.app/img/cama-ilustrativo.svg",
+      "imagem": "https://karsten.vtexassets.com/arquivos/ids/230241/3501665_01.jpg?v=639064354509900000",
       "imagemIlustrativa": true,
       "ativa": true,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -83,6 +189,10 @@
         {
           "data": "2026-10-20T08:00:00-03:00",
           "preco": 599.99
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 569.99
         }
       ],
       "modelo": "3501665",
@@ -92,7 +202,9 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "estoqueStatus": "InStock",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "lojaOficial": true,
+      "seloLoja": "Loja oficial",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "karsten-editorial-3478698",
@@ -104,14 +216,14 @@
       "precoAnterior": null,
       "desconto": 0,
       "url": "https://www.karsten.com.br/jogo-de-cama-queen-300-fios-100-algodao-videira-3478698/p",
-      "imagem": "https://promocoes-65707.web.app/img/cama-ilustrativo.svg",
+      "imagem": "https://karsten.vtexassets.com/arquivos/ids/231545/3478698_01.jpg?v=639064395451230000",
       "imagemIlustrativa": true,
       "ativa": true,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -119,6 +231,10 @@
         {
           "data": "2026-10-20T08:00:00-03:00",
           "preco": 639.99
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 607.99
         }
       ],
       "modelo": "3478698",
@@ -128,7 +244,9 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "estoqueStatus": "InStock",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "lojaOficial": true,
+      "seloLoja": "Loja oficial",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "karsten-editorial-3011714",
@@ -140,14 +258,14 @@
       "precoAnterior": null,
       "desconto": 0,
       "url": "https://www.karsten.com.br/toalha-de-banho-100-algodao-nuvia-oasis-3011714/p",
-      "imagem": "https://promocoes-65707.web.app/img/banho-ilustrativo.svg",
+      "imagem": "https://karsten.vtexassets.com/arquivos/ids/234375/3011714_01.jpg?v=639177491731570000",
       "imagemIlustrativa": true,
       "ativa": true,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -155,6 +273,10 @@
         {
           "data": "2026-10-20T08:00:00-03:00",
           "preco": 59.99
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 56.99
         }
       ],
       "modelo": "3011714",
@@ -164,7 +286,9 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "estoqueStatus": "InStock",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "lojaOficial": true,
+      "seloLoja": "Loja oficial",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "karsten-editorial-3524982",
@@ -176,14 +300,14 @@
       "precoAnterior": null,
       "desconto": 0,
       "url": "https://www.karsten.com.br/toalha-de-banho-karsten-fio-soft-pent-100-algodao-unika-branco-3524982/p",
-      "imagem": "https://promocoes-65707.web.app/img/banho-ilustrativo.svg",
+      "imagem": "https://karsten.vtexassets.com/arquivos/ids/223804/3524982_01.jpg?v=638965900973000000",
       "imagemIlustrativa": true,
       "ativa": true,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -191,6 +315,10 @@
         {
           "data": "2026-10-20T08:00:00-03:00",
           "preco": 84.99
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 80.74
         }
       ],
       "modelo": "3524982",
@@ -200,7 +328,9 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "estoqueStatus": "InStock",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "lojaOficial": true,
+      "seloLoja": "Loja oficial",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "karsten-editorial-3278304",
@@ -212,14 +342,14 @@
       "precoAnterior": null,
       "desconto": 0,
       "url": "https://www.karsten.com.br/toalha-de-mesa-retangular-6-lugares-essencia-cru-3278304/p",
-      "imagem": "https://promocoes-65707.web.app/img/mesa-ilustrativo.svg",
+      "imagem": "https://karsten.vtexassets.com/arquivos/ids/213375/3278304_01.jpg?v=638912270513770000",
       "imagemIlustrativa": true,
       "ativa": true,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -227,6 +357,10 @@
         {
           "data": "2026-10-20T08:00:00-03:00",
           "preco": 114.99
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 87.39
         }
       ],
       "modelo": "3278304",
@@ -236,7 +370,9 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "estoqueStatus": "InStock",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "lojaOficial": true,
+      "seloLoja": "Loja oficial",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "karsten-editorial-3431862",
@@ -248,14 +384,14 @@
       "precoAnterior": null,
       "desconto": 0,
       "url": "https://www.karsten.com.br/toalha-de-mesa-retangular-6-lugares-zaira-brancotaupe-3431862/p",
-      "imagem": "https://promocoes-65707.web.app/img/mesa-ilustrativo.svg",
+      "imagem": "https://karsten.vtexassets.com/arquivos/ids/223685/3431862_01.jpg?v=638965899531000000",
       "imagemIlustrativa": true,
       "ativa": true,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -263,6 +399,10 @@
         {
           "data": "2026-10-20T08:00:00-03:00",
           "preco": 175.49
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 148.19
         }
       ],
       "modelo": "3431862",
@@ -272,14 +412,121 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "estoqueStatus": "InStock",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "lojaOficial": true,
+      "seloLoja": "Loja oficial",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-base-para-cama-box-casal-joe-suede-36x138x188-grafite-808520",
+      "nome": "Base para Cama Box Casal Joe Suede Grafite",
+      "categoria": "Camas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/base-para-cama-box-casal-joe-suede-36x138x188-grafite-808520.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 326.39,
+      "imagem": "https://static.mobly.com.br/p/Keva-Base-para-Cama-Box-Casal-Joe-Suede-2836x138x18829-Grafite-1319-025808-2-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 326.39
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-cama-box-com-colchao-solteiro-howie-misto-d33-17x88x188-branco-e-cinza-1243056",
+      "nome": "Cama Box com Colchão Solteiro Howie Misto D33 Branco e Cinza",
+      "categoria": "Camas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/cama-box-com-colchao-solteiro-howie-misto-d33-17x88x188-branco-e-cinza-1243056.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 576.79,
+      "imagem": "https://static.mobly.com.br/p/Mobly-Cama-Box-com-ColchC3A3o-Solteiro-Howie-Misto-D33-2817x88x18829-Branco-e-Cinza-4808-6503421-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 576.79
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-cama-box-com-colchao-solteiro-howie-misto-d45-17x88x188-branco-e-cinza-1243062",
+      "nome": "Cama Box com Colchão Solteiro Howie Misto D45 Branco e Cinza",
+      "categoria": "Camas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/cama-box-com-colchao-solteiro-howie-misto-d45-17x88x188-branco-e-cinza-1243062.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 790.47,
+      "imagem": "https://static.mobly.com.br/p/Mobly-Cama-Box-com-ColchC3A3o-Solteiro-Howie-Misto-D45-2817x88x18829-Branco-e-Cinza-5360-2603421-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 790.47
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "kabum-switch-oled-mario-wonder-nso",
       "nome": "Console Nintendo Switch OLED + Super Mario Bros. Wonder + 3 meses Nintendo Switch Online",
       "categoria": "Games",
       "loja": "KaBuM!",
-      "seloLoja": "Vendido pela KaBuM!",
+      "seloLoja": "Loja oficial",
       "modelo": "NT000053NSW",
       "modeloFabricante": "NT000053NSW",
       "produtoGrupo": "nintendo-switch-oled-mario-wonder-nso-nt000053nsw",
@@ -302,16 +549,20 @@
       "voltagem": "Bivolt",
       "url": "https://www.kabum.com.br/produto/940533/console-nintendo-switch-oled-super-mario-bros-wonder-3mo-nos-nt000053nsw",
       "observacoes": "Preço e venda/entrega pela KaBuM! confirmados em 13/09/2026.",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/940533/console-nintendo-switch-oled-super-mario-bros-wonder-3mo-nos-nt000053nsw_1762171038_m.jpg",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/940533/console-nintendo-switch-oled-super-mario-bros-wonder-3mo-nos-nt000053nsw_1762171038_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-13T21:04:03.529Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-13T21:04:03.529Z",
           "preco": 2199,
           "freteValor": 0,
           "precoComFrete": 0
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 2510.07
         }
       ],
       "menorPrecoHistorico": 2199,
@@ -321,16 +572,17 @@
       "cupom": null,
       "cashback": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "kabum-joycon-red-blue-178104",
       "nome": "Controle Nintendo Switch Joy-Con Vermelho e Azul",
       "categoria": "Games",
       "loja": "KaBuM!",
-      "seloLoja": "Vendido pela KaBuM!",
+      "seloLoja": "Loja oficial",
       "modelo": "HBCAJAEA1",
       "precoAtual": 371.07,
       "precoAnterior": null,
@@ -342,16 +594,20 @@
       "estoqueStatus": "InStock",
       "url": "https://www.kabum.com.br/produto/178104/controle-nintendo-switch-joy-con-vermelho-e-azul-hbcajaea1",
       "observacoes": "Preço, modelo e venda/entrega pela KaBuM! confirmados em 14/09/2026.",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/178104/controle-nintendo-switch-joy-con-vermelho-e-azul-hbcajaea1_1626895433_m.jpg",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/178104/controle-nintendo-switch-joy-con-vermelho-e-azul-hbcajaea1_1626895433_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
           "preco": 419,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 371.07
         }
       ],
       "menorPrecoHistorico": 419,
@@ -366,16 +622,17 @@
       "cashback": null,
       "prazoEntrega": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "kabum-dualsense-edge-black-697722",
       "nome": "Controle Sony DualSense Edge PS5 Midnight Black",
       "categoria": "Games",
       "loja": "KaBuM!",
-      "seloLoja": "Vendido pela KaBuM!",
+      "seloLoja": "Loja oficial",
       "modelo": "CFI-ZCP1WY",
       "precoAtual": 1394.07,
       "precoPix": 1394.07,
@@ -386,10 +643,10 @@
       "estoqueStatus": "InStock",
       "url": "https://www.kabum.com.br/produto/697722/controle-sony-dualsense-edge-ps5-sem-fio-midnight-black-cfi-zcp1wy",
       "observacoes": "Preço e venda/entrega pela KaBuM! confirmados em 14/09/2026.",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/697722/controle-sony-dualsense-edge-ps5-sem-fio-midnight-black-cfi-zcp1wy_1736941868_m.jpg",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/697722/controle-sony-dualsense-edge-ps5-sem-fio-midnight-black-cfi-zcp1wy_1736941868_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -411,16 +668,17 @@
       "cashback": null,
       "prazoEntrega": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "kabum-kit-dualsense-yotei-fc26-1023131",
       "nome": "Kit Controle DualSense Ghost of Yotei + EA Sports FC 26 PS5",
       "categoria": "Games",
       "loja": "KaBuM!",
-      "seloLoja": "Vendido pela KaBuM!",
+      "seloLoja": "Loja oficial",
       "precoAtual": 854.99,
       "precoAnterior": null,
       "precoPix": 854.99,
@@ -431,10 +689,10 @@
       "estoqueStatus": "InStock",
       "url": "https://www.kabum.com.br/produto/1023131/kit-controle-dual-sense-ghost-of-yotei-ea-sports-fc-26-ps5",
       "observacoes": "Preço e venda/entrega pela KaBuM! confirmados em 14/09/2026.",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/1023131/kit-controle-dual-sense-ghost-of-yotei-ea-sports-fc-26_1775564806_m.jpg",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/1023131/kit-controle-dual-sense-ghost-of-yotei-ea-sports-fc-26_1775564806_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -455,16 +713,17 @@
       "cashback": null,
       "prazoEntrega": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "kabum-kit-dualsense-yotei-tlou2-1023130",
       "nome": "Kit Controle DualSense Ghost of Yotei + The Last of Us Part II PS5",
       "categoria": "Games",
       "loja": "KaBuM!",
-      "seloLoja": "Vendido pela KaBuM!",
+      "seloLoja": "Loja oficial",
       "precoAtual": 712.49,
       "precoAnterior": null,
       "precoPix": 712.49,
@@ -475,10 +734,10 @@
       "estoqueStatus": "InStock",
       "url": "https://www.kabum.com.br/produto/1023130/kit-controle-dual-sense-ghost-of-yotei-the-last-of-us-part-ii-ps5",
       "observacoes": "Preço e venda/entrega pela KaBuM! confirmados em 14/09/2026.",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/1023130/kit-controle-dual-sense-ghost-of-yotei-the-last-of-us-part-ii_1775562000_m.jpg",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/1023130/kit-controle-dual-sense-ghost-of-yotei-the-last-of-us-part-ii_1775562000_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -499,16 +758,17 @@
       "cashback": null,
       "prazoEntrega": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "kabum-kit-dualsense-marathon-bf6-1023148",
       "nome": "Kit Controle DualSense Marathon + Battlefield 6 PS5",
       "categoria": "Games",
       "loja": "KaBuM!",
-      "seloLoja": "Vendido pela KaBuM!",
+      "seloLoja": "Loja oficial",
       "precoAtual": 883.49,
       "precoAnterior": null,
       "precoPix": 883.49,
@@ -519,10 +779,10 @@
       "estoqueStatus": "InStock",
       "url": "https://www.kabum.com.br/produto/1023148/kit-controle-dual-sense-edicao-limitada-marathon-branco-battlefield-6-ps5",
       "observacoes": "Preço e venda/entrega pela KaBuM! confirmados em 14/09/2026.",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/1023148/kit-controle-dual-sense-edicao-limitada-marathon-branco-battlefield-6_1775582146_m.jpg",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/1023148/kit-controle-dual-sense-edicao-limitada-marathon-branco-battlefield-6_1775582146_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -543,16 +803,17 @@
       "cashback": null,
       "prazoEntrega": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "brastemp-brm51mb-415l-branca-220v",
       "nome": "Geladeira Brastemp Frost Free Duplex 415L Branca BRM51MB 220V",
       "categoria": "Geladeiras",
       "loja": "Loja Oficial Brastemp",
-      "seloLoja": "Loja Oficial",
+      "seloLoja": "Loja oficial",
       "modelo": "BRM51MB",
       "modeloFabricante": "BRM51MB",
       "produtoGrupo": "brastemp-brm51mb-415l-branca-220v",
@@ -576,7 +837,7 @@
       "imagem": "https://brastemp.vtexassets.com/arquivos/ids/293905/Brastemp_Geladeira_BRM51MB_Imagem_Frontal_Fechada_jpg.jpg?v=639231897053230000",
       "ativa": true,
       "dataEncontrada": "2026-09-12T12:06:08.071Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "observacoes": "Preço, parcelamento e variante 220V confirmados na Loja Oficial Brastemp em 12/09/2026.",
       "historicoPrecos": [
         {
@@ -584,6 +845,10 @@
           "preco": 3199,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 2870.23
         }
       ],
       "menorPrecoHistorico": 3199,
@@ -594,9 +859,150 @@
       "ultimaQuedaPreco": null,
       "prazoEntrega": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-guardaroupa-casal-lucca-premium-6-portas-imbuia-588059",
+      "nome": "Guarda-Roupa Casal Lucca Premium 6 Portas Imbuia",
+      "categoria": "Guarda-roupas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/guardaroupa-casal-lucca-premium-6-portas-imbuia-588059.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 2405.46,
+      "imagem": "https://static.mobly.com.br/p/Mobly-Guarda-Roupa-Casal-Lucca-Premium-6-Portas-Imbuia-1174-950885-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 2405.46
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-guardaroupa-casal-malibu-100-mdf-6-portas-imbuia-e-off-white-577403",
+      "nome": "Guarda-Roupa Casal Malibu 100% MDF 6 Portas Imbuia e Off White",
+      "categoria": "Guarda-roupas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/guardaroupa-casal-malibu-100-mdf-6-portas-imbuia-e-off-white-577403.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 929.47,
+      "imagem": "https://static.mobly.com.br/p/Modern-Guarda-Roupa-Casal-Malibu-10025-MDF-6-Portas-Imbuia-e-Off-White-3312-304775-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 929.47
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-guardaroupa-casal-paris-8-portas-preto-1708918",
+      "nome": "Guarda-Roupa Casal Paris 8 Portas Preto",
+      "categoria": "Guarda-roupas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/guardaroupa-casal-paris-8-portas-preto-1708918.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 739.45,
+      "imagem": "https://static.mobly.com.br/p/Modern-Guarda-Roupa-Casal-Paris-8-Portas-Preto-5210-8198071-2-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 739.45
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-uardaroupa-casal-torino-100-mdf-6-portas-4-gavetas-naturalle-e-off-white-1274203",
+      "nome": "Guarda-Roupa Casal Torino 100% MDF 6 Portas 4 Gavetas Naturalle e Off White",
+      "categoria": "Guarda-roupas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/guardaroupa-casal-torino-100-mdf-6-portas-4-gavetas-naturalle-e-off-white-1274203.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 1572.47,
+      "imagem": "https://static.mobly.com.br/p/Modern-Guarda-Roupa-Casal-Torino-10025-MDF-6-Portas-4-Gavetas-Naturalle-e-Off-White-6758-3024721-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 1572.47
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "acer-a16-71m-55h0",
@@ -612,10 +1018,10 @@
       "parcelas": 12,
       "valorParcela": 520.73,
       "url": "https://br-store.acer.com/notebook-acer-a16-71m-55h0--cu5115u--16gb--512gb-ssd--wnhpsl64--gray--lcd-16-nx-jqlal-001/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/166947-800-auto?aspect=true&height=auto&v=639094337858270000&width=800",
+      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/166947/A16-71M-55H0__37eb8653-8119-432b-b4a0-46d72280c989.jpg?v=639094337858270000",
       "categoria": "Informática",
       "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja Oficial",
+      "seloLoja": "Loja oficial",
       "voltagem": "Bivolt",
       "estoqueStatus": "InStock",
       "desconto": 0,
@@ -631,7 +1037,7 @@
       "prazoEntrega": null,
       "ativa": true,
       "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-12T21:07:30.655Z",
@@ -647,9 +1053,10 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "acer-a515-45-r478",
@@ -665,10 +1072,10 @@
       "parcelas": 12,
       "valorParcela": 473.39,
       "url": "https://br-store.acer.com/notebook-acer-aspire-5-a515-45-r478-amd-ryzen-5-16gb-ram-512gb-ssd-tela-15-6-linux-prata-nx-aydal-00r/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/167808-800-auto?aspect=true&height=auto&v=639225749107470000&width=800",
+      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/167808/A515-45-R478_01.jpg?v=639225749107470000",
       "categoria": "Informática",
       "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja Oficial",
+      "seloLoja": "Loja oficial",
       "voltagem": "Bivolt",
       "estoqueStatus": "InStock",
       "desconto": 0,
@@ -684,7 +1091,7 @@
       "prazoEntrega": null,
       "ativa": true,
       "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-12T21:07:30.655Z",
@@ -700,9 +1107,10 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "acer-ag15-51p-52bh",
@@ -718,10 +1126,10 @@
       "parcelas": 12,
       "valorParcela": 473.39,
       "url": "https://br-store.acer.com/notebook-acer-aspire-go-15-ag15-51p-52bh-intel-core-5-8gb-ram-512gb-ssd-tela-15-3-windows-11-azul-nx-jgfal-007/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/168021-800-auto?aspect=true&height=auto&v=639232949391570000&width=800",
+      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/168768/1.jpg?v=639276632378700000",
       "categoria": "Informática",
       "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja Oficial",
+      "seloLoja": "Loja oficial",
       "voltagem": "Bivolt",
       "estoqueStatus": "InStock",
       "desconto": 0,
@@ -737,7 +1145,7 @@
       "prazoEntrega": null,
       "ativa": true,
       "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-12T21:07:30.655Z",
@@ -753,9 +1161,10 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "acer-ag15-71p-753g",
@@ -771,10 +1180,10 @@
       "parcelas": 12,
       "valorParcela": 550.14,
       "url": "https://br-store.acer.com/notebook-acer-aspire-go-15-ag15-71p-753g-intel-core-i7-8gb-ram-256gb-ssd-tela-15-6-linux-verde-nx-jh6al-008/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/167513-800-auto?aspect=true&height=auto&v=639217229694130000&width=800",
+      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/167513/pack-1.jpg?v=639217229694130000",
       "categoria": "Informática",
       "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja Oficial",
+      "seloLoja": "Loja oficial",
       "voltagem": "Bivolt",
       "estoqueStatus": "InStock",
       "desconto": 0,
@@ -790,13 +1199,17 @@
       "prazoEntrega": null,
       "ativa": true,
       "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-12T21:07:30.655Z",
           "preco": 5809.56,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 4699
         }
       ],
       "menorPrecoHistorico": 5809.56,
@@ -806,9 +1219,10 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "acer-anv15-41-r6j0",
@@ -824,10 +1238,10 @@
       "parcelas": 12,
       "valorParcela": 568.08,
       "url": "https://br-store.acer.com/notebook-acer-anv15-41-r6j0--r77735hs--8gb--512gb-ssd--rtx4050--agpos--black--fhd-15-6-nh-u20al-004/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/167213-800-auto?aspect=true&height=auto&v=639154837941030000&width=800",
+      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/168318/NH.U20AL.004.MAIN.png?v=639251780554230000",
       "categoria": "Informática",
       "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja Oficial",
+      "seloLoja": "Loja oficial",
       "voltagem": "Bivolt",
       "estoqueStatus": "InStock",
       "desconto": 0,
@@ -843,13 +1257,17 @@
       "prazoEntrega": null,
       "ativa": true,
       "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-12T21:07:30.655Z",
           "preco": 5999,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 5499
         }
       ],
       "menorPrecoHistorico": 5999,
@@ -859,9 +1277,10 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "acer-anv15-52-77bg-rtx4050",
@@ -877,10 +1296,10 @@
       "parcelas": 12,
       "valorParcela": 740.64,
       "url": "https://br-store.acer.com/notebook-acer-nitro-v15-anv15-52-77bg-intel-core-i7-16gb-ram-512gb-ssd-rtx-4050-tela-15-6-windows-11-preto-nh-u0cal-004/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/168147-800-auto?aspect=true&height=auto&v=639240341925900000&width=800",
+      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/168147/ANV15-52-77BG_01.jpg?v=639240341925900000",
       "categoria": "Informática",
       "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja Oficial",
+      "seloLoja": "Loja oficial",
       "voltagem": "Bivolt",
       "estoqueStatus": "InStock",
       "desconto": 0,
@@ -896,7 +1315,7 @@
       "prazoEntrega": null,
       "ativa": true,
       "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-12T21:07:30.655Z",
@@ -918,16 +1337,17 @@
       "variacaoPreco": -11.11,
       "ultimaQuedaPreco": "2026-10-18T18:05:27-03:00",
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     },
     {
       "id": "kabum-adata-legend860-500gb-703111",
       "nome": "SSD Adata Legend 860 500GB M.2 PCIe 4.0 NVMe",
       "categoria": "Informática",
       "loja": "KaBuM!",
-      "seloLoja": "Vendido pela KaBuM!",
+      "seloLoja": "Loja oficial",
       "modelo": "SLEG-860-500GCS",
       "produtoGrupo": "adata-legend860-500gb-sleg-860-500gcs",
       "precoAtual": 799.99,
@@ -939,16 +1359,20 @@
       "estoqueStatus": "InStock",
       "url": "https://www.kabum.com.br/produto/703111/ssd-adata-legend-860-500gb-m-2-2280-pcie-gen-4x4-nvme-leitura-6000mb-s-gravacao-5000mb-s-compativel-com-ps5-preto-sleg-860-500gcs",
       "observacoes": "Preço Pix, parcelamento, modelo e venda/entrega pela KaBuM! confirmados em 26/09/2026. Frete e prazo dependem da consulta do CEP.",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/703111/ssd-adata-legend-860-500gb-m-2-2280-pcie-gen-4x4-nvme-leitura-6000mb-s-gravacao-5000mb-s-compativel-com-ps5-preto-sleg-860-500gcs_1742817337_m.jpg",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/703111/ssd-adata-legend-860-500gb-m-2-2280-pcie-gen-4x4-nvme-leitura-6000mb-s-gravacao-5000mb-s-compativel-com-ps5-preto-sleg-860-500gcs_1742817337_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-10-21T22:02:14.332Z",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
           "preco": 899.99,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 799.99
         }
       ],
       "menorPrecoHistorico": 899.99,
@@ -968,9 +1392,360 @@
       "cashback": null,
       "prazoEntrega": null,
       "entregaEstimada": null,
+      "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-10-21T22:02:14.332Z"
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly--de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-off-white-120-cm-1164651",
+      "nome": "Mesa de Jantar Retangular com Tampo de Vidro Anitta Preta e Off White 120 cm",
+      "categoria": "Mesas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/mesa-de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-off-white-120-cm-1164651.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 756.47,
+      "imagem": "https://static.mobly.com.br/p/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Anitta-Preta-e-Off-White-120-cm-4745-1564611-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 756.47
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly--de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-off-white-160-cm-1164544",
+      "nome": "Mesa de Jantar Retangular com Tampo de Vidro Anitta Preta e Off White 160 cm",
+      "categoria": "Mesas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/mesa-de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-off-white-160-cm-1164544.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 1007.15,
+      "imagem": "https://static.mobly.com.br/p/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Anitta-Preta-e-Off-White-160-cm-4797-4454611-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 1007.15
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-mesa-de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-ype-120-cm-1164653",
+      "nome": "Mesa de Jantar Retangular com Tampo de Vidro Anitta Preta e Ype 120 cm",
+      "categoria": "Mesas",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/mesa-de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-ype-120-cm-1164653.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 773.47,
+      "imagem": "https://static.mobly.com.br/p/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Anitta-Preta-e-Ype-120-cm-4729-3564611-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 773.47
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-sofacama-2-lugares-casal-bergamo-cinza-claro-1119540",
+      "nome": "Sofá-Cama 2 Lugares Casal Bergamo Cinza Claro",
+      "categoria": "Sofás",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/sofacama-2-lugares-casal-bergamo-cinza-claro-1119540.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 1891.24,
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-2-Lugares-Casal-Bergamo-Cinza-Claro-7409-0459111-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 1891.24
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-sofacama-3-lugares-casal-premium-preto-195813",
+      "nome": "Sofá-Cama 3 Lugares Casal Premium Preto",
+      "categoria": "Sofás",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/sofacama-3-lugares-casal-premium-preto-195813.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 1231.64,
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Preto-8024-318591-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 1231.64
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-sofacama-3-lugares-casal-premium-suede-cinza-200077",
+      "nome": "Sofá-Cama 3 Lugares Casal Premium Suede Cinza",
+      "categoria": "Sofás",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/sofacama-3-lugares-casal-premium-suede-cinza-200077.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 1028.15,
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-5303-770002-2-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 1028.15
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-sofacama-3-lugares-dovera-natural-1686024",
+      "nome": "Sofá-Cama 3 Lugares Dovera Natural",
+      "categoria": "Sofás",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/sofacama-3-lugares-dovera-natural-1686024.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 1975.39,
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Dovera--Natural-5813-4206861-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 1975.39
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-sofacama-3-lugares-imperia-natural-1686022",
+      "nome": "Sofá-Cama 3 Lugares Imperia Natural",
+      "categoria": "Sofás",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/sofacama-3-lugares-imperia-natural-1686022.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 1911.64,
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Imperia-Natural-5841-2206861-1-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 1911.64
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-sofacama-casal-3-lugares-cecilia-linho-cinza-711967",
+      "nome": "Sofá-Cama Casal 3 Lugares Cecília Linho Cinza",
+      "categoria": "Sofás",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/sofacama-casal-3-lugares-cecilia-linho-cinza-711967.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 998.74,
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-Casal-3-Lugares-CecC3ADlia-Linho-Cinza-1607-769117-2-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 998.74
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
+    },
+    {
+      "id": "oficial-mobly-sofacama-casal-3-lugares-paiva-suede-bege-1686008",
+      "nome": "Sofá-Cama Casal 3 Lugares Paiva Suede Bege",
+      "categoria": "Sofás",
+      "loja": "Mobly — Loja Oficial",
+      "url": "https://www.mobly.com.br/sofacama-casal-3-lugares-paiva-suede-bege-1686008.html",
+      "ativa": true,
+      "lojaOficial": true,
+      "vendedorEsperado": "mobly",
+      "precoAtual": 1104.97,
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-Casal-3-Lugares-Paiva-Suede-Bege-2361-8006861-2-product.jpg",
+      "estoqueStatus": "InStock",
+      "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
+      "precoAnterior": null,
+      "desconto": 0,
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T22:19:55.903Z",
+          "preco": 1104.97
+        }
+      ],
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "seloLoja": "Loja oficial",
+      "ultimaVerificacao": "2026-10-21T22:19:55.903Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "fonteAtualizadaEm": "2026-10-21T22:19:55.903Z"
     }
   ]
 }
