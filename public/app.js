@@ -192,7 +192,10 @@ function clearFilters(){ els.search.value=""; els.category.value=""; els.store.v
 
 async function loadOffers(){
   try { setStatus("Atualizando…",true); els.error.classList.add("hidden"); const payload=await fetchPayload(); allOffers=Array.isArray(payload.ofertas)?payload.ofertas:[]; brokenImages.clear();
-    if (!eligibleOffers().some(o => RadarPolicy.isRecentVerification(o)) && eligibleOffers().length) showHistorical = true;
+    if (!historicalModeInitialized) {
+      showHistorical = !eligibleOffers().some(o => RadarPolicy.isRecentVerification(o)) && eligibleOffers().length > 0;
+      historicalModeInitialized = true;
+    }
     document.body.classList.toggle("viewing-historical",showHistorical);
     populateSelect(els.category,uniqueValues("categoria"),"Todas as categorias"); populateSelect(els.store,uniqueValues("loja"),"Todas as lojas"); renderCategoryChips(); updateStats(); updateLocalCounters();
     els.updated.textContent=payload.geradoEm?`Atualizado ${new Date(payload.geradoEm).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}`:"Atualização automática"; setStatus(activeOffers().length ? (showHistorical ? "Referências antigas" : "Ofertas verificadas") : "Sem ofertas recentes", activeOffers().length > 0 && !showHistorical); render();
