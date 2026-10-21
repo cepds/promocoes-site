@@ -19,6 +19,7 @@ const requiredFiles = [
   'public/commerce.css',
   'public/catalog-policy.js',
   'public/search-engine.js',
+  'public/product-identity.js',
   'public/home-discovery.js',
   'public/comparator-discovery.js',
   'public/categorias-descoberta.json',
@@ -57,6 +58,7 @@ for (const file of requiredFiles) {
 const jsFiles = [
   'public/catalog-policy.js',
   'public/search-engine.js',
+  'public/product-identity.js',
   'public/home-discovery.js',
   'public/comparator-discovery.js',
   'scripts/awin-feed-lib.cjs',
