@@ -411,7 +411,14 @@
       "estoqueStatus": "Unknown",
       "origemCuradoria": "Página pesquisada; só publicar com vendedor, preço, estoque, foto e variante validados",
       "produtoGrupo": "howie-d33-casal-17x138x188-branco-cinza",
-      "identidadeRevisada": true
+      "identidadeRevisada": true,
+      "verificacaoTermos": [
+        "howie",
+        "d33",
+        "138x188",
+        "branco",
+        "cinza"
+      ]
     },
     {
       "id": "oficial-mobly-1328024",
@@ -445,7 +452,13 @@
       "estoqueStatus": "Unknown",
       "origemCuradoria": "Página pesquisada; só publicar com vendedor, preço, estoque, foto e variante validados",
       "produtoGrupo": "monaco-casal-193x144-branco-neve",
-      "identidadeRevisada": true
+      "identidadeRevisada": true,
+      "verificacaoTermos": [
+        "monaco",
+        "193",
+        "144",
+        "branco"
+      ]
     },
     {
       "id": "oficial-madeiramadeira-728755",
@@ -605,7 +618,14 @@
       "precoAtual": null,
       "imagem": null,
       "estoqueStatus": "Unknown",
-      "origemCuradoria": "Mesmo produto e variante conferidos em duas páginas: consultar preço e disponibilidade na execução automática."
+      "origemCuradoria": "Mesmo produto e variante conferidos em duas páginas: consultar preço e disponibilidade na execução automática.",
+      "verificacaoTermos": [
+        "howie",
+        "d33",
+        "138x188",
+        "branco",
+        "cinza"
+      ]
     },
     {
       "id": "oficial-magalu-madeiramadeira-760308900",
@@ -621,7 +641,13 @@
       "precoAtual": null,
       "imagem": null,
       "estoqueStatus": "Unknown",
-      "origemCuradoria": "Mesmo produto e variante conferidos em duas páginas: consultar preço e disponibilidade na execução automática."
+      "origemCuradoria": "Mesmo produto e variante conferidos em duas páginas: consultar preço e disponibilidade na execução automática.",
+      "verificacaoTermos": [
+        "monaco",
+        "193",
+        "144",
+        "branco"
+      ]
     }
   ]
 }
