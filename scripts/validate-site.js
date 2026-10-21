@@ -22,6 +22,10 @@ const requiredFiles = [
   'public/home-discovery.js',
   'public/comparator-discovery.js',
   'public/categorias-descoberta.json',
+  'public/enxoval.json',
+  'public/img/cama-ilustrativo.svg',
+  'public/img/mesa-ilustrativo.svg',
+  'public/img/banho-ilustrativo.svg',
   'scripts/awin-feed-lib.cjs',
   'scripts/sync-awin-feed.mjs',
   'public/lojas-casa.json',
@@ -166,6 +170,24 @@ try {
     unique.add(item.id);
   }
 }catch(error){fail("Diretório de categorias inválido: "+error.message)}
+
+try {
+  const local=JSON.parse(fs.readFileSync('public/enxoval.json','utf8'));
+  const source=JSON.parse(fs.readFileSync('data/enxoval.json','utf8'));
+  if (JSON.stringify(local)!==JSON.stringify(source)) fail('Enxoval em public e data divergentes.');
+  const list=Array.isArray(local.ofertas)?local.ofertas:[];
+  if (list.length<6) fail('Enxoval sem os seis produtos pesquisados.');
+  const ids=new Set();
+  for(const o of list){
+    if(ids.has(o.id))fail('ID de enxoval repetido: '+o.id);
+    ids.add(o.id);
+    if(o.categoria!=='Cama, mesa e banho')fail('Categoria de enxoval incorreta.');
+    if(!o.imagemIlustrativa)fail('Produto sem foto deve identificar imagem ilustrativa.');
+    if(!isHttps(o.url)||new URL(o.url).hostname!=='www.karsten.com.br')fail('URL de enxoval desconhecida.');
+    if(!(Number(o.precoAtual)>0))fail('Enxoval com preço ausente.');
+    if(!isHttps(o.imagem))fail('Enxoval com imagem inválida.');
+  }
+}catch(error){fail('Falha de integridade no enxoval: '+error.message)}
 
 if (warnings.length) {
   console.log('\nAvisos:');

@@ -1,9 +1,9 @@
-const CACHE_NAME = "radar-promocoes-v12";
+const CACHE_NAME = "radar-promocoes-v13";
 const DATA_CACHE = "radar-promocoes-data-v1";
 const APP_SHELL = [
   "/",
   "/index.html",
-  "/style.css?v=14",
+  "/style.css?v=15",
   "/enhancements.css?v=2",
   "/commerce.css?v=1",
   "/fetch-fallback.js?v=1",
@@ -13,11 +13,15 @@ const APP_SHELL = [
   "/comparator-discovery.js?v=1",
   "/categorias-descoberta.json",
   "/lojas-casa.json",
-  "/app.js?v=14",
-  "/enhancements.js?v=2",
+  "/enxoval.json",
+  "/img/cama-ilustrativo.svg",
+  "/img/mesa-ilustrativo.svg",
+  "/img/banho-ilustrativo.svg",
+  "/app.js?v=15",
+  "/enhancements.js?v=3",
   "/auto-refresh.js?v=1",
   "/produto.html",
-  "/produto.js?v=4",
+  "/produto.js?v=5",
   "/produto-enhancements.js?v=1",
   "/admin.html",
   "/admin.js?v=2",

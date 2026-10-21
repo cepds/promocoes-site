@@ -1,0 +1,180 @@
+{
+  "descricao": "Exemplos reais de cama, mesa e banho com links oficiais e preços de referência não revalidados em checkout. Imagens são ícones ilustrativos.",
+  "geradoEm": "2026-10-21T18:16:00-03:00",
+  "ofertas": [
+    {
+      "id": "karsten-editorial-3478698",
+      "nome": "Jogo de Cama Queen 300 Fios 100% Algodão Videira",
+      "categoria": "Cama, mesa e banho",
+      "subcategoria": "Roupa de cama",
+      "loja": "Karsten — Loja Oficial",
+      "precoAtual": 639.99,
+      "precoAnterior": 799.99,
+      "desconto": 20,
+      "url": "https://www.karsten.com.br/jogo-de-cama-queen-300-fios-100-algodao-videira-3478698/p",
+      "imagem": "https://promocoes-65707.web.app/img/cama-ilustrativo.svg",
+      "imagemIlustrativa": true,
+      "ativa": true,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "dataEncontrada": "2026-10-21T18:16:00-03:00",
+      "ultimaVerificacao": "2026-10-20T08:00:00-03:00",
+      "fonteTipo": "pagina_publica",
+      "fonte": "Karsten (preço de referência da página oficial)",
+      "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-20T08:00:00-03:00",
+          "preco": 639.99
+        }
+      ],
+      "modelo": "3478698"
+    },
+    {
+      "id": "karsten-editorial-3501665",
+      "nome": "Jogo de Cama Queen 300 Fios 100% Algodão Ávila",
+      "categoria": "Cama, mesa e banho",
+      "subcategoria": "Roupa de cama",
+      "loja": "Karsten — Loja Oficial",
+      "precoAtual": 599.99,
+      "precoAnterior": 749.99,
+      "desconto": 20,
+      "url": "https://www.karsten.com.br/jogo-de-cama-queen-300-fios-100-algodao-avila-3501665/p",
+      "imagem": "https://promocoes-65707.web.app/img/cama-ilustrativo.svg",
+      "imagemIlustrativa": true,
+      "ativa": true,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "dataEncontrada": "2026-10-21T18:16:00-03:00",
+      "ultimaVerificacao": "2026-10-20T08:00:00-03:00",
+      "fonteTipo": "pagina_publica",
+      "fonte": "Karsten (preço de referência da página oficial)",
+      "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-20T08:00:00-03:00",
+          "preco": 599.99
+        }
+      ],
+      "modelo": "3501665"
+    },
+    {
+      "id": "karsten-editorial-3524982",
+      "nome": "Toalha de Banho Karsten 100% Algodão Unika Branco",
+      "categoria": "Cama, mesa e banho",
+      "subcategoria": "Banho",
+      "loja": "Karsten — Loja Oficial",
+      "precoAtual": 84.99,
+      "precoAnterior": null,
+      "desconto": 0,
+      "url": "https://www.karsten.com.br/toalha-de-banho-karsten-fio-soft-pent-100-algodao-unika-branco-3524982/p",
+      "imagem": "https://promocoes-65707.web.app/img/banho-ilustrativo.svg",
+      "imagemIlustrativa": true,
+      "ativa": true,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "dataEncontrada": "2026-10-21T18:16:00-03:00",
+      "ultimaVerificacao": "2026-10-20T08:00:00-03:00",
+      "fonteTipo": "pagina_publica",
+      "fonte": "Karsten (preço de referência da página oficial)",
+      "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-20T08:00:00-03:00",
+          "preco": 84.99
+        }
+      ],
+      "modelo": "3524982"
+    },
+    {
+      "id": "karsten-editorial-3011714",
+      "nome": "Toalha de Banho 100% Algodão Nuvia Oásis",
+      "categoria": "Cama, mesa e banho",
+      "subcategoria": "Banho",
+      "loja": "Karsten — Loja Oficial",
+      "precoAtual": 59.99,
+      "precoAnterior": null,
+      "desconto": 0,
+      "url": "https://www.karsten.com.br/toalha-de-banho-100-algodao-nuvia-oasis-3011714/p",
+      "imagem": "https://promocoes-65707.web.app/img/banho-ilustrativo.svg",
+      "imagemIlustrativa": true,
+      "ativa": true,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "dataEncontrada": "2026-10-21T18:16:00-03:00",
+      "ultimaVerificacao": "2026-10-20T08:00:00-03:00",
+      "fonteTipo": "pagina_publica",
+      "fonte": "Karsten (preço de referência da página oficial)",
+      "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-20T08:00:00-03:00",
+          "preco": 59.99
+        }
+      ],
+      "modelo": "3011714"
+    },
+    {
+      "id": "karsten-editorial-3278304",
+      "nome": "Toalha de Mesa Retangular 6 Lugares Essencia Cru",
+      "categoria": "Cama, mesa e banho",
+      "subcategoria": "Mesa posta",
+      "loja": "Karsten — Loja Oficial",
+      "precoAtual": 114.99,
+      "precoAnterior": null,
+      "desconto": 0,
+      "url": "https://www.karsten.com.br/toalha-de-mesa-retangular-6-lugares-essencia-cru-3278304/p",
+      "imagem": "https://promocoes-65707.web.app/img/mesa-ilustrativo.svg",
+      "imagemIlustrativa": true,
+      "ativa": true,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "dataEncontrada": "2026-10-21T18:16:00-03:00",
+      "ultimaVerificacao": "2026-10-20T08:00:00-03:00",
+      "fonteTipo": "pagina_publica",
+      "fonte": "Karsten (preço de referência da página oficial)",
+      "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-20T08:00:00-03:00",
+          "preco": 114.99
+        }
+      ],
+      "modelo": "3278304"
+    },
+    {
+      "id": "karsten-editorial-3431862",
+      "nome": "Toalha de Mesa Retangular 6 Lugares Zaira Branco/Taupe",
+      "categoria": "Cama, mesa e banho",
+      "subcategoria": "Mesa posta",
+      "loja": "Karsten — Loja Oficial",
+      "precoAtual": 175.49,
+      "precoAnterior": 194.99,
+      "desconto": 10,
+      "url": "https://www.karsten.com.br/toalha-de-mesa-retangular-6-lugares-zaira-brancotaupe-3431862/p",
+      "imagem": "https://promocoes-65707.web.app/img/mesa-ilustrativo.svg",
+      "imagemIlustrativa": true,
+      "ativa": true,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "dataEncontrada": "2026-10-21T18:16:00-03:00",
+      "ultimaVerificacao": "2026-10-20T08:00:00-03:00",
+      "fonteTipo": "pagina_publica",
+      "fonte": "Karsten (preço de referência da página oficial)",
+      "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-20T08:00:00-03:00",
+          "preco": 175.49
+        }
+      ],
+      "modelo": "3431862"
+    }
+  ]
+}

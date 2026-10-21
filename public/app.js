@@ -80,8 +80,8 @@ function updateFreshnessUi() {
   if (els.freshnessWarning) {
     els.freshnessWarning.classList.toggle("hidden", expired === 0);
     els.freshnessWarning.textContent = showHistorical
-      ? `Exibindo ${expired} referências antigas. Os preços, cupons e estoques NÃO foram confirmados nas últimas 18 horas. Confira na loja antes de comprar.`
-      : `${expired} ofertas não têm verificação recente e estão ocultas. Você pode consultar os preços antigos apenas como referência.`;
+      ? "Preços de referência de verificações anteriores. Confirme o valor e o estoque antes de comprar."
+      : `${expired} produtos têm preços antigos e estão ocultos. Consulte-os como referência, se desejar.`;
   }
 }
 
@@ -141,6 +141,7 @@ function filteredRows() {
     if (sort === "priceAsc") return asNumber(a.precoAtual)-asNumber(b.precoAtual);
     if (sort === "priceDesc") return asNumber(b.precoAtual)-asNumber(a.precoAtual);
     if (sort === "totalAsc") { const at=shippingInfo(a,asNumber(a.precoAtual)).total ?? Infinity; const bt=shippingInfo(b,asNumber(b.precoAtual)).total ?? Infinity; return at-bt; }
+    if (Boolean(a.imagemIlustrativa)!==Boolean(b.imagemIlustrativa)) return a.imagemIlustrativa ? 1 : -1;
     return (asDate(b.dataEncontrada)?.getTime()||asDate(b.ultimaVerificacao)?.getTime()||0)-(asDate(a.dataEncontrada)?.getTime()||asDate(a.ultimaVerificacao)?.getTime()||0);
   });
   return rows;
@@ -150,12 +151,12 @@ function renderCard(o) {
   const current = asNumber(o.precoAtual), previous = asNumber(o.precoAnterior), discount = asNumber(o.desconto), url = safeUrl(o.urlAfiliado) || safeUrl(o.url), image = validImageUrl(o.imagem), key = offerKey(o), checked = asDate(o.ultimaVerificacao);
   const coupon = text(o.cupom,""), cashback = text(o.cashback,""), saving = previous > current && current > 0 ? previous-current : 0, ship = shippingInfo(o,current), score = dealScore(o), stats = historyStats(o), trust = storeTrust(o), fav = favorites.has(key), cmp = compare.has(key);
   const stale = !RadarPolicy.isRecentVerification(o), affiliate = Boolean(o.urlAfiliado && safeUrl(o.urlAfiliado));
-  const tags = [stale ? `<span class="tag tag-stale">Verificação vencida</span>` : "", (!stale && isNew(o))?`<span class="tag tag-new">Novo</span>`:"", (!stale && droppedPrice(o))?`<span class="tag tag-drop">↓ Baixou</span>`:"", o.voltagem?`<span class="tag">${escapeHtml(o.voltagem)}</span>`:"", trust?`<span class="tag tag-trust">✓ ${escapeHtml(trust)}</span>`:""].filter(Boolean).join("");
+  const tags = [stale ? `<span class="tag tag-stale">Preço de referência</span>` : "", (!stale && isNew(o))?`<span class="tag tag-new">Novo</span>`:"", (!stale && droppedPrice(o))?`<span class="tag tag-drop">↓ Baixou</span>`:"", o.voltagem?`<span class="tag">${escapeHtml(o.voltagem)}</span>`:"", trust?`<span class="tag tag-trust">✓ ${escapeHtml(trust)}</span>`:""].filter(Boolean).join("");
   const perks = stale ? `<span class="perk">Frete, cupom e estoque: confirmar na loja</span>` : [coupon && coupon.toLowerCase()!=="não informado"?`<span class="perk coupon">Cupom: ${escapeHtml(coupon)}</span>`:"", `<span class="perk">Frete: ${escapeHtml(ship.label)}</span>`, ship.total!==null?`<span class="perk total">Total: ${money(ship.total)}</span>`:"", cashback && cashback.toLowerCase()!=="não informado"?`<span class="perk">Cashback: ${escapeHtml(cashback)}</span>`:""].filter(Boolean).join("");
   return `<article class="card" data-offer-key="${escapeHtml(key)}">
-    <div class="image-wrap"><a class="image-link" href="./produto.html?id=${encodeURIComponent(key)}"><img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}" loading="lazy" decoding="async"></a>${!stale&&discount>0?`<div class="badge">-${Math.round(discount)}%</div>`:""}<button class="favorite-button${fav?" active":""}" data-favorite="${escapeHtml(key)}" aria-label="Favoritar">${fav?"♥":"♡"}</button><div class="store-pill">${escapeHtml(text(o.loja))}</div></div>
+    <div class="image-wrap"><a class="image-link" href="./produto.html?id=${encodeURIComponent(key)}"><img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}" loading="lazy" decoding="async"></a>${!stale&&discount>0?`<div class="badge">-${Math.round(discount)}%</div>`:""}${o.imagemIlustrativa?`<span class="image-disclaimer">Imagem ilustrativa</span>`:""}<button class="favorite-button${fav?" active":""}" data-favorite="${escapeHtml(key)}" aria-label="Favoritar">${fav?"♥":"♡"}</button><div class="store-pill">${escapeHtml(text(o.loja))}</div></div>
     <div class="card-body"><div class="tag-row">${tags}</div><span class="category-label">${escapeHtml(text(o.categoria))}</span><h3 class="product-name"><a href="./produto.html?id=${encodeURIComponent(key)}">${escapeHtml(text(o.nome))}</a></h3>
-    ${stale?`<p class="history-note">Preço histórico sem confirmação recente</p>`:`<div class="score-row"><span class="score-badge score-${scoreLabel(score).toLowerCase()}">${score}/100 • ${scoreLabel(score)}</span>${stats.count>=2?`<span class="history-note">mín. ${money(stats.min)}</span>`:""}</div>`}
+    ${stale?`<p class="history-note">Preço consultado anteriormente</p>`:`<div class="score-row"><span class="score-badge score-${scoreLabel(score).toLowerCase()}">${score}/100 • ${scoreLabel(score)}</span>${stats.count>=2?`<span class="history-note">mín. ${money(stats.min)}</span>`:""}</div>`}
     <div class="price-block"><div class="old-price">${stale?"Preço registrado na última verificação":previous>current&&previous>0?money(previous):""}</div><div class="price-line"><div class="price">${current>0?money(current):"Preço indisponível"}</div>${!stale&&saving>0?`<span class="saving">economize ${money(saving)}</span>`:""}</div></div>
     <div class="perks">${perks}</div>
     <label class="compare-check"><input type="checkbox" data-compare="${escapeHtml(key)}" ${cmp?"checked":""}> Comparar</label>
@@ -190,15 +191,33 @@ function renderCompare(){
 
 function clearFilters(){ els.search.value=""; els.category.value=""; els.store.value=""; els.minPrice.value=""; els.maxPrice.value=""; els.minDiscount.value="0"; els.freeShipping.checked=false; favoritesOnly=false; renderCategoryChips(); updateLocalCounters(); render(); }
 
+async function fetchLocalEnxoval(){
+  try {
+    const response = await fetch("./enxoval.json?t=" + Date.now(), {cache:"no-store"});
+    if(!response.ok) throw new Error("HTTP " + response.status);
+    const parsed = await response.json();
+    return Array.isArray(parsed.ofertas) ? parsed.ofertas : [];
+  } catch(error) {
+    console.warn("Catálogo de cama, mesa e banho indisponível:", error);
+    return [];
+  }
+}
 async function loadOffers(){
-  try { setStatus("Atualizando…",true); els.error.classList.add("hidden"); const payload=await fetchPayload(); allOffers=Array.isArray(payload.ofertas)?payload.ofertas:[]; brokenImages.clear();
+  try { setStatus("Atualizando…",true); els.error.classList.add("hidden"); const payload=await fetchPayload(); const main = Array.isArray(payload.ofertas) ? payload.ofertas : [];
+    const additional = await fetchLocalEnxoval();
+    const seen = new Set(main.map(o=>String(o.id)));
+    allOffers = [...main, ...additional.filter(o=>{
+      if(!o || !o.id || seen.has(String(o.id)))return false;
+      seen.add(String(o.id));return true;
+    })];
+    brokenImages.clear();
     if (!historicalModeInitialized) {
       showHistorical = !eligibleOffers().some(o => RadarPolicy.isRecentVerification(o)) && eligibleOffers().length > 0;
       historicalModeInitialized = true;
     }
     document.body.classList.toggle("viewing-historical",showHistorical);
     populateSelect(els.category,uniqueValues("categoria"),"Todas as categorias"); populateSelect(els.store,uniqueValues("loja"),"Todas as lojas"); renderCategoryChips(); updateStats(); updateLocalCounters();
-    els.updated.textContent=payload.geradoEm?`Atualizado ${new Date(payload.geradoEm).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}`:"Atualização automática"; setStatus(activeOffers().length ? (showHistorical ? "Referências antigas" : "Ofertas verificadas") : "Sem ofertas recentes", activeOffers().length > 0 && !showHistorical); render();
+    els.updated.textContent="Preços com datas de consulta distintas"; setStatus(activeOffers().length ? (showHistorical ? "Referências antigas" : "Ofertas verificadas") : "Sem ofertas recentes", activeOffers().length > 0 && !showHistorical); render();
   } catch(err){ console.error(err); setStatus("Falha na atualização",false); els.error.classList.remove("hidden"); els.errorMessage.textContent=`Não foi possível carregar a base. ${err.message||""}`; }
 }
 
