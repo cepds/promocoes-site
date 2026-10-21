@@ -50,6 +50,9 @@ function officialSeller(html,record,offer){
  if(owner==="mobly"&&/\bmobly\b/.test(candidate))return true;
  if(owner==="magalu"&&/\bmagalu\b|\bmagazine luiza\b/.test(candidate))return true;
  if(owner==="casasbahia"&&/\bcasas bahia\b/.test(candidate))return true;
+ // Vendedor de terceiro explicitamente indicado no Offer nunca pode ser
+ // substituído por slogans ou anúncios gerais do marketplace.
+ if(candidate)return false;
  const text=normalize(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi," ").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi," ").replace(/<[^>]*>/g," ")).slice(0,150000);
  if(owner==="mobly")return /vendido e entregue por mobly/.test(text);
  if(owner==="magalu")return /vendido por magalu e entregue por magalu|vendido e entregue por magalu|produto vendido e entregue pelo magalu/.test(text);
