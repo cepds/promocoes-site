@@ -19,7 +19,7 @@ test("mapeia feed de casa com fonte, preco e frete",()=>{
  assert.equal(item.categoria,"Cama, mesa e banho");
  assert.equal(item.freteGratis,true);
  assert.equal(item.fonteTipo,"feed_afiliado");
- assert.equal(item.ultimaVerificacao,stamp);
+ assert.equal(Date.parse(item.ultimaVerificacao),Date.parse(stamp));
 });
 test("recusa preco, loja, imagem ou data insuficientes",()=>{
  assert.equal(lib.mapRow({...row(),search_price:""},feed,now),null);
