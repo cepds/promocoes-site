@@ -2,12 +2,12 @@ const test=require("node:test");
 const assert=require("node:assert/strict");
 const fs=require("node:fs");
 const {detect}=require("../scripts/verify-products-lib.cjs");
-const allowedHosts=new Set(["www.mobly.com.br","loja.electrolux.com.br","www.magazineluiza.com.br","www.casasbahia.com.br","www.madeiramadeira.com.br","www.carrefour.com.br"]);
+const allowedHosts=new Set(["www.mobly.com.br","loja.electrolux.com.br","www.magazineluiza.com.br","www.casasbahia.com.br","www.madeiramadeira.com.br","www.carrefour.com.br","m.magazineluiza.com.br"]);
 const catalog=JSON.parse(fs.readFileSync("data/produtos-oficiais.json","utf8"));
 test("fontes oficiais por categoria incluem Casas Bahia e Magalu",()=>{
  const ids=new Set();
  assert.equal(catalog.total,catalog.produtos.length);
- assert.ok(catalog.produtos.length>=40);
+ assert.ok(catalog.produtos.length>=42);
  for(const p of catalog.produtos){
    assert.ok(!ids.has(p.id));ids.add(p.id);
    assert.ok(allowedHosts.has(new URL(p.url).hostname));
@@ -62,4 +62,30 @@ test("o modelo do fabricante deve coincidir em anúncios de parceiros",()=>{
  const x=htmlProduct("Geladeira Brastemp BRM51MB 220V","Brastemp");
  assert.equal(detect(x,record).status,"verified");
  assert.equal(detect(htmlProduct("Geladeira Brastemp BRM52MB 220V","Brastemp"),record).status,"unverified");
+});
+
+test("camas iguais em Mobly e Magalu exigem vendedor fabricante",()=>{
+ const p={nome:"Cama Box com Colchão Casal Howie D33 17x138x188 Branco e Cinza",
+ url:"https://m.magazineluiza.com.br/cama-box/p/ga11j3f91e/co/cmbx/",vendedorEsperado:"magalu-mobly"};
+ assert.equal(detect(htmlProduct(p.nome,"Mobly"),p).status,"verified");
+ assert.equal(detect(htmlProduct(p.nome,"Lojista Qualquer"),p).status,"unverified");
+ const m={nome:"Cama Casal em MDP 193cm x 144cm Mônaco Tcil Móveis",
+ url:"https://www.magazineluiza.com.br/cama-casal/p/760308900/mo/camo/",vendedorEsperado:"magalu-madeiramadeira"};
+ assert.equal(detect(htmlProduct(m.nome,"Madeira Madeira"),m).status,"verified");
+ assert.equal(detect(htmlProduct(m.nome,"Lojista Qualquer"),m).status,"unverified");
+});
+test("cada grupo multiloja possui ao menos duas paginas de produto e não inventa preços",()=>{
+ const groups=new Map();
+ for(const product of catalog.produtos){
+   if(!product.identidadeRevisada)continue;
+   const group=groups.get(product.produtoGrupo)||[];
+   group.push(product);groups.set(product.produtoGrupo,group);
+   assert.equal(product.precoAtual,null);
+   assert.equal(product.estoqueStatus,"Unknown");
+ }
+ assert.equal(groups.size,2);
+ for(const products of groups.values()){
+   assert.equal(products.length,2);
+   assert.equal(new Set(products.map(p=>new URL(p.url).hostname)).size,2);
+ }
 });
