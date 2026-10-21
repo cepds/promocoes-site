@@ -20,6 +20,8 @@ const requiredFiles = [
   'public/catalog-policy.js',
   'public/search-engine.js',
   'public/home-discovery.js',
+  'public/comparator-discovery.js',
+  'public/categorias-descoberta.json',
   'public/lojas-casa.json',
   'public/fetch-fallback.js',
   'public/app.js',
