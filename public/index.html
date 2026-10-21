@@ -18,40 +18,12 @@
   <meta name="robots" content="index,follow" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./style.css?v=15" />
+  <link rel="stylesheet" href="./style.css?v=16" />
   <link rel="stylesheet" href="./enhancements.css?v=2" />
 </head>
 <body>
-  <header class="site-header compact-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="./" aria-label="Radar de Promoções">
-        <span class="brand-mark">%</span>
-        <span><strong>Radar</strong><small>Promoções</small></span>
-      </a>
-      <nav class="top-actions" aria-label="Ações">
-        <a class="ghost-action" href="./admin.html">Painel</a>
-        <button id="favoritesToggle" class="ghost-action" type="button">♡ Favoritos <span id="favoritesCount">0</span></button>
-        <button id="compareToggle" class="ghost-action" type="button">⇄ Comparar <span id="compareCount">0</span></button>
-        <button id="installApp" class="ghost-action hidden" type="button">Instalar app</button>
-        <div class="header-status" id="status"><span class="status-dot"></span><span>Carregando…</span></div>
-      </nav>
-    </div>
-
-    <div class="container hero compact-hero">
-      <div class="hero-copy">
-        <h1>Radar de Promoções</h1>
-        <p>Encontre produtos para sua casa com fotos, histórico e comparação de preços. Consulte os valores atuais diretamente nas lojas.</p>
-      </div>
-      <div class="hero-stats" aria-label="Resumo do catálogo">
-        <div class="stat-card"><span class="stat-label">Produtos</span><strong id="statOffers">0</strong></div>
-        <div class="stat-card"><span class="stat-label">Lojas</span><strong id="statStores">0</strong></div>
-        <div class="stat-card"><span class="stat-label">Maior desconto</span><strong id="statDiscount">0%</strong></div>
-      </div>
-    </div>
-  </header>
-
   <main>
-    <section class="container discovery">
+    <section class="container discovery" aria-label="Filtros de produtos">
       <div class="search-panel">
         <div class="search-box">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
@@ -80,6 +52,10 @@
           <label class="check-filter"><input id="freeShipping" type="checkbox" /><span>Frete grátis</span></label>
           <button id="clearFilters" class="clear-filter" type="button">Limpar filtros</button>
         </div>
+        <div class="filter-shortcuts" aria-label="Ações dos produtos">
+          <button id="favoritesToggle" type="button" class="filter-shortcut">♡ Favoritos <span id="favoritesCount">0</span></button>
+          <button id="compareToggle" type="button" class="filter-shortcut">⇄ Comparar <span id="compareCount">0</span></button>
+        </div>
       </div>
       <div class="category-strip-wrap"><div class="category-strip" id="categoryChips" aria-label="Categorias"></div></div>
     </section>
@@ -88,7 +64,7 @@
       <div class="state-card freshness-notice hidden" id="freshnessWarning" role="status"></div>
       <button id="historicalToggle" class="secondary-button" type="button" disabled>Consultar referências antigas</button>
       <div class="section-heading">
-        <div><h2>Vitrine de produtos</h2><p class="section-subtitle">Veja fotos e preços de referência; confirme disponibilidade e valores na loja antes de comprar.</p></div>
+        <div><h2>Produtos</h2></div>
         <div class="section-meta"><strong id="count">0 ofertas</strong><span id="updated"></span></div>
       </div>
       <section id="offers" class="grid"></section>
@@ -106,28 +82,18 @@
     </div>
   </aside>
 
-  <nav class="mobile-nav" aria-label="Navegação do app">
-    <a href="./" class="mobile-nav-item active"><span>⌂</span><small>Início</small></a>
-    <button id="mobileFavorites" class="mobile-nav-item" type="button"><span>♡</span><small>Favoritos</small></button>
-    <button id="mobileCompare" class="mobile-nav-item" type="button"><span>⇄</span><small>Comparar</small></button>
-    <a href="./admin.html" class="mobile-nav-item"><span>▦</span><small>Painel</small></a>
-  </nav>
-
-  <footer class="site-footer"><div class="container footer-inner"><strong>Radar de Promoções</strong><p>Frete de referência para CEP 72620-405. Confirme preço, estoque e condições na loja. Alguns links podem gerar comissão de afiliado, sem custo extra para você.</p></div></footer>
-
   <script src="./fetch-fallback.js?v=1"></script>
   <script src="./catalog-policy.js?v=2"></script>
   <script src="./search-engine.js?v=1"></script>
-  <script src="./app.js?v=15"></script>
+  <script src="./app.js?v=16"></script>
   <script src="./auto-refresh.js?v=1"></script>
   <script src="./enhancements.js?v=3"></script>
-    <script>
-    let installPrompt = null;
-    const installButton = document.getElementById('installApp');
-    if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
-    window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); installPrompt = e; installButton?.classList.remove('hidden'); });
-    installButton?.addEventListener('click', async () => { if (!installPrompt) return; installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; installButton.classList.add('hidden'); });
-    window.addEventListener('appinstalled', () => { installPrompt = null; installButton?.classList.add('hidden'); });
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(registration => registration.update()).catch(console.warn);
+      });
+    }
   </script>
 </body>
 </html>
