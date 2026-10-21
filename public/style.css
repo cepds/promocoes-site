@@ -58,3 +58,67 @@
 .comparator-empty{color:#64748b}
 @media(max-width:980px){.comparator-grid{grid-template-columns:repeat(4,1fr)}.comparator-outlet{align-items:start;flex-direction:column}.comparator-actions{justify-content:start}}
 @media(max-width:600px){.comparator-discovery{padding:14px}.comparator-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-height:235px}.comparator-category{font-size:.78rem}.comparator-action{font-size:.78rem;padding:9px 10px}}
+
+/* Vitrine principal v4 — produtos antes de conteúdo editorial */
+:root{--accent:#2563eb;--accent-soft:#eff6ff}
+body{background:#f5f7fb}
+.site-header{background:linear-gradient(116deg,#0d1930 0%,#142e4a 75%,#164e63 100%);padding-bottom:51px}
+.compact-hero{padding-top:14px;align-items:center}
+.compact-hero h1{font-size:clamp(29px,3.6vw,43px);line-height:1.08}
+.compact-hero .hero-copy p{max-width:540px}
+.discovery{margin-top:-24px}
+.offers-section{padding-top:20px}
+.section-heading h2{font-size:clamp(23px,2.8vw,32px)}
+.grid{gap:16px}
+.card{border:1px solid #e2e8f0;border-radius:16px;box-shadow:0 5px 16px rgba(15,23,42,.045)}
+.card:hover{box-shadow:0 14px 32px rgba(15,23,42,.1)}
+.image-wrap{aspect-ratio:1.25/1;background:linear-gradient(155deg,#fff,#f8fafc)}
+.product-image{padding:11px}
+.card-body{padding:15px;gap:8px}
+.product-name{font-size:14px;min-height:40px}
+.category-label{color:#34639d;font-size:10px}
+.price{font-size:22px}
+.old-price{text-decoration:none;min-height:14px;font-size:10px}
+.verified{font-size:10px}
+.verified:before{content:"i";background:#f1f5f9;color:#64748b}
+.image-disclaimer{position:absolute;bottom:10px;right:10px;background:rgba(255,255,255,.94);padding:5px 7px;border-radius:6px;color:#64748b;font-weight:700;font-size:9px;border:1px solid #e2e8f0}
+#catalogHealth{display:none!important}
+#smartViews{display:none!important}
+.freshness-notice{margin-bottom:12px;padding:10px 14px;text-align:left;border:1px solid #f6d89e;background:#fffbeb;color:#805315;font-size:12px;font-weight:600;border-radius:11px}
+#historicalToggle{display:block;min-height:30px;border:0;background:transparent;padding:3px 0 8px;margin:0 0 7px;color:#475569;font-size:12px;font-weight:700;text-decoration:underline}
+#historicalToggle:disabled{display:none}
+.tag-stale{background:#f1f5f9;border-color:#e2e8f0;color:#64748b}
+.card-actions .buy{background:#1959bb}
+.card-actions .buy:hover{background:#164ca0}
+.card .history-note{font-size:11px;line-height:1.35;color:#64748b;margin:0}
+.card .perks{flex-wrap:nowrap}
+.card .perk{font-size:10px;line-height:1.35}
+@media(max-width:760px){
+ .site-header{padding-bottom:42px}
+ .compact-hero{padding-top:10px;gap:12px}
+ .compact-hero h1{font-size:30px}
+ .compact-hero .hero-copy p{font-size:12px;line-height:1.45}
+ .hero-stats{max-width:100%}
+ .stat-card{padding:9px}
+ .stat-label{min-height:0}
+ .stat-card strong{font-size:20px}
+ .offers-section{padding-top:13px}
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .card{border-radius:13px}
+ .card-body{padding:11px;gap:7px}
+ .image-wrap{aspect-ratio:1/1}
+ .product-image{padding:8px}
+ .product-name{font-size:12px;line-height:1.35;min-height:49px;-webkit-line-clamp:3}
+ .store-pill{top:7px;right:7px;font-size:9px;max-width:70%;padding:5px}
+ .favorite-button{left:7px;bottom:7px;width:30px;height:30px}
+ .price{font-size:19px}
+ .old-price{font-size:10px}
+ .section-heading{gap:5px}
+ .section-heading h2{font-size:24px}
+ .card-actions{grid-template-columns:1fr}
+ .card-actions .details,.card-actions .buy{min-height:36px;font-size:11px}
+ .tag{font-size:8px}
+ .card .perk{font-size:9px;padding:5px}
+ .card .verified{font-size:9px}
+ .card .history-note{font-size:10px}
+}
