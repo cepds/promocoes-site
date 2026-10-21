@@ -44,11 +44,14 @@ test("cama mesa e banho contem seis produtos reais com links diretos",()=>{
     assert.ok(new Date(item.ultimaVerificacao).getTime()>0);
   }
 });
-test("frontend mescla catalogo de enxoval nos cards e detalhes",()=>{
+test("vitrine inclui somente ofertas verificadas e nunca carrega enxoval antigo",()=>{
  const app=fs.readFileSync("public/app.js","utf8");
  const detail=fs.readFileSync("public/produto.js","utf8");
- assert.match(app,/fetchLocalEnxoval/);
- assert.match(app,/allOffers = \[\.\.\.main, \.\.\.additional/);
- assert.match(app,/imagemIlustrativa/);
- assert.match(detail,/\.\/enxoval\.json/);
+ const catalog=JSON.parse(fs.readFileSync("public/ofertas-verificadas.json","utf8"));
+ assert.equal(catalog.versao,2);
+ assert.ok(Array.isArray(catalog.ofertas));
+ assert.match(app,/RadarPolicy\.isConfirmedAvailable/);
+ assert.match(detail,/RadarPolicy\.isConfirmedAvailable/);
+ assert.doesNotMatch(app,/fetchLocalEnxoval/);
+ assert.doesNotMatch(detail,/enxoval\.json/);
 });
