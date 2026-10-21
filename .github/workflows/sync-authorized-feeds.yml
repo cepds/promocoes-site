@@ -1,0 +1,61 @@
+name: Sincronizar ofertas autorizadas (Awin)
+on:
+  schedule:
+    # 09h e 18h em Brasília. Execuções agendadas podem sofrer atrasos do GitHub.
+    - cron: "15 12,21 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/awin-feed-lib.cjs"
+      - "scripts/sync-awin-feed.mjs"
+      - ".github/workflows/sync-authorized-feeds.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-feed-sync
+  cancel-in-progress: false
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Verificar sintaxe e testes de importacao
+        run: |
+          node --check scripts/sync-awin-feed.mjs
+          node --check scripts/awin-feed-lib.cjs
+          node --test tests/*.test.js
+      - name: Importar feeds brasileiros autorizados
+        env:
+          AWIN_DATAFEED_API_KEY: ${{ secrets.AWIN_DATAFEED_API_KEY }}
+        run: node scripts/sync-awin-feed.mjs
+      - name: Validar catalogo atualizado
+        run: node scripts/validate-site.js
+      - name: Enviar somente catalogo validado
+        shell: bash
+        run: |
+          set -e
+          git add data/ofertas.json data/backups
+          if git diff --cached --quiet; then
+            echo "Nenhuma atualizacao de ofertas validada para publicar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: sincronizar ofertas via feed parceiro Awin"
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 4
+          done
+          echo "Erro ao enviar catalogo atualizado; versao anterior preservada em main."
+          exit 1
