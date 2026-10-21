@@ -32,7 +32,7 @@ function asDate(value) { if (!value) return null; const d = new Date(value); ret
 function money(value) { return asNumber(value).toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: 2 }); }
 function text(value, fallback = "Não informado") { const v = String(value ?? "").trim(); return v || fallback; }
 function escapeHtml(value) { return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;"); }
-function safeUrl(url) { return RadarPolicy.safeHttpsUrl(url); }
+function safeUrl(url) { return RadarPolicy.safeStoreUrl(url); }
 function validImageUrl(value) { return RadarPolicy.safeHttpsUrl(value); }
 function offerKey(o) { return String(o.id || o.url || o.nome || ""); }
 function decodeBase64Utf8(value) { const binary = atob(String(value || "").replace(/\s/g, "")); return new TextDecoder("utf-8").decode(Uint8Array.from(binary, c => c.charCodeAt(0))); }
