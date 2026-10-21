@@ -89,3 +89,12 @@ test("cada grupo multiloja possui ao menos duas paginas de produto e não invent
    assert.equal(new Set(products.map(p=>new URL(p.url).hostname)).size,2);
  }
 });
+
+test("cama comparada exige mesmas dimensões e variação visual",()=>{
+ const p={nome:"Cama Box Casal Howie D33 17x138x188 Branco e Cinza",url:"https://m.magazineluiza.com.br/cama/p/ga11j3f91e/co/cmbx/",
+  vendedorEsperado:"magalu-mobly",identidadeRevisada:true,produtoGrupo:"howie-d33-casal-17x138x188-branco-cinza",
+  verificacaoTermos:["howie","d33","138x188","branco","cinza"]};
+ assert.equal(detect(htmlProduct(p.nome,"Mobly"),p).status,"verified");
+ assert.equal(detect(htmlProduct("Cama Box Howie D33 17x88x188 Branco e Cinza","Mobly"),p).status,"unverified");
+ assert.equal(detect(htmlProduct("Cama Box Howie D33 17x138x188 Preto","Mobly"),p).status,"unverified");
+});
