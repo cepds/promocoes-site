@@ -37,3 +37,24 @@
 .home-no-stores{padding:16px;color:#64748b}
 @media(max-width:900px){.home-store-grid,.home-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-discovery-heading{align-items:stretch;flex-direction:column}.home-store-search{width:100%}}
 @media(max-width:540px){.home-store-grid{grid-template-columns:1fr}.home-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.home-topic{min-height:82px;padding:11px}.home-discovery{padding-bottom:10px}}
+
+/* Radar v3 - descoberta por 36 temas e comparadores independentes */
+.comparator-discovery{margin-top:24px;margin-bottom:24px;padding:24px;border-radius:18px;background:linear-gradient(135deg,#f8fbff 0%,#eff6ff 100%);border:1px solid #dbeafe}
+.comparator-head h2{margin:0 0 10px;font-size:clamp(1.4rem,2.4vw,2rem);color:#0f172a}
+.comparator-head p{max-width:850px;margin:0 0 18px;color:#475569;line-height:1.5}
+.comparator-input{width:100%;padding:14px 16px;min-height:48px;background:#fff;color:#0f172a;border:1px solid #93c5fd;border-radius:12px;font:inherit}
+.comparator-groups{display:flex;gap:8px;overflow-x:auto;margin:18px 0;padding-bottom:4px}
+.comparator-tab{white-space:nowrap;padding:9px 14px;border:1px solid #cbd5e1;border-radius:22px;background:white;color:#334155;cursor:pointer;font-weight:700}
+.comparator-tab.active{background:#1d4ed8;color:#fff;border-color:#1d4ed8}
+.comparator-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;max-height:236px;overflow:auto}
+.comparator-category{padding:12px 8px;min-height:49px;border:1px solid #cbd5e1;border-radius:10px;background:#fff;color:#0f172a;cursor:pointer;font-size:.82rem;font-weight:700;line-height:1.3}
+.comparator-category.active,.comparator-category:hover{border-color:#2563eb;background:#dbeafe}
+.comparator-outlet{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:16px 0 0;margin-top:16px;border-top:1px solid #cbd5e1}
+.comparator-outlet p{margin:4px 0 0;font-size:.78rem;line-height:1.45;color:#64748b}
+.comparator-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+.comparator-action{padding:10px 12px;border-radius:10px;background:#1d4ed8;color:white;text-decoration:none;font-weight:800;font-size:.84rem}
+.comparator-action:hover{background:#1e40af}
+.comparator-extra{background:#475569}
+.comparator-empty{color:#64748b}
+@media(max-width:980px){.comparator-grid{grid-template-columns:repeat(4,1fr)}.comparator-outlet{align-items:start;flex-direction:column}.comparator-actions{justify-content:start}}
+@media(max-width:600px){.comparator-discovery{padding:14px}.comparator-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-height:235px}.comparator-category{font-size:.78rem}.comparator-action{font-size:.78rem;padding:9px 10px}}
