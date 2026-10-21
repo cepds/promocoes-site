@@ -1,0 +1,76 @@
+name: Verificar produtos e publicar vitrine
+on:
+  schedule:
+    # Duas verificações ao dia; o GitHub pode atrasar execuções agendadas.
+    # 09:00 e 18:00 de Brasília (UTC-3).
+    - cron: '0 12,21 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/verify-products.mjs'
+      - 'scripts/verify-products-lib.cjs'
+      - 'public/catalog-policy.js'
+      - 'public/ofertas-verificadas.json'
+      - '.github/workflows/verify-and-publish.yml'
+  workflow_run:
+    workflows: ["Sincronizar ofertas autorizadas (Awin)"]
+    types: [completed]
+
+permissions:
+  contents: write
+concurrency:
+  group: radar-verified-catalog
+  cancel-in-progress: false
+jobs:
+  verify-and-publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validar leitor de produtos
+        run: |
+          node --check scripts/verify-products.mjs
+          node --check scripts/verify-products-lib.cjs
+          node --test tests/*.test.js
+      - name: Verificar preco e disponibilidade em paginas publicas
+        run: node scripts/verify-products.mjs
+      - name: Garantir que somente dados atuais foram gerados
+        run: |
+          node scripts/validate-site.js
+          node scripts/check-verified-catalog.cjs
+      - name: Publicar catalogo validado no GitHub
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add public/ofertas-verificadas.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "data: substituir vitrine por ofertas comprovadamente disponíveis"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Verificar credenciais do Firebase
+        env:
+          FIREBASE_SECRET: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707 }}
+        shell: bash
+        run: |
+          if [ -z "$FIREBASE_SECRET" ]; then
+            echo "::error::Credencial de deploy indisponivel, publicacao cancelada."
+            exit 1
+          fi
+      - name: Publicar somente produtos verificados no Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707 }}
+          channelId: live
+          projectId: promocoes-65707
