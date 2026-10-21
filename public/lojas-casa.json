@@ -15,7 +15,10 @@
         "colchoes"
       ],
       "descricao": "Sofás, mesas, camas, colchões e móveis por ambiente.",
-      "rotulo": "Móveis e ambientes"
+      "rotulo": "Móveis e ambientes",
+      "destinos": {
+        "moveis": "https://www.mobly.com.br/moveis/sofas"
+      }
     },
     {
       "id": "madeiramadeira",
@@ -30,7 +33,14 @@
         "decoracao"
       ],
       "descricao": "Guarda-roupas, sofás, móveis planejados e itens da casa.",
-      "rotulo": "Móveis para casa"
+      "rotulo": "Móveis para casa",
+      "destinos": {
+        "moveis": "https://www.madeiramadeira.com.br/moveis",
+        "quarto": "https://www.madeiramadeira.com.br/moveis",
+        "cama": "https://www.madeiramadeira.com.br/cama-mesa-e-banho/roupa-de-cama",
+        "mesa": "https://www.madeiramadeira.com.br/cama-mesa-e-banho/mesa",
+        "banho": "https://www.madeiramadeira.com.br/cama-mesa-e-banho/banho"
+      }
     },
     {
       "id": "tokstok",
@@ -44,7 +54,12 @@
         "decoracao"
       ],
       "descricao": "Móveis, poltronas, decoração e mesa posta.",
-      "rotulo": "Móveis e design"
+      "rotulo": "Móveis e design",
+      "destinos": {
+        "moveis": "https://www.tokstok.com.br/moveis",
+        "quarto": "https://www.tokstok.com.br/ambientes/quarto/moveis",
+        "decoracao": "https://www.tokstok.com.br/decoracao"
+      }
     },
     {
       "id": "camicado",
@@ -70,7 +85,10 @@
         "banho"
       ],
       "descricao": "Lençóis, jogos de cama, toalhas e mesa posta.",
-      "rotulo": "Cama, mesa e banho"
+      "rotulo": "Cama, mesa e banho",
+      "destinos": {
+        "cama": "https://www.karsten.com.br/cama/produto/jogo-de-cama"
+      }
     },
     {
       "id": "artex",
