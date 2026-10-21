@@ -28,3 +28,21 @@ test("URLs exteriores exigem HTTPS",()=>{
   assert.equal(policy.safeHttpsUrl("http://example.com"),"");
   assert.equal(policy.safeHttpsUrl("https://example.com/p"),"https://example.com/p");
 });
+
+test("frete zero conhecido deve ser gratis sem confundir com valor nulo",()=>{
+  const numeric=policy.shippingInfo({freteValor:0,freteGratis:false,precoComFrete:null},100);
+  assert.deepEqual(numeric,{label:"Grátis",total:100,freightValue:0,free:true});
+  const text=policy.shippingInfo({frete:"R$ 0,00",freteGratis:false,precoComFrete:null},100);
+  assert.equal(text.free,true);
+  assert.equal(text.total,100);
+  const unknown=policy.shippingInfo({freteValor:null,freteGratis:false,precoComFrete:null},100);
+  assert.equal(unknown.free,false);
+  assert.equal(unknown.total,null);
+});
+test("fallback de referencias antigas acontece apenas na primeira carga",()=>{
+  const fs=require("node:fs");
+  const source=fs.readFileSync("public/app.js","utf8");
+  assert.match(source,/if \(!historicalModeInitialized\) \{/);
+  assert.match(source,/historicalModeInitialized = true/);
+  assert.match(source,/showHistorical = !showHistorical/);
+});
