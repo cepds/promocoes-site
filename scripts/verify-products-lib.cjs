@@ -84,6 +84,16 @@ function detect(html,record){
        const identity=normalize([node.name,node.model,node.mpn,node.sku].filter(Boolean).join(" ")).replace(/ /g,"");
        if(!identity.includes(expected))continue;
      }
+     if(record.identidadeRevisada===true){
+       // Apenas grupo comparável se dimensões, modelo e variante pesquisados
+       // forem compatíveis com os dados de identificação da página.
+       if(!Array.isArray(record.verificacaoTermos)||record.verificacaoTermos.length<3)continue;
+       const identity=normalize([node.name,node.model,node.color,node.size,record.url].filter(Boolean).join(" "));
+       const compact=identity.replace(/ /g,"");
+       if(!record.verificacaoTermos.every(word=>{
+         const w=normalize(word);return identity.includes(w)||compact.includes(w.replace(/ /g,""));
+       }))continue;
+     }
      seenMatch=true;
      const offers=allNodes(node.offers||[]).filter(x=>isType(x,"Offer"));
      for(const o of offers){
