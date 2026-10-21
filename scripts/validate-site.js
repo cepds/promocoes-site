@@ -45,6 +45,7 @@ const requiredFiles = [
   'public/admin.html',
   'public/admin.js',
   'data/ofertas.json',
+  'data/produtos-oficiais.json',
   'firebase.json',
   '.firebaserc'
 ];
@@ -103,7 +104,7 @@ if (data) {
     if (!o.loja) fail(`${prefix}: loja ausente.`);
     if (!(Number(o.precoAtual) > 0)) fail(`${prefix}: precoAtual inválido.`);
     if (!isHttps(o.url)) fail(`${prefix}: URL do produto precisa ser HTTPS.`);
-    const approvedHosts=new Set(["loja.electrolux.com.br","www.magazineluiza.com.br","m.magazineluiza.com.br","www.tramontina.com.br","www.carrefour.com.br","www.madeiramadeira.com.br","br-store.acer.com","www.kabum.com.br","produto.mercadolivre.com.br","www.mercadolivre.com.br","www.philco.com.br","parceiros.wap.ind.br","www.brastemp.com.br","www.cuisinartbrasil.com.br","www.mobly.com.br","www.tokstok.com.br","www.camicado.com.br","www.karsten.com.br","www.artex.com.br","www.zelo.com.br","www.altenburg.com.br"]);
+    const approvedHosts=new Set(["loja.electrolux.com.br","www.magazineluiza.com.br","m.magazineluiza.com.br","www.tramontina.com.br","www.carrefour.com.br","www.madeiramadeira.com.br","br-store.acer.com","www.kabum.com.br","produto.mercadolivre.com.br","www.mercadolivre.com.br","www.philco.com.br","parceiros.wap.ind.br","www.brastemp.com.br","www.cuisinartbrasil.com.br","www.mobly.com.br","www.tokstok.com.br","www.camicado.com.br","www.karsten.com.br","www.artex.com.br","www.zelo.com.br","www.altenburg.com.br","www.casasbahia.com.br"]);
     try { if (!approvedHosts.has(new URL(String(o.url)).hostname)) fail(`${prefix}: domínio da loja não autorizado (${o.url}).`); } catch { /* Erro de URL já registrado acima. */ }
     if (!isHttps(o.imagem)) fail(`${prefix}: imagem precisa ser HTTPS.`);
 
@@ -206,6 +207,21 @@ try {
       fail("Vitrine com produto sem preco e estoque confirmado: "+offer.id);
   }
 }catch(error){fail("Catalogo verificado invalido: "+error.message)}
+
+try {
+ const d=JSON.parse(fs.readFileSync("data/produtos-oficiais.json","utf8"));
+ if(!Array.isArray(d.produtos)||d.total!==d.produtos.length)fail("Curadoria oficial inválida.");
+ const known=new Set();
+ const policy=require("./../public/catalog-policy.js");
+ for(const p of d.produtos){
+   if(!p.id||known.has(p.id))fail("ID inválido ou repetido na curadoria: "+p.id);
+   known.add(p.id);
+   if(!p.nome||!p.categoria||!p.vendedorEsperado||!policy.safeStoreUrl(p.url))
+     fail("Produto candidato sem informações ou origem aprovada: "+p.id);
+   if(p.precoAtual!=null||p.imagem!=null||p.estoqueStatus!=="Unknown")
+     fail("Produto candidato não deve inventar preço, imagem ou estoque: "+p.id);
+ }
+}catch(err){fail("Falha na curadoria de lojas oficiais: "+err.message)}
 
 if (warnings.length) {
   console.log('\nAvisos:');
