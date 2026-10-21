@@ -129,11 +129,12 @@
     ensureMeta('og:url','property').setAttribute('content',location.href);
     if(image)ensureMeta('og:image','property').setAttribute('content',image);
     const numericPrice=Number(price.replace(/[^\d,]/g,'').replace(',','.'))||0;
-    if (!recent) return; // Evita marcação de oferta ativa sem verificação de preço recente.
+    if (recent) { // Nunca anuncia como válida uma oferta com verificação vencida.
     const ld=document.createElement('script');
     ld.type='application/ld+json';
     ld.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Product',name:title.textContent.trim(),image:image?[image]:undefined,description:desc,offers:{'@type':'Offer',url:offerUrl,priceCurrency:'BRL',price:numericPrice||undefined,availability:undefined,seller:store?{'@type':'Organization',name:store}:undefined}});
     document.head.appendChild(ld);
+    }
 
     const actions=document.createElement('div');
     actions.className='share-actions';
