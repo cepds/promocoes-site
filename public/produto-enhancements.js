@@ -120,6 +120,7 @@
     const store=[...root.querySelectorAll('p')].find(p=>p.textContent?.startsWith('Loja:'))?.textContent?.replace(/^Loja:\s*/,'')||'';
     const image=root.querySelector('.detail-image')?.src||'';
     const offerUrl=root.querySelector('.buy')?.href||location.href;
+    const recent=Boolean(root.querySelector(".stale-alert")===null);
     const desc=`${title.textContent.trim()} ${price}${store?` na ${store}`:''}. Compare preço, frete, pagamento, entrega e histórico no Radar de Promoções.`;
     ensureMeta('description').setAttribute('content',desc);
     ensureMeta('og:title','property').setAttribute('content',title.textContent.trim());
@@ -128,9 +129,10 @@
     ensureMeta('og:url','property').setAttribute('content',location.href);
     if(image)ensureMeta('og:image','property').setAttribute('content',image);
     const numericPrice=Number(price.replace(/[^\d,]/g,'').replace(',','.'))||0;
+    if (!recent) return; // Evita marcação de oferta ativa sem verificação de preço recente.
     const ld=document.createElement('script');
     ld.type='application/ld+json';
-    ld.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Product',name:title.textContent.trim(),image:image?[image]:undefined,description:desc,offers:{'@type':'Offer',url:offerUrl,priceCurrency:'BRL',price:numericPrice||undefined,availability:'https://schema.org/InStock',seller:store?{'@type':'Organization',name:store}:undefined}});
+    ld.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Product',name:title.textContent.trim(),image:image?[image]:undefined,description:desc,offers:{'@type':'Offer',url:offerUrl,priceCurrency:'BRL',price:numericPrice||undefined,availability:undefined,seller:store?{'@type':'Organization',name:store}:undefined}});
     document.head.appendChild(ld);
 
     const actions=document.createElement('div');
