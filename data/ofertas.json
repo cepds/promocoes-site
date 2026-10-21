@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-20T09:03:23-03:00",
-  "total": 128,
+  "geradoEm": "2026-10-21T18:07:48-03:00",
+  "total": 129,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5317,6 +5317,46 @@
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "brastemp-geladeira-brm62ae-512l-bivolt-oficial",
+      "nome": "Geladeira Brastemp B= Smart Frost Free Duplex 512L Black Inox BRM62AE Bivolt",
+      "categoria": "Geladeiras",
+      "loja": "Brastemp Oficial",
+      "seloLoja": "Loja Oficial",
+      "precoAtual": 3449.45,
+      "precoAnterior": 4539,
+      "precoPix": 3449.45,
+      "precoAvista": 3449.45,
+      "precoCartao": 3631,
+      "parcelas": 10,
+      "valorParcela": 363.1,
+      "condicaoPagamento": "R$ 3.449,45 no Pix; R$ 3.631,00 em até 10x de R$ 363,10 sem juros no cartão.",
+      "desconto": 24,
+      "url": "https://www.brastemp.com.br/geladeira-inteligente-brastemp-b-smart-frost-free-duplex-512l-black-inox-brm62ae/p",
+      "imagem": "https://brastemp.vtexassets.com/arquivos/ids/286662-1440-auto/02_Brastemp_Geladeira_BRM62AE_lateral.webp?quality=80&v=639147940457930000",
+      "ativa": true,
+      "dataEncontrada": "2026-10-21T21:07:48.249Z",
+      "ultimaVerificacao": "2026-10-21T21:07:48.249Z",
+      "frete": "Consulte na loja",
+      "cepFrete": "72620-405",
+      "voltagem": "Bivolt",
+      "modelo": "BRM62AE",
+      "modeloFabricante": "BRM62AE",
+      "produtoGrupo": "brastemp-brm62ae-512l-black-inox",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-21T21:07:48.249Z",
+          "preco": 3449.45,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 3449.45,
+      "precoMedioHistorico": 3449.45,
+      "scoreOferta": 55,
+      "classificacaoOferta": "Interessante",
+      "observacoes": "Preço de R$ 3.449,45 no Pix e R$ 3.631,00 em até 10x sem juros verificados na loja oficial. O desconto de 24% é o indicado pela loja e não foi validado contra histórico anterior. Frete e prazo não confirmados para o CEP 72620-405."
     }
   ],
   "logAlteracoes": [
@@ -6345,6 +6385,12 @@
       "id": "cuisinart-airfryer-air-370brb-220v-oficial",
       "acao": "nova_oferta",
       "detalhe": "Air Fryer Cuisinart AIR-370BRB 220V adicionada; preço consultado na loja, sem presumir frete ou estoque."
+    },
+    {
+      "data": "2026-10-21T18:07:48-03:00",
+      "id": "brastemp-geladeira-brm62ae-512l-bivolt-oficial",
+      "acao": "nova_oferta",
+      "detalhe": "Geladeira Brastemp BRM62AE Bivolt adicionada com preço e pagamento verificados na loja oficial; frete, prazo e histórico anterior não presumidos."
     }
   ]
 }
