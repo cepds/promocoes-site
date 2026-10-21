@@ -69,7 +69,7 @@
     } else if (number(current) > 0 && freightValue !== null) {
       total = number(current) + freightValue;
     }
-    return { label, total, freightValue, free };
+    return { label, total, freightValue, free: isFree };
   }
   return { MAX_VERIFICATION_AGE_MS, number, safeHttpsUrl, safeStoreUrl, isRecentVerification, shippingInfo };
 });
