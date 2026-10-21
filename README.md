@@ -62,3 +62,24 @@ O script usa exclusivamente as URLs oficiais de `productdata.awin.com` e `datafe
 ## Segurança da publicação
 
 Se uma chave privada do Firebase tiver sido enviada por anexo ou outro canal, revogue-a no Google Cloud (IAM e administrador → Contas de serviço → Chaves) e crie outra com privilégios mínimos. Configure a **nova** chave no GitHub Secret `FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707`, nunca no código. O GitHub Actions do deploy **falha**, em vez de publicar, se a credencial não existir. Também é possível posteriormente migrar o deploy para federação OIDC sem chave duradoura.
+
+## Vitrine sem ofertas antigas: verificação automática diária
+
+- A vitrine pública lê **somente** `public/ofertas-verificadas.json`, nunca as datas ou preços históricos em `data/ofertas.json` ou `data/enxoval.json`.
+- O GitHub Actions `.github/workflows/verify-and-publish.yml` roda **duas vezes ao dia** (09h e 18h de Brasília), e quando novos dados de feeds autorizados terminam de sincronizar. Não precisa criar outra conta.
+- `scripts/verify-products.mjs` consulta os links existentes em lojas permitidas, procura `Product/Offer` JSON-LD correspondente ao produto, preço positivo em BRL e `availability` explicitamente disponível (`InStock`, `LimitedAvailability` ou `OnlineOnly`).
+- **Esgotado, descontinuado, acesso bloqueado, retorno incerto, variantes divergentes ou preço não confirmado:** fora da vitrine. A fonte original é preservada para nova verificação, mas jamais exibida como oferta ativa.
+- Ao verificar, o preço é substituído pelo da página; descontos, fretes e cupons antigos são zerados/desconhecidos (sem inventar vantagens). A data da consulta é renovada **somente** após confirmação.
+- Cada validação publica o JSON atualizado no GitHub e também no Firebase. Um produto desaparece automaticamente do navegador quando ultrapassa **18 horas sem confirmação**, mesmo se uma execução agendada falhar.
+- O Service Worker e o Firebase não armazenam em cache o catálogo verificado para uso offline. Se a rede estiver indisponível, a vitrine não mostra o último catálogo salvo.
+- Auditoria: resultados e contagem de verificados, esgotados, sem confirmação e falhas são exibidos no resumo da execução do GitHub Actions.
+
+**Limitações:** páginas com captcha, conteúdo exclusivamente em JavaScript, bloqueios automatizados ou sem dados estruturados explícitos não são consideradas verificáveis por esse processo gratuito; elas ficam ocultas. Não é possível garantir que lojas mantenham dados corretos, nem a descoberta de novos SKUs sem fontes oficiais ou feeds autorizados. O site pode exibir zero produtos até encontrar verificações confiáveis. A disponibilidade pode mudar após a consulta.
+
+### Testes
+
+```bash
+node --test tests/*.test.js
+node scripts/validate-site.js
+node scripts/check-verified-catalog.cjs # após execução do verificador
+```
