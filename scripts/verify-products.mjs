@@ -108,6 +108,12 @@ async function worker(){
        cupom:null,cashback:null,prazoEntrega:null,entregaEstimada:null,
        estoqueStatus:"InStock",
        lojaOficial:isOfficialChannel(original),
+       loja:original.vendedorEsperado==="magalu"?"Magalu — Loja Oficial"
+         :original.vendedorEsperado==="casasbahia"?"Casas Bahia — Loja Oficial"
+         :original.vendedorEsperado==="mobly"?"Mobly — Loja Oficial"
+         :original.vendedorEsperado==="electrolux"?"Electrolux — Loja Oficial"
+         :original.loja,
+       seloLoja:"Loja oficial",
        ultimaVerificacao:stamp,fonteTipo:"pagina_publica_estruturada",
        fonte:"Oferta e disponibilidade em JSON-LD Product/Offer da loja",
        fonteAtualizadaEm:stamp
@@ -128,7 +134,7 @@ const result={
 fs.writeFileSync(OUTPUT,JSON.stringify(result,null,2)+"\n");
 const summary=`## Verificação de produtos (${stamp})
 - Produtos candidatos: ${offers.length}
-- Disponíveis com preço confirmado: ${approved.length}
+- Disponíveis com preço confirmado em lojas oficiais: ${approved.length}
 - Esgotados explicitamente: ${counters.out_of_stock}
 - Sem evidência suficiente: ${counters.unverified}
 - Falhas de acesso/rede: ${counters.network_failure}
