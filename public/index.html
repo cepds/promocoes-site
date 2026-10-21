@@ -18,7 +18,7 @@
   <meta name="robots" content="index,follow" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./style.css?v=13" />
+  <link rel="stylesheet" href="./style.css?v=14" />
   <link rel="stylesheet" href="./enhancements.css?v=2" />
 </head>
 <body>
@@ -51,6 +51,7 @@
   </header>
 
   <main>
+    <section id="comparatorDiscovery" class="container comparator-discovery" aria-label="Descobrir produtos e comparar preços"></section>
     <section id="homeDiscovery" class="container home-discovery" aria-label="Explorar móveis, cama, mesa e banho"></section>
     <section class="container discovery">
       <div class="search-panel">
@@ -123,6 +124,7 @@
   <script src="./auto-refresh.js?v=1"></script>
   <script src="./enhancements.js?v=1"></script>
   <script src="./home-discovery.js?v=1"></script>
+  <script src="./comparator-discovery.js?v=1"></script>
   <script>
     let installPrompt = null;
     const installButton = document.getElementById('installApp');

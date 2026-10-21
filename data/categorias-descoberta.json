@@ -1,0 +1,222 @@
+{
+  "updated": "2026-10-21",
+  "description": "Categorias editoriais para descoberta externa. Não indicam preço confirmado.",
+  "categorias": [
+    {
+      "id": "c01",
+      "nome": "Sofás e poltronas",
+      "consulta": "sofá retrátil",
+      "grupo": "Sala"
+    },
+    {
+      "id": "c02",
+      "nome": "Racks e painéis",
+      "consulta": "rack para tv",
+      "grupo": "Sala"
+    },
+    {
+      "id": "c03",
+      "nome": "Mesas de jantar",
+      "consulta": "mesa de jantar 4 cadeiras",
+      "grupo": "Sala"
+    },
+    {
+      "id": "c04",
+      "nome": "Cadeiras e banquetas",
+      "consulta": "cadeira para sala jantar",
+      "grupo": "Sala"
+    },
+    {
+      "id": "c05",
+      "nome": "Camas e bases",
+      "consulta": "cama box casal",
+      "grupo": "Quarto"
+    },
+    {
+      "id": "c06",
+      "nome": "Colchões",
+      "consulta": "colchão queen",
+      "grupo": "Quarto"
+    },
+    {
+      "id": "c07",
+      "nome": "Guarda-roupas",
+      "consulta": "guarda roupa casal",
+      "grupo": "Quarto"
+    },
+    {
+      "id": "c08",
+      "nome": "Cômodas e criados",
+      "consulta": "cômoda quarto",
+      "grupo": "Quarto"
+    },
+    {
+      "id": "c09",
+      "nome": "Escritório",
+      "consulta": "mesa escritório cadeira",
+      "grupo": "Escritório"
+    },
+    {
+      "id": "c10",
+      "nome": "Jogos de cama",
+      "consulta": "jogo de cama queen",
+      "grupo": "Enxoval"
+    },
+    {
+      "id": "c11",
+      "nome": "Lençóis e fronhas",
+      "consulta": "lençol casal percal",
+      "grupo": "Enxoval"
+    },
+    {
+      "id": "c12",
+      "nome": "Travesseiros",
+      "consulta": "travesseiro antialérgico",
+      "grupo": "Enxoval"
+    },
+    {
+      "id": "c13",
+      "nome": "Edredons e cobertores",
+      "consulta": "edredom queen",
+      "grupo": "Enxoval"
+    },
+    {
+      "id": "c14",
+      "nome": "Toalhas de banho",
+      "consulta": "jogo toalha banho",
+      "grupo": "Banho"
+    },
+    {
+      "id": "c15",
+      "nome": "Tapetes e roupões",
+      "consulta": "tapete banheiro roupão",
+      "grupo": "Banho"
+    },
+    {
+      "id": "c16",
+      "nome": "Mesa posta",
+      "consulta": "jogo jantar pratos",
+      "grupo": "Cozinha"
+    },
+    {
+      "id": "c17",
+      "nome": "Panelas e utensílios",
+      "consulta": "jogo panelas",
+      "grupo": "Cozinha"
+    },
+    {
+      "id": "c18",
+      "nome": "Armários de cozinha",
+      "consulta": "armário de cozinha",
+      "grupo": "Cozinha"
+    },
+    {
+      "id": "c19",
+      "nome": "Organização da casa",
+      "consulta": "organizador de armário",
+      "grupo": "Casa"
+    },
+    {
+      "id": "c20",
+      "nome": "Decoração",
+      "consulta": "tapete sala almofada",
+      "grupo": "Casa"
+    },
+    {
+      "id": "c21",
+      "nome": "Iluminação",
+      "consulta": "luminária de mesa",
+      "grupo": "Casa"
+    },
+    {
+      "id": "c22",
+      "nome": "Jardim e varanda",
+      "consulta": "móveis varanda jardim",
+      "grupo": "Casa"
+    },
+    {
+      "id": "c23",
+      "nome": "Reforma e construção",
+      "consulta": "ferramentas construção",
+      "grupo": "Construção"
+    },
+    {
+      "id": "c24",
+      "nome": "Eletrodomésticos",
+      "consulta": "geladeira frost free",
+      "grupo": "Eletro"
+    },
+    {
+      "id": "c25",
+      "nome": "Lavadoras",
+      "consulta": "máquina lavar 12kg",
+      "grupo": "Eletro"
+    },
+    {
+      "id": "c26",
+      "nome": "Air Fryers",
+      "consulta": "air fryer 220v",
+      "grupo": "Eletro"
+    },
+    {
+      "id": "c27",
+      "nome": "Climatização",
+      "consulta": "ar condicionado inverter 220v",
+      "grupo": "Eletro"
+    },
+    {
+      "id": "c28",
+      "nome": "Celulares",
+      "consulta": "celular smartphone",
+      "grupo": "Tecnologia"
+    },
+    {
+      "id": "c29",
+      "nome": "Televisores",
+      "consulta": "smart tv 55",
+      "grupo": "Tecnologia"
+    },
+    {
+      "id": "c30",
+      "nome": "Notebooks",
+      "consulta": "notebook 16gb",
+      "grupo": "Tecnologia"
+    },
+    {
+      "id": "c31",
+      "nome": "Peças de PC",
+      "consulta": "placa de vídeo processador",
+      "grupo": "Tecnologia"
+    },
+    {
+      "id": "c32",
+      "nome": "Games",
+      "consulta": "console videogame",
+      "grupo": "Tecnologia"
+    },
+    {
+      "id": "c33",
+      "nome": "Bebês",
+      "consulta": "carrinho bebê",
+      "grupo": "Família"
+    },
+    {
+      "id": "c34",
+      "nome": "Pet shop",
+      "consulta": "cama para cachorro",
+      "grupo": "Família"
+    },
+    {
+      "id": "c35",
+      "nome": "Esportes",
+      "consulta": "bicicleta ergométrica",
+      "grupo": "Esportes"
+    },
+    {
+      "id": "c36",
+      "nome": "Automotivo",
+      "consulta": "aspirador automotivo",
+      "grupo": "Automotivo"
+    }
+  ]
+}
