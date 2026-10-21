@@ -44,6 +44,10 @@
       a.referrerPolicy="no-referrer";
       actions.append(a);
     }
+    const jacotei=make("a","comparator-action comparator-extra","Explorar no JáCotei ↗");
+    jacotei.href="https://jacotei.com.br/";
+    jacotei.target="_blank";jacotei.rel="noopener noreferrer";
+    actions.append(jacotei);
     const pcQuery=/notebook|computador|pc|placa|processador|memoria|ssd|gabinete|fonte/i.test(q);
     if(pcQuery){
       const a=make("a","comparator-action comparator-extra","Montar PC no MEUPC.NET ↗");
