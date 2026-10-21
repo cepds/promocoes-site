@@ -77,7 +77,7 @@
 
   function enhanceCard(card,o,groups){
     const verified=card.querySelector(".verified");
-    if(verified){const value=rel(o.ultimaVerificacao);if(verified.textContent!==value)verified.textContent=value}
+    if(verified){const value=o.fonteTipo==="feed_afiliado"?rel(o.ultimaVerificacao).replace(/^verificado/,"feed atualizado"):rel(o.ultimaVerificacao);if(verified.textContent!==value)verified.textContent=value}
     const scoreEl=card.querySelector(".score-badge");if(scoreEl)scoreEl.title="Nota baseada em desconto, histórico, frete e confiança da loja.";
 
     const tagRow=card.querySelector(".tag-row");

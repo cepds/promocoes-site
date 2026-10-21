@@ -159,7 +159,7 @@ function renderCard(o) {
     <div class="price-block"><div class="old-price">${stale?"Preço registrado na última verificação":previous>current&&previous>0?money(previous):""}</div><div class="price-line"><div class="price">${current>0?money(current):"Preço indisponível"}</div>${!stale&&saving>0?`<span class="saving">economize ${money(saving)}</span>`:""}</div></div>
     <div class="perks">${perks}</div>
     <label class="compare-check"><input type="checkbox" data-compare="${escapeHtml(key)}" ${cmp?"checked":""}> Comparar</label>
-    ${checked?`<div class="verified">${stale?"Última verificação":"Verificado"} em ${checked.toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</div>`:""}
+    ${checked?`<div class="verified">${o.fonteTipo==="feed_afiliado"?"Feed atualizado":stale?"Última verificação":"Verificado"} em ${checked.toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</div>`:""}
     <div class="card-actions"><a class="details" href="./produto.html?id=${encodeURIComponent(key)}">Detalhes</a>${url?`<a class="buy" href="${escapeHtml(url)}" target="_blank" rel="${affiliate?"sponsored nofollow noopener noreferrer":"noopener noreferrer"}">${stale?"Conferir preço atual →":"Ver na loja →"}</a>`:""}</div></div></article>`;
 }
 
