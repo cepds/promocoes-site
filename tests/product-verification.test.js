@@ -4,7 +4,7 @@ const {detect,availability,matchName,isRenderable}=require("../scripts/verify-pr
 const item={id:"karsten-test",nome:"Jogo de Cama Queen 300 Fios Videira",url:"https://www.karsten.com.br/produto"};
 function fixture(stock="InStock",price="199.90",name=item.nome){
  return '<!doctype html><html><script type="application/ld+json">'+JSON.stringify({
- "@context":"https://schema.org","@type":"Product",name,offers:{"@type":"Offer",price,priceCurrency:"BRL",availability:"https://schema.org/"+stock}
+ "@context":"https://schema.org","@type":"Product",name,image:"https://img.example.com/item.jpg",offers:{"@type":"Offer",price,priceCurrency:"BRL",availability:"https://schema.org/"+stock}
  })+'</script></html>';
 }
 test("estoque e preço positivos aceitos apenas com produto correto",()=>{
@@ -27,7 +27,7 @@ test("não supor estoque nem aceitar moeda estranha",()=>{
  assert.equal(detect(fixture("InStock","199.90","Outro Produto Qualquer"),item).status,"unverified");
 });
 test("não misturar variantes com preços incompatíveis",()=>{
- const html='<script type="application/ld+json">'+JSON.stringify({"@type":"Product",name:item.nome,
+ const html='<script type="application/ld+json">'+JSON.stringify({"@type":"Product",name:item.nome,image:"https://img.example.com/photo.jpg",
  offers:[{"@type":"Offer",price:199,priceCurrency:"BRL",availability:"InStock"},
  {"@type":"Offer",price:249,priceCurrency:"BRL",availability:"InStock"}]})+'</script>';
  assert.equal(detect(html,item).status,"unverified");
