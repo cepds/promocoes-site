@@ -23,15 +23,7 @@
     return new TextDecoder("utf-8").decode(Uint8Array.from(b,c=>c.charCodeAt(0)));
   }
 
-  function productGroupKey(o){
-    const ean=digits(o?.ean||o?.gtin||o?.codigoBarras);
-    if(ean.length>=8&&ean.length<=14)return`ean:${ean}`;
-    const group=clean(o?.produtoGrupo||o?.modeloFabricante||o?.skuModelo||o?.modelo);
-    if(group.length>=3)return`model:${group}`;
-    const tokens=clean(o?.nome).split(/\s+/).filter(Boolean);
-    const model=tokens.filter(t=>t.length>=4&&/[a-z]/.test(t)&&/\d/.test(t)&&!/^\d+(gb|tb|kg|g|l|ml|cm|mm|hz|w|v|btus?)$/.test(t));
-    return model.length?`name-model:${clean(o?.categoria)}:${model.slice(0,2).join("-")}`:"";
-  }
+  function productGroupKey(o){return RadarIdentity.group(o)}
 
   function paymentInfo(o){
     const pix=num(o?.precoPix??o?.precoAvista);
@@ -83,7 +75,7 @@
 
     const group=productGroupKey(current);
     if(!group)return;
-    const alternatives=offers.filter(o=>o&&o.ativa!==false&&key(o)!==key(current)&&productGroupKey(o)===group&&RadarPolicy.isRecentVerification(o));
+    const alternatives=offers.filter(o=>o&&key(o)!==key(current)&&RadarIdentity.compatible(current,o)&&RadarPolicy.isConfirmedAvailable(o));
     if(!alternatives.length)return;
     alternatives.sort((a,b)=>(shippingTotal(a)??Number.MAX_SAFE_INTEGER)-(shippingTotal(b)??Number.MAX_SAFE_INTEGER)||num(a.precoAtual)-num(b.precoAtual));
 
@@ -97,7 +89,7 @@
       if(!safe)return "";
       return `<div class="alternative-row"><div><strong>${esc(o.loja||"Loja")}</strong>${o.seloLoja?`<small>✓ ${esc(o.seloLoja)}</small>`:""}${delivery?`<small>Entrega: ${esc(delivery)}</small>`:""}${pay?`<small>${esc(pay)}</small>`:""}</div><div class="alternative-price"><b>${money(o.precoAtual)||"Preço na loja"}</b>${total?`<small>Total ${money(total)}</small>`:""}<a href="${esc(safe)}" target="_blank" rel="noopener noreferrer">Ver oferta</a></div></div>`;
     }).join("");
-    section.innerHTML=`<div class="alternatives-head"><div><h2>Mesmo produto em outras lojas</h2><p>Compare o preço final, frete e condição de pagamento.</p></div><strong>${alternatives.length+1} lojas</strong></div><div class="alternatives-list">${rows}</div>`;
+    section.innerHTML=`<div class="alternatives-head"><div><h2>Mesmo modelo e variante em outras lojas</h2><p>Ofertas com identificação equivalente de modelo e variante. Confirme frete e preço final na loja.</p></div><strong>${alternatives.length+1} lojas</strong></div><div class="alternatives-list">${rows}</div>`;
     root.appendChild(section);
   }
 

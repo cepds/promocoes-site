@@ -44,21 +44,31 @@ function primaryImage(value){
 function officialSeller(html,record,offer){
  if(!record?.vendedorEsperado)return true;
  const owner=String(record.vendedorEsperado);
+ const allowed={
+   mobly:{host:"www.mobly.com.br",seller:/^mobly$/},
+   magalu:{host:"www.magazineluiza.com.br",seller:/^(?:magalu|magazine luiza)$/},
+   casasbahia:{host:"www.casasbahia.com.br",seller:/^casas bahia$/},
+   electrolux:{host:"loja.electrolux.com.br",seller:/^electrolux$/},
+   madeiramadeira:{host:"www.madeiramadeira.com.br",seller:/^madeira ?madeira$/},
+   "magalu-mobly":{host:"m.magazineluiza.com.br",seller:/^mobly$/},
+   "magalu-madeiramadeira":{host:"www.magazineluiza.com.br",seller:/^madeira ?madeira$/},
+   "magalu-brastemp":{host:"www.magazineluiza.com.br",seller:/^brastemp$/},
+   "magalu-electrolux":{host:"www.magazineluiza.com.br",seller:/^electrolux$/},
+   "carrefour-brastemp":{host:"www.carrefour.com.br",seller:/^brastemp$/},
+   "carrefour-electrolux":{host:"www.carrefour.com.br",seller:/^electrolux$/}
+ };
+ const policy=allowed[owner];
+ if(!policy||new URL(record.url).hostname!==policy.host)return false;
  const seller=offer?.seller?.name||offer?.seller?.legalName||offer?.seller||"";
  const candidate=normalize(seller);
- if(owner==="electrolux")return new URL(record.url).hostname==="loja.electrolux.com.br";
- if(owner==="mobly"&&/\bmobly\b/.test(candidate))return true;
- if(owner==="magalu"&&/\bmagalu\b|\bmagazine luiza\b/.test(candidate))return true;
- if(owner==="casasbahia"&&/\bcasas bahia\b/.test(candidate))return true;
- // Vendedor de terceiro explicitamente indicado no Offer nunca pode ser
- // substituído por slogans ou anúncios gerais do marketplace.
- if(candidate)return false;
- const text=normalize(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi," ").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi," ").replace(/<[^>]*>/g," ")).slice(0,150000);
- if(owner==="mobly")return /vendido e entregue por mobly/.test(text);
- if(owner==="magalu")return /vendido por magalu e entregue por magalu|vendido e entregue por magalu|produto vendido e entregue pelo magalu/.test(text);
- if(owner==="casasbahia")return /vendido e entregue por casas bahia/.test(text);
- return false;
+ if(candidate)return policy.seller.test(candidate);
+ if(owner==="electrolux")return true; // venda em domínio direto do fabricante
+ const stripped=normalize(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi," ").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi," ").replace(/<[^>]*>/g," ")).slice(0,150000);
+ const named=owner==="magalu-mobly"?"mobly":owner==="magalu-madeiramadeira"?"madeira madeira":owner.includes("brastemp")?"brastemp":owner.includes("electrolux")?"electrolux":owner==="magalu"?"magalu":owner==="casasbahia"?"casas bahia":owner;
+ return (owner==="magalu-mobly"&&stripped.includes("vendido por mobly e entregue por magalu")) || stripped.includes("vendido e entregue por "+named) ||
+   (named==="magalu"&&stripped.includes("produto vendido e entregue pelo magalu"));
 }
+
 function detect(html,record){
  if(typeof html!=="string"||html.length>3600000)return {status:"unverified",reason:"html_invalido"};
  const scripts=[...html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
@@ -68,6 +78,22 @@ function detect(html,record){
    let value;try{value=JSON.parse(found[1].replace(/&quot;/g,'"').replace(/&amp;/g,"&"));}catch{continue}
    for(const node of allNodes(value)){
      if(!isType(node,"Product")||!matchName(record.nome,node.name))continue;
+     // Modelos iguais mas variantes diferentes não podem compartilhar preço.
+     if(record.vendedorEsperado&&record.modelo){
+       const expected=normalize(record.modelo).replace(/ /g,"");
+       const identity=normalize([node.name,node.model,node.mpn,node.sku].filter(Boolean).join(" ")).replace(/ /g,"");
+       if(!identity.includes(expected))continue;
+     }
+     if(record.identidadeRevisada===true){
+       // Apenas grupo comparável se dimensões, modelo e variante pesquisados
+       // forem compatíveis com os dados de identificação da página.
+       if(!Array.isArray(record.verificacaoTermos)||record.verificacaoTermos.length<3)continue;
+       const identity=normalize([node.name,node.model,node.color,node.size,record.url].filter(Boolean).join(" "));
+       const compact=identity.replace(/ /g,"");
+       if(!record.verificacaoTermos.every(word=>{
+         const w=normalize(word);return identity.includes(w)||compact.includes(w.replace(/ /g,""));
+       }))continue;
+     }
      seenMatch=true;
      const offers=allNodes(node.offers||[]).filter(x=>isType(x,"Offer"));
      for(const o of offers){
@@ -82,7 +108,9 @@ function detect(html,record){
        if(!officialSeller(html,record,o))continue;
        const image=primaryImage(node.image)||primaryImage(record.imagem);
        if(!image)continue;
-       valid.push({price,stock,url:record.url,image,officialSeller:!!record.vendedorEsperado});
+       const model=typeof node.model==="string"?node.model:(typeof node.mpn==="string"?node.mpn:"");
+       const ean=String(node.gtin13||node.gtin14||node.gtin12||node.gtin||"").replace(/\\D/g,"");
+       valid.push({price,stock,url:record.url,image,officialSeller:!!record.vendedorEsperado,model,ean});
      }
    }
  }

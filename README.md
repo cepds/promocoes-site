@@ -93,3 +93,16 @@ Os links de varejistas com marketplace (especialmente Magalu e Casas Bahia) só 
 O acompanhamento de promoções usa apenas **dois preços realmente confirmados para o mesmo produto**, registrados em execuções separadas. O desconto só é exibido quando houver queda de pelo menos 3% e no máximo 60% em relação à verificação anterior de até 14 dias. Na primeira leitura do produto não se inventa promoção; fretes, descontos por meios de pagamento e cupons precisam de confirmação separada.
 
 Adicionar/editar a curadoria aciona o workflow de verificação e publicação no GitHub. As verificações agendadas continuam às 09h e às 18h (horário de Brasília), sujeitas a atrasos do GitHub. A vitrine da página inicial segue mostrando apenas filtros e produtos, sem cards de lojas nem diretórios de links.
+
+## Mesmo produto em lojas diferentes e novas camas de casal
+
+A curadoria em `data/produtos-oficiais.json` foi ampliada com camas de casal e camas box **Mobly** e **MadeiraMadeira**, incluindo anúncios do mesmo fabricante vendidos por lojas oficiais dentro do **Magalu**. Foram adicionadas páginas de referência cruzada para geladeiras **Brastemp BRM51MB** e **Electrolux TF38S** em lojas parceiras autorizadas (**Carrefour** e **Magalu**). Nenhum preço ou estoque desses candidatos é preenchido antes da verificação automática.
+
+Comparação confiável em `public/product-identity.js`:
+- Produtos com GTIN/EAN idêntico podem formar um grupo;
+- eletrodomésticos exigem **fabricante, código exato do modelo e voltagem exata**. Modelos sem tensão selecionada são tratados como versões distintas/indeterminadas;
+- móveis não são comparados apenas pelo nome da linha: as duas camas com correspondência pesquisada receberam grupos curados com cor, modelo e dimensões compatíveis e validação de termos da página;
+- apenas produtos que passaram no controle de **preço, estoque, identidade do produto e vendedor oficial** entram na comparação;
+- os resultados aparecem apenas nos detalhes do produto ou como indicação discreta no card, mantendo a home exclusivamente com filtros e produtos.
+
+Esta etapa amplia a **lista de candidatos**; a quantidade de produtos visíveis depende do JSON-LD confirmado nas próximas execuções do GitHub Actions. Não são forçados anúncios de marketplaces com vendedores terceiros, promoções sem preço confiável, nem variantes com códigos elétricos ambíguos.
