@@ -146,7 +146,7 @@ function filteredRows() {
 }
 
 function renderCard(o) {
-  const current = asNumber(o.precoAtual), previous = asNumber(o.precoAnterior), discount = asNumber(o.desconto), url = safeUrl(o.urlAfiliado || o.url), image = validImageUrl(o.imagem), key = offerKey(o), checked = asDate(o.ultimaVerificacao);
+  const current = asNumber(o.precoAtual), previous = asNumber(o.precoAnterior), discount = asNumber(o.desconto), url = safeUrl(o.urlAfiliado) || safeUrl(o.url), image = validImageUrl(o.imagem), key = offerKey(o), checked = asDate(o.ultimaVerificacao);
   const coupon = text(o.cupom,""), cashback = text(o.cashback,""), saving = previous > current && current > 0 ? previous-current : 0, ship = shippingInfo(o,current), score = dealScore(o), stats = historyStats(o), trust = storeTrust(o), fav = favorites.has(key), cmp = compare.has(key);
   const stale = !RadarPolicy.isRecentVerification(o), affiliate = Boolean(o.urlAfiliado && safeUrl(o.urlAfiliado));
   const tags = [stale ? `<span class="tag tag-stale">Verificação vencida</span>` : "", (!stale && isNew(o))?`<span class="tag tag-new">Novo</span>`:"", (!stale && droppedPrice(o))?`<span class="tag tag-drop">↓ Baixou</span>`:"", o.voltagem?`<span class="tag">${escapeHtml(o.voltagem)}</span>`:"", trust?`<span class="tag tag-trust">✓ ${escapeHtml(trust)}</span>`:""].filter(Boolean).join("");
