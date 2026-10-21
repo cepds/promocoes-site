@@ -22,6 +22,8 @@ const requiredFiles = [
   'public/home-discovery.js',
   'public/comparator-discovery.js',
   'public/categorias-descoberta.json',
+  'scripts/awin-feed-lib.cjs',
+  'scripts/sync-awin-feed.mjs',
   'public/lojas-casa.json',
   'public/fetch-fallback.js',
   'public/app.js',
@@ -44,6 +46,12 @@ for (const file of requiredFiles) {
 }
 
 const jsFiles = [
+  'public/catalog-policy.js',
+  'public/search-engine.js',
+  'public/home-discovery.js',
+  'public/comparator-discovery.js',
+  'scripts/awin-feed-lib.cjs',
+  'scripts/sync-awin-feed.mjs',
   'public/fetch-fallback.js',
   'public/app.js',
   'public/enhancements.js',
@@ -146,6 +154,19 @@ try {
     if(!store.nome||!Array.isArray(store.categoria)||!store.categoria.length)fail("Metadados incompletos da loja: "+store.id);
   }
 }catch(e){fail("Erro no diretório de lojas: "+e.message)}
+try {
+  const category=JSON.parse(fs.readFileSync('public/categorias-descoberta.json','utf8'));
+  const copy=JSON.parse(fs.readFileSync('data/categorias-descoberta.json','utf8'));
+  if (JSON.stringify(category)!==JSON.stringify(copy)) fail("Categorias de descoberta estão diferentes.");
+  if (!Array.isArray(category.categorias)||category.categorias.length<36) fail("Diretório de categorias precisa de 36 itens.");
+  const unique=new Set();
+  for (const item of category.categorias || []) {
+    if(!item.id||!item.nome||!item.grupo||!item.consulta)fail("Categoria incompleta no diretório.");
+    if(unique.has(item.id))fail("Categoria duplicada: "+item.id);
+    unique.add(item.id);
+  }
+}catch(error){fail("Diretório de categorias inválido: "+error.message)}
+
 if (warnings.length) {
   console.log('\nAvisos:');
   warnings.forEach(w => console.log(`- ${w}`));
