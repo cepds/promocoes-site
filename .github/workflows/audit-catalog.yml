@@ -4,6 +4,8 @@ on:
     # Horários em UTC: 12:00 e 21:00 = 09:00 e 18:00 em Brasília (UTC-3).
     - cron: '0 12,21 * * *'
   workflow_dispatch:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
     paths:
@@ -23,5 +25,7 @@ jobs:
           node-version: '24'
       - name: Validate JS syntax and catalog schema
         run: node scripts/validate-site.js
+      - name: Unit tests for freshness, shipping and URL policy
+        run: node --test tests/*.test.js
       - name: Audit catalog metadata freshness (not live price verification)
         run: node scripts/audit-catalog.js
