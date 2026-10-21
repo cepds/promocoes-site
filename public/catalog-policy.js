@@ -17,11 +17,16 @@
     const result = Number(normalized);
     return Number.isFinite(result) ? result : 0;
   }
+  const APPROVED_SHOP_HOSTS = new Set(["loja.electrolux.com.br","www.magazineluiza.com.br","m.magazineluiza.com.br","www.tramontina.com.br","www.carrefour.com.br","www.madeiramadeira.com.br","br-store.acer.com","www.kabum.com.br","produto.mercadolivre.com.br","www.mercadolivre.com.br","www.philco.com.br","parceiros.wap.ind.br","www.brastemp.com.br","www.cuisinartbrasil.com.br","www.mobly.com.br","www.tokstok.com.br","www.camicado.com.br","www.karsten.com.br","www.artex.com.br","www.zelo.com.br","www.altenburg.com.br"]);
   function safeHttpsUrl(value) {
     try {
       const url = new URL(String(value ?? "").trim());
       return url.protocol === "https:" ? url.href : "";
     } catch { return ""; }
+  }
+  function safeStoreUrl(value) {
+    const safe=safeHttpsUrl(value);
+    return safe && APPROVED_SHOP_HOSTS.has(new URL(safe).hostname) ? safe : "";
   }
   function isRecentVerification(offer, now = Date.now()) {
     const checked = Date.parse(offer?.ultimaVerificacao || "");
@@ -65,5 +70,5 @@
     }
     return { label, total, freightValue, free };
   }
-  return { MAX_VERIFICATION_AGE_MS, number, safeHttpsUrl, isRecentVerification, shippingInfo };
+  return { MAX_VERIFICATION_AGE_MS, number, safeHttpsUrl, safeStoreUrl, isRecentVerification, shippingInfo };
 });
