@@ -33,3 +33,14 @@ test("não agrupa por nomes parecidos, sem EAN ou modelo e marca específicos",(
  assert.equal(p.group({categoria:"Geladeiras",nome:"Geladeira Frost Free 400L",modelo:"ABC123",voltagem:"220V"}),"");
  assert.equal(p.group({categoria:"Geladeiras",nome:"Geladeira Electrolux TF38S",modelo:"TF38S"}),"");
 });
+
+test("identidade revista compara mesma cama casal em duas lojas",()=>{
+ const base={categoria:"Camas",nome:"Cama Casal Mônaco 193x144 Branco Neve",
+ produtoGrupo:"monaco-casal-193x144-branco-neve",identidadeRevisada:true,vendedorEsperado:"madeiramadeira"};
+ const own={...base,url:"https://www.madeiramadeira.com.br/cama-179067.html"};
+ const partner={...base,nome:"Cama Casal Tcil Mônaco 193cm 144cm",vendedorEsperado:"magalu-madeiramadeira",url:"https://www.magazineluiza.com.br/cama/p/760308900/mo/camo/"};
+ assert.equal(p.group(own),"curated:monaco-casal-193x144-branco-neve");
+ assert.equal(p.compatible(own,partner),true);
+ assert.equal(p.compatible(own,{...partner,produtoGrupo:"monaco-casal-193x144-cinamomo"}),false);
+ assert.equal(p.group({...partner,identidadeRevisada:false}),"");
+});
