@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "descricao": "Diretorio editorial de dominios de lojas. Links nao representam cotacao, estoque nem garantia de vendedor individual.",
+  "atualizacao": "2026-10-21",
+  "lojas": [
+    {
+      "id": "mobly",
+      "nome": "Mobly",
+      "url": "https://www.mobly.com.br/",
+      "categoria": [
+        "moveis",
+        "quarto",
+        "sala",
+        "decoracao",
+        "colchoes"
+      ],
+      "descricao": "Sofás, mesas, camas, colchões e móveis por ambiente.",
+      "rotulo": "Móveis e ambientes",
+      "destinos": {
+        "moveis": "https://www.mobly.com.br/moveis/sofas"
+      }
+    },
+    {
+      "id": "madeiramadeira",
+      "nome": "MadeiraMadeira",
+      "url": "https://www.madeiramadeira.com.br/",
+      "categoria": [
+        "moveis",
+        "quarto",
+        "sala",
+        "cozinha",
+        "banheiro",
+        "decoracao"
+      ],
+      "descricao": "Guarda-roupas, sofás, móveis planejados e itens da casa.",
+      "rotulo": "Móveis para casa",
+      "destinos": {
+        "moveis": "https://www.madeiramadeira.com.br/moveis",
+        "quarto": "https://www.madeiramadeira.com.br/moveis",
+        "cama": "https://www.madeiramadeira.com.br/cama-mesa-e-banho/roupa-de-cama",
+        "mesa": "https://www.madeiramadeira.com.br/cama-mesa-e-banho/mesa",
+        "banho": "https://www.madeiramadeira.com.br/cama-mesa-e-banho/banho"
+      }
+    },
+    {
+      "id": "tokstok",
+      "nome": "Tok&Stok",
+      "url": "https://www.tokstok.com.br/moveis",
+      "categoria": [
+        "moveis",
+        "quarto",
+        "sala",
+        "mesa",
+        "decoracao"
+      ],
+      "descricao": "Móveis, poltronas, decoração e mesa posta.",
+      "rotulo": "Móveis e design",
+      "destinos": {
+        "moveis": "https://www.tokstok.com.br/moveis",
+        "quarto": "https://www.tokstok.com.br/ambientes/quarto/moveis",
+        "decoracao": "https://www.tokstok.com.br/decoracao"
+      }
+    },
+    {
+      "id": "camicado",
+      "nome": "Camicado",
+      "url": "https://www.camicado.com.br/",
+      "categoria": [
+        "cama",
+        "mesa",
+        "banho",
+        "cozinha",
+        "decoracao"
+      ],
+      "descricao": "Roupa de cama, toalhas, louças, utensílios e decoração.",
+      "rotulo": "Casa e enxoval"
+    },
+    {
+      "id": "karsten",
+      "nome": "Karsten",
+      "url": "https://www.karsten.com.br/",
+      "categoria": [
+        "cama",
+        "mesa",
+        "banho"
+      ],
+      "descricao": "Lençóis, jogos de cama, toalhas e mesa posta.",
+      "rotulo": "Cama, mesa e banho",
+      "destinos": {
+        "cama": "https://www.karsten.com.br/cama/produto/jogo-de-cama"
+      }
+    },
+    {
+      "id": "artex",
+      "nome": "Artex",
+      "url": "https://www.artex.com.br/",
+      "categoria": [
+        "cama",
+        "mesa",
+        "banho"
+      ],
+      "descricao": "Edredons, jogos de lençol, toalhas e acessórios.",
+      "rotulo": "Enxoval"
+    },
+    {
+      "id": "zelo",
+      "nome": "Zelo",
+      "url": "https://www.zelo.com.br/",
+      "categoria": [
+        "cama",
+        "mesa",
+        "banho",
+        "decoracao"
+      ],
+      "descricao": "Jogo de cama, toalhas, colchas e acessórios para casa.",
+      "rotulo": "Enxoval e decoração"
+    },
+    {
+      "id": "altenburg",
+      "nome": "Altenburg",
+      "url": "https://www.altenburg.com.br/",
+      "categoria": [
+        "cama",
+        "banho",
+        "colchoes"
+      ],
+      "descricao": "Travesseiros, edredons, roupas de cama e itens de sono.",
+      "rotulo": "Sono e conforto"
+    }
+  ]
+}

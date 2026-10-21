@@ -2,3 +2,38 @@
 @media(max-width:1050px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.compact-hero{grid-template-columns:1fr}.hero-stats{grid-template-columns:repeat(3,minmax(0,1fr));max-width:430px}.advanced-filters{grid-template-columns:repeat(3,1fr)}.admin-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.container{width:min(100% - 24px,1240px)}.site-header{padding-bottom:48px}.nav-wrap{min-height:66px}.top-actions .ghost-action:not(#installApp),.header-status{display:none}.compact-hero{padding-top:18px}.hero-stats{width:100%;max-width:none}.filter-row,.advanced-filters{grid-template-columns:1fr 1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.section-heading{align-items:flex-start;flex-direction:column}.section-meta{justify-items:start}.footer-inner{padding:18px 0 82px;align-items:flex-start;flex-direction:column}.mobile-nav{position:fixed;z-index:40;left:10px;right:10px;bottom:max(10px,env(safe-area-inset-bottom));display:grid;grid-template-columns:repeat(4,1fr);padding:7px;border:1px solid #dfe5ec;border-radius:18px;background:rgba(255,255,255,.96);box-shadow:0 14px 40px rgba(15,23,42,.18);backdrop-filter:blur(14px)}.mobile-nav-item{border:0;background:transparent;text-decoration:none;color:#64748b;display:grid;place-items:center;gap:2px;padding:6px;border-radius:12px;cursor:pointer}.mobile-nav-item span{font-size:18px}.mobile-nav-item small{font-size:9px;font-weight:800}.mobile-nav-item.active{background:#f1f5f9;color:#0f172a}.detail-grid{grid-template-columns:1fr}.admin-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.grid{grid-template-columns:1fr}.hero-stats{grid-template-columns:repeat(3,1fr);gap:7px}.stat-card{padding:11px}.stat-card strong{font-size:20px}.brand small{display:none}.product-name{min-height:auto}.advanced-filters{grid-template-columns:1fr}.card-actions{grid-template-columns:1fr 1fr}.admin-grid{grid-template-columns:1fr}.detail-title{font-size:23px}}
+
+/* Avisos de validade e integridade do catálogo */
+.freshness-notice{margin:0 0 14px;padding:15px 18px;border:1px solid #d97706;background:#fffbeb;color:#78350f;font-weight:600}
+#historicalToggle{display:block;margin:0 0 24px;padding:10px 14px;border-radius:10px;cursor:pointer}
+#historicalToggle:disabled{opacity:.55;cursor:not-allowed}
+.tag-stale{background:#fff3d6;color:#92400e;border:1px solid #f59e0b}
+.stale-alert{background:#fffbeb;color:#78350f;border-left:4px solid #f59e0b;padding:12px;border-radius:8px;line-height:1.45}
+
+/* Descoberta da casa: editorial e links para dominios oficiais */
+.home-discovery{margin-top:22px;margin-bottom:26px;padding-top:22px;padding-bottom:24px}
+.home-discovery-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:18px}
+.home-discovery-heading h2{font-size:clamp(1.5rem,2.5vw,2.25rem);margin:4px 0 6px}
+.home-discovery-heading p{max-width:650px;margin:0;color:#64748b;line-height:1.5}
+.home-eyebrow{display:block;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:#0284c7;font-size:.72rem}
+.home-store-search{width:min(100%,370px);min-height:46px;padding:12px 14px;border:1px solid #cbd5e1;background:#fff;color:#0f172a;border-radius:12px;font-size:15px}
+.home-topic-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.home-topic{display:flex;flex-direction:column;text-align:left;gap:5px;min-height:94px;padding:15px;border:1px solid #cbd5e1;border-radius:14px;background:#f8fafc;color:#0f172a;cursor:pointer;transition:transform .15s,border-color .15s}
+.home-topic:hover,.home-topic.active{border-color:#0284c7;background:#ecfeff;transform:translateY(-1px)}
+.home-topic strong{font-weight:800;font-size:1rem}
+.home-topic small{font-size:.8rem;line-height:1.35;color:#475569}
+.home-store-heading{display:flex;justify-content:space-between;align-items:baseline;margin-top:30px;margin-bottom:14px;gap:10px}
+.home-store-heading h3{font-size:1.25rem;margin:0}
+.home-store-count{color:#64748b;font-size:.88rem}
+.home-store-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.home-store-card{display:flex;flex-direction:column;align-items:start;gap:8px;padding:18px;border:1px solid #e2e8f0;border-radius:15px;background:#fff}
+.home-store-card h4{margin:0;font-size:1.05rem}
+.home-store-card p{font-size:.86rem;line-height:1.4;color:#475569;flex:1;margin:0}
+.home-official-pill{color:#166534;background:#dcfce7;border-radius:16px;padding:4px 9px;font-size:.7rem;font-weight:800}
+.home-store-link{display:inline-flex;min-height:34px;align-items:center;font-weight:750;color:#0369a1;text-decoration:none}
+.home-store-link:hover{text-decoration:underline}
+.home-store-note{font-size:.8rem;line-height:1.5;color:#64748b;margin-top:13px}
+.home-history-link{display:block;margin:22px 0 0;border:0;border-bottom:1px solid currentColor;background:transparent;padding:4px 0;cursor:pointer;color:#0369a1;font-weight:700}
+.home-no-stores{padding:16px;color:#64748b}
+@media(max-width:900px){.home-store-grid,.home-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-discovery-heading{align-items:stretch;flex-direction:column}.home-store-search{width:100%}}
+@media(max-width:540px){.home-store-grid{grid-template-columns:1fr}.home-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.home-topic{min-height:82px;padding:11px}.home-discovery{padding-bottom:10px}}

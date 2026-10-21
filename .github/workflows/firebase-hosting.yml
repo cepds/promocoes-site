@@ -2,10 +2,22 @@ name: Firebase Hosting Deploy
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - 'firebase.json'
+      - '.firebaserc'
+      - 'scripts/validate-site.js'
+      - 'tests/**'
+      - '.github/workflows/firebase-hosting.yml'
 
 concurrency:
   group: firebase-hosting-live
-  cancel-in-progress: true
+  cancel-in-progress: false
+
+permissions:
+  contents: read
 
 env:
   FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707 }}
@@ -13,22 +25,28 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
 
-      - name: Verificar configuração do Firebase
+      - name: Validate catalog and frontend
+        run: |
+          node scripts/validate-site.js
+          node --test tests/*.test.js
+          node scripts/audit-catalog.js
+
+      - name: Verify Firebase deploy credentials
+        shell: bash
         run: |
           if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
-            echo "Credencial do Firebase ainda não configurada. Nenhum deploy será tentado."
-            echo "### Firebase Hosting" >> "$GITHUB_STEP_SUMMARY"
-            echo "Deploy não executado porque a credencial FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707 ainda não foi configurada." >> "$GITHUB_STEP_SUMMARY"
-          else
-            echo "Credencial encontrada. Deploy será executado."
+            echo "::error::Secret FIREBASE_SERVICE_ACCOUNT_PROMOCOES_65707 ausente. Deploy nao executado."
+            exit 1
           fi
 
-      - name: Deploy to Firebase Hosting
-        if: env.FIREBASE_SERVICE_ACCOUNT != ''
+      - name: Deploy to Firebase Hosting (live)
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}

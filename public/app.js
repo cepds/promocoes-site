@@ -14,10 +14,12 @@ const els = {
   freeShipping: document.querySelector("#freeShipping"), clearFilters: document.querySelector("#clearFilters"), favoritesToggle: document.querySelector("#favoritesToggle"),
   favoritesCount: document.querySelector("#favoritesCount"), compareToggle: document.querySelector("#compareToggle"), compareCount: document.querySelector("#compareCount"),
   comparePanel: document.querySelector("#comparePanel"), compareContent: document.querySelector("#compareContent"), clearCompare: document.querySelector("#clearCompare"),
-  mobileFavorites: document.querySelector("#mobileFavorites"), mobileCompare: document.querySelector("#mobileCompare")
+  mobileFavorites: document.querySelector("#mobileFavorites"), mobileCompare: document.querySelector("#mobileCompare"),
+  historicalToggle: document.querySelector("#historicalToggle"), freshnessWarning: document.querySelector("#freshnessWarning")
 };
 
 let allOffers = [];
+let showHistorical = false;
 let favoritesOnly = false;
 const brokenImages = new Set();
 let favorites = new Set(loadLocal(FAVORITES_KEY));
@@ -30,8 +32,8 @@ function asDate(value) { if (!value) return null; const d = new Date(value); ret
 function money(value) { return asNumber(value).toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: 2 }); }
 function text(value, fallback = "Não informado") { const v = String(value ?? "").trim(); return v || fallback; }
 function escapeHtml(value) { return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;"); }
-function safeUrl(url) { try { const parsed = new URL(String(url || "").trim()); return ["http:", "https:"].includes(parsed.protocol) ? parsed.href : ""; } catch { return ""; } }
-function validImageUrl(value) { try { const parsed = new URL(String(value || "").trim()); return parsed.protocol === "https:" ? parsed.href : ""; } catch { return ""; } }
+function safeUrl(url) { return RadarPolicy.safeStoreUrl(url); }
+function validImageUrl(value) { return RadarPolicy.safeHttpsUrl(value); }
 function offerKey(o) { return String(o.id || o.url || o.nome || ""); }
 function decodeBase64Utf8(value) { const binary = atob(String(value || "").replace(/\s/g, "")); return new TextDecoder("utf-8").decode(Uint8Array.from(binary, c => c.charCodeAt(0))); }
 function hasOwnValue(obj, key) { return Object.prototype.hasOwnProperty.call(obj, key) && obj[key] !== null && obj[key] !== undefined && String(obj[key]).trim() !== ""; }
@@ -58,24 +60,31 @@ function is220Compatible(o) {
   return true;
 }
 
+function eligibleOffers() {
+  return allOffers.filter(o => o.ativa !== false && Boolean(validImageUrl(o.imagem))
+    && !brokenImages.has(offerKey(o)) && is220Compatible(o));
+}
 function activeOffers() {
-  return allOffers.filter(o => o.ativa !== false && Boolean(validImageUrl(o.imagem)) && !brokenImages.has(offerKey(o)) && is220Compatible(o));
+  return eligibleOffers().filter(o => showHistorical || RadarPolicy.isRecentVerification(o));
+}
+function staleOffersCount() {
+  return eligibleOffers().filter(o => !RadarPolicy.isRecentVerification(o)).length;
+}
+function updateFreshnessUi() {
+  const expired = staleOffersCount();
+  if (els.historicalToggle) {
+    els.historicalToggle.textContent = showHistorical ? "Ocultar referências antigas" : `Consultar ${expired} referências antigas`;
+    els.historicalToggle.disabled = expired === 0;
+  }
+  if (els.freshnessWarning) {
+    els.freshnessWarning.classList.toggle("hidden", expired === 0);
+    els.freshnessWarning.textContent = showHistorical
+      ? `Exibindo ${expired} referências antigas. Os preços, cupons e estoques NÃO foram confirmados nas últimas 18 horas. Confira na loja antes de comprar.`
+      : `${expired} ofertas não têm verificação recente e estão ocultas. Você pode consultar os preços antigos apenas como referência.`;
+  }
 }
 
-function shippingInfo(o, current) {
-  const raw = text(o.frete, ""); const lower = raw.toLocaleLowerCase("pt-BR");
-  const explicitFree = o.freteGratis === true || lower.includes("frete grátis") || lower.includes("frete gratis") || lower === "grátis" || lower === "gratis";
-  let freightValue = null;
-  if (explicitFree) freightValue = 0;
-  else if (hasOwnValue(o, "freteValor")) { const n = asNumber(o.freteValor); if (n >= 0) freightValue = n; }
-  else { const match = raw.match(/R\$\s*([\d.]+(?:,\d{1,2})?)/i); if (match) { const n = asNumber(match[1]); if (n >= 0) freightValue = n; } }
-  let label = "Consulte na loja";
-  if (explicitFree) label = "Grátis"; else if (freightValue !== null) label = money(freightValue); else if (raw && !["não informado", "consulte o cep", "consulte cep"].includes(lower)) label = raw;
-  let total = null;
-  if (hasOwnValue(o, "precoComFrete")) { const n = asNumber(o.precoComFrete); if (n > 0) total = n; }
-  else if (current > 0 && freightValue !== null) total = current + freightValue;
-  return { label, total, freightValue, free: freightValue === 0 || explicitFree };
-}
+function shippingInfo(o, current) { return RadarPolicy.shippingInfo(o, current); }
 
 function history(o) {
   const h = Array.isArray(o.historicoPrecos) ? o.historicoPrecos : [];
@@ -110,7 +119,7 @@ function renderCategoryChips() {
   els.categoryChips.querySelectorAll(".category-chip").forEach(b=>b.addEventListener("click",()=>{ els.category.value = b.dataset.category || ""; renderCategoryChips(); render(); }));
 }
 
-function updateStats() { const rows = activeOffers(); els.statOffers.textContent = rows.length; els.statStores.textContent = new Set(rows.map(o=>text(o.loja,"")).filter(Boolean)).size; els.statDiscount.textContent = `${Math.round(rows.reduce((m,o)=>Math.max(m,asNumber(o.desconto)),0))}%`; }
+function updateStats() { const rows = activeOffers(); els.statOffers.textContent = rows.length; els.statStores.textContent = new Set(rows.map(o=>text(o.loja,"")).filter(Boolean)).size; els.statDiscount.textContent = `${Math.round(rows.reduce((m,o)=>Math.max(m,asNumber(o.desconto)),0))}%`; updateFreshnessUi(); }
 function updateLocalCounters() { els.favoritesCount.textContent = favorites.size; els.compareCount.textContent = compare.size; els.favoritesToggle?.classList.toggle("active", favoritesOnly); }
 
 function filteredRows() {
@@ -118,7 +127,7 @@ function filteredRows() {
   const minPrice = asNumber(els.minPrice.value); const maxPrice = asNumber(els.maxPrice.value); const minDiscount = asNumber(els.minDiscount.value);
   let rows = activeOffers();
   if (favoritesOnly) rows = rows.filter(o=>favorites.has(offerKey(o)));
-  if (term) rows = rows.filter(o=>[o.nome,o.categoria,o.loja,o.cupom,o.observacoes,o.voltagem,o.seloLoja].some(v=>text(v,"").toLocaleLowerCase("pt-BR").includes(term)));
+  if (term) rows = rows.filter(o=>RadarSearch.match(o,term));
   if (category) rows = rows.filter(o=>text(o.categoria,"")===category);
   if (store) rows = rows.filter(o=>text(o.loja,"")===store);
   if (minPrice > 0) rows = rows.filter(o=>asNumber(o.precoAtual)>=minPrice);
@@ -137,23 +146,31 @@ function filteredRows() {
 }
 
 function renderCard(o) {
-  const current = asNumber(o.precoAtual), previous = asNumber(o.precoAnterior), discount = asNumber(o.desconto), url = safeUrl(o.url), image = validImageUrl(o.imagem), key = offerKey(o), checked = asDate(o.ultimaVerificacao);
+  const current = asNumber(o.precoAtual), previous = asNumber(o.precoAnterior), discount = asNumber(o.desconto), url = safeUrl(o.urlAfiliado) || safeUrl(o.url), image = validImageUrl(o.imagem), key = offerKey(o), checked = asDate(o.ultimaVerificacao);
   const coupon = text(o.cupom,""), cashback = text(o.cashback,""), saving = previous > current && current > 0 ? previous-current : 0, ship = shippingInfo(o,current), score = dealScore(o), stats = historyStats(o), trust = storeTrust(o), fav = favorites.has(key), cmp = compare.has(key);
-  const tags = [isNew(o)?`<span class="tag tag-new">Novo</span>`:"", droppedPrice(o)?`<span class="tag tag-drop">↓ Baixou</span>`:"", o.voltagem?`<span class="tag">${escapeHtml(o.voltagem)}</span>`:"", trust?`<span class="tag tag-trust">✓ ${escapeHtml(trust)}</span>`:""].filter(Boolean).join("");
-  const perks = [coupon && coupon.toLowerCase()!=="não informado"?`<span class="perk coupon">Cupom: ${escapeHtml(coupon)}</span>`:"", `<span class="perk">Frete: ${escapeHtml(ship.label)}</span>`, ship.total!==null?`<span class="perk total">Total: ${money(ship.total)}</span>`:"", cashback && cashback.toLowerCase()!=="não informado"?`<span class="perk">Cashback: ${escapeHtml(cashback)}</span>`:""].filter(Boolean).join("");
+  const stale = !RadarPolicy.isRecentVerification(o), affiliate = Boolean(o.urlAfiliado && safeUrl(o.urlAfiliado));
+  const tags = [stale ? `<span class="tag tag-stale">Verificação vencida</span>` : "", (!stale && isNew(o))?`<span class="tag tag-new">Novo</span>`:"", (!stale && droppedPrice(o))?`<span class="tag tag-drop">↓ Baixou</span>`:"", o.voltagem?`<span class="tag">${escapeHtml(o.voltagem)}</span>`:"", trust?`<span class="tag tag-trust">✓ ${escapeHtml(trust)}</span>`:""].filter(Boolean).join("");
+  const perks = stale ? `<span class="perk">Frete, cupom e estoque: confirmar na loja</span>` : [coupon && coupon.toLowerCase()!=="não informado"?`<span class="perk coupon">Cupom: ${escapeHtml(coupon)}</span>`:"", `<span class="perk">Frete: ${escapeHtml(ship.label)}</span>`, ship.total!==null?`<span class="perk total">Total: ${money(ship.total)}</span>`:"", cashback && cashback.toLowerCase()!=="não informado"?`<span class="perk">Cashback: ${escapeHtml(cashback)}</span>`:""].filter(Boolean).join("");
   return `<article class="card" data-offer-key="${escapeHtml(key)}">
-    <div class="image-wrap"><a class="image-link" href="./produto.html?id=${encodeURIComponent(key)}"><img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}" loading="lazy" decoding="async"></a>${discount>0?`<div class="badge">-${Math.round(discount)}%</div>`:""}<button class="favorite-button${fav?" active":""}" data-favorite="${escapeHtml(key)}" aria-label="Favoritar">${fav?"♥":"♡"}</button><div class="store-pill">${escapeHtml(text(o.loja))}</div></div>
+    <div class="image-wrap"><a class="image-link" href="./produto.html?id=${encodeURIComponent(key)}"><img class="product-image" src="${escapeHtml(image)}" alt="${escapeHtml(text(o.nome))}" loading="lazy" decoding="async"></a>${!stale&&discount>0?`<div class="badge">-${Math.round(discount)}%</div>`:""}<button class="favorite-button${fav?" active":""}" data-favorite="${escapeHtml(key)}" aria-label="Favoritar">${fav?"♥":"♡"}</button><div class="store-pill">${escapeHtml(text(o.loja))}</div></div>
     <div class="card-body"><div class="tag-row">${tags}</div><span class="category-label">${escapeHtml(text(o.categoria))}</span><h3 class="product-name"><a href="./produto.html?id=${encodeURIComponent(key)}">${escapeHtml(text(o.nome))}</a></h3>
-    <div class="score-row"><span class="score-badge score-${scoreLabel(score).toLowerCase()}">${score}/100 • ${scoreLabel(score)}</span>${stats.count>=2?`<span class="history-note">mín. ${money(stats.min)}</span>`:""}</div>
-    <div class="price-block"><div class="old-price">${previous>current&&previous>0?money(previous):""}</div><div class="price-line"><div class="price">${current>0?money(current):"Preço indisponível"}</div>${saving>0?`<span class="saving">economize ${money(saving)}</span>`:""}</div></div>
+    ${stale?`<p class="history-note">Preço histórico sem confirmação recente</p>`:`<div class="score-row"><span class="score-badge score-${scoreLabel(score).toLowerCase()}">${score}/100 • ${scoreLabel(score)}</span>${stats.count>=2?`<span class="history-note">mín. ${money(stats.min)}</span>`:""}</div>`}
+    <div class="price-block"><div class="old-price">${stale?"Preço registrado na última verificação":previous>current&&previous>0?money(previous):""}</div><div class="price-line"><div class="price">${current>0?money(current):"Preço indisponível"}</div>${!stale&&saving>0?`<span class="saving">economize ${money(saving)}</span>`:""}</div></div>
     <div class="perks">${perks}</div>
     <label class="compare-check"><input type="checkbox" data-compare="${escapeHtml(key)}" ${cmp?"checked":""}> Comparar</label>
-    ${checked?`<div class="verified">Verificado em ${checked.toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</div>`:""}
-    <div class="card-actions"><a class="details" href="./produto.html?id=${encodeURIComponent(key)}">Detalhes</a>${url?`<a class="buy" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Ver na loja →</a>`:""}</div></div></article>`;
+    ${checked?`<div class="verified">${stale?"Última verificação":"Verificado"} em ${checked.toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</div>`:""}
+    <div class="card-actions"><a class="details" href="./produto.html?id=${encodeURIComponent(key)}">Detalhes</a>${url?`<a class="buy" href="${escapeHtml(url)}" target="_blank" rel="${affiliate?"sponsored nofollow noopener noreferrer":"noopener noreferrer"}">${stale?"Conferir preço atual →":"Ver na loja →"}</a>`:""}</div></div></article>`;
 }
 
 function render() {
-  const rows = filteredRows(); els.count.textContent = `${rows.length} ${rows.length===1?"oferta":"ofertas"}`; els.empty.classList.toggle("hidden",rows.length!==0); els.offers.classList.toggle("hidden",rows.length===0); els.offers.innerHTML = rows.map(renderCard).join("");
+  const rows = filteredRows();
+  if (els.empty) {
+    const heading = els.empty.querySelector("h3"), note = els.empty.querySelector("p");
+    if (heading) heading.textContent = !showHistorical && activeOffers().length === 0 ? "Nenhuma oferta verificada recentemente" : "Nenhum produto encontrado";
+    if (note) note.textContent = !showHistorical && activeOffers().length === 0
+      ? "As ofertas antigas foram retiradas do catálogo principal. Consulte as referências antigas ou retorne quando houver nova verificação."
+      : "Tente outro termo ou remova algum filtro.";
+  } els.count.textContent = `${rows.length} ${showHistorical ? (rows.length===1?"referência":"referências") : (rows.length===1?"oferta":"ofertas")}`; els.empty.classList.toggle("hidden",rows.length!==0); els.offers.classList.toggle("hidden",rows.length===0); els.offers.innerHTML = rows.map(renderCard).join("");
   els.offers.querySelectorAll(".product-image").forEach(img=>img.addEventListener("error",()=>{ const card=img.closest(".card"); const key=card?.dataset.offerKey||""; if(key) brokenImages.add(key); renderCategoryChips(); updateStats(); render(); },{once:true}));
   els.offers.querySelectorAll("[data-favorite]").forEach(btn=>btn.addEventListener("click",()=>toggleFavorite(btn.dataset.favorite)));
   els.offers.querySelectorAll("[data-compare]").forEach(input=>input.addEventListener("change",()=>toggleCompare(input.dataset.compare,input.checked)));
@@ -174,14 +191,24 @@ function clearFilters(){ els.search.value=""; els.category.value=""; els.store.v
 
 async function loadOffers(){
   try { setStatus("Atualizando…",true); els.error.classList.add("hidden"); const payload=await fetchPayload(); allOffers=Array.isArray(payload.ofertas)?payload.ofertas:[]; brokenImages.clear();
+    if (!eligibleOffers().some(o => RadarPolicy.isRecentVerification(o)) && eligibleOffers().length) showHistorical = true;
+    document.body.classList.toggle("viewing-historical",showHistorical);
     populateSelect(els.category,uniqueValues("categoria"),"Todas as categorias"); populateSelect(els.store,uniqueValues("loja"),"Todas as lojas"); renderCategoryChips(); updateStats(); updateLocalCounters();
-    els.updated.textContent=payload.geradoEm?`Atualizado ${new Date(payload.geradoEm).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}`:"Atualização automática"; setStatus("Ofertas atualizadas",true); render();
+    els.updated.textContent=payload.geradoEm?`Atualizado ${new Date(payload.geradoEm).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}`:"Atualização automática"; setStatus(activeOffers().length ? (showHistorical ? "Referências antigas" : "Ofertas verificadas") : "Sem ofertas recentes", activeOffers().length > 0 && !showHistorical); render();
   } catch(err){ console.error(err); setStatus("Falha na atualização",false); els.error.classList.remove("hidden"); els.errorMessage.textContent=`Não foi possível carregar a base. ${err.message||""}`; }
 }
 
 [els.search,els.minPrice,els.maxPrice].forEach(el=>el?.addEventListener("input",render)); [els.store,els.sort,els.minDiscount,els.freeShipping].forEach(el=>el?.addEventListener("change",render));
 els.category?.addEventListener("change",()=>{renderCategoryChips();render();}); els.clearFilters?.addEventListener("click",clearFilters);
 els.favoritesToggle?.addEventListener("click",()=>{favoritesOnly=!favoritesOnly;updateLocalCounters();render();}); els.mobileFavorites?.addEventListener("click",()=>{favoritesOnly=!favoritesOnly;updateLocalCounters();render();window.scrollTo({top:document.querySelector(".offers-section")?.offsetTop||0,behavior:"smooth"});});
+els.historicalToggle?.addEventListener("click", () => {
+  showHistorical = !showHistorical;
+  document.body.classList.toggle("viewing-historical",showHistorical);
+  populateSelect(els.category, uniqueValues("categoria"), "Todas as categorias");
+  populateSelect(els.store, uniqueValues("loja"), "Todas as lojas");
+  renderCategoryChips(); updateStats(); updateLocalCounters(); render();
+  setStatus(showHistorical ? "Referências antigas" : (activeOffers().length ? "Ofertas verificadas" : "Sem ofertas recentes"), !showHistorical && activeOffers().length > 0);
+});
 els.compareToggle?.addEventListener("click",openCompare); els.mobileCompare?.addEventListener("click",openCompare); els.clearCompare?.addEventListener("click",()=>{compare.clear();saveLocal(COMPARE_KEY,compare);updateLocalCounters();renderCompare();render();});
 els.comparePanel?.querySelectorAll("[data-close-compare]").forEach(el=>el.addEventListener("click",closeCompare));
 window.loadOffers=loadOffers; loadOffers();

@@ -6,9 +6,9 @@
   if(!document.querySelector('link[data-radar-commerce]')){const l=document.createElement("link");l.rel="stylesheet";l.href="./commerce.css?v=1";l.dataset.radarCommerce="1";document.head.appendChild(l)}
   const rows=()=>{try{return typeof activeOffers==="function"?activeOffers():[]}catch{return[]}};
   const key=o=>{try{return offerKey(o)}catch{return String(o?.id||o?.url||o?.nome||"")}};
-  const dropped=o=>{try{return droppedPrice(o)}catch{return false}};
-  const recent=o=>{try{return isNew(o)}catch{return false}};
-  const score=o=>{try{return dealScore(o)}catch{return Number(o?.scoreOferta)||0}};
+  const dropped=o=>{try{return RadarPolicy.isRecentVerification(o)&&droppedPrice(o)}catch{return false}};
+  const recent=o=>{try{return RadarPolicy.isRecentVerification(o)&&isNew(o)}catch{return false}};
+  const score=o=>{try{return RadarPolicy.isRecentVerification(o)?dealScore(o):0}catch{return 0}};
   const money=v=>{const n=Number(v);return Number.isFinite(n)&&n>0?n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"}):""};
   const low=o=>{const h=Array.isArray(o?.historicoPrecos)?o.historicoPrecos:[];const p=Number(o?.precoAtual)||0;const vals=h.map(x=>Number(x?.preco)||0).filter(Boolean);return p>0&&vals.length>0&&p<=Math.min(...vals)+.01};
   const favs=()=>{try{return favorites instanceof Set?favorites:new Set()}catch{return new Set()}};

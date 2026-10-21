@@ -17,6 +17,10 @@ const requiredFiles = [
   'public/style.css',
   'public/enhancements.css',
   'public/commerce.css',
+  'public/catalog-policy.js',
+  'public/search-engine.js',
+  'public/home-discovery.js',
+  'public/lojas-casa.json',
   'public/fetch-fallback.js',
   'public/app.js',
   'public/enhancements.js',
@@ -78,6 +82,8 @@ if (data) {
     if (!o.loja) fail(`${prefix}: loja ausente.`);
     if (!(Number(o.precoAtual) > 0)) fail(`${prefix}: precoAtual inválido.`);
     if (!isHttps(o.url)) fail(`${prefix}: URL do produto precisa ser HTTPS.`);
+    const approvedHosts=new Set(["loja.electrolux.com.br","www.magazineluiza.com.br","m.magazineluiza.com.br","www.tramontina.com.br","www.carrefour.com.br","www.madeiramadeira.com.br","br-store.acer.com","www.kabum.com.br","produto.mercadolivre.com.br","www.mercadolivre.com.br","www.philco.com.br","parceiros.wap.ind.br","www.brastemp.com.br","www.cuisinartbrasil.com.br","www.mobly.com.br","www.tokstok.com.br","www.camicado.com.br","www.karsten.com.br","www.artex.com.br","www.zelo.com.br","www.altenburg.com.br"]);
+    try { if (!approvedHosts.has(new URL(String(o.url)).hostname)) fail(`${prefix}: domínio da loja não autorizado (${o.url}).`); } catch { /* Erro de URL já registrado acima. */ }
     if (!isHttps(o.imagem)) fail(`${prefix}: imagem precisa ser HTTPS.`);
 
     const id = String(o.id || '').trim();
@@ -121,6 +127,23 @@ if (data) {
   if (!data.geradoEm) warn('Campo geradoEm ausente.');
 }
 
+try {
+  const directory=JSON.parse(fs.readFileSync("public/lojas-casa.json","utf8"));
+  const source=JSON.parse(fs.readFileSync("data/lojas-casa.json","utf8"));
+  if (JSON.stringify(directory)!==JSON.stringify(source)) fail("Diretórios de lojas divergem.");
+  if (!Array.isArray(directory.lojas) || directory.lojas.length<8) fail("Diretório precisa de ao menos 8 lojas.");
+  const hosts=new Set([
+    "www.mobly.com.br","www.madeiramadeira.com.br","www.tokstok.com.br",
+    "www.camicado.com.br","www.karsten.com.br","www.artex.com.br",
+    "www.zelo.com.br","www.altenburg.com.br"
+  ]);
+  for(const store of directory.lojas||[]){
+    try {const u=new URL(store.url);
+      if(u.protocol!=="https:"||!hosts.has(u.hostname)) fail("URL da loja não autorizada: "+store.nome);
+    }catch{fail("URL inválida para loja: "+store.nome)}
+    if(!store.nome||!Array.isArray(store.categoria)||!store.categoria.length)fail("Metadados incompletos da loja: "+store.id);
+  }
+}catch(e){fail("Erro no diretório de lojas: "+e.message)}
 if (warnings.length) {
   console.log('\nAvisos:');
   warnings.forEach(w => console.log(`- ${w}`));

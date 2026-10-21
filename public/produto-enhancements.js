@@ -70,9 +70,10 @@
 
   function renderCommercial(current,offers){
     if(root.querySelector(".commercial-details"))return;
-    const payment=paymentInfo(current);
-    const delivery=deliveryInfo(current);
-    const stock=String(current?.estoqueStatus||current?.disponibilidade||"").trim();
+    const isRecent=RadarPolicy.isRecentVerification(current);
+    const payment=isRecent?paymentInfo(current):"";
+    const delivery=isRecent?deliveryInfo(current):"";
+    const stock=isRecent?String(current?.estoqueStatus||current?.disponibilidade||"").trim():"";
     if(payment||delivery||stock){
       const box=document.createElement("section");
       box.className="commercial-details";
@@ -83,7 +84,7 @@
 
     const group=productGroupKey(current);
     if(!group)return;
-    const alternatives=offers.filter(o=>o&&o.ativa!==false&&key(o)!==key(current)&&productGroupKey(o)===group);
+    const alternatives=offers.filter(o=>o&&o.ativa!==false&&key(o)!==key(current)&&productGroupKey(o)===group&&RadarPolicy.isRecentVerification(o));
     if(!alternatives.length)return;
     alternatives.sort((a,b)=>(shippingTotal(a)??Number.MAX_SAFE_INTEGER)-(shippingTotal(b)??Number.MAX_SAFE_INTEGER)||num(a.precoAtual)-num(b.precoAtual));
 
@@ -93,7 +94,9 @@
       const total=shippingTotal(o);
       const pay=paymentInfo(o).replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();
       const delivery=deliveryInfo(o);
-      return `<div class="alternative-row"><div><strong>${esc(o.loja||"Loja")}</strong>${o.seloLoja?`<small>✓ ${esc(o.seloLoja)}</small>`:""}${delivery?`<small>Entrega: ${esc(delivery)}</small>`:""}${pay?`<small>${esc(pay)}</small>`:""}</div><div class="alternative-price"><b>${money(o.precoAtual)||"Preço na loja"}</b>${total?`<small>Total ${money(total)}</small>`:""}<a href="${esc(o.url||"#")}" target="_blank" rel="noopener noreferrer">Ver oferta</a></div></div>`;
+      const safe=RadarPolicy.safeStoreUrl(o.url);
+      if(!safe)return "";
+      return `<div class="alternative-row"><div><strong>${esc(o.loja||"Loja")}</strong>${o.seloLoja?`<small>✓ ${esc(o.seloLoja)}</small>`:""}${delivery?`<small>Entrega: ${esc(delivery)}</small>`:""}${pay?`<small>${esc(pay)}</small>`:""}</div><div class="alternative-price"><b>${money(o.precoAtual)||"Preço na loja"}</b>${total?`<small>Total ${money(total)}</small>`:""}<a href="${esc(safe)}" target="_blank" rel="noopener noreferrer">Ver oferta</a></div></div>`;
     }).join("");
     section.innerHTML=`<div class="alternatives-head"><div><h2>Mesmo produto em outras lojas</h2><p>Compare o preço final, frete e condição de pagamento.</p></div><strong>${alternatives.length+1} lojas</strong></div><div class="alternatives-list">${rows}</div>`;
     root.appendChild(section);
@@ -120,6 +123,7 @@
     const store=[...root.querySelectorAll('p')].find(p=>p.textContent?.startsWith('Loja:'))?.textContent?.replace(/^Loja:\s*/,'')||'';
     const image=root.querySelector('.detail-image')?.src||'';
     const offerUrl=root.querySelector('.buy')?.href||location.href;
+    const recent=Boolean(root.querySelector(".stale-alert")===null);
     const desc=`${title.textContent.trim()} ${price}${store?` na ${store}`:''}. Compare preço, frete, pagamento, entrega e histórico no Radar de Promoções.`;
     ensureMeta('description').setAttribute('content',desc);
     ensureMeta('og:title','property').setAttribute('content',title.textContent.trim());
@@ -128,10 +132,12 @@
     ensureMeta('og:url','property').setAttribute('content',location.href);
     if(image)ensureMeta('og:image','property').setAttribute('content',image);
     const numericPrice=Number(price.replace(/[^\d,]/g,'').replace(',','.'))||0;
+    if (recent) { // Nunca anuncia como válida uma oferta com verificação vencida.
     const ld=document.createElement('script');
     ld.type='application/ld+json';
-    ld.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Product',name:title.textContent.trim(),image:image?[image]:undefined,description:desc,offers:{'@type':'Offer',url:offerUrl,priceCurrency:'BRL',price:numericPrice||undefined,availability:'https://schema.org/InStock',seller:store?{'@type':'Organization',name:store}:undefined}});
+    ld.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Product',name:title.textContent.trim(),image:image?[image]:undefined,description:desc,offers:{'@type':'Offer',url:offerUrl,priceCurrency:'BRL',price:numericPrice||undefined,availability:undefined,seller:store?{'@type':'Organization',name:store}:undefined}});
     document.head.appendChild(ld);
+    }
 
     const actions=document.createElement('div');
     actions.className='share-actions';
