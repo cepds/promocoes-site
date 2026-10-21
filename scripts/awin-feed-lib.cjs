@@ -75,7 +75,7 @@ function category(title,merchantCategory=""){
 function isFalse(v){return ["0","false","no","nao","não","out of stock","out_of_stock","unavailable","esgotado"].includes(String(v??"").trim().toLowerCase());}
 function mapRow(row,feed,now=Date.now()){
   if(!recent(dateFromFeed(feed.lastImported),now))return null;
-  if(isFalse(row.in_stock)||isFalse(row.is_for_sale))return null;
+  if(isFalse(row.in_stock)||isFalse(row.is_for_sale)||isFalse(row.stock_status))return null;
   const name=String(row.product_name||row.product_title||"").trim().slice(0,240);
   const merchant=String(row.merchant_name||feed.advertiserName||"").trim().slice(0,140);
   const id=String(row.merchant_product_id||row.aw_product_id||row.product_id||"").trim();
@@ -127,6 +127,8 @@ function upsert(catalog,incoming,now=new Date().toISOString()){
   if(added||updated){
     catalog.total=catalog.ofertas.filter(o=>o.ativa!==false).length;
     catalog.geradoEm=now;
+    catalog.ultimaImportacaoFeed=now;
+    catalog.fonteImportacao="Awin";
   }
   return {added,updated,total:catalog.ofertas.filter(o=>o.ativa!==false).length};
 }
