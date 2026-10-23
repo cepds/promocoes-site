@@ -1,4 +1,4 @@
-const CACHE_NAME = "radar-promocoes-v16";
+const CACHE_NAME = "radar-promocoes-v17";
 
 const APP_SHELL = [
   "/",
@@ -6,7 +6,7 @@ const APP_SHELL = [
   "/style.css?v=16",
   "/enhancements.css?v=2",
   "/commerce.css?v=1",
-    "/catalog-policy.js?v=3",
+    "/catalog-policy.js?v=4",
   "/product-identity.js?v=1",
   "/search-engine.js?v=1",
     "/img/cama-ilustrativo.svg",

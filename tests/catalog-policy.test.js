@@ -59,3 +59,24 @@ test("frontend não deve usar cache local nem reativar referencias antigas",()=>
   assert.doesNotMatch(index,/historicalToggle/);
   assert.doesNotMatch(index,/fetch-fallback\.js/);
 });
+
+test("domínios oficiais Midea e Dell são permitidos sem liberar variações falsas",()=>{
+  for (const address of [
+    "https://www.midea.com.br/ar-condicionado-split-9000-btus-inverter-ai-ecomaster-pro-frio-midea-2568/p",
+    "https://www.dell.com/pt-br/shop/laptop-computers/spd/dell15laptopdc15250/dc15250_ltd_06?view=configurations"
+  ]) assert.equal(policy.safeStoreUrl(address), address);
+  for (const address of [
+    "http://www.dell.com/pt-br/shop",
+    "https://www.dell.com.example.org/loja",
+    "https://www.midea.com.br.evil.example/produto",
+    "https://midea.com.br/produto",
+    "https://www.dell.com@evil.example/produto",
+    "javascript:alert(1)"
+  ]) assert.equal(policy.safeStoreUrl(address), "");
+});
+test("amostra de todas as ofertas ativas usa a mesma lista de domínios do frontend",()=>{
+  const fs=require("node:fs");
+  const data=JSON.parse(fs.readFileSync("data/ofertas.json","utf8"));
+  const invalid=(data.ofertas||[]).filter(o=>o&&o.ativa!==false&&!policy.safeStoreUrl(o.url));
+  assert.deepEqual(invalid.map(o=>o.id),[]);
+});
