@@ -1,5 +1,7 @@
 const fs = require('fs');
 const { spawnSync } = require('child_process');
+// Mesma política para validador, vitrine e importador: sem lista duplicada de lojas.
+const shopPolicy = require('../public/catalog-policy.js');
 
 const errors = [];
 const warnings = [];
@@ -106,8 +108,9 @@ if (data) {
     if (!o.loja) fail(`${prefix}: loja ausente.`);
     if (!(Number(o.precoAtual) > 0)) fail(`${prefix}: precoAtual inválido.`);
     if (!isHttps(o.url)) fail(`${prefix}: URL do produto precisa ser HTTPS.`);
-    const approvedHosts=new Set(["loja.electrolux.com.br","www.magazineluiza.com.br","m.magazineluiza.com.br","www.tramontina.com.br","www.carrefour.com.br","www.madeiramadeira.com.br","br-store.acer.com","www.kabum.com.br","produto.mercadolivre.com.br","www.mercadolivre.com.br","www.philco.com.br","parceiros.wap.ind.br","www.brastemp.com.br","www.cuisinartbrasil.com.br","www.mobly.com.br","www.tokstok.com.br","www.camicado.com.br","www.karsten.com.br","www.artex.com.br","www.zelo.com.br","www.altenburg.com.br","www.casasbahia.com.br"]);
-    try { if (!approvedHosts.has(new URL(String(o.url)).hostname)) fail(`${prefix}: domínio da loja não autorizado (${o.url}).`); } catch { /* Erro de URL já registrado acima. */ }
+    if (isHttps(o.url) && !shopPolicy.safeStoreUrl(o.url)) {
+      fail(`${prefix}: domínio da loja não autorizado (${o.url}).`);
+    }
     if (!isHttps(o.imagem)) fail(`${prefix}: imagem precisa ser HTTPS.`);
 
     const id = String(o.id || '').trim();
