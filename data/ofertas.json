@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-23T09:08:25-03:00",
-  "total": 130,
+  "geradoEm": "2026-10-23T17:58:08-03:00",
+  "total": 129,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -3917,34 +3917,41 @@
       "loja": "Tramontina Store",
       "seloLoja": "Loja Oficial",
       "modelo": "28399205",
-      "precoAtual": 389,
+      "precoAtual": 389.42,
       "precoAnterior": 854,
-      "precoPix": 389,
-      "precoAvista": 389,
-      "precoCartao": 409.47,
+      "precoPix": 389.42,
+      "precoAvista": 389.42,
+      "precoCartao": 409.92,
       "desconto": 52,
       "parcelas": 8,
-      "valorParcela": 51.18,
+      "valorParcela": 51.24,
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
       "url": "https://www.tramontina.com.br/kit-cozinha-tramontina-lyf-verde-natureza-25-pecas/28399205.html",
-      "observacoes": "Preço promocional e condições confirmados na Loja Oficial Tramontina em 14/09/2026.",
+      "observacoes": "Verificação na Loja Oficial Tramontina em 2026-10-23 17:58:08: preço atual anunciado de R$ 389,42 à vista e R$ 409,92 no cartão, acima do último preço promocional registrado de R$ 389,00; oferta desativada conforme regra de retenção. Frete e prazo não confirmados para o CEP 72620-405.",
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28399205PDM001G.jpg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-10-23T17:58:08-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
           "preco": 389,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-10-23T17:58:08-03:00",
+          "preco": 389.42,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 389,
-      "precoMedioHistorico": 389,
+      "precoMedioHistorico": 389.21,
       "scoreOferta": 88,
-      "classificacaoOferta": "Excelente"
+      "classificacaoOferta": "Excelente",
+      "condicaoPagamento": "R$ 389,42 à vista (5% OFF) ou R$ 409,92 em até 8x de R$ 51,24 sem juros."
     },
     {
       "id": "tramontina-faca-chef-lyf-7-23117027",
@@ -5217,8 +5224,8 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599706PDM001W.jpg",
       "ativa": true,
       "dataEncontrada": "2026-10-12T09:15:00-03:00",
-      "ultimaVerificacao": "2026-10-12T09:15:00-03:00",
-      "observacoes": "Preço e pagamento conferidos na Loja Oficial Tramontina em 12/10/2026. Frete e prazo não confirmados para o CEP; histórico ainda insuficiente para validar preço habitual.",
+      "ultimaVerificacao": "2026-10-23T17:58:08-03:00",
+      "observacoes": "Preço conferido na página oficial Tramontina em 2026-10-23 17:58:08: R$ 379,57 à vista e R$ 399,55 em até 7x de R$ 57,08 sem juros. O preço permaneceu igual ao registro anterior; frete e prazo para o CEP 72620-405 não confirmados.",
       "historicoPrecos": [
         {
           "data": "2026-10-12T09:15:00-03:00",
@@ -6455,6 +6462,12 @@
       "id": "dell-15-dc15250-i5-16gb-512gb-oficial",
       "acao": "nova_oferta",
       "detalhe": "Oferta adicionada a partir de página oficial da loja; preço e condição de pagamento verificados. Frete, prazo e estoque não presumidos."
+    },
+    {
+      "data": "2026-10-23T17:58:08-03:00",
+      "id": "tramontina-kit-lyf-25p-28399205",
+      "acao": "desativacao",
+      "detalhe": "Preço oficial observado subiu de R$ 389,00 para R$ 389,42 à vista; oferta desativada conforme regra de retenção. Condições de pagamento atualizadas para o valor observado."
     }
   ]
 }
