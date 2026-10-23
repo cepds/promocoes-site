@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-20T09:03:23-03:00",
-  "total": 128,
+  "geradoEm": "2026-10-23T09:08:25-03:00",
+  "total": 130,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5317,6 +5317,104 @@
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "midea-ecomaster-pro-9000-220v-oficial",
+      "nome": "Ar-Condicionado Split Midea AI Ecomaster Pro 9.000 BTUs Frio 220V",
+      "categoria": "Climatização",
+      "loja": "Loja Oficial Midea",
+      "seloLoja": "Loja Oficial",
+      "modelo": "42EZVCB09M5/38EZVCB09M5",
+      "modeloFabricante": "42EZVCB09M5x38EZVCB09M5",
+      "produtoGrupo": "midea-42ezvcb09m5-38ezvcb09m5-9000-frio-220v",
+      "precoAtual": 2319,
+      "precoAnterior": 2468,
+      "precoPix": 2319,
+      "precoAvista": 2319,
+      "precoCartao": 2319,
+      "parcelas": 12,
+      "valorParcela": 193.25,
+      "condicaoPagamento": "R$ 2.319,00 no Pix ou em até 12x de R$ 193,25 sem juros",
+      "desconto": 6.04,
+      "cupom": null,
+      "cashback": null,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": null,
+      "estoqueStatus": null,
+      "voltagem": "220V",
+      "url": "https://www.midea.com.br/ar-condicionado-split-9000-btus-inverter-ai-ecomaster-pro-frio-midea-2568/p",
+      "imagem": "https://mideabr.vtexassets.com/arquivos/ids/184388-1440-auto/07-ar-condicionado-inverter-ecomaster-pro-capa.webp?quality=9&v=639135139408800000",
+      "ativa": true,
+      "dataEncontrada": "2026-10-23T09:08:25-03:00",
+      "ultimaVerificacao": "2026-10-23T09:08:25-03:00",
+      "observacoes": "Preço e pagamento consultados na página oficial Midea. A página informa 220V e 12x sem juros; frete, prazo e estoque não foram confirmados para o CEP 72620-405. Histórico próprio iniciado nesta verificação.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-23T09:08:25-03:00",
+          "preco": 2319,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2319,
+      "precoMedioHistorico": 2319,
+      "scoreOferta": 54,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "dell-15-dc15250-i5-16gb-512gb-oficial",
+      "nome": "Notebook Dell 15 DC15250 Core i5 16GB RAM 512GB SSD Windows 11 Home",
+      "categoria": "Informática",
+      "loja": "Dell Brasil",
+      "seloLoja": "Loja Oficial",
+      "modelo": "DC15250",
+      "modeloFabricante": "Dell 15 DC15250, Intel Core i5-1334U, 16GB, 512GB SSD",
+      "produtoGrupo": "dell-dc15250-i5-16gb-512gb-windows11",
+      "precoAtual": 6498.66,
+      "precoAnterior": 6998.66,
+      "precoPix": 6498.66,
+      "precoAvista": 6498.66,
+      "precoCartao": 6498.66,
+      "parcelas": 12,
+      "valorParcela": 541.56,
+      "condicaoPagamento": "R$ 6.498,66 no Pix ou em até 12x sem juros de R$ 541,56",
+      "desconto": 7.14,
+      "cupom": null,
+      "cashback": null,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": null,
+      "estoqueStatus": null,
+      "voltagem": "Bivolt",
+      "url": "https://www.dell.com/pt-br/shop/laptop-computers/spd/dell15laptopdc15250/dc15250_ltd_06?view=configurations",
+      "imagem": "https://www.laptopvip.vn/images/detailed/43/laptop-dell-dc15250nt-bk-plastic-gallery-1-www.laptopvip.vn-1749118542.png",
+      "ativa": true,
+      "dataEncontrada": "2026-10-23T09:08:25-03:00",
+      "ultimaVerificacao": "2026-10-23T09:08:25-03:00",
+      "observacoes": "Preço, configuração e pagamento consultados na página da Dell Brasil; frete, prazo e disponibilidade de estoque não foram confirmados para o CEP 72620-405. Imagem direta correspondente ao modelo DC15250; histórico próprio iniciado nesta verificação.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-23T09:08:25-03:00",
+          "preco": 6498.66,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 6498.66,
+      "precoMedioHistorico": 6498.66,
+      "scoreOferta": 53,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -6345,6 +6443,18 @@
       "id": "cuisinart-airfryer-air-370brb-220v-oficial",
       "acao": "nova_oferta",
       "detalhe": "Air Fryer Cuisinart AIR-370BRB 220V adicionada; preço consultado na loja, sem presumir frete ou estoque."
+    },
+    {
+      "data": "2026-10-23T09:08:25-03:00",
+      "id": "midea-ecomaster-pro-9000-220v-oficial",
+      "acao": "nova_oferta",
+      "detalhe": "Oferta adicionada a partir de página oficial da loja; preço e condição de pagamento verificados. Frete, prazo e estoque não presumidos."
+    },
+    {
+      "data": "2026-10-23T09:08:25-03:00",
+      "id": "dell-15-dc15250-i5-16gb-512gb-oficial",
+      "acao": "nova_oferta",
+      "detalhe": "Oferta adicionada a partir de página oficial da loja; preço e condição de pagamento verificados. Frete, prazo e estoque não presumidos."
     }
   ]
 }
