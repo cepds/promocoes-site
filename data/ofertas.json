@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-23T17:58:08-03:00",
-  "total": 129,
+  "geradoEm": "2026-10-24T09:05:52-03:00",
+  "total": 130,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5422,6 +5422,55 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "brastemp-bwm13ab-13kg-220v-oficial",
+      "nome": "Máquina de Lavar Brastemp 13kg Branca BWM13AB 220V",
+      "categoria": "Máquinas de lavar",
+      "loja": "Loja Oficial Brastemp",
+      "seloLoja": "Loja Oficial",
+      "precoAtual": 1691.06,
+      "precoAnterior": 2249,
+      "precoPix": 1691.06,
+      "precoAvista": 1691.06,
+      "precoCartao": 1799,
+      "parcelas": 5,
+      "valorParcela": 359.8,
+      "condicaoPagamento": "R$ 1.691,06 no Pix; R$ 1.799,00 em até 5x de R$ 359,80 sem juros.",
+      "desconto": 25,
+      "cupom": "Não informado",
+      "cashback": "Não informado",
+      "voltagem": "220V",
+      "url": "https://www.brastemp.com.br/maquina-de-lavar-brastemp-13kg-branca-com-ciclo-tira-manchas-advanced-e-ciclo-antibolinha-bwm13ab-326199107/p",
+      "imagem": "https://brastemp.vtexassets.com/arquivos/ids/297309-1440-auto/Brastemp_Lavadora_BWM13AB_Imagem_Frontal.webp?quality=80&v=639250888113470000",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "ativa": true,
+      "dataEncontrada": "2026-10-24T09:05:52-03:00",
+      "ultimaVerificacao": "2026-10-24T09:05:52-03:00",
+      "observacoes": "Página oficial Brastemp consultada em 24/10/2026. Variante 220V confirmada; preço de R$ 1.691,06 no Pix e R$ 1.799,00 em até 5x sem juros. Frete, prazo e estoque para o CEP 72620-405 não foram confirmados. Histórico do catálogo iniciado nesta verificação.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-24T09:05:52-03:00",
+          "preco": 1691.06,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 1691.06,
+      "precoMedioHistorico": 1691.06,
+      "scoreOferta": 67,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null,
+      "modelo": "BWM13AB",
+      "modeloFabricante": "BWM13AB",
+      "produtoGrupo": "brastemp-bwm13ab-13kg-branca-220v"
     }
   ],
   "logAlteracoes": [
@@ -6468,6 +6517,12 @@
       "id": "tramontina-kit-lyf-25p-28399205",
       "acao": "desativacao",
       "detalhe": "Preço oficial observado subiu de R$ 389,00 para R$ 389,42 à vista; oferta desativada conforme regra de retenção. Condições de pagamento atualizadas para o valor observado."
+    },
+    {
+      "data": "2026-10-24T09:05:52-03:00",
+      "id": "brastemp-bwm13ab-13kg-220v-oficial",
+      "acao": "nova_oferta",
+      "detalhe": "Oferta adicionada da página oficial Brastemp; variante 220V, preço Pix e parcelamento confirmados. Frete, prazo e estoque não presumidos."
     }
   ]
 }
