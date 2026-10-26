@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-26T09:14:33-03:00",
-  "total": 135,
+  "geradoEm": "2026-10-26T17:58:29-03:00",
+  "total": 136,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5358,8 +5358,8 @@
       "imagem": "https://mideabr.vtexassets.com/arquivos/ids/184388-1440-auto/07-ar-condicionado-inverter-ecomaster-pro-capa.webp?quality=9&v=639135139408800000",
       "ativa": true,
       "dataEncontrada": "2026-10-23T09:08:25-03:00",
-      "ultimaVerificacao": "2026-10-23T09:08:25-03:00",
-      "observacoes": "Preço e pagamento consultados na página oficial Midea. A página informa 220V e 12x sem juros; frete, prazo e estoque não foram confirmados para o CEP 72620-405. Histórico próprio iniciado nesta verificação.",
+      "ultimaVerificacao": "2026-10-26T17:58:29-03:00",
+      "observacoes": "Em 26/10/2026, a página oficial Midea foi consultada: R$ 2.319,00 no Pix ou em até 12x de R$ 193,25 sem juros; modelo 42EZVCB09M5/38EZVCB09M5 e 220V confirmados. Frete, prazo e estoque não foram confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-10-23T09:08:25-03:00",
@@ -5493,12 +5493,12 @@
       "url": "https://www.philco.com.br/smart-tv-43-philco-qled-hdr10-roku-tv-p43krb/p",
       "imagem": "https://philco.vtexassets.com/arquivos/ids/284241-800-800?aspect=true&height=800&v=639203415099900000&width=800",
       "estoqueStatus": "Disponível para compra",
-      "observacoes": "Em 25/10/2026, a Loja Oficial Philco exibia R$ 1.599,90 (de R$ 2.489,90), em até 10x de R$ 159,99 sem juros; modelo P43KRB e bivolt confirmados. Frete e prazo não confirmados para o CEP 72620-405.",
+      "observacoes": "Em 26/10/2026, a Loja Oficial Philco foi consultada: R$ 1.599,90, em até 10x de R$ 159,99 sem juros; modelo P43KRB e bivolt confirmados. Frete e prazo não foram confirmados para o CEP 72620-405.",
       "scoreOferta": 62,
       "classificacaoOferta": "Boa",
       "ativa": true,
       "dataEncontrada": "2026-10-24T21:04:38.089Z",
-      "ultimaVerificacao": "2026-10-25T17:56:52-03:00",
+      "ultimaVerificacao": "2026-10-26T17:58:29-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "freteValor": null,
@@ -5593,12 +5593,12 @@
       "url": "https://www.brastemp.com.br/geladeira-inteligente-b-smart-3-portas-french-door-frost-free-630l-branca-brastemp-bro88ab/p",
       "imagem": "https://brastemp.vtexassets.com/arquivos/ids/299917-1440-auto/01_Brastemp_Geladeira_BRO88AB.webp?quality=80&v=639268159284270000",
       "estoqueStatus": "Disponível para compra",
-      "observacoes": "Em 25/10/2026, a Loja Oficial Brastemp exibia R$ 5.449,00 (de R$ 6.506,00), com opção de até 15x de R$ 363,26 sem juros; modelo BRO88AB e voltagem Bivolt confirmados. Frete e prazo não confirmados para o CEP 72620-405.",
+      "observacoes": "Em 26/10/2026, a Loja Oficial Brastemp foi consultada: R$ 5.449,00, em até 15x de R$ 363,26 sem juros; modelo BRO88AB e bivolt confirmados. Frete e prazo não foram confirmados para o CEP 72620-405.",
       "scoreOferta": 58,
       "classificacaoOferta": "Interessante",
       "ativa": true,
       "dataEncontrada": "2026-10-24T21:04:38.089Z",
-      "ultimaVerificacao": "2026-10-25T17:56:52-03:00",
+      "ultimaVerificacao": "2026-10-26T17:58:29-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "freteValor": null,
@@ -5754,6 +5754,53 @@
       "scoreOferta": 65,
       "classificacaoOferta": "Interessante",
       "observacoes": "Página da Fast Shop consultada em 26/10/2026. Modelo TCL C6K de 55 polegadas, resolução 4K, QLED Mini LED, 144 Hz e voltagem bivolt confirmados. O anúncio informa venda e entrega por Webcontinental Marketplace. Preço de R$ 3.634,54 no Pix; o valor de R$ 4.954,90 aparece fora da condição Pix, sem detalhamento de parcelamento. Frete e prazo não confirmados para o CEP 72620-405. Oferta adicionada para comparação entre lojas; ainda não há histórico próprio suficiente para validar desconto histórico."
+    },
+    {
+      "id": "philco-ar-condicionado-pac12000itqfm9w-220v-oficial-20261026",
+      "nome": "Ar-Condicionado Philco Inverter 12.000 BTUs PAC12000ITQFM9W 220V",
+      "categoria": "Climatização",
+      "loja": "Loja Oficial Philco",
+      "seloLoja": "Loja Oficial",
+      "modelo": "PAC12000ITQFM9W",
+      "modeloFabricante": "PAC12000ITQFM9W",
+      "produtoGrupo": "philco-pac12000itqfm9w-12000-inverter-220v",
+      "precoAtual": 2709.9,
+      "precoAnterior": 3509.9,
+      "precoCartao": 2709.9,
+      "parcelas": 10,
+      "valorParcela": 270.99,
+      "condicaoPagamento": "R$ 2.709,90 em até 10x de R$ 270,99 sem juros. A página anuncia 5% de desconto no Pix no site, mas o preço Pix específico deste produto não foi confirmado.",
+      "desconto": 23,
+      "cupom": null,
+      "cashback": null,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "voltagem": "220V",
+      "url": "https://www.philco.com.br/ar-condicionado-philco-12000btus-pac12000itqfm9w-inverter-virus-protect/p",
+      "imagem": "https://philco.vtexassets.com/arquivos/ids/259470-800-800?aspect=true&height=800&v=638797323856130000&width=800",
+      "ativa": true,
+      "dataEncontrada": "2026-10-26T17:58:29-03:00",
+      "ultimaVerificacao": "2026-10-26T17:58:29-03:00",
+      "observacoes": "Em 26/10/2026, a Loja Oficial Philco exibia R$ 2.709,90 (de R$ 3.509,90), em até 10x de R$ 270,99 sem juros; modelo PAC12000ITQFM9W e 220V confirmados. A página anuncia 5% de desconto no Pix no site, mas o preço Pix específico não foi confirmado. Frete e prazo não foram confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-26T17:58:29-03:00",
+          "preco": 2709.9,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2709.9,
+      "precoMedioHistorico": 2709.9,
+      "scoreOferta": 57,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -6887,6 +6934,30 @@
       "acao": "adicao",
       "id": "fastshop-webcontinental-tcl-55c6k",
       "detalhe": "Adicionada oferta da TCL C6K 55C6K na Fast Shop, vendida e entregue por Webcontinental Marketplace; preço Pix, modelo, grupo e bivolt conferidos na página consultada."
+    },
+    {
+      "data": "2026-10-26T17:58:29-03:00",
+      "acao": "verificacao",
+      "id": "midea-ecomaster-pro-9000-220v-oficial",
+      "detalhe": "Preço e dados comerciais conferidos na página oficial; valor atual permaneceu igual, sem novo registro no histórico de preço."
+    },
+    {
+      "data": "2026-10-26T17:58:29-03:00",
+      "acao": "verificacao",
+      "id": "philco-tv-p43krb-oficial-20261024",
+      "detalhe": "Preço e dados comerciais conferidos na página oficial; valor atual permaneceu igual, sem novo registro no histórico de preço."
+    },
+    {
+      "data": "2026-10-26T17:58:29-03:00",
+      "acao": "verificacao",
+      "id": "brastemp-geladeira-bro88ab-oficial-20261024",
+      "detalhe": "Preço e dados comerciais conferidos na página oficial; valor atual permaneceu igual, sem novo registro no histórico de preço."
+    },
+    {
+      "data": "2026-10-26T17:58:29-03:00",
+      "acao": "adicao",
+      "id": "philco-ar-condicionado-pac12000itqfm9w-220v-oficial-20261026",
+      "detalhe": "Nova oferta da Loja Oficial Philco adicionada após consulta da página do produto: preço, parcelamento, modelo e variante 220V confirmados; frete e prazo não confirmados."
     }
   ]
 }
