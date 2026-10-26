@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-25T17:56:52-03:00",
-  "total": 134,
+  "geradoEm": "2026-10-26T09:14:33-03:00",
+  "total": 135,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5717,6 +5717,43 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "fastshop-webcontinental-tcl-55c6k",
+      "nome": "Smart TV TCL C6K 55 polegadas 4K QLED Mini LED 144Hz Google TV Bivolt",
+      "categoria": "TVs",
+      "loja": "Webcontinental Marketplace na Fast Shop",
+      "modelo": "55C6K",
+      "modeloFabricante": "55C6K",
+      "produtoGrupo": "tcl-55c6k-55-bivolt",
+      "precoAtual": 3634.54,
+      "precoPix": 3634.54,
+      "precoAvista": 3634.54,
+      "condicaoPagamento": "R$ 3.634,54 no Pix; o preço exibido fora do Pix é R$ 4.954,90; parcelamento não confirmado.",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "cepFrete": "72620-405",
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "voltagem": "Bivolt",
+      "url": "https://site.fastshop.com.br/smart-tv-tcl-c6k-55-polegadas-4k-qled-mini-led-preto-android-tv-144hz-bivolt-188781-199234/p",
+      "imagem": "https://a-static.mlcdn.com.br/175x170/smart-tv-55-tcl-4k-uhd-miniled-55c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb/magazineluiza/240162700/ef5a75f6c012a5db8d0988b665677b3f.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-10-26T09:14:33-03:00",
+      "ultimaVerificacao": "2026-10-26T09:14:33-03:00",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-26T09:14:33-03:00",
+          "preco": 3634.54,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 3634.54,
+      "precoMedioHistorico": 3634.54,
+      "scoreOferta": 65,
+      "classificacaoOferta": "Interessante",
+      "observacoes": "Página da Fast Shop consultada em 26/10/2026. Modelo TCL C6K de 55 polegadas, resolução 4K, QLED Mini LED, 144 Hz e voltagem bivolt confirmados. O anúncio informa venda e entrega por Webcontinental Marketplace. Preço de R$ 3.634,54 no Pix; o valor de R$ 4.954,90 aparece fora da condição Pix, sem detalhamento de parcelamento. Frete e prazo não confirmados para o CEP 72620-405. Oferta adicionada para comparação entre lojas; ainda não há histórico próprio suficiente para validar desconto histórico."
     }
   ],
   "logAlteracoes": [
@@ -6844,6 +6881,12 @@
       "acao": "verificacao",
       "id": "carrefour-tv-philco-p43cra-339717147",
       "detalhe": "Preço promocional de R$ 1.679,90, modelo P43CRA, Bivolt e parcelamento reconfirmados na Loja Oficial Philco."
+    },
+    {
+      "data": "2026-10-26T09:14:33-03:00",
+      "acao": "adicao",
+      "id": "fastshop-webcontinental-tcl-55c6k",
+      "detalhe": "Adicionada oferta da TCL C6K 55C6K na Fast Shop, vendida e entregue por Webcontinental Marketplace; preço Pix, modelo, grupo e bivolt conferidos na página consultada."
     }
   ]
 }
