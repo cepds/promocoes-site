@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-27T09:08:43-03:00",
-  "total": 137,
+  "geradoEm": "2026-10-27T18:02:26-03:00",
+  "total": 140,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5849,6 +5849,142 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "observacoes": "Preço e condições observados na página oficial LG: R$ 2.944,05 no Pix e R$ 3.099,00 em até 12x sem juros; a página também exibe preço de referência de R$ 4.299,00 e desconto anunciado de 27% antes do desconto adicional de 5% no Pix. Histórico próprio ainda insuficiente para confirmar menor preço histórico. Frete e prazo não confirmados para o CEP 72620-405."
+    },
+    {
+      "id": "lg-55qned70bsa-oficial-20261027",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 2026 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "LG Brasil - Loja Oficial",
+      "seloLoja": "Loja Oficial",
+      "modelo": "55QNED70BSA",
+      "modeloFabricante": "55QNED70BSA",
+      "produtoGrupo": "lg-55qned70bsa",
+      "precoAtual": 2944.05,
+      "precoPix": 2944.05,
+      "precoAvista": 2944.05,
+      "precoCartao": 3099,
+      "parcelas": 12,
+      "valorParcela": 258.25,
+      "condicaoPagamento": "R$ 2.944,05 no Pix; R$ 3.099,00 em até 12x de R$ 258,25 sem juros. A página exibe o cupom CUPOMLG5; não foi presumido desconto adicional.",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "voltagem": "Bivolt",
+      "url": "https://www.lg.com/br/tvs-e-soundbars/qned/55qned70bsa/",
+      "imagem": "https://www.lg.com/content/dam/channel/wcms/1-channel/br/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/75-qned80/gallery/imagens-galeria-v2/1-2010-tv-qned70.png/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+      "ativa": true,
+      "observacoes": "Preço Pix, preço no cartão, parcelamento, modelo, voltagem AC 100–240V e imagem conferidos na página oficial LG em 27/10/2026. A página exibe preço de referência de R$ 3.999,00 e cupom CUPOMLG5; não foi presumida aplicação adicional do cupom. Histórico próprio insuficiente para confirmar menor preço histórico. Frete, prazo e estoque não confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-27T18:02:26-03:00",
+          "preco": 2944.05,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2944.05,
+      "precoMedioHistorico": 2944.05,
+      "scoreOferta": 58,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null,
+      "dataEncontrada": "2026-10-27T18:02:26-03:00",
+      "ultimaVerificacao": "2026-10-27T18:02:26-03:00"
+    },
+    {
+      "id": "magalu-motorola-moto-g-max-256gb-oficial-20261027",
+      "nome": "Smartphone Motorola Moto G Max 5G 256GB 8GB RAM Grafite",
+      "categoria": "Celulares",
+      "loja": "Loja Motorola Oficial no Magalu",
+      "seloLoja": "Loja Oficial",
+      "modelo": "Moto G Max 5G 256GB",
+      "modeloFabricante": "Moto G Max 5G 256GB",
+      "produtoGrupo": "motorola-moto-g-max-5g-256gb-8gb-ram-grafite",
+      "precoAtual": 2499,
+      "precoPix": 2499,
+      "precoAvista": 2499,
+      "precoCartao": 2776.67,
+      "parcelas": 10,
+      "valorParcela": 277.67,
+      "condicaoPagamento": "R$ 2.499,00 no Pix; R$ 2.776,67 em 10x de R$ 277,67 sem juros.",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "url": "https://www.magazineluiza.com.br/smartphone-motorola-moto-g-max-5g-256gb-8gb-ram-16gb-ram-boost-camera-200mp-ois-tela-1-5k-extreme-amoled-120hz-ip68-e-ip69/p/da4b2jh37c/te/srmt/?seller_id=lojamotorolaoficial",
+      "imagem": "https://a-static.mlcdn.com.br/420x420/smartphone-motorola-moto-g-max-5g-256gb-8gb-ram-16gb-ram-boost-camera-200mp-ois-tela-1-5k-extreme-amoled-120hz-ip68-e-ip69/lojamotorolaoficial/1911/c28d16e3b8674356f94b9b19ff0cc8d8.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-10-27T18:02:26-03:00",
+      "ultimaVerificacao": "2026-10-27T18:02:26-03:00",
+      "observacoes": "Preço Pix/cartão, modelo e venda pela Loja Motorola Oficial com entrega pelo Magalu conferidos em 27/10/2026. Histórico próprio insuficiente para confirmar menor preço histórico. Frete, prazo e estoque não confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-27T18:02:26-03:00",
+          "preco": 2499,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2499,
+      "precoMedioHistorico": 2499,
+      "scoreOferta": 50,
+      "classificacaoOferta": "Normal",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "kabum-acer-aspire-go-15-ag15-71p-53d9-20261027",
+      "nome": "Notebook Acer Aspire Go 15 AG15-71P-53D9 Core i5 16GB RAM 512GB SSD Linux",
+      "categoria": "Informática",
+      "loja": "KaBuM!",
+      "seloLoja": "Vendido e entregue pela KaBuM!",
+      "ean": "4711474519634",
+      "modelo": "AG15-71P-53D9",
+      "modeloFabricante": "AG15-71P-53D9",
+      "produtoGrupo": "ean-4711474519634",
+      "precoAtual": 4399,
+      "precoPix": 4399,
+      "precoAvista": 4399,
+      "precoCartao": 5175.2,
+      "parcelas": 10,
+      "valorParcela": 517.52,
+      "cupom": "LIQUIDA10",
+      "condicaoPagamento": "R$ 4.399,00 à vista no Pix; 10x de R$ 517,52 sem juros (total R$ 5.175,20). A página anuncia o cupom LIQUIDA10, mas o preço registrado não inclui desconto adicional do cupom.",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "voltagem": "Bivolt",
+      "url": "https://www.kabum.com.br/produto/1075027/notebook-acer-aspire-go-15-ag15-71p-53d9-intel-core-5-16gb-ram-ssd-512gb-intel-uhd-156-fhd-linux-cinza-nxjh6al001",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/1075027/notebook-acer-aspire-go-15-ag15-71p-53d9-intel-core-5-16gb-ram-ssd-512gb-intel-uhd-15-6-fhd-linux-cinza-nx-jh6al-001_1791316909_gg.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-10-27T18:02:26-03:00",
+      "ultimaVerificacao": "2026-10-27T18:02:26-03:00",
+      "observacoes": "Preço Pix, parcelamento, cupom anunciado, modelo, EAN, fonte bivolt e venda/entrega pela KaBuM! conferidos em 27/10/2026. O cupom LIQUIDA10 não foi aplicado ao preço registrado. Histórico próprio insuficiente para confirmar menor preço histórico. Frete, prazo e estoque não confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-27T18:02:26-03:00",
+          "preco": 4399,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 4399,
+      "precoMedioHistorico": 4399,
+      "scoreOferta": 50,
+      "classificacaoOferta": "Normal",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -7012,6 +7148,24 @@
       "acao": "adicao",
       "id": "lg-55qned80bsg-oficial-20261027",
       "detalhe": "Nova oferta LG Brasil adicionada com preço Pix/cartão, modelo, EAN, imagem oficial e voltagem Bivolt confirmados na página oficial; frete, prazo e estoque não confirmados."
+    },
+    {
+      "data": "2026-10-27T18:02:26-03:00",
+      "acao": "adicao",
+      "id": "lg-55qned70bsa-oficial-20261027",
+      "detalhe": "Oferta adicionada após consulta da página do produto: preço, pagamento e dados de identificação confirmados; frete/prazo não confirmados."
+    },
+    {
+      "data": "2026-10-27T18:02:26-03:00",
+      "acao": "adicao",
+      "id": "magalu-motorola-moto-g-max-256gb-oficial-20261027",
+      "detalhe": "Oferta adicionada após consulta da página do produto: preço, pagamento e dados de identificação confirmados; frete/prazo não confirmados."
+    },
+    {
+      "data": "2026-10-27T18:02:26-03:00",
+      "acao": "adicao",
+      "id": "kabum-acer-aspire-go-15-ag15-71p-53d9-20261027",
+      "detalhe": "Oferta adicionada após consulta da página do produto: preço, pagamento e dados de identificação confirmados; frete/prazo não confirmados."
     }
   ]
 }
