@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-26T17:58:29-03:00",
-  "total": 136,
+  "geradoEm": "2026-10-27T09:08:43-03:00",
+  "total": 137,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5801,6 +5801,54 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "lg-55qned80bsg-oficial-20261027",
+      "nome": "Smart TV LG QNED evo Mini LED AI 4K 55 polegadas 2026 55QNED80BSG",
+      "categoria": "TVs",
+      "loja": "LG Brasil - Loja Oficial",
+      "precoAtual": 2944.05,
+      "precoAnterior": 4299,
+      "desconto": 32,
+      "url": "https://www.lg.com/br/tvs-e-soundbars/qned/55qned80bsg/",
+      "imagem": "https://www.lg.com/content/dam/channel/wcms/br/images/promocoes/2026/tv-av/qned80/4-qned80-2010.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg",
+      "ativa": true,
+      "voltagem": "Bivolt",
+      "dataEncontrada": "2026-10-27T09:08:43-03:00",
+      "ultimaVerificacao": "2026-10-27T09:08:43-03:00",
+      "cepFrete": "72620-405",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "seloLoja": "Loja Oficial",
+      "ean": "7893299969935",
+      "modelo": "55QNED80BSG",
+      "modeloFabricante": "55QNED80BSG",
+      "produtoGrupo": "ean-7893299969935",
+      "precoPix": 2944.05,
+      "precoAvista": 2944.05,
+      "precoCartao": 3099,
+      "parcelas": 12,
+      "valorParcela": 258.25,
+      "condicaoPagamento": "R$ 2.944,05 no Pix (5% abaixo de R$ 3.099,00); R$ 3.099,00 em até 12x de R$ 258,25 sem juros.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-27T09:08:43-03:00",
+          "preco": 2944.05,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2944.05,
+      "precoMedioHistorico": 2944.05,
+      "scoreOferta": 62,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null,
+      "observacoes": "Preço e condições observados na página oficial LG: R$ 2.944,05 no Pix e R$ 3.099,00 em até 12x sem juros; a página também exibe preço de referência de R$ 4.299,00 e desconto anunciado de 27% antes do desconto adicional de 5% no Pix. Histórico próprio ainda insuficiente para confirmar menor preço histórico. Frete e prazo não confirmados para o CEP 72620-405."
     }
   ],
   "logAlteracoes": [
@@ -6958,6 +7006,12 @@
       "acao": "adicao",
       "id": "philco-ar-condicionado-pac12000itqfm9w-220v-oficial-20261026",
       "detalhe": "Nova oferta da Loja Oficial Philco adicionada após consulta da página do produto: preço, parcelamento, modelo e variante 220V confirmados; frete e prazo não confirmados."
+    },
+    {
+      "data": "2026-10-27T09:08:43-03:00",
+      "acao": "adicao",
+      "id": "lg-55qned80bsg-oficial-20261027",
+      "detalhe": "Nova oferta LG Brasil adicionada com preço Pix/cartão, modelo, EAN, imagem oficial e voltagem Bivolt confirmados na página oficial; frete, prazo e estoque não confirmados."
     }
   ]
 }
