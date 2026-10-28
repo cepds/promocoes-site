@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-27T18:02:26-03:00",
-  "total": 140,
+  "geradoEm": "2026-10-28T08:59:44-03:00",
+  "total": 141,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5985,6 +5985,50 @@
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "magalu-electrolux-im8b-596l-black-220v",
+      "nome": "Geladeira Electrolux Frost Free Inverter 596L AutoSense 3 Portas Black Inox Look IM8B 220V",
+      "categoria": "Geladeiras",
+      "loja": "Electrolux no Magalu",
+      "seloLoja": "Vendido e entregue por Electrolux",
+      "ean": "7909569394120",
+      "gtin": "7909569394120",
+      "codigoBarras": "7909569394120",
+      "modelo": "IM8B",
+      "modeloFabricante": "IM8B",
+      "produtoGrupo": "electrolux-im8b-596l-black-220v",
+      "precoAtual": 6399,
+      "precoAnterior": 8999,
+      "precoCartao": 6399,
+      "parcelas": 10,
+      "valorParcela": 639.9,
+      "condicaoPagamento": "R$ 6.399,00 em até 10x de R$ 639,90 sem juros no cartão de crédito; preço PIX não confirmado.",
+      "desconto": 29,
+      "frete": "Consulte na loja",
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "voltagem": "220V",
+      "url": "https://www.magazineluiza.com.br/geladeira-electrolux-frost-free-inverter-596l-autosense-3-portas-cor-black-inox-look-im8b/p/jcd3259hjf/ed/refr/",
+      "imagem": "https://a-static.mlcdn.com.br/420x420/geladeira-electrolux-frost-free-inverter-596l-autosense-3-portas-cor-black-inox-look-im8b/electrolux/310119133/af6595dc1f46865068f0d59bbd9e5955.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-10-28T08:59:44-03:00",
+      "ultimaVerificacao": "2026-10-28T08:59:44-03:00",
+      "observacoes": "Página do Magalu informa venda e entrega pela Electrolux, variante 220V, preço de R$ 6.399,00 e parcelamento em até 10x sem juros. A loja exibe preço de referência de R$ 8.999,00 e desconto anunciado de 29%; o histórico próprio deste produto ainda não está disponível. Frete e prazo não foram confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-28T08:59:44-03:00",
+          "preco": 6399,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 6399,
+      "precoMedioHistorico": 6399,
+      "scoreOferta": 65,
+      "classificacaoOferta": "Interessante"
     }
   ],
   "logAlteracoes": [
@@ -7166,6 +7210,12 @@
       "acao": "adicao",
       "id": "kabum-acer-aspire-go-15-ag15-71p-53d9-20261027",
       "detalhe": "Oferta adicionada após consulta da página do produto: preço, pagamento e dados de identificação confirmados; frete/prazo não confirmados."
+    },
+    {
+      "data": "2026-10-28T08:59:44-03:00",
+      "acao": "adicao",
+      "id": "magalu-electrolux-im8b-596l-black-220v",
+      "detalhe": "Oferta adicionada após consulta da página do produto: variante 220V, vendedor oficial, preço e parcelamento confirmados; frete/prazo não confirmados."
     }
   ]
 }
