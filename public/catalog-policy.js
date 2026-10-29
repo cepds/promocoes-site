@@ -17,7 +17,7 @@
     const result = Number(normalized);
     return Number.isFinite(result) ? result : 0;
   }
-  const APPROVED_SHOP_HOSTS = new Set(["loja.electrolux.com.br","www.magazineluiza.com.br","m.magazineluiza.com.br","www.tramontina.com.br","www.carrefour.com.br","www.madeiramadeira.com.br","br-store.acer.com","www.kabum.com.br","produto.mercadolivre.com.br","www.mercadolivre.com.br","www.philco.com.br","parceiros.wap.ind.br","www.brastemp.com.br","www.cuisinartbrasil.com.br","www.mobly.com.br","www.tokstok.com.br","www.camicado.com.br","www.karsten.com.br","www.artex.com.br","www.zelo.com.br","www.altenburg.com.br","www.casasbahia.com.br","www.midea.com.br","www.dell.com"]);
+  const APPROVED_SHOP_HOSTS = new Set(["loja.electrolux.com.br","www.magazineluiza.com.br","m.magazineluiza.com.br","www.tramontina.com.br","www.carrefour.com.br","www.madeiramadeira.com.br","br-store.acer.com","www.kabum.com.br","produto.mercadolivre.com.br","www.mercadolivre.com.br","www.philco.com.br","parceiros.wap.ind.br","www.brastemp.com.br","www.cuisinartbrasil.com.br","www.mobly.com.br","www.tokstok.com.br","www.camicado.com.br","www.karsten.com.br","www.artex.com.br","www.zelo.com.br","www.altenburg.com.br","www.casasbahia.com.br","www.midea.com.br","www.dell.com","www.lg.com"]);
   function safeHttpsUrl(value) {
     try {
       const url = new URL(String(value ?? "").trim());

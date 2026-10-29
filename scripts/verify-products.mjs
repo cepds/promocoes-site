@@ -18,7 +18,7 @@ const FIRST_PARTY_HOSTS=new Set([
   "www.karsten.com.br","br-store.acer.com","www.kabum.com.br",
   "www.brastemp.com.br","www.cuisinartbrasil.com.br",
   "loja.electrolux.com.br","www.tramontina.com.br","www.philco.com.br",
-  "www.midea.com.br","www.dell.com"
+  "www.midea.com.br","www.dell.com","www.lg.com"
 ]);
 function isOfficialChannel(record){
   if(!safeStoreUrl(record.url))return false;

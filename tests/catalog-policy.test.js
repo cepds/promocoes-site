@@ -74,6 +74,18 @@ test("domínios oficiais Midea e Dell são permitidos sem liberar variações fa
     "javascript:alert(1)"
   ]) assert.equal(policy.safeStoreUrl(address), "");
 });
+
+test("LG oficial permitido sem liberar clones ou marketplace de terceiros",()=>{
+  const lg="https://www.lg.com/br/tvs-e-soundbars/qned/55qned80bsg/";
+  assert.equal(policy.safeStoreUrl(lg),lg);
+  for(const address of [
+    "http://www.lg.com/br/produto",
+    "https://www.lg.com.evil.example/produto",
+    "https://lg.com/br/produto",
+    "https://site.fastshop.com.br/produto"
+  ])assert.equal(policy.safeStoreUrl(address),"");
+});
+
 test("amostra de todas as ofertas ativas usa a mesma lista de domínios do frontend",()=>{
   const fs=require("node:fs");
   const data=JSON.parse(fs.readFileSync("data/ofertas.json","utf8"));

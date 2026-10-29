@@ -1,6 +1,6 @@
 {
   "geradoEm": "2026-10-29T09:07:30-03:00",
-  "total": 140,
+  "total": 139,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -5751,7 +5751,7 @@
       "voltagem": "Bivolt",
       "url": "https://site.fastshop.com.br/smart-tv-tcl-c6k-55-polegadas-4k-qled-mini-led-preto-android-tv-144hz-bivolt-188781-199234/p",
       "imagem": "https://a-static.mlcdn.com.br/175x170/smart-tv-55-tcl-4k-uhd-miniled-55c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb/magazineluiza/240162700/ef5a75f6c012a5db8d0988b665677b3f.jpg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-10-26T09:14:33-03:00",
       "ultimaVerificacao": "2026-10-26T09:14:33-03:00",
       "historicoPrecos": [

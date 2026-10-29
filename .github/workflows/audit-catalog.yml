@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: '24'
       - name: Validate JS syntax and catalog schema
-        run: node scripts/validate-site.js
+        run: node scripts/validate-site.js --audit
       - name: Unit tests for freshness, shipping and URL policy
         run: node --test tests/*.test.js
       - name: Audit catalog metadata freshness (not live price verification)

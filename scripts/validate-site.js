@@ -207,8 +207,15 @@ try {
   if(v.versao!==2||!Array.isArray(v.ofertas)||v.total!==v.ofertas.length)
     fail("A vitrine publica precisa usar somente o catalogo verificado (versao 2).");
   const policy=require("../public/catalog-policy.js");
+  const generatedAt=Date.parse(v.geradoEm||"");
+  if(!Number.isFinite(generatedAt))fail("Vitrine sem data de geração válida.");
+  if(Number.isFinite(generatedAt) && generatedAt>Date.now()+5*60*1000)
+    fail("Vitrine com data futura inválida.");
+  const referenceTime=auditOnly?generatedAt:Date.now();
+  if(auditOnly&&Number.isFinite(generatedAt)&&Date.now()-generatedAt>policy.MAX_VERIFICATION_AGE_MS)
+    warn("Vitrine histórica vencida: preços e estoques precisam de nova verificação antes de publicar.");
   for(const offer of v.ofertas||[]){
-    if(!policy.isConfirmedAvailable(offer))
+    if(!policy.isConfirmedAvailable(offer,referenceTime))
       fail("Vitrine com produto sem preco e estoque confirmado: "+offer.id);
   }
 }catch(error){fail("Catalogo verificado invalido: "+error.message)}
