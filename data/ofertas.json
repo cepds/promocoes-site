@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-28T08:59:44-03:00",
-  "total": 141,
+  "geradoEm": "2026-10-29T09:07:30-03:00",
+  "total": 140,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1871,46 +1871,53 @@
       "categoria": "Cozinha",
       "loja": "Tramontina Store",
       "seloLoja": "Loja Oficial",
-      "precoAtual": 239,
-      "precoAnterior": 572,
-      "desconto": 53,
+      "precoAtual": 389.02,
+      "precoAnterior": 546,
+      "desconto": 29,
       "cupom": "Cupom disponível",
       "cashback": "Não informado",
-      "frete": "Frete grátis",
-      "freteValor": 0,
-      "freteGratis": true,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
       "cepFrete": "72620-405",
-      "precoComFrete": 239,
+      "precoComFrete": null,
       "voltagem": null,
       "url": "https://www.tramontina.com.br/jogo-de-panelas-tramontina-ravena-em-aluminio-com-revestimento-interno-e-externo-antiaderente-starflon-max-5-pecas/27899286.html",
       "imagem": "https://precolandia.vtexassets.com/arquivos/ids/243112/Jogo-de-Panelas-5-Pecas-com-Tampa-De-Vidro-Ravena-Azul-Tramontina-precolandia-089672-1d.jpg?v=638472412754600000",
-      "observacoes": "Preço de R$ 239,00 à vista, cartão em até 5x sem juros, desconto de 53%, referência 27899286 e disponibilidade confirmados na Tramontina Store. Frete grátis anunciado pela loja; prazo para o CEP não confirmado.",
+      "observacoes": "Verificada na Loja Oficial Tramontina em 2026-10-29: preço observado de R$ 389,02 no Pix e R$ 409,50 em até 8x, acima do último preço promocional registrado de R$ 239,00; oferta desativada conforme regra de retenção. Frete/prazo não reconfirmados.",
       "scoreOferta": 92,
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T21:04:23.879Z",
-      "ultimaVerificacao": "2026-09-29T18:05:33-03:00",
+      "ultimaVerificacao": "2026-10-29T09:07:30-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T21:04:23.879Z",
           "preco": 239,
           "freteValor": 0,
           "precoComFrete": 239
+        },
+        {
+          "data": "2026-10-29T09:07:30-03:00",
+          "preco": 389.02,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 239,
-      "precoMedioHistorico": 239,
+      "precoMedioHistorico": 314.01,
       "classificacaoOferta": "Excelente",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
-      "precoAvista": 239,
-      "precoCartao": 251.58,
-      "parcelas": 5,
-      "valorParcela": 50.32,
-      "condicaoPagamento": "R$ 239,00 à vista ou 5x de R$ 50,32 sem juros (total R$ 251,58)",
+      "precoAvista": 389.02,
+      "precoCartao": 409.5,
+      "parcelas": 8,
+      "valorParcela": 51.19,
+      "condicaoPagamento": "R$ 389,02 no Pix; R$ 409,50 em até 8x de R$ 51,19 sem juros.",
       "estoqueStatus": "Disponível para compra",
       "modelo": "27899286",
       "modeloFabricante": "27899286",
-      "produtoGrupo": "tramontina-27899286-ravena-5p"
+      "produtoGrupo": "tramontina-27899286-ravena-5p",
+      "precoPix": 389.02
     },
     {
       "id": "brastemp-brm52mk-415l-inox-220v",
@@ -2611,39 +2618,45 @@
       "modelo": "NT000053NSW",
       "modeloFabricante": "NT000053NSW",
       "produtoGrupo": "nintendo-switch-oled-mario-wonder-nso-nt000053nsw",
-      "precoAtual": 2199,
-      "precoPix": 2199,
-      "precoAvista": 2199,
-      "precoCartao": 2199,
+      "precoAtual": 2499,
+      "precoPix": 2499,
+      "precoAvista": 2499,
+      "precoCartao": 2499,
       "parcelas": 10,
-      "valorParcela": 219.9,
-      "condicaoPagamento": "R$ 2.199,00 no Pix ou em 10x de R$ 219,90 sem juros",
+      "valorParcela": 249.9,
+      "condicaoPagamento": "R$ 2.499,00 no Pix ou em 10x de R$ 249,90 sem juros.",
       "precoAnterior": 2699,
-      "desconto": 18,
+      "desconto": 7,
       "frete": "Consulte na loja",
       "freteValor": null,
-      "freteGratis": false,
+      "freteGratis": null,
       "cepFrete": "72620-405",
       "precoComFrete": null,
-      "prazoEntrega": null,
+      "prazoEntrega": "",
       "estoqueStatus": "Em estoque",
       "voltagem": "Bivolt",
       "url": "https://www.kabum.com.br/produto/940533/console-nintendo-switch-oled-super-mario-bros-wonder-3mo-nos-nt000053nsw",
-      "observacoes": "Preço e venda/entrega pela KaBuM! confirmados em 13/09/2026.",
+      "observacoes": "Verificado no KaBuM! em 2026-10-29: preço observado de R$ 2.499,00 no Pix e em 10x de R$ 249,90, acima do último preço promocional registrado de R$ 2.199,00; oferta desativada conforme regra de retenção. Frete/prazo não confirmados para o CEP.",
       "imagem": "https://images.kabum.com.br/produtos/fotos/940533/console-nintendo-switch-oled-super-mario-bros-wonder-3mo-nos-nt000053nsw_1762171038_m.jpg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-13T21:04:03.529Z",
-      "ultimaVerificacao": "2026-09-13T21:04:03.529Z",
+      "ultimaVerificacao": "2026-10-29T09:07:30-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-13T21:04:03.529Z",
           "preco": 2199,
           "freteValor": 0,
           "precoComFrete": 0
+        },
+        {
+          "data": "2026-10-29T09:07:30-03:00",
+          "preco": 2499,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 2199,
-      "precoMedioHistorico": 2199,
+      "precoMedioHistorico": 2349,
       "scoreOferta": 66,
       "classificacaoOferta": "Boa"
     },
@@ -6029,6 +6042,53 @@
       "precoMedioHistorico": 6399,
       "scoreOferta": 65,
       "classificacaoOferta": "Interessante"
+    },
+    {
+      "id": "tramontina-solar-panelas-6p-65510200-oficial",
+      "nome": "Jogo de Panelas Tramontina Solar em Aço Inox com Fundo Triplo e Tampas de Inox 6 Peças",
+      "categoria": "Cozinha",
+      "loja": "Tramontina Store",
+      "seloLoja": "Loja Oficial",
+      "modelo": "65510200",
+      "modeloFabricante": "65510200",
+      "produtoGrupo": "tramontina-65510200-solar-panelas-6p",
+      "precoAtual": 901.55,
+      "precoAnterior": 949,
+      "precoPix": 901.55,
+      "precoAvista": 901.55,
+      "precoCartao": 949,
+      "parcelas": 10,
+      "valorParcela": 94.9,
+      "condicaoPagamento": "R$ 901,55 no Pix (5% OFF) ou R$ 949,00 em até 10x de R$ 94,90 sem juros.",
+      "desconto": 5,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "voltagem": null,
+      "url": "https://www.tramontina.com.br/jogo-de-panelas-tramontina-solar-em-aco-inox-com-fundo-triplo-e-tampas-de-inox--6-pecas/65510200.html",
+      "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65510200PDM001W.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-10-29T09:07:30-03:00",
+      "ultimaVerificacao": "2026-10-29T09:07:30-03:00",
+      "observacoes": "Preço de R$ 901,55 no Pix (5% OFF), ou R$ 949,00 em até 10x sem juros, referência 65510200 e disponibilidade confirmados na Loja Oficial Tramontina em 2026-10-29. Frete e prazo não confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-29T09:07:30-03:00",
+          "preco": 901.55,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 901.55,
+      "precoMedioHistorico": 901.55,
+      "scoreOferta": 60,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -7216,6 +7276,24 @@
       "acao": "adicao",
       "id": "magalu-electrolux-im8b-596l-black-220v",
       "detalhe": "Oferta adicionada após consulta da página do produto: variante 220V, vendedor oficial, preço e parcelamento confirmados; frete/prazo não confirmados."
+    },
+    {
+      "data": "2026-10-29T09:07:30-03:00",
+      "acao": "desativacao",
+      "id": "tramontina-ravena-5p-27899286-oficial",
+      "detalhe": "Preço efetivo subiu do último preço promocional registrado de R$ 239,00 para R$ 389,02 no Pix; oferta oficial desativada e histórico preservado."
+    },
+    {
+      "data": "2026-10-29T09:07:30-03:00",
+      "acao": "desativacao",
+      "id": "kabum-switch-oled-mario-wonder-nso",
+      "detalhe": "Preço atual observado de R$ 2.499,00, acima do último preço promocional registrado de R$ 2.199,00 no KaBuM!; oferta desativada e histórico preservado."
+    },
+    {
+      "data": "2026-10-29T09:07:30-03:00",
+      "acao": "adicao",
+      "id": "tramontina-solar-panelas-6p-65510200-oficial",
+      "detalhe": "Jogo de Panelas Tramontina Solar 6 peças adicionado da Loja Oficial Tramontina; referência, preço Pix de R$ 901,55, cartão em 10x de R$ 94,90 e disponibilidade confirmados. Frete/prazo não confirmados."
     }
   ]
 }
