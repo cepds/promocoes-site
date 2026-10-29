@@ -1,16 +1,8 @@
 name: Firebase Hosting Deploy
 
+# Recuperação manual: o deploy automático fica centralizado em verify-and-publish.yml.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'public/**'
-      - 'firebase.json'
-      - '.firebaserc'
-      - 'scripts/validate-site.js'
-      - 'tests/**'
-      - '.github/workflows/firebase-hosting.yml'
 
 concurrency:
   group: firebase-hosting-live
