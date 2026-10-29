@@ -5,6 +5,9 @@ const shopPolicy = require('../public/catalog-policy.js');
 
 const errors = [];
 const warnings = [];
+// Auditoria avalia a integridade no momento em que o snapshot foi gerado.
+// Publicação continua exigindo verificações recentes.
+const auditOnly = process.argv.includes('--audit');
 
 function fail(message) { errors.push(message); }
 function warn(message) { warnings.push(message); }

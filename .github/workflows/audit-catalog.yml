@@ -10,6 +10,9 @@ on:
     branches: [main]
     paths:
       - 'scripts/audit-catalog.js'
+      - 'scripts/validate-site.js'
+      - 'tests/**'
+      - 'data/ofertas.json'
       - 'public/catalog-policy.js'
       - '.github/workflows/audit-catalog.yml'
 permissions:

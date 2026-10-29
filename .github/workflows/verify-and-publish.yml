@@ -9,6 +9,10 @@ on:
     branches: [main]
     paths:
       - 'data/produtos-oficiais.json'
+      - 'data/ofertas.json'
+      - 'data/enxoval.json'
+      - 'scripts/validate-site.js'
+      - 'tests/**'
       - 'scripts/verify-products.mjs'
       - 'scripts/verify-products-lib.cjs'
       - 'public/catalog-policy.js'
