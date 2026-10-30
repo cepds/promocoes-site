@@ -86,6 +86,18 @@ test("LG oficial permitido sem liberar clones ou marketplace de terceiros",()=>{
   ])assert.equal(policy.safeStoreUrl(address),"");
 });
 
+test("Telhanorte aceita somente o dominio HTTPS legitimo, sem liberar clones",()=>{
+  const url="https://www.telhanorte.com.br/furadeira-de-impacto-450w-220v-bosch-1748351/p";
+  assert.equal(policy.safeStoreUrl(url),url);
+  for(const invalid of [
+    "http://www.telhanorte.com.br/produto",
+    "https://www.telhanorte.com.br.evil.example/produto",
+    "https://telhanorte.com.br/produto",
+    "https://www.telhanorte.com.br@evil.example/produto",
+    "https://site.fastshop.com.br/produto"
+  ]) assert.equal(policy.safeStoreUrl(invalid),"");
+});
+
 test("amostra de todas as ofertas ativas usa a mesma lista de domínios do frontend",()=>{
   const fs=require("node:fs");
   const data=JSON.parse(fs.readFileSync("data/ofertas.json","utf8"));
