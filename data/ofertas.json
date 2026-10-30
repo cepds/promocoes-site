@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-29T09:07:30-03:00",
-  "total": 139,
+  "geradoEm": "2026-10-30T09:08:07-03:00",
+  "total": 140,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6089,6 +6089,45 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "telhanorte-bosch-gsb450re-220v",
+      "nome": "Furadeira de Impacto Bosch GSB 450 RE 450W 220V",
+      "categoria": "Ferramentas",
+      "loja": "Telhanorte",
+      "precoAtual": 269.9,
+      "precoAnterior": 329.9,
+      "desconto": 18,
+      "precoCartao": 269.9,
+      "parcelas": 2,
+      "valorParcela": 134.94,
+      "condicaoPagamento": "R$ 269,90 em até 2x de R$ 134,94 sem juros",
+      "frete": "Consulte na loja",
+      "cepFrete": "72620-405",
+      "url": "https://www.telhanorte.com.br/furadeira-de-impacto-450w-220v-bosch-1748351/p",
+      "imagem": "https://telhanorte.vtexassets.com/arquivos/ids/1308774-650-650",
+      "ativa": true,
+      "voltagem": "220V",
+      "modelo": "GSB 450 RE",
+      "modeloFabricante": "GSB 450 RE",
+      "produtoGrupo": "bosch-gsb450re-450w-220v",
+      "dataEncontrada": "2026-10-30T09:08:07-03:00",
+      "ultimaVerificacao": "2026-10-30T09:08:07-03:00",
+      "observacoes": "Preço, desconto, modelo e versão 220V confirmados na página da Telhanorte em 30/10/2026. Frete e prazo para o CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-30T09:08:07-03:00",
+          "preco": 269.9,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 269.9,
+      "precoMedioHistorico": 269.9,
+      "scoreOferta": 70,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -7294,6 +7333,12 @@
       "acao": "adicao",
       "id": "tramontina-solar-panelas-6p-65510200-oficial",
       "detalhe": "Jogo de Panelas Tramontina Solar 6 peças adicionado da Loja Oficial Tramontina; referência, preço Pix de R$ 901,55, cartão em 10x de R$ 94,90 e disponibilidade confirmados. Frete/prazo não confirmados."
+    },
+    {
+      "data": "2026-10-30T09:08:07-03:00",
+      "acao": "adicao",
+      "id": "telhanorte-bosch-gsb450re-220v",
+      "detalhe": "Furadeira Bosch GSB 450 RE 450W 220V adicionada da Telhanorte; preço de R$ 269,90 (18% abaixo de R$ 329,90), modelo e voltagem confirmados. Frete/prazo não confirmados."
     }
   ]
 }
