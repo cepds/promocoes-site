@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-30T09:08:07-03:00",
-  "total": 140,
+  "geradoEm": "2026-10-31T08:57:57-03:00",
+  "total": 141,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6128,6 +6128,50 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "tramontina-sicilia-4p-vermelho-28699709",
+      "nome": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno Cerâmico e Externo em Poliéster Vermelho 04 Peças",
+      "categoria": "Cozinha",
+      "loja": "Tramontina Store",
+      "seloLoja": "Loja Oficial",
+      "produtoGrupo": "tramontina-28699709-sicilia-4p-vermelho",
+      "precoAtual": 499,
+      "precoAnterior": 881,
+      "precoPix": 499,
+      "precoAvista": 499,
+      "precoCartao": 525.26,
+      "parcelas": 10,
+      "valorParcela": 52.53,
+      "condicaoPagamento": "R$ 499,00 no Pix; R$ 525,26 em até 10x de R$ 52,53 sem juros.",
+      "desconto": 40,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "url": "https://www.tramontina.com.br/jogo-de-panelas-tramontina-sicilia-em-aluminio-com-revestimento-interno-ceramico-e-externo-em-poliester-vermelho-04-pecas/28699709.html",
+      "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699709PDM001W.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-10-31T08:57:57-03:00",
+      "ultimaVerificacao": "2026-10-31T08:57:57-03:00",
+      "observacoes": "Oferta consultada na página oficial Tramontina Store em 31/10/2026. A página exibe 40% OFF sobre R$ 881,00, preço de R$ 499,00 no Pix e R$ 525,26 em até 10x de R$ 52,53 sem juros; também indica 25 unidades já vendidas e opção de adicionar ao carrinho. Frete e prazo não foram calculados para o CEP 72620-405. Preço e disponibilidade sujeitos a alteração pela loja.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-31T08:57:57-03:00",
+          "preco": 499,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 499,
+      "precoMedioHistorico": 499,
+      "scoreOferta": 68,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -7339,6 +7383,16 @@
       "acao": "adicao",
       "id": "telhanorte-bosch-gsb450re-220v",
       "detalhe": "Furadeira Bosch GSB 450 RE 450W 220V adicionada da Telhanorte; preço de R$ 269,90 (18% abaixo de R$ 329,90), modelo e voltagem confirmados. Frete/prazo não confirmados."
+    },
+    {
+      "data": "2026-10-31T08:57:57-03:00",
+      "acao": "adicao",
+      "id": "tramontina-sicilia-4p-vermelho-28699709",
+      "nome": "Jogo de Panelas Tramontina Sicília em Alumínio com Revestimento Interno Cerâmico e Externo em Poliéster Vermelho 04 Peças",
+      "categoria": "Cozinha",
+      "loja": "Tramontina Store",
+      "precoAtual": 499,
+      "detalhe": "Oferta oficial Tramontina Sicília 4 peças adicionada: R$ 499,00 no Pix ou R$ 525,26 em 10x sem juros; SKU 28699709; preço e opção de compra conferidos na página do produto."
     }
   ]
 }
