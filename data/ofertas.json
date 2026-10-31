@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-10-31T08:57:57-03:00",
-  "total": 141,
+  "geradoEm": "2026-10-31T18:01:21-03:00",
+  "total": 142,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6172,6 +6172,49 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "ferreiracosta-lg-gc-b569nll2-451l-220v",
+      "nome": "Geladeira LG Inverse Frost Free 451L Inverter Inox 220V GC-B569NLL2",
+      "categoria": "Geladeiras",
+      "loja": "Ferreira Costa",
+      "precoAtual": 3609.91,
+      "precoPix": 3609.91,
+      "precoAvista": 3609.91,
+      "precoCartao": 3799.9,
+      "parcelas": 10,
+      "valorParcela": 379.99,
+      "condicaoPagamento": "R$ 3.609,91 no Pix; R$ 3.799,90 em 10x de R$ 379,99 sem juros.",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "voltagem": "220V",
+      "url": "https://www.ferreiracosta.com/produto/480985/geladeira-refrigerador-lg-inverse-b569-frost-free-451l-2p-inverter-inox-220v-gc-b569nll2.apz",
+      "imagem": "https://www.lg.com/content/dam/channel/wcms/br/images/geladeiras/gc-b569nll2_apzgsbs_essp_br_c/gallery/GC-B569NLL_4-1600.jpg?w=800",
+      "ativa": true,
+      "dataEncontrada": "2026-10-31T18:01:21-03:00",
+      "ultimaVerificacao": "2026-10-31T18:01:21-03:00",
+      "observacoes": "Preço, condição de pagamento, modelo GC-B569NLL2.APZGSBS, capacidade de 451L e variante 220V consultados na página de ofertas da Ferreira Costa em 31/10/2026. Frete, prazo e estoque não foram confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-10-31T18:01:21-03:00",
+          "preco": 3609.91,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 3609.91,
+      "precoMedioHistorico": 3609.91,
+      "scoreOferta": 70,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null,
+      "modelo": "GC-B569NLL2",
+      "modeloFabricante": "GC-B569NLL2.APZGSBS",
+      "produtoGrupo": "lg-gc-b569nll2-apzgsbs-451l-inox-220v"
     }
   ],
   "logAlteracoes": [
@@ -7393,6 +7436,16 @@
       "loja": "Tramontina Store",
       "precoAtual": 499,
       "detalhe": "Oferta oficial Tramontina Sicília 4 peças adicionada: R$ 499,00 no Pix ou R$ 525,26 em 10x sem juros; SKU 28699709; preço e opção de compra conferidos na página do produto."
+    },
+    {
+      "data": "2026-10-31T18:01:21-03:00",
+      "acao": "adicao",
+      "id": "ferreiracosta-lg-gc-b569nll2-451l-220v",
+      "nome": "Geladeira LG Inverse Frost Free 451L Inverter Inox 220V GC-B569NLL2",
+      "categoria": "Geladeiras",
+      "loja": "Ferreira Costa",
+      "precoAtual": 3609.91,
+      "detalhe": "Nova oferta da Ferreira Costa adicionada após conferência do preço Pix, parcelamento, modelo, capacidade e variante 220V. Frete, prazo e estoque não confirmados."
     }
   ]
 }
