@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-10-31T18:01:21-03:00",
+  "geradoEm": "2026-11-01T09:04:00-03:00",
   "total": 142,
   "ofertas": [
     {
@@ -6156,8 +6156,8 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699709PDM001W.jpg",
       "ativa": true,
       "dataEncontrada": "2026-10-31T08:57:57-03:00",
-      "ultimaVerificacao": "2026-10-31T08:57:57-03:00",
-      "observacoes": "Oferta consultada na página oficial Tramontina Store em 31/10/2026. A página exibe 40% OFF sobre R$ 881,00, preço de R$ 499,00 no Pix e R$ 525,26 em até 10x de R$ 52,53 sem juros; também indica 25 unidades já vendidas e opção de adicionar ao carrinho. Frete e prazo não foram calculados para o CEP 72620-405. Preço e disponibilidade sujeitos a alteração pela loja.",
+      "ultimaVerificacao": "2026-11-01T09:04:00-03:00",
+      "observacoes": "Oferta conferida na página oficial Tramontina Store em 01/11/2026. A página mantém R$ 499,00 no Pix e R$ 525,26 em até 10x de R$ 52,53 sem juros; referência 28699709, disponibilidade para compra e 25 unidades já vendidas indicadas na página. Frete e prazo não foram calculados para o CEP 72620-405. Preço e disponibilidade sujeitos a alteração pela loja.",
       "historicoPrecos": [
         {
           "data": "2026-10-31T08:57:57-03:00",
@@ -7446,6 +7446,12 @@
       "loja": "Ferreira Costa",
       "precoAtual": 3609.91,
       "detalhe": "Nova oferta da Ferreira Costa adicionada após conferência do preço Pix, parcelamento, modelo, capacidade e variante 220V. Frete, prazo e estoque não confirmados."
+    },
+    {
+      "data": "2026-11-01T09:04:00-03:00",
+      "acao": "verificacao",
+      "id": "tramontina-sicilia-4p-vermelho-28699709",
+      "detalhe": "Página oficial Tramontina Store reconfirmou preço Pix de R$ 499,00, cartão de R$ 525,26 em até 10x sem juros e indicação de disponibilidade; frete/prazo não consultados."
     }
   ]
 }
