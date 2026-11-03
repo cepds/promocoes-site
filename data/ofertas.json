@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-02T17:59:00-03:00",
-  "total": 144,
+  "geradoEm": "2026-11-03T09:03:18-03:00",
+  "total": 146,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6305,6 +6305,98 @@
       "precoMedioHistorico": 899.9,
       "scoreOferta": 60,
       "classificacaoOferta": "Interessante"
+    },
+    {
+      "id": "mobly-sofa-biarritz-grafite-641112",
+      "nome": "Sofá 3 Lugares Retrátil e Reclinável Biarritz Suede Grafite",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "seloLoja": "Vendido e entregue pela Mobly",
+      "modelo": "Biarritz",
+      "modeloFabricante": "Biarritz",
+      "precoAtual": 1191.9,
+      "precoAnterior": 2549.99,
+      "precoPix": 1191.9,
+      "precoAvista": 1191.9,
+      "precoCartao": 1402.24,
+      "parcelas": 10,
+      "valorParcela": 140.22,
+      "condicaoPagamento": "R$ 1.191,90 à vista no Pix; R$ 1.402,24 em até 10x de R$ 140,22 sem juros.",
+      "desconto": 53,
+      "cashback": 200,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Envio imediato",
+      "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-e-reclinavel-biarritz-suede-grafite-664194.html",
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Biarritz-Suede-Grafite-4030-491466-2.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-03T09:03:18-03:00",
+      "ultimaVerificacao": "2026-11-03T09:03:18-03:00",
+      "observacoes": "Preço de R$ 1.191,90 no Pix e R$ 1.402,24 em até 10x sem juros, vendido e entregue pela Mobly. A página informa envio imediato e cashback de R$ 200. Frete e prazo não foram confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-03T09:03:18-03:00",
+          "preco": 1191.9,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 1191.9,
+      "precoMedioHistorico": 1191.9,
+      "scoreOferta": 69,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "mobly-rack-salah-preto-680098",
+      "nome": "Rack com Painel para TV até 42 Polegadas Salah Preto 135 cm",
+      "categoria": "Móveis",
+      "loja": "Mobly",
+      "seloLoja": "Vendido e entregue pela Mobly",
+      "modelo": "Salah",
+      "modeloFabricante": "Salah",
+      "precoAtual": 407.97,
+      "precoAnterior": 509.99,
+      "precoPix": 407.97,
+      "precoAvista": 407.97,
+      "precoCartao": 479.96,
+      "parcelas": 9,
+      "valorParcela": 53.32,
+      "condicaoPagamento": "R$ 407,97 à vista no Pix; R$ 479,96 em até 9x de R$ 53,32 sem juros.",
+      "desconto": 20,
+      "cashback": 75,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Últimas peças",
+      "url": "https://www.mobly.com.br/rack-com-painel-para-tv-ate-42-polegadas-salah-preto-135-cm-704073.html",
+      "imagem": "https://static.mobly.com.br/p/Mobly-Rack-com-Painel-para-TV-atC3A9-42-Polegadas-Salah-Preto-135-cm-4276-370407-1.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-03T09:03:18-03:00",
+      "ultimaVerificacao": "2026-11-03T09:03:18-03:00",
+      "observacoes": "Preço de R$ 407,97 no Pix e R$ 479,96 em até 9x sem juros, vendido e entregue pela Mobly. A página informa últimas peças e envio imediato. Frete e prazo não foram confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-03T09:03:18-03:00",
+          "preco": 407.97,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 407.97,
+      "precoMedioHistorico": 407.97,
+      "scoreOferta": 55,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -7560,6 +7652,26 @@
       "nome": "Fritadeira Elétrica WAP AirFry OVEN DIGITAL BLACK WAOD2 12L 220V",
       "categoria": "Air Fryers",
       "detalhe": "Oferta adicionada da Loja WAP oficial: modelo WAOD2 12L, variante 220V, R$ 899,90 à vista ou 10x de R$ 89,99. Produto agrupado com o mesmo modelo já anunciado no Magalu; frete, prazo e disponibilidade específica da variante não confirmados."
+    },
+    {
+      "data": "2026-11-03T09:03:18-03:00",
+      "acao": "adicao",
+      "id": "mobly-sofa-biarritz-grafite-641112",
+      "nome": "Sofá 3 Lugares Retrátil e Reclinável Biarritz Suede Grafite",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "precoAtual": 1191.9,
+      "detalhe": "Oferta adicionada após conferência da página oficial da Mobly: preço Pix, preço no cartão, parcelamento, imagem e condição de venda confirmados. Frete e prazo não confirmados para o CEP 72620-405."
+    },
+    {
+      "data": "2026-11-03T09:03:18-03:00",
+      "acao": "adicao",
+      "id": "mobly-rack-salah-preto-680098",
+      "nome": "Rack com Painel para TV até 42 Polegadas Salah Preto 135 cm",
+      "categoria": "Móveis",
+      "loja": "Mobly",
+      "precoAtual": 407.97,
+      "detalhe": "Oferta adicionada após conferência da página oficial da Mobly: preço Pix, preço no cartão, parcelamento, imagem e condição de venda confirmados. Frete e prazo não confirmados para o CEP 72620-405."
     }
   ]
 }
