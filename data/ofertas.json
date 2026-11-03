@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-03T09:03:18-03:00",
-  "total": 146,
+  "geradoEm": "2026-11-03T17:56:44-03:00",
+  "total": 147,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6397,6 +6397,52 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "tramontina-wok-loreto-27817120-oficial",
+      "nome": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Grafite 28 cm 3,3 L",
+      "categoria": "Cozinha",
+      "loja": "Tramontina Store",
+      "seloLoja": "Loja Oficial",
+      "modelo": "27817120",
+      "modeloFabricante": "27817120",
+      "produtoGrupo": "tramontina-27817120-wok-loreto-28cm-3-3l",
+      "precoAtual": 193.13,
+      "precoAnterior": 214,
+      "precoPix": 193.13,
+      "precoAvista": 193.13,
+      "precoCartao": 203.3,
+      "parcelas": 4,
+      "valorParcela": 50.83,
+      "condicaoPagamento": "R$ 193,13 no Pix (5% OFF) ou R$ 203,30 em até 4x de R$ 50,83 sem juros.",
+      "desconto": 9.75,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "url": "https://www.tramontina.com.br/wok-tramontina-loreto-em-aluminio-com-revestimento-interno-e-externo-em-antiaderente-starflon-max-grafite-28-cm-3-3-l/27817120.html",
+      "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/27817120PDM001W.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-03T17:56:44-03:00",
+      "ultimaVerificacao": "2026-11-03T17:56:44-03:00",
+      "observacoes": "Preço e condições conferidos na página oficial: R$ 193,13 no Pix ou R$ 203,30 em até 4x sem juros. A página apresenta opção de adicionar ao carrinho. Frete e prazo não foram confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-03T17:56:44-03:00",
+          "preco": 193.13,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 193.13,
+      "precoMedioHistorico": 193.13,
+      "scoreOferta": 65,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -7672,6 +7718,16 @@
       "loja": "Mobly",
       "precoAtual": 407.97,
       "detalhe": "Oferta adicionada após conferência da página oficial da Mobly: preço Pix, preço no cartão, parcelamento, imagem e condição de venda confirmados. Frete e prazo não confirmados para o CEP 72620-405."
+    },
+    {
+      "data": "2026-11-03T17:56:44-03:00",
+      "acao": "adicao",
+      "id": "tramontina-wok-loreto-27817120-oficial",
+      "nome": "Wok Tramontina Loreto em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Grafite 28 cm 3,3 L",
+      "categoria": "Cozinha",
+      "loja": "Tramontina Store",
+      "precoAtual": 193.13,
+      "detalhe": "Wok Tramontina Loreto 28 cm/3,3 L adicionada da loja oficial; preço Pix de R$ 193,13 e cartão de R$ 203,30 em até 4x sem juros conferidos. Frete e prazo não confirmados."
     }
   ]
 }
