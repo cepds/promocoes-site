@@ -1,9 +1,9 @@
 {
   "versao": 2,
-  "geradoEm": "2026-11-03T14:30:21.242Z",
+  "geradoEm": "2026-11-03T18:53:29.258Z",
   "validadeHoras": 18,
   "aviso": "Somente produtos com preço em BRL e estoque disponível confirmados nos dados estruturados da loja. Preços podem mudar após a consulta.",
-  "total": 70,
+  "total": 64,
   "ofertas": [
     {
       "id": "cuisinart-airfryer-air-370brb-220v-oficial",
@@ -37,7 +37,7 @@
       "imagem": "https://lojamultilaser.vtexassets.com/arquivos/ids/1543604/20099_00.jpg?v=639057155506800000",
       "ativa": true,
       "dataEncontrada": "2026-10-20T09:03:23-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Preço e modelo consultados na página da loja Cuisinart Brasil em 20/10/2026. Frete, estoque e condição à vista não confirmados.",
       "historicoPrecos": [
         {
@@ -57,7 +57,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-cadeira-de-escritorio-diretor-giratoria-charles-preta-116427",
@@ -72,8 +72,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-Cadeira-de-EscritC3B3rio-Diretor-GiratC3B3ria-Charles-Preta-6250-724611-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 594.98,
-      "desconto": 30,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -93,10 +93,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-conjunto-com-2-cadeiras-fitz-eiffel-preto-511452",
@@ -128,10 +128,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-conjunto-com-2-cadeiras-palmer-cinza-827528",
@@ -146,8 +146,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-Conjunto-com-2-Cadeiras-Palmer-Cinza-1889-825728-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 531.21,
-      "desconto": 10,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -175,10 +175,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "karsten-editorial-3501665",
@@ -197,7 +197,7 @@
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -220,7 +220,7 @@
       "estoqueStatus": "InStock",
       "lojaOficial": true,
       "seloLoja": "Loja oficial",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "karsten-editorial-3478698",
@@ -239,7 +239,7 @@
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -266,7 +266,45 @@
       "estoqueStatus": "InStock",
       "lojaOficial": true,
       "seloLoja": "Loja oficial",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
+    },
+    {
+      "id": "karsten-editorial-3011714",
+      "nome": "Toalha de Banho 100% Algodão Nuvia Oásis",
+      "categoria": "Cama, mesa e banho",
+      "subcategoria": "Banho",
+      "loja": "Karsten — Loja Oficial",
+      "precoAtual": 56.99,
+      "precoAnterior": null,
+      "desconto": 0,
+      "url": "https://www.karsten.com.br/toalha-de-banho-100-algodao-nuvia-oasis-3011714/p",
+      "imagem": "https://karsten.vtexassets.com/arquivos/ids/234375/3011714_01.jpg?v=639177491731570000",
+      "imagemIlustrativa": true,
+      "ativa": true,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "dataEncontrada": "2026-10-21T18:16:00-03:00",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
+      "fonteTipo": "pagina_publica_estruturada",
+      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
+      "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-03T18:53:29.258Z",
+          "preco": 56.99
+        }
+      ],
+      "modelo": "3011714",
+      "precoComFrete": null,
+      "cupom": null,
+      "cashback": null,
+      "prazoEntrega": null,
+      "entregaEstimada": null,
+      "estoqueStatus": "InStock",
+      "lojaOficial": true,
+      "seloLoja": "Loja oficial",
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "karsten-editorial-3524982",
@@ -285,7 +323,7 @@
       "freteValor": null,
       "freteGratis": false,
       "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
       "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
@@ -308,53 +346,7 @@
       "estoqueStatus": "InStock",
       "lojaOficial": true,
       "seloLoja": "Loja oficial",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
-    },
-    {
-      "id": "karsten-editorial-3431862",
-      "nome": "Toalha de Mesa Retangular 6 Lugares Zaira Branco/Taupe",
-      "categoria": "Cama, mesa e banho",
-      "subcategoria": "Mesa posta",
-      "loja": "Karsten — Loja Oficial",
-      "precoAtual": 129.67,
-      "precoAnterior": null,
-      "desconto": 0,
-      "url": "https://www.karsten.com.br/toalha-de-mesa-retangular-6-lugares-zaira-brancotaupe-3431862/p",
-      "imagem": "https://karsten.vtexassets.com/arquivos/ids/223685/3431862_01.jpg?v=638965899531000000",
-      "imagemIlustrativa": true,
-      "ativa": true,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "dataEncontrada": "2026-10-21T18:16:00-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
-      "fonteTipo": "pagina_publica_estruturada",
-      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "observacoes": "Produto real localizado no site oficial Karsten. Preço de referência sujeito a alteração. Imagem ilustrativa, não fotografia do item. Confirmar preço, estoque e frete na loja.",
-      "historicoPrecos": [
-        {
-          "data": "2026-10-20T08:00:00-03:00",
-          "preco": 175.49
-        },
-        {
-          "data": "2026-10-21T22:19:55.903Z",
-          "preco": 148.19
-        },
-        {
-          "data": "2026-10-29T17:57:39.535Z",
-          "preco": 129.67
-        }
-      ],
-      "modelo": "3431862",
-      "precoComFrete": null,
-      "cupom": null,
-      "cashback": null,
-      "prazoEntrega": null,
-      "entregaEstimada": null,
-      "estoqueStatus": "InStock",
-      "lojaOficial": true,
-      "seloLoja": "Loja oficial",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-base-para-cama-box-casal-joe-suede-36x138x188-grafite-808520",
@@ -386,10 +378,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-658749",
@@ -406,8 +398,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Cama-Box-Casal-Gemini-com-ColchC3A3o-Casal-Molas-Ensacadas-Grafite-e-Branca-6140-947856-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Modelo casal/queen encontrado na loja direta; publicar apenas após confirmação de preço e estoque",
-      "precoAnterior": 1351.47,
-      "desconto": 8,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:42:19.321Z",
@@ -427,10 +419,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-726132",
@@ -447,8 +439,8 @@
       "imagem": "https://static.mobly.com.br/p/Montreal-Cama-Box-Casal-Imperial-com-ColchC3A3o-Mola-Verticoil-28138x18829-Preta-e-Cinza-3609-231627-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Modelo casal/queen encontrado na loja direta; publicar apenas após confirmação de preço e estoque",
-      "precoAnterior": 1300.47,
-      "desconto": 8,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:42:19.321Z",
@@ -468,10 +460,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-1316544",
@@ -488,8 +480,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Cama-Box-Casal-Londres-com-ColchC3A3o-Molas-Ensacadas-2863x138x18829-Marrom-e-Branca-8174-4456131-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Modelo casal/queen encontrado na loja direta; publicar apenas após confirmação de preço e estoque",
-      "precoAnterior": 1572.47,
-      "desconto": 8,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:42:19.321Z",
@@ -509,10 +501,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-1231490",
@@ -529,8 +521,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Cama-Box-Casal-Naturale-com-ColchC3A3o-Molas-Ensacadas-2867x138x18829-Marrom-e-Branca-8998-0941321-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Modelo casal/queen encontrado na loja direta; publicar apenas após confirmação de preço e estoque",
-      "precoAnterior": 1818.97,
-      "desconto": 8,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:42:19.321Z",
@@ -550,10 +542,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-1328024",
@@ -570,8 +562,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Cama-Box-Casal-York-com-ColchC3A3o-Molas-Ensacadas-2861x138x18829-Azul-e-Branca-3463-4208231-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página pesquisada; só publicar com vendedor, preço, estoque, foto e variante validados",
-      "precoAnterior": 1529.97,
-      "desconto": 8,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:39:24.904Z",
@@ -591,10 +583,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-1243060",
@@ -620,8 +612,8 @@
         "branco",
         "cinza"
       ],
-      "precoAnterior": 977.47,
-      "desconto": 22,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:39:24.904Z",
@@ -641,10 +633,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-1182019",
@@ -661,8 +653,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Cama-Box-com-ColchC3A3o-Casal-Sigma-Misto-2822x138x18829-Branco-e-Cinza-5974-9102811-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Modelo casal/queen encontrado na loja direta; publicar apenas após confirmação de preço e estoque",
-      "precoAnterior": 1121.97,
-      "desconto": 21,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:42:19.321Z",
@@ -690,10 +682,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-cama-box-com-colchao-solteiro-howie-misto-d33-17x88x188-branco-e-cinza-1243056",
@@ -708,8 +700,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-Cama-Box-com-ColchC3A3o-Solteiro-Howie-Misto-D33-2817x88x18829-Branco-e-Cinza-4808-6503421-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 628.97,
-      "desconto": 22,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -733,10 +725,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-cama-box-com-colchao-solteiro-howie-misto-d45-17x88x188-branco-e-cinza-1243062",
@@ -751,8 +743,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-Cama-Box-com-ColchC3A3o-Solteiro-Howie-Misto-D45-2817x88x18829-Branco-e-Cinza-5360-2603421-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 790.47,
-      "desconto": 22,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -772,10 +764,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-658762",
@@ -792,8 +784,8 @@
       "imagem": "https://static.mobly.com.br/p/Montreal-Cama-Box-Queen-Orion-com-ColchC3A3o-Queen-Molas-Ensacadas-Marrom-e-Bege-6493-267856-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Modelo casal/queen encontrado na loja direta; publicar apenas após confirmação de preço e estoque",
-      "precoAnterior": 2014.47,
-      "desconto": 8,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:42:19.321Z",
@@ -813,10 +805,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-658765",
@@ -833,8 +825,8 @@
       "imagem": "https://static.mobly.com.br/p/Montreal-Cama-Box-Queen-Pegasus-com-ColchC3A3o-Queen-Molas-Ensacadas-Cinza-e-Branca-6691-567856-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Modelo casal/queen encontrado na loja direta; publicar apenas após confirmação de preço e estoque",
-      "precoAnterior": 1971.97,
-      "desconto": 8,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:42:19.321Z",
@@ -854,10 +846,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "philco-ar-condicionado-pac12000itqfm9w-220v-oficial-20261026",
@@ -889,7 +881,7 @@
       "imagem": "https://philco.vtexassets.com/arquivos/ids/259470/itfm9wProtect_01.jpg?v=638797323856130000",
       "ativa": true,
       "dataEncontrada": "2026-10-26T17:58:29-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Em 26/10/2026, a Loja Oficial Philco exibia R$ 2.709,90 (de R$ 3.509,90), em até 10x de R$ 270,99 sem juros; modelo PAC12000ITQFM9W e 220V confirmados. A página anuncia 5% de desconto no Pix no site, mas o preço Pix específico não foi confirmado. Frete e prazo não foram confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
@@ -907,7 +899,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-faca-legumes-lyf-3-23113023",
@@ -934,7 +926,7 @@
       "ativa": true,
       "estoqueStatus": "InStock",
       "dataEncontrada": "2026-09-26T08:57:05-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Preço, referência, disponibilidade para compra e imagem oficial confirmados na Loja Oficial Tramontina em 26/09/2026. Frete e prazo dependem da consulta do CEP.",
       "historicoPrecos": [
         {
@@ -958,7 +950,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-loreto-panelas-7p-20399083",
@@ -981,7 +973,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20399083PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1007,7 +999,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-paris-7p-vermelho-28599706",
@@ -1037,7 +1029,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28599706PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-10-12T09:15:00-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Preço conferido na página oficial Tramontina em 2026-10-23 17:58:08: R$ 379,57 à vista e R$ 399,55 em até 7x de R$ 57,08 sem juros. O preço permaneceu igual ao registro anterior; frete e prazo para o CEP 72620-405 não confirmados.",
       "historicoPrecos": [
         {
@@ -1057,7 +1049,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-sicilia-4p-vermelho-28699709",
@@ -1086,7 +1078,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/28699709PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-10-31T08:57:57-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Oferta conferida na página oficial Tramontina Store em 01/11/2026. A página mantém R$ 499,00 no Pix e R$ 525,26 em até 10x de R$ 52,53 sem juros; referência 28699709, disponibilidade para compra e 25 unidades já vendidas indicadas na página. Frete e prazo não foram calculados para o CEP 72620-405. Preço e disponibilidade sujeitos a alteração pela loja.",
       "historicoPrecos": [
         {
@@ -1106,7 +1098,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-solar-panelas-6p-65510200-oficial",
@@ -1138,7 +1130,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/65510200PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-10-29T09:07:30-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Preço de R$ 901,55 no Pix (5% OFF), ou R$ 949,00 em até 10x sem juros, referência 65510200 e disponibilidade confirmados na Loja Oficial Tramontina em 2026-10-29. Frete e prazo não confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
@@ -1162,7 +1154,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-brava-pressao-45l-62416200",
@@ -1187,7 +1179,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62416200PDM002G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1215,7 +1207,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-solar-pressao-3l-62511223",
@@ -1240,7 +1232,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62511223PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1264,7 +1256,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-solar-pressao-45l-62513223",
@@ -1288,7 +1280,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62513223PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1313,7 +1305,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-solar-pressao-6l-62516223",
@@ -1338,7 +1330,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/FAR/62516223PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1366,7 +1358,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-chave-combinada-11-41128111",
@@ -1385,7 +1377,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/41128111PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1417,7 +1409,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-chave-combinada-15-41128115",
@@ -1436,7 +1428,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/41128115PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1462,7 +1454,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-chave-combinada-9-41128109",
@@ -1481,7 +1473,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/41128109PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1513,7 +1505,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-furadeira-impacto-500w-12-220-42360021",
@@ -1537,7 +1529,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/42360021PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1559,7 +1551,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-furadeira-impacto-500w-220-42362021",
@@ -1583,7 +1575,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/42362011PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1605,7 +1597,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-buchas-parafusos-385p-43505003",
@@ -1626,7 +1618,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/43505003PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1650,7 +1642,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-jogo-chaves-fixas-5p-41120205",
@@ -1669,7 +1661,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/41120205PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1691,7 +1683,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "tramontina-serra-marmore-1350w-220-42510021",
@@ -1715,7 +1707,7 @@
       "imagem": "https://assets.tramontina.com.br/upload/tramon/imagens/GAR/42510011PDM001G.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-29T17:57:39.535Z",
@@ -1737,7 +1729,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "kabum-joycon-red-blue-178104",
@@ -1759,7 +1751,7 @@
       "imagem": "https://images.kabum.com.br/produtos/fotos/178104/controle-nintendo-switch-joy-con-vermelho-e-azul-hbcajaea1_1626895433_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-11-03T14:30:21.242Z",
@@ -1781,7 +1773,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "kabum-kit-dualsense-yotei-fc26-1023131",
@@ -1802,7 +1794,7 @@
       "imagem": "https://images.kabum.com.br/produtos/fotos/1023131/kit-controle-dual-sense-ghost-of-yotei-ea-sports-fc-26_1775564806_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -1826,7 +1818,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "kabum-kit-dualsense-yotei-tlou2-1023130",
@@ -1847,7 +1839,7 @@
       "imagem": "https://images.kabum.com.br/produtos/fotos/1023130/kit-controle-dual-sense-ghost-of-yotei-the-last-of-us-part-ii_1775562000_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -1871,7 +1863,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "kabum-kit-dualsense-marathon-bf6-1023148",
@@ -1892,7 +1884,7 @@
       "imagem": "https://images.kabum.com.br/produtos/fotos/1023148/kit-controle-dual-sense-edicao-limitada-marathon-branco-battlefield-6_1775582146_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -1916,7 +1908,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "brastemp-brm51mb-415l-branca-220v",
@@ -1947,7 +1939,7 @@
       "imagem": "https://brastemp.vtexassets.com/arquivos/ids/293905/Brastemp_Geladeira_BRM51MB_Imagem_Frontal_Fechada_jpg.jpg?v=639231897053230000",
       "ativa": true,
       "dataEncontrada": "2026-09-12T12:06:08.071Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Preço, parcelamento e variante 220V confirmados na Loja Oficial Brastemp em 12/09/2026.",
       "historicoPrecos": [
         {
@@ -1980,7 +1972,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "brastemp-geladeira-bro88ab-oficial-20261024",
@@ -2007,7 +1999,7 @@
       "classificacaoOferta": "Interessante",
       "ativa": true,
       "dataEncontrada": "2026-10-24T21:04:38.089Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "freteValor": null,
@@ -2059,7 +2051,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-guardaroupa-casal-lucca-premium-6-portas-imbuia-588059",
@@ -2074,8 +2066,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-Guarda-Roupa-Casal-Lucca-Premium-6-Portas-Imbuia-1174-950885-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 2405.46,
-      "desconto": 15,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -2095,10 +2087,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-guardaroupa-casal-malibu-100-mdf-6-portas-imbuia-e-off-white-577403",
@@ -2113,8 +2105,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Guarda-Roupa-Casal-Malibu-10025-MDF-6-Portas-Imbuia-e-Off-White-3312-304775-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 1032.74,
-      "desconto": 19,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -2138,10 +2130,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-guardaroupa-casal-paris-8-portas-preto-1708918",
@@ -2156,8 +2148,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Guarda-Roupa-Casal-Paris-8-Portas-Preto-5210-8198071-2-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 913.72,
-      "desconto": 10,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -2181,10 +2173,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-uardaroupa-casal-torino-100-mdf-6-portas-4-gavetas-naturalle-e-off-white-1274203",
@@ -2199,8 +2191,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Guarda-Roupa-Casal-Torino-10025-MDF-6-Portas-4-Gavetas-Naturalle-e-Off-White-6758-3024721-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 2104.59,
-      "desconto": 33,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -2224,168 +2216,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
-    },
-    {
-      "id": "acer-a16-71m-55h0",
-      "nome": "Notebook Acer Aspire 16 A16-71M-55H0 Core Ultra 5 16GB 512GB",
-      "modelo": "A16-71M-55H0",
-      "modeloFabricante": "A16-71M-55H0",
-      "produtoGrupo": "acer-a16-71m-55h0-16gb-512gb",
-      "precoAtual": 5499,
-      "precoAnterior": null,
-      "precoPix": 5499,
-      "precoAvista": 5499,
-      "precoCartao": 6248.86,
-      "parcelas": 12,
-      "valorParcela": 520.73,
-      "url": "https://br-store.acer.com/notebook-acer-a16-71m-55h0--cu5115u--16gb--512gb-ssd--wnhpsl64--gray--lcd-16-nx-jqlal-001/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/166947/A16-71M-55H0__37eb8653-8119-432b-b4a0-46d72280c989.jpg?v=639094337858270000",
-      "categoria": "Informática",
-      "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja oficial",
-      "voltagem": "Bivolt",
-      "estoqueStatus": "InStock",
-      "desconto": 0,
-      "condicaoPagamento": "R$ 5.499,00 no PIX ou à vista no cartão; R$ 6.248,86 em até 12x de R$ 520,73",
-      "observacoes": "Preço, disponibilidade, pagamento, imagem oficial e fonte bivolt 100–240V confirmados na Loja Oficial Acer em 12/09/2026.",
-      "cupom": null,
-      "cashback": null,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "ativa": true,
-      "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-10-23T16:12:24.910Z",
-          "preco": 5499
-        }
-      ],
-      "menorPrecoHistorico": 5499,
-      "precoMedioHistorico": 5499,
-      "scoreOferta": 58,
-      "classificacaoOferta": "Boa",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "entregaEstimada": null,
-      "lojaOficial": true,
-      "fonteTipo": "pagina_publica_estruturada",
-      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
-    },
-    {
-      "id": "acer-a515-45-r478",
-      "nome": "Notebook Acer Aspire 5 A515-45-R478 Ryzen 5 16GB 512GB Linux",
-      "modelo": "A515-45-R478",
-      "modeloFabricante": "A515-45-R478",
-      "produtoGrupo": "acer-a515-45-r478-16gb-512gb",
-      "precoAtual": 4999,
-      "precoAnterior": null,
-      "precoPix": 4999,
-      "precoAvista": 4999,
-      "precoCartao": 5680.68,
-      "parcelas": 12,
-      "valorParcela": 473.39,
-      "url": "https://br-store.acer.com/notebook-acer-aspire-5-a515-45-r478-amd-ryzen-5-16gb-ram-512gb-ssd-tela-15-6-linux-prata-nx-aydal-00r/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/167808/A515-45-R478_01.jpg?v=639225749107470000",
-      "categoria": "Informática",
-      "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja oficial",
-      "voltagem": "Bivolt",
-      "estoqueStatus": "InStock",
-      "desconto": 0,
-      "condicaoPagamento": "R$ 4.999,00 no PIX ou à vista no cartão; R$ 5.680,68 em até 12x de R$ 473,39",
-      "observacoes": "Preço, disponibilidade, pagamento, imagem oficial e fonte bivolt 100–240V confirmados na Loja Oficial Acer em 12/09/2026.",
-      "cupom": null,
-      "cashback": null,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "ativa": true,
-      "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-12T21:07:30.655Z",
-          "preco": 4999,
-          "freteValor": null,
-          "precoComFrete": null
-        }
-      ],
-      "menorPrecoHistorico": 4999,
-      "precoMedioHistorico": 4999,
-      "scoreOferta": 70,
-      "classificacaoOferta": "Boa",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "entregaEstimada": null,
-      "lojaOficial": true,
-      "fonteTipo": "pagina_publica_estruturada",
-      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
-    },
-    {
-      "id": "acer-ag15-51p-52bh",
-      "nome": "Notebook Acer Aspire GO 15 AG15-51P-52BH Core 5 8GB 512GB",
-      "modelo": "AG15-51P-52BH",
-      "modeloFabricante": "AG15-51P-52BH",
-      "produtoGrupo": "acer-ag15-51p-52bh-8gb-512gb",
-      "precoAtual": 4999,
-      "precoAnterior": null,
-      "precoPix": 4999,
-      "precoAvista": 4999,
-      "precoCartao": 5680.68,
-      "parcelas": 12,
-      "valorParcela": 473.39,
-      "url": "https://br-store.acer.com/notebook-acer-aspire-go-15-ag15-51p-52bh-intel-core-5-8gb-ram-512gb-ssd-tela-15-3-windows-11-azul-nx-jgfal-007/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/168768/1.jpg?v=639276632378700000",
-      "categoria": "Informática",
-      "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja oficial",
-      "voltagem": "Bivolt",
-      "estoqueStatus": "InStock",
-      "desconto": 0,
-      "condicaoPagamento": "R$ 4.999,00 no PIX ou à vista no cartão; R$ 5.680,68 em até 12x de R$ 473,39",
-      "observacoes": "Preço, disponibilidade, pagamento, imagem oficial e fonte bivolt 100–240V confirmados na Loja Oficial Acer em 12/09/2026.",
-      "cupom": null,
-      "cashback": null,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "ativa": true,
-      "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-10-24T15:08:31.935Z",
-          "preco": 4999
-        }
-      ],
-      "menorPrecoHistorico": 4999,
-      "precoMedioHistorico": 4999,
-      "scoreOferta": 79,
-      "classificacaoOferta": "Excelente",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "entregaEstimada": null,
-      "lojaOficial": true,
-      "fonteTipo": "pagina_publica_estruturada",
-      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "kabum-acer-aspire-go-15-ag15-71p-53d9-20261027",
@@ -2417,7 +2251,7 @@
       "imagem": "https://images.kabum.com.br/produtos/fotos/1075027/notebook-acer-aspire-go-15-ag15-71p-53d9-intel-core-5-16gb-ram-ssd-512gb-intel-uhd-15-6-fhd-linux-cinza-nx-jh6al-001_1791316909_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-10-27T18:02:26-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Preço Pix, parcelamento, cupom anunciado, modelo, EAN, fonte bivolt e venda/entrega pela KaBuM! conferidos em 27/10/2026. O cupom LIQUIDA10 não foi aplicado ao preço registrado. Histórico próprio insuficiente para confirmar menor preço histórico. Frete, prazo e estoque não confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
@@ -2435,190 +2269,14 @@
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
-      "precoAnterior": 4399,
-      "desconto": 9,
-      "cashback": null,
-      "entregaEstimada": null,
-      "lojaOficial": true,
-      "fonteTipo": "pagina_publica_estruturada",
-      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
-    },
-    {
-      "id": "acer-ag15-71p-753g",
-      "nome": "Notebook Acer Aspire GO 15 AG15-71P-753G Core i7 8GB 256GB Linux",
-      "modelo": "AG15-71P-753G",
-      "modeloFabricante": "AG15-71P-753G",
-      "produtoGrupo": "acer-ag15-71p-753g-8gb-256gb",
-      "precoAtual": 5799,
       "precoAnterior": null,
-      "precoPix": 5809.56,
-      "precoAvista": 5809.56,
-      "precoCartao": 6601.77,
-      "parcelas": 12,
-      "valorParcela": 550.14,
-      "url": "https://br-store.acer.com/notebook-acer-aspire-go-15-ag15-71p-753g-intel-core-i7-8gb-ram-256gb-ssd-tela-15-6-linux-verde-nx-jh6al-008/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/167513/pack-1.jpg?v=639217229694130000",
-      "categoria": "Informática",
-      "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja oficial",
-      "voltagem": "Bivolt",
-      "estoqueStatus": "InStock",
       "desconto": 0,
-      "condicaoPagamento": "R$ 5.809,56 no PIX ou à vista no cartão; R$ 6.601,77 em até 12x de R$ 550,14",
-      "observacoes": "Preço, disponibilidade, pagamento, imagem oficial e fonte bivolt 100–240V confirmados na Loja Oficial Acer em 12/09/2026.",
-      "cupom": null,
       "cashback": null,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "ativa": true,
-      "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-12T21:07:30.655Z",
-          "preco": 5809.56,
-          "freteValor": null,
-          "precoComFrete": null
-        },
-        {
-          "data": "2026-10-21T22:19:55.903Z",
-          "preco": 4699
-        },
-        {
-          "data": "2026-11-03T14:30:21.242Z",
-          "preco": 5799
-        }
-      ],
-      "menorPrecoHistorico": 5809.56,
-      "precoMedioHistorico": 5809.56,
-      "scoreOferta": 64,
-      "classificacaoOferta": "Boa",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
       "entregaEstimada": null,
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
-    },
-    {
-      "id": "acer-anv15-41-r6j0",
-      "nome": "Notebook Gamer Acer Nitro V15 ANV15-41-R6J0 Ryzen 7 8GB 512GB RTX 4050",
-      "modelo": "ANV15-41-R6J0",
-      "modeloFabricante": "ANV15-41-R6J0",
-      "produtoGrupo": "acer-anv15-41-r6j0-8gb-512gb-rtx4050",
-      "precoAtual": 5699,
-      "precoAnterior": null,
-      "precoPix": 5999,
-      "precoAvista": 5999,
-      "precoCartao": 6817.05,
-      "parcelas": 12,
-      "valorParcela": 568.08,
-      "url": "https://br-store.acer.com/notebook-acer-anv15-41-r6j0--r77735hs--8gb--512gb-ssd--rtx4050--agpos--black--fhd-15-6-nh-u20al-004/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/168318/NH.U20AL.004.MAIN.png?v=639251780554230000",
-      "categoria": "Informática",
-      "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja oficial",
-      "voltagem": "Bivolt",
-      "estoqueStatus": "InStock",
-      "desconto": 0,
-      "condicaoPagamento": "R$ 5.999,00 no PIX ou à vista no cartão; R$ 6.817,05 em até 12x de R$ 568,08",
-      "observacoes": "Preço, disponibilidade, pagamento, imagem oficial e fonte bivolt 100–240V confirmados na Loja Oficial Acer em 12/09/2026.",
-      "cupom": null,
-      "cashback": null,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "ativa": true,
-      "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-09-12T21:07:30.655Z",
-          "preco": 5999,
-          "freteValor": null,
-          "precoComFrete": null
-        },
-        {
-          "data": "2026-10-21T22:19:55.903Z",
-          "preco": 5499
-        },
-        {
-          "data": "2026-11-03T14:30:21.242Z",
-          "preco": 5699
-        }
-      ],
-      "menorPrecoHistorico": 5999,
-      "precoMedioHistorico": 5999,
-      "scoreOferta": 67,
-      "classificacaoOferta": "Boa",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
-      "entregaEstimada": null,
-      "lojaOficial": true,
-      "fonteTipo": "pagina_publica_estruturada",
-      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
-    },
-    {
-      "id": "acer-anv15-52-77bg-rtx4050",
-      "nome": "Notebook Gamer Acer Nitro V15 ANV15-52-77BG Core i7 16GB 512GB RTX 4050",
-      "modelo": "ANV15-52-77BG",
-      "modeloFabricante": "ANV15-52-77BG",
-      "produtoGrupo": "acer-anv15-52-77bg-16gb-512gb-rtx4050",
-      "precoAtual": 7999,
-      "precoAnterior": null,
-      "precoPix": 7999,
-      "precoAvista": 7999,
-      "precoCartao": 7999,
-      "parcelas": 12,
-      "valorParcela": 740.64,
-      "url": "https://br-store.acer.com/notebook-acer-nitro-v15-anv15-52-77bg-intel-core-i7-16gb-ram-512gb-ssd-rtx-4050-tela-15-6-windows-11-preto-nh-u0cal-004/p",
-      "imagem": "https://acerstore.vtexassets.com/arquivos/ids/168147/ANV15-52-77BG_01.jpg?v=639240341925900000",
-      "categoria": "Informática",
-      "loja": "Loja Oficial Acer",
-      "seloLoja": "Loja oficial",
-      "voltagem": "Bivolt",
-      "estoqueStatus": "InStock",
-      "desconto": 0,
-      "condicaoPagamento": "R$ 7.999,00 no Pix ou à vista no cartão; a página também exibe até 12x de R$ 740,64 (total informado R$ 8.887,78).",
-      "observacoes": "Preço, disponibilidade, pagamento, imagem oficial e fonte bivolt 100–240V confirmados na Loja Oficial Acer em 12/09/2026. | Preço da loja oficial Acer atualizado de R$ 8999.00 para R$ 7.999,00; confirme condições finais no checkout.",
-      "cupom": null,
-      "cashback": null,
-      "frete": "Consulte na loja",
-      "freteValor": null,
-      "freteGratis": false,
-      "cepFrete": "72620-405",
-      "precoComFrete": null,
-      "prazoEntrega": null,
-      "ativa": true,
-      "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
-      "historicoPrecos": [
-        {
-          "data": "2026-11-03T14:30:21.242Z",
-          "preco": 7999
-        }
-      ],
-      "menorPrecoHistorico": 7999,
-      "precoMedioHistorico": 8499,
-      "scoreOferta": 67,
-      "classificacaoOferta": "Boa",
-      "variacaoPreco": -11.11,
-      "ultimaQuedaPreco": "2026-10-18T18:05:27-03:00",
-      "entregaEstimada": null,
-      "lojaOficial": true,
-      "fonteTipo": "pagina_publica_estruturada",
-      "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "acer-phn16-73-76h8",
@@ -2653,7 +2311,7 @@
       "prazoEntrega": null,
       "ativa": true,
       "dataEncontrada": "2026-09-12T21:07:30.655Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-10-30T00:57:53.627Z",
@@ -2674,7 +2332,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "kabum-adata-legend860-500gb-703111",
@@ -2696,7 +2354,7 @@
       "imagem": "https://images.kabum.com.br/produtos/fotos/703111/ssd-adata-legend-860-500gb-m-2-2280-pcie-gen-4x4-nvme-leitura-6000mb-s-gravacao-5000mb-s-compativel-com-ps5-preto-sleg-860-500gcs_1742817337_g.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -2729,7 +2387,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "brastemp-bwm13ab-13kg-220v-oficial",
@@ -2738,14 +2396,14 @@
       "loja": "Loja Oficial Brastemp",
       "seloLoja": "Loja oficial",
       "precoAtual": 1699.11,
-      "precoAnterior": 1756.77,
+      "precoAnterior": null,
       "precoPix": 1691.06,
       "precoAvista": 1691.06,
       "precoCartao": 1799,
       "parcelas": 5,
       "valorParcela": 359.8,
       "condicaoPagamento": "R$ 1.691,06 no Pix; R$ 1.799,00 em até 5x de R$ 359,80 sem juros.",
-      "desconto": 3,
+      "desconto": 0,
       "cupom": null,
       "cashback": null,
       "voltagem": "220V",
@@ -2760,7 +2418,7 @@
       "estoqueStatus": "InStock",
       "ativa": true,
       "dataEncontrada": "2026-10-24T09:05:52-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "observacoes": "Página oficial Brastemp consultada em 24/10/2026. Variante 220V confirmada; preço de R$ 1.691,06 no Pix e R$ 1.799,00 em até 5x sem juros. Frete, prazo e estoque para o CEP 72620-405 não foram confirmados. Histórico do catálogo iniciado nesta verificação.",
       "historicoPrecos": [
         {
@@ -2793,7 +2451,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly--de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-off-white-120-cm-1164651",
@@ -2808,8 +2466,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Anitta-Preta-e-Off-White-120-cm-4745-1564611-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 756.47,
-      "desconto": 10,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -2829,10 +2487,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly--de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-off-white-160-cm-1164544",
@@ -2847,8 +2505,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Anitta-Preta-e-Off-White-160-cm-4797-4454611-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 1007.15,
-      "desconto": 5,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -2868,10 +2526,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-mesa-de-jantar-retangular-com-tampo-de-vidro-anitta-preta-e-ype-120-cm-1164653",
@@ -2886,8 +2544,8 @@
       "imagem": "https://static.mobly.com.br/p/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Anitta-Preta-e-Ype-120-cm-4729-3564611-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 773.47,
-      "desconto": 5,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -2907,10 +2565,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-sofacama-2-lugares-casal-bergamo-cinza-claro-1119540",
@@ -2942,10 +2600,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-sofacama-3-lugares-casal-premium-preto-195813",
@@ -2960,8 +2618,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Preto-8024-318591-1-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 1296.22,
-      "desconto": 14,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -2985,10 +2643,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-sofacama-3-lugares-casal-premium-suede-cinza-200077",
@@ -3003,8 +2661,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-5303-770002-2-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 1142.39,
-      "desconto": 19,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -3028,10 +2686,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-sofacama-3-lugares-dovera-natural-1686024",
@@ -3063,10 +2721,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-sofacama-3-lugares-imperia-natural-1686022",
@@ -3098,10 +2756,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-sofacama-casal-3-lugares-cecilia-linho-cinza-711967",
@@ -3116,8 +2774,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-Casal-3-Lugares-CecC3ADlia-Linho-Cinza-1607-769117-2-product.jpg",
       "estoqueStatus": "InStock",
       "origemCuradoria": "Página de produto do varejista; somente publicar após confirmar vendedor, preço e estoque",
-      "precoAnterior": 998.74,
-      "desconto": 10,
+      "precoAnterior": null,
+      "desconto": 0,
       "historicoPrecos": [
         {
           "data": "2026-10-21T22:19:55.903Z",
@@ -3137,10 +2795,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "oficial-mobly-sofacama-casal-3-lugares-paiva-suede-bege-1686008",
@@ -3172,10 +2830,10 @@
       "prazoEntrega": null,
       "entregaEstimada": null,
       "seloLoja": "Loja oficial",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "lg-55qned80bsg-oficial-20261027",
@@ -3190,7 +2848,7 @@
       "ativa": true,
       "voltagem": "Bivolt",
       "dataEncontrada": "2026-10-27T09:08:43-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "freteValor": null,
@@ -3228,7 +2886,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     },
     {
       "id": "lg-55qned70bsa-oficial-20261027",
@@ -3271,7 +2929,7 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "dataEncontrada": "2026-10-27T18:02:26-03:00",
-      "ultimaVerificacao": "2026-11-03T14:30:21.242Z",
+      "ultimaVerificacao": "2026-11-03T18:53:29.258Z",
       "precoAnterior": null,
       "desconto": 0,
       "cupom": null,
@@ -3280,7 +2938,7 @@
       "lojaOficial": true,
       "fonteTipo": "pagina_publica_estruturada",
       "fonte": "Oferta e disponibilidade em JSON-LD Product/Offer da loja",
-      "fonteAtualizadaEm": "2026-11-03T14:30:21.242Z"
+      "fonteAtualizadaEm": "2026-11-03T18:53:29.258Z"
     }
   ]
 }
