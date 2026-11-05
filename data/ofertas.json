@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-05T09:06:47-03:00",
+  "geradoEm": "2026-11-05T17:56:07-03:00",
   "total": 147,
   "ofertas": [
     {
@@ -5892,7 +5892,7 @@
       "url": "https://www.lg.com/br/tvs-e-soundbars/qned/55qned70bsa/",
       "imagem": "https://www.lg.com/content/dam/channel/wcms/1-channel/br/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/75-qned80/gallery/imagens-galeria-v2/1-2010-tv-qned70.png/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
       "ativa": true,
-      "observacoes": "Preço Pix, preço no cartão, parcelamento, modelo, voltagem AC 100–240V e imagem conferidos na página oficial LG em 27/10/2026. A página exibe preço de referência de R$ 3.999,00 e cupom CUPOMLG5; não foi presumida aplicação adicional do cupom. Histórico próprio insuficiente para confirmar menor preço histórico. Frete, prazo e estoque não confirmados para o CEP 72620-405.",
+      "observacoes": "Preço Pix de R$ 2.944,05, preço no cartão de R$ 3.099,00 em até 12x sem juros e modelo 55QNED70BSA reconfirmados na página oficial LG em 05/11/2026. O cupom CUPOMLG5 aparece na página, mas não foi presumido desconto adicional. Frete, prazo e estoque não confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-10-27T18:02:26-03:00",
@@ -5908,7 +5908,7 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "dataEncontrada": "2026-10-27T18:02:26-03:00",
-      "ultimaVerificacao": "2026-10-27T18:02:26-03:00"
+      "ultimaVerificacao": "2026-11-05T17:56:07-03:00"
     },
     {
       "id": "magalu-motorola-moto-g-max-256gb-oficial-20261027",
@@ -7790,6 +7790,12 @@
       "loja": "Friopeças no Magalu",
       "precoAtual": 1797,
       "detalhe": "Anúncio do Magalu consultado em 05/11/2026 exibe “Produto indisponível”; oferta desativada e histórico preservado."
+    },
+    {
+      "data": "2026-11-05T17:56:07-03:00",
+      "acao": "verificacao",
+      "id": "lg-55qned70bsa-oficial-20261027",
+      "detalhe": "Página oficial LG reconfirmou preço Pix de R$ 2.944,05, cartão de R$ 3.099,00 em até 12x sem juros e modelo 55QNED70BSA. Preço principal permaneceu igual; histórico de preços não recebeu registro artificial. Cupom CUPOMLG5 listado sem presumir aplicação adicional. Frete, prazo e estoque não confirmados."
     }
   ]
 }
