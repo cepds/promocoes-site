@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-04T09:04:48-03:00",
-  "total": 148,
+  "geradoEm": "2026-11-05T09:06:47-03:00",
+  "total": 147,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -571,10 +571,10 @@
       "desconto": 10,
       "url": "https://www.magazineluiza.com.br/ar-condicionado-split-samsung-digital-inverter-ultra-ai-9000-btu-h-frio-ar09dyfzawknaz-220-volts/p/bcega714g7/ar/aciv/?seller_id=friopecas",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/ar-condicionado-split-samsung-digital-inverter-ultra-ai-9000-btu-h-frio-ar09dyfzawknaz-220-volts/friopecas/1040778/b90ca0cc96f445f481fefb7fa4064585.jpeg",
-      "ativa": true,
+      "ativa": false,
       "voltagem": "220V",
       "dataEncontrada": "2026-09-11T19:39:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
+      "ultimaVerificacao": "2026-11-05T09:06:47-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -593,7 +593,9 @@
       "ultimaQuedaPreco": null,
       "modelo": "AR09DYFZAWKNAZ",
       "modeloFabricante": "AR09DYFZAWKNAZ",
-      "produtoGrupo": "samsung-ar09dyfzawknaz-9000-frio-220v"
+      "produtoGrupo": "samsung-ar09dyfzawknaz-9000-frio-220v",
+      "estoqueStatus": "Indisponível",
+      "observacoes": "Verificação em 05/11/2026: a página do anúncio no Magalu informa “Produto indisponível” e não permite compra. Oferta desativada; preço histórico preservado."
     },
     {
       "id": "ps5-slim-disk-1tb",
@@ -5798,8 +5800,8 @@
       "imagem": "https://philco.vtexassets.com/arquivos/ids/259470-800-800?aspect=true&height=800&v=638797323856130000&width=800",
       "ativa": true,
       "dataEncontrada": "2026-10-26T17:58:29-03:00",
-      "ultimaVerificacao": "2026-10-26T17:58:29-03:00",
-      "observacoes": "Em 26/10/2026, a Loja Oficial Philco exibia R$ 2.709,90 (de R$ 3.509,90), em até 10x de R$ 270,99 sem juros; modelo PAC12000ITQFM9W e 220V confirmados. A página anuncia 5% de desconto no Pix no site, mas o preço Pix específico não foi confirmado. Frete e prazo não foram confirmados para o CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-05T09:06:47-03:00",
+      "observacoes": "Verificação em 05/11/2026 na Loja Oficial Philco: página ainda exibe o modelo PAC12000ITQFM9W, 220V, por R$ 2.709,90 em até 10x de R$ 270,99 sem juros. Preço sem alteração; preço Pix específico, frete e prazo não confirmados.",
       "historicoPrecos": [
         {
           "data": "2026-10-26T17:58:29-03:00",
@@ -7778,6 +7780,16 @@
       "loja": "Britânia Loja Oficial",
       "precoAtual": 1749.9,
       "detalhe": "Oferta adicionada após conferência da loja oficial Britânia: preço exibido, modelo 9QC, 220V, imagem e parcelamento 10x sem juros confirmados. Frete, prazo e valor Pix específico não confirmados."
+    },
+    {
+      "data": "2026-11-05T09:06:47-03:00",
+      "acao": "inativacao",
+      "id": "magalu-samsung-ar09-ultra-ai",
+      "nome": "Ar Condicionado Samsung Digital Inverter Ultra AI 9.000 BTUs Frio 220V",
+      "categoria": "Climatização",
+      "loja": "Friopeças no Magalu",
+      "precoAtual": 1797,
+      "detalhe": "Anúncio do Magalu consultado em 05/11/2026 exibe “Produto indisponível”; oferta desativada e histórico preservado."
     }
   ]
 }
