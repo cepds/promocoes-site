@@ -18,6 +18,10 @@ jobs:
           node-version: '20'
       - name: Run catalog automation
         run: node scripts/automation-run.js
+      - name: Validar catálogo antes do commit
+        run: |
+          node scripts/validate-site.js --audit
+          node --test tests/*.test.js
       - name: Commit catalog changes
         shell: bash
         run: |

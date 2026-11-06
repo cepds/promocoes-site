@@ -47,6 +47,8 @@ jobs:
           node --check scripts/verify-products.mjs
           node --check scripts/verify-products-lib.cjs
           node --test tests/*.test.js
+      - name: Validar integridade das ofertas antes de consultar lojas
+        run: node scripts/validate-site.js --audit
       - name: Verificar preco e disponibilidade em paginas publicas
         run: node scripts/verify-products.mjs
       - name: Garantir que somente dados atuais foram gerados

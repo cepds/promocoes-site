@@ -105,7 +105,9 @@ test("loja oficial Vivo usa host HTTPS exato sem liberar clones",()=>{
     "http://store.vivo.com.br/produto",
     "https://store.vivo.com.br.evil.example/produto",
     "https://store.vivo.com.br@evil.example/produto",
-    "https://fake-store.vivo.com.br/produto"
+    "https://fake-store.vivo.com.br/produto",
+    "https://usuario:senha@store.vivo.com.br/produto",
+    "https://store.vivo.com.br:8443/produto"
   ]) assert.equal(policy.safeStoreUrl(invalid),"");
 });
 

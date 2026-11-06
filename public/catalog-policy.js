@@ -21,7 +21,7 @@
   function safeHttpsUrl(value) {
     try {
       const url = new URL(String(value ?? "").trim());
-      return url.protocol === "https:" ? url.href : "";
+      return url.protocol === "https:" && !url.username && !url.password && !url.port ? url.href : "";
     } catch { return ""; }
   }
   function safeStoreUrl(value) {

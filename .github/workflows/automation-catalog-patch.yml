@@ -21,6 +21,10 @@ jobs:
           node-version: '20'
       - name: Apply patch and create backup
         run: node scripts/automation-apply-patch.mjs
+      - name: Validar catálogo antes do commit
+        run: |
+          node scripts/validate-site.js --audit
+          node --test tests/*.test.js
       - name: Commit generated catalog files
         run: |
           git config user.name 'github-actions[bot]'

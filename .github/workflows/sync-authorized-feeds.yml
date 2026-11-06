@@ -39,7 +39,7 @@ jobs:
           AWIN_DATAFEED_API_KEY: ${{ secrets.AWIN_DATAFEED_API_KEY }}
         run: node scripts/sync-awin-feed.mjs
       - name: Validar catalogo atualizado
-        run: node scripts/validate-site.js
+        run: node scripts/validate-site.js --audit
       - name: Enviar somente catalogo validado
         shell: bash
         run: |

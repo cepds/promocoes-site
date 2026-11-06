@@ -9,8 +9,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/audit-catalog.js'
-      - 'scripts/validate-site.js'
+      - 'scripts/**'
+      - '.github/workflows/**'
       - 'tests/**'
       - 'data/ofertas.json'
       - 'public/catalog-policy.js'

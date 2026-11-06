@@ -1,5 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const { safeStoreUrl } = require('../public/catalog-policy.js');
 
 const ROOT = process.cwd();
 const DATA = path.join(ROOT, 'data', 'ofertas.json');
@@ -54,8 +57,9 @@ function cleanCandidate(raw){
   return s;
 }
 async function resolveOgImage(url){
+  if(!safeStoreUrl(url)) return null;
   try{
-    const r=await fetch(url,{redirect:'follow',headers:{'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36','accept':'text/html,application/xhtml+xml'}});
+    const r=await fetch(url,{redirect:'manual',signal:AbortSignal.timeout(12000),headers:{'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/140 Safari/537.36','accept':'text/html,application/xhtml+xml'}});
     if(!r.ok) return null;
     const html=await r.text();
     const patterns=[
@@ -85,7 +89,8 @@ async function resolveOgImage(url){
 function validateNew(o){
   for(const k of ['id','nome','categoria','loja','precoAtual','url','imagem']) if(o[k]===undefined||o[k]===null||o[k]==='') throw new Error(`Nova oferta sem ${k}: ${o.id||o.nome||'sem id'}`);
   if(!(num(o.precoAtual)>0)) throw new Error(`Preço inválido: ${o.id}`);
-  if(!https(o.url)||!https(o.imagem)) throw new Error(`URL/imagem não HTTPS: ${o.id}`);
+  if(!safeStoreUrl(o.url)) throw new Error(`Domínio da loja não autorizado: ${o.id}`);
+  if(!https(o.imagem)) throw new Error(`Imagem não HTTPS: ${o.id}`);
   const blob=`${o.voltagem||''} ${o.nome||''} ${o.observacoes||''}`.toLowerCase();
   if(/\b(110|127)\s*v\b/.test(blob)&&!/\b220\s*v\b|bivolt/.test(blob)) throw new Error(`Oferta 110/127V exclusiva: ${o.id}`);
 }
@@ -114,9 +119,14 @@ for(const u of updates){
   else if(u.url){const k=String(u.url).split('?')[0].replace(/\/$/,''); if(byUrl.has(k)) idx=byUrl.get(k);}
   if(idx<0) continue;
   const o=offers[idx]; const previous=num(o.precoAtual);
+  const candidate={...o,...(u.fields && typeof u.fields==='object' && !Array.isArray(u.fields) ? u.fields : {})};
+  if(u.ultimaVerificacao) candidate.ultimaVerificacao=u.ultimaVerificacao;
+  if(candidate.ativa!==false){
+    try{validateNew(candidate);}
+    catch(e){console.warn(`Atualização ignorada: ${e.message}`);continue;}
+  }
   const before=JSON.stringify(o);
-  Object.assign(o,u.fields||{});
-  o.ultimaVerificacao=u.ultimaVerificacao||stamp;
+  Object.assign(o,candidate);
   ensureHistory(o,stamp,previous);
   if(o.scoreOferta==null) o.scoreOferta=basicScore(o);
   if(!o.classificacaoOferta) o.classificacaoOferta=classif(num(o.scoreOferta)||0);
@@ -132,9 +142,12 @@ for(const input of adds){
   const o=structuredClone(input);
   const urlKey=String(o.url||'').split('?')[0].replace(/\/$/,'');
   if(byId.has(String(o.id))||byUrl.has(urlKey)) continue;
-  if(!https(o.imagem) && https(o.url)) o.imagem=await resolveOgImage(o.url);
+  if(!safeStoreUrl(o.url)){ console.warn(`Oferta ignorada: domínio da loja não autorizado (${o.id||'sem id'})`); continue; }
+  if(!https(o.imagem)) o.imagem=await resolveOgImage(o.url);
   try{ validateNew(o); }catch(e){ console.warn(`Oferta ignorada: ${e.message}`); continue; }
-  o.ativa=o.ativa!==false; o.dataEncontrada=o.dataEncontrada||stamp; o.ultimaVerificacao=o.ultimaVerificacao||stamp;
+  o.ativa=o.ativa!==false; o.dataEncontrada=o.dataEncontrada||stamp;
+  // Cadastro não equivale a revalidação de preço/estoque.
+  o.ultimaVerificacao=o.ultimaVerificacao||null;
   ensureHistory(o,stamp,null);
   if(o.scoreOferta==null) o.scoreOferta=basicScore(o);
   if(!o.classificacaoOferta) o.classificacaoOferta=classif(num(o.scoreOferta)||0);

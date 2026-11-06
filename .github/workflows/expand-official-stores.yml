@@ -37,7 +37,7 @@ jobs:
       - name: Adicionar ofertas Acer com imagens oficiais diretas
         run: node scripts/add-acer-direct-2026-09-12.js
       - name: Validar catálogo
-        run: node scripts/validate-site.js
+        run: node scripts/validate-site.js --audit
       - name: Salvar catálogo e backups com proteção contra conflito
         shell: bash
         run: |
