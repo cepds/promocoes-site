@@ -98,6 +98,17 @@ test("Telhanorte aceita somente o dominio HTTPS legitimo, sem liberar clones",()
   ]) assert.equal(policy.safeStoreUrl(invalid),"");
 });
 
+test("loja oficial Vivo usa host HTTPS exato sem liberar clones",()=>{
+  const official="https://store.vivo.com.br/console-nintendo-switch-oled-64gb-com-super-mario-bros-wonder-3-meses-de-assinatura-nintendo-switch-online-branco/p/22024486";
+  assert.equal(policy.safeStoreUrl(official),official);
+  for(const invalid of [
+    "http://store.vivo.com.br/produto",
+    "https://store.vivo.com.br.evil.example/produto",
+    "https://store.vivo.com.br@evil.example/produto",
+    "https://fake-store.vivo.com.br/produto"
+  ]) assert.equal(policy.safeStoreUrl(invalid),"");
+});
+
 test("amostra de todas as ofertas ativas usa a mesma lista de domínios do frontend",()=>{
   const fs=require("node:fs");
   const data=JSON.parse(fs.readFileSync("data/ofertas.json","utf8"));
