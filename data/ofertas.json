@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-07T12:08:26.465Z",
+  "geradoEm": "2026-11-07T21:04:56.000Z",
   "total": 149,
   "ofertas": [
     {
@@ -6511,8 +6511,8 @@
       "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rd56-m7s8ddxbp493c4",
       "ativa": true,
       "dataEncontrada": "2026-11-06T09:05:07-03:00",
-      "ultimaVerificacao": "2026-11-06T09:05:07-03:00",
-      "observacoes": "Preço e parcelamento conferidos na página oficial da Loja Online Vivo em 06/11/2026: R$ 1.899,00 ou 12x de R$ 158,25 sem juros. A página também exibe a chamada “Faça login e descubra vantagens”, mas não esclarece se o preço exige elegibilidade ou vínculo com a Vivo; confirmar no checkout. A loja anuncia frete grátis em toda a loja, porém o CEP 72620-405 e o prazo não foram consultados. A voltagem foi classificada como bivolt com base no adaptador Nintendo Switch HAC-002 (100–240V), conforme especificação da Nintendo. O valor “De R$ 4.399,00” é apenas referência anunciada pela loja e não foi usado como histórico ou desconto comprovado.",
+      "ultimaVerificacao": "2026-11-07T18:04:56-03:00",
+      "observacoes": "Preço de R$ 1.899,00 e parcelamento em até 12x de R$ 158,25 sem juros reconfirmados na página da Loja Online Vivo em 07/11/2026; botão “Colocar no carrinho” ativo. A chamada “Faça login e descubra vantagens” permanece como ressalva, sem confirmação de elegibilidade. Frete grátis é anunciado pela loja, mas CEP 72620-405 e prazo não foram consultados. Voltagem bivolt baseada no adaptador Nintendo HAC-002 (100–240V).",
       "historicoPrecos": [
         {
           "data": "2026-11-06T09:05:07-03:00",
@@ -6551,8 +6551,8 @@
       "imagem": "https://cdn.leroymerlin.com.br/products/martelete_sds_plus_800w_gbh2_26dre_220v_bosch_89928580_0001_600x600.jpg",
       "ativa": true,
       "dataEncontrada": "2026-11-07T12:08:26.465Z",
-      "ultimaVerificacao": "2026-11-07T12:08:26.465Z",
-      "observacoes": "Página do produto consultada em 07/11/2026: preço de R$ 1.519,91 à vista no Pix ou cartão; alternativa em 10x sem juros. O desconto de 18% usa o preço de referência informado pela loja (R$ 1.859,90), não um histórico independente. Frete e prazo não confirmados para o CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-07T18:04:56-03:00",
+      "observacoes": "Preço de R$ 1.519,91 à vista no Pix ou cartão e alternativa de R$ 1.599,90 em 10x de R$ 159,99 sem juros reconfirmados na página da Ferreira Costa em 07/11/2026; variante 220V selecionada. Frete e prazo não consultados para o CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-11-07T12:08:26.465Z",
@@ -7898,6 +7898,18 @@
       "loja": "Ferreira Costa",
       "precoAtual": 1519.91,
       "detalhe": "Oferta adicionada após conferência da página da Ferreira Costa: R$ 1.519,91 à vista no Pix ou cartão; 10x de R$ 159,99 sem juros; modelo GBH 2-26 DRE e variante 220V confirmados. Imagem direta do mesmo modelo obtida em CDN da Leroy Merlin. Frete e prazo não confirmados para o CEP 72620-405."
+    },
+    {
+      "data": "2026-11-07T18:04:56-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "ferreiracosta-bosch-gbh-2-26-dre-220v",
+      "detalhes": "Preço de R$ 1.519,91 à vista no Pix ou cartão e alternativa de R$ 1.599,90 em 10x de R$ 159,99 sem juros reconfirmados na Ferreira Costa; variante 220V selecionada. Sem alteração de preço; histórico preservado."
+    },
+    {
+      "data": "2026-11-07T18:04:56-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "vivo-nintendo-switch-oled-mario-wonder-nso-20261106",
+      "detalhes": "Preço de R$ 1.899,00 e 12x de R$ 158,25 sem juros reconfirmados na Loja Online Vivo; botão para adicionar ao carrinho ativo. Sem alteração de preço; histórico preservado. Ressalva de login mantida."
     }
   ]
 }
