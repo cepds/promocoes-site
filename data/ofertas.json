@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-06T19:33:31.005Z",
-  "total": 148,
+  "geradoEm": "2026-11-07T12:08:26.465Z",
+  "total": 149,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6527,6 +6527,46 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "ferreiracosta-bosch-gbh-2-26-dre-220v",
+      "nome": "Martelete Perfurador Rompedor Bosch GBH 2-26 DRE 800W 220V com Maleta",
+      "categoria": "Ferramentas",
+      "loja": "Ferreira Costa",
+      "seloLoja": "Vendido e entregue pela Ferreira Costa",
+      "modelo": "GBH 2-26 DRE",
+      "modeloFabricante": "GBH 2-26 DRE",
+      "produtoGrupo": "bosch-gbh-2-26-dre-220v",
+      "precoAtual": 1519.91,
+      "precoAnterior": 1859.9,
+      "precoPix": 1519.91,
+      "precoAvista": 1519.91,
+      "precoCartao": 1599.9,
+      "parcelas": 10,
+      "valorParcela": 159.99,
+      "condicaoPagamento": "R$ 1.519,91 à vista no Pix ou no cartão; alternativa em 10x de R$ 159,99 sem juros (total de R$ 1.599,90).",
+      "desconto": 18,
+      "voltagem": "220V",
+      "url": "https://www.ferreiracosta.com/produto/188764/martelete-perfurador-rompedor-bosch-gbh-2-26-dre-800w-220v-com-impacto-de-2.7-joules-e-maleta",
+      "imagem": "https://cdn.leroymerlin.com.br/products/martelete_sds_plus_800w_gbh2_26dre_220v_bosch_89928580_0001_600x600.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-07T12:08:26.465Z",
+      "ultimaVerificacao": "2026-11-07T12:08:26.465Z",
+      "observacoes": "Página do produto consultada em 07/11/2026: preço de R$ 1.519,91 à vista no Pix ou cartão; alternativa em 10x sem juros. O desconto de 18% usa o preço de referência informado pela loja (R$ 1.859,90), não um histórico independente. Frete e prazo não confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-07T12:08:26.465Z",
+          "preco": 1519.91,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 1519.91,
+      "precoMedioHistorico": 1519.91,
+      "scoreOferta": 68,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
@@ -7848,6 +7888,16 @@
       "loja": "Loja Online Vivo",
       "precoAtual": 1899,
       "detalhe": "Oferta adicionada após conferência da página oficial da Vivo: R$ 1.899,00 ou 12x de R$ 158,25 sem juros; produto disponível para adicionar ao carrinho; bivolt confirmado pela especificação oficial do adaptador Nintendo HAC-002. Frete grátis é anunciado pela loja, mas CEP/prazo não foram consultados; condição de login permanece como ressalva."
+    },
+    {
+      "data": "2026-11-07T09:08:26-03:00",
+      "acao": "adicao",
+      "id": "ferreiracosta-bosch-gbh-2-26-dre-220v",
+      "nome": "Martelete Perfurador Rompedor Bosch GBH 2-26 DRE 800W 220V com Maleta",
+      "categoria": "Ferramentas",
+      "loja": "Ferreira Costa",
+      "precoAtual": 1519.91,
+      "detalhe": "Oferta adicionada após conferência da página da Ferreira Costa: R$ 1.519,91 à vista no Pix ou cartão; 10x de R$ 159,99 sem juros; modelo GBH 2-26 DRE e variante 220V confirmados. Imagem direta do mesmo modelo obtida em CDN da Leroy Merlin. Frete e prazo não confirmados para o CEP 72620-405."
     }
   ]
 }
