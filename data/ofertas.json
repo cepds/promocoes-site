@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-07T21:04:56.000Z",
-  "total": 149,
+  "geradoEm": "2026-11-08T08:55:55-03:00",
+  "total": 145,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -14,7 +14,7 @@
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/sofa-4-lugares-retratil-e-reclinavel-260cm-multimoveis-cr45242/multimoveis2/cr45242-u57/9e71b90b65af1c48d06043204e526f52.jpeg",
       "ativa": true,
       "dataEncontrada": "2026-09-11T19:30:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
       "cupom": "R$ 100 OFF",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
@@ -34,7 +34,14 @@
       "ultimaQuedaPreco": null,
       "modelo": "CR45242",
       "modeloFabricante": "CR45242",
-      "produtoGrupo": "multimoveis-cr45242-260cm"
+      "produtoGrupo": "multimoveis-cr45242-260cm",
+      "precoPix": 2823.99,
+      "precoAvista": 2823.99,
+      "precoCartao": 3529.99,
+      "parcelas": 10,
+      "valorParcela": 353,
+      "condicaoPagamento": "R$ 2.823,99 no Pix; R$ 3.529,99 em 10x de R$ 353,00 sem juros.",
+      "observacoes": "Em 08/11/2026, Magalu reconfirmou R$ 2.823,99 no Pix e R$ 3.529,99 em 10x de R$ 353,00 sem juros; vendido por Multimóveis e entregue por Magalu. O cupom de R$ 100 aparece na página, mas não foi presumido como aplicado. Frete e prazo para CEP 72620-405 não confirmados."
     },
     {
       "id": "magalu-sofa-luna-180-vinho",
@@ -46,9 +53,9 @@
       "desconto": 15,
       "url": "https://www.magazineluiza.com.br/sofa-sem-caixa-retratil-180m-softgel-luna-velusoft-cama-inbox/p/jhgkge80b8/mo/msof/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/sofa-sem-caixa-retratil-180m-softgel-luna-velusoft-cama-inbox/camainbox2/13577/f137e1ea20635070ace05c2f51fac259.jpeg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T19:30:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -64,7 +71,8 @@
       "scoreOferta": 50,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "ultimaQuedaPreco": null,
+      "observacoes": "Inativada em 08/11/2026: anúncio Magalu exibiu R$ 2.099,00 no Pix, acima do último preço promocional registrado de R$ 2.027,45. Produto mantido no histórico, mas removido das ofertas ativas."
     },
     {
       "id": "magalu-sofa-secret-bau-bege",
@@ -161,14 +169,14 @@
       "nome": "Sofá Retrátil e Reclinável 2 Lugares 1,70m Mirela Suede Bege Adonai Estofados",
       "categoria": "Sofás",
       "loja": "Adonai Estofados no Magalu",
-      "precoAtual": 939.51,
-      "precoAnterior": 1079.9,
-      "desconto": 13,
+      "precoAtual": 934.92,
+      "precoAnterior": 939.51,
+      "desconto": 15,
       "url": "https://www.magazineluiza.com.br/sofa-retratil-e-reclinavel-2-lugares-170m-com-molas-mirela-suede-bege-adonai-estofados/p/ee9639bgdk/mo/esto/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/sofa-retratil-e-reclinavel-2-lugares-170m-com-molas-mirela-suede-bege-adonai-estofados/adonaiestofados/4383/1c602ab0e6884c6c7278ec9ea1ec5d6f.jpeg",
       "ativa": true,
       "dataEncontrada": "2026-09-11T19:39:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -177,14 +185,27 @@
           "preco": 939.51,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-08T08:55:55-03:00",
+          "preco": 934.92,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 939.51,
-      "precoMedioHistorico": 939.51,
+      "menorPrecoHistorico": 934.92,
+      "precoMedioHistorico": 937.21,
       "scoreOferta": 48,
       "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "variacaoPreco": -0.49,
+      "ultimaQuedaPreco": "2026-11-08T08:55:55-03:00",
+      "precoPix": 934.92,
+      "precoAvista": 934.92,
+      "precoCartao": 1099.9,
+      "parcelas": 10,
+      "valorParcela": 109.99,
+      "condicaoPagamento": "R$ 934,92 no Pix; R$ 1.099,90 em 10x de R$ 109,99 sem juros.",
+      "observacoes": "Em 08/11/2026, Magalu confirmou R$ 934,92 no Pix e R$ 1.099,90 em 10x de R$ 109,99 sem juros; vendido por Adonai Estofados e entregue por Magalu. Frete e prazo para CEP 72620-405 não confirmados."
     },
     {
       "id": "meli-sofa-samurai-usb-2m",
@@ -261,14 +282,14 @@
       "nome": "Rack com Painel Sevilla LED para TV até 70 polegadas",
       "categoria": "Móveis",
       "loja": "Loja Movelove no Magalu",
-      "precoAtual": 1375.63,
-      "precoAnterior": 1563.22,
+      "precoAtual": 1195.96,
+      "precoAnterior": 1375.63,
       "desconto": 12,
       "url": "https://www.magazineluiza.com.br/rack-com-painel-sevilla-led-efeito-ripado-3d-para-tv-ate-70-polegadas-183cm-jequitiba-off-white-perolizado-movelove/p/jkb6ckkkb2/mo/rkcp/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/rack-com-painel-sevilla-led-efeito-ripado-3d-para-tv-ate-70-polegadas-183cm-jequitiba-off-white-perolizado-movelove/lojamovelove/2158/f363dc752c8e8c0110dfc80087f79e8f.jpeg",
       "ativa": true,
       "dataEncontrada": "2026-09-11T19:30:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -277,28 +298,41 @@
           "preco": 1375.63,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-08T08:55:55-03:00",
+          "preco": 1195.96,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 1375.63,
-      "precoMedioHistorico": 1375.63,
+      "menorPrecoHistorico": 1195.96,
+      "precoMedioHistorico": 1285.8,
       "scoreOferta": 47,
       "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "variacaoPreco": -13.06,
+      "ultimaQuedaPreco": "2026-11-08T08:55:55-03:00",
+      "precoPix": 1195.96,
+      "precoAvista": 1195.96,
+      "precoCartao": 1258.9,
+      "parcelas": 10,
+      "valorParcela": 125.89,
+      "condicaoPagamento": "R$ 1.195,96 no Pix; R$ 1.258,90 em 10x de R$ 125,89 sem juros.",
+      "observacoes": "Em 08/11/2026, Magalu confirmou R$ 1.195,96 no Pix e R$ 1.258,90 em 10x de R$ 125,89 sem juros; vendido por Loja Movelove e entregue por Magalu. Frete e prazo para CEP 72620-405 não confirmados."
     },
     {
       "id": "cozinha-demobile-alba",
       "nome": "Armário de Cozinha Compacta Demóbile Alba com Balcão 8 Portas",
       "categoria": "Cozinha",
       "loja": "Magazine Luiza",
-      "precoAtual": 999.4,
-      "precoAnterior": 1052,
+      "precoAtual": 999.38,
+      "precoAnterior": 999.4,
       "desconto": 5,
       "url": "https://www.magazineluiza.com.br/armario-de-cozinha-compacta-demobile-alba-com-balcao-8-portas-2-gavetas/p/240060800/mo/mocz/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/armario-de-cozinha-compacta-demobile-alba-com-balcao-8-portas-2-gavetas/magazineluiza/240060800/0b95575fa3617032b27f986194dc57aa.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-11T19:30:00Z",
-      "ultimaVerificacao": "2026-09-11T20:22:00Z",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -307,14 +341,27 @@
           "preco": 999.4,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-08T08:55:55-03:00",
+          "preco": 999.38,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 999.4,
-      "precoMedioHistorico": 999.4,
+      "menorPrecoHistorico": 999.38,
+      "precoMedioHistorico": 999.39,
       "scoreOferta": 40,
       "classificacaoOferta": "Normal",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "variacaoPreco": 0,
+      "ultimaQuedaPreco": "2026-11-08T08:55:55-03:00",
+      "precoPix": 999.38,
+      "precoAvista": 999.38,
+      "precoCartao": 1051.98,
+      "parcelas": 8,
+      "valorParcela": 131.5,
+      "condicaoPagamento": "R$ 999,38 no Pix; R$ 1.051,98 em 8x de R$ 131,50 sem juros (também há opção de 10x de R$ 105,20 no Cartão Magalu).",
+      "observacoes": "Em 08/11/2026, Magalu confirmou R$ 999,38 no Pix e R$ 1.051,98 em 8x de R$ 131,50 sem juros; vendido e entregue por Magalu. Opção adicional de 10x de R$ 105,20 no Cartão Magalu. Frete e prazo para CEP 72620-405 não confirmados."
     },
     {
       "id": "magalu-cozinha-emilly-293",
@@ -792,10 +839,10 @@
       "voltagem": "Bivolt",
       "url": "https://www.magazineluiza.com.br/smart-tv-tcl-55-polegadas-qled-4k-p7l-wifi-bluetooth-google-tv-hdr10-120-hz-vrr-aipq-55p7l/p/hgg9efe76k/et/elit/?seller_id=lojatclsemp",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/smart-tv-tcl-55-polegadas-qled-4k-p7l-wifi-bluetooth-google-tv-hdr10-120-hz-vrr-aipq-55p7l/lojatclsemp/33307/484606d0ab7dee5f528c29b31d8a03da.jpeg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:37:42.710Z",
-      "ultimaVerificacao": "2026-09-11T20:37:42.710Z",
-      "observacoes": "Preço e disponibilidade confirmados. Vendedor Loja TCL Semp com reputação 4,6 no Magalu e mais de 1 mil produtos vendidos. Voltagem Bivolt confirmada.",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
+      "observacoes": "Inativada em 08/11/2026: a página do anúncio no Magalu informou explicitamente 'Produto indisponível'. Não foi substituída por outro anúncio.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:37:42.710Z",
@@ -831,10 +878,10 @@
       "precoComFrete": null,
       "url": "https://www.magazineluiza.com.br/xiaomi-redmi-15c-256gb-8gb-ram-tela-imersiva-hd/p/cd30ge2968/te/r15c/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/xiaomi-redmi-15c-256gb-8gb-ram-tela-imersiva-hd/poloimports/96a0015/c8a49973b7569c233c4e8c7623d61699.jpeg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:37:42.710Z",
-      "ultimaVerificacao": "2026-09-11T20:37:42.710Z",
-      "observacoes": "Preço e disponibilidade confirmados. Vendedor Poloimports com reputação 4,4 no Magalu, mais de 5 mil produtos vendidos e entrega pelo Magalu.",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
+      "observacoes": "Inativada em 08/11/2026: a URL cadastrada do anúncio no Magalu retornou erro 404. Mantida no histórico, sem presumir outro anúncio equivalente.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:37:42.710Z",
@@ -952,13 +999,13 @@
       "nome": "Lavadora Mueller Family Aquatec 12kg Preta 220V",
       "categoria": "Máquinas de lavar",
       "loja": "Friopeças no Magalu",
-      "precoAtual": 621,
-      "precoAnterior": 690,
-      "desconto": 10,
+      "precoAtual": 493.2,
+      "precoAnterior": 621,
+      "desconto": 45,
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/lavadora-de-roupas-mueller-12kg-family-aquatec-preta-220-volts/p/khkb67e324/ed/mmlp/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/lavadora-de-roupas-mueller-12kg-family-aquatec-preta-220-volts/friopecas/155442/b1243fe5ed069a72e5b0b0d6ccd8b97d.jpeg",
-      "observacoes": "Preço, disponibilidade e voltagem 220V verificados. Vendido e entregue por Friopeças.",
+      "observacoes": "Em 08/11/2026, Magalu confirmou a variante 220V por R$ 493,20 no Pix ou R$ 548,00 em 4x de R$ 137,00 sem juros; vendido e entregue por Friopeças. Frete e prazo para CEP 72620-405 não confirmados.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -968,21 +1015,33 @@
       "precoComFrete": null,
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-11T20:46:39.144Z",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
           "preco": 621,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-08T08:55:55-03:00",
+          "preco": 493.2,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 621,
-      "precoMedioHistorico": 621,
+      "menorPrecoHistorico": 493.2,
+      "precoMedioHistorico": 557.1,
       "scoreOferta": 46,
       "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "variacaoPreco": -20.58,
+      "ultimaQuedaPreco": "2026-11-08T08:55:55-03:00",
+      "precoPix": 493.2,
+      "precoAvista": 493.2,
+      "precoCartao": 548,
+      "parcelas": 4,
+      "valorParcela": 137,
+      "condicaoPagamento": "R$ 493,20 no Pix; R$ 548,00 em 4x de R$ 137,00 sem juros."
     },
     {
       "id": "magalu-electrolux-lfc12-12kg-220v-feec5d2a10",
@@ -996,7 +1055,7 @@
       "voltagem": "220V",
       "url": "https://m.magazineluiza.com.br/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/feec5d2a10/ed/lava/",
       "imagem": "https://a-static.mlcdn.com.br/420x420/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/electrolux/310128347/12e7e6733a4536bf020729d920187ead.jpeg",
-      "observacoes": "Preço e voltagem 220V verificados. Vendido e entregue pela Electrolux.",
+      "observacoes": "Inativada em 08/11/2026: a página Magalu exibiu R$ 3.299,00 para a LFC12, acima do último preço promocional registrado de R$ 3.048,99. A página apresenta variantes 110V e 220V; não foi presumida uma variante selecionada.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1004,9 +1063,9 @@
       "freteGratis": false,
       "cepFrete": "72620-405",
       "precoComFrete": null,
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-11T20:46:39.144Z",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
@@ -5420,10 +5479,10 @@
       "voltagem": "Bivolt",
       "url": "https://www.dell.com/pt-br/shop/laptop-computers/spd/dell15laptopdc15250/dc15250_ltd_06?view=configurations",
       "imagem": "https://www.laptopvip.vn/images/detailed/43/laptop-dell-dc15250nt-bk-plastic-gallery-1-www.laptopvip.vn-1749118542.png",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-10-23T09:08:25-03:00",
-      "ultimaVerificacao": "2026-10-23T09:08:25-03:00",
-      "observacoes": "Preço, configuração e pagamento consultados na página da Dell Brasil; frete, prazo e disponibilidade de estoque não foram confirmados para o CEP 72620-405. Imagem direta correspondente ao modelo DC15250; histórico próprio iniciado nesta verificação.",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
+      "observacoes": "Inativada em 08/11/2026: Dell Brasil exibiu R$ 7.498,87 para a configuração DC15250 Core i5-1334U, 16GB, 512GB SSD e Windows 11 Home; mesmo aplicando o cupom DELL5 de 5%, o valor estimado fica acima do último preço promocional registrado de R$ 6.498,66. A oferta antiga foi preservada no histórico.",
       "historicoPrecos": [
         {
           "data": "2026-10-23T09:08:25-03:00",
@@ -6567,16 +6626,58 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "terabyteshop-gigabyte-gs24f14-20261108",
+      "nome": "Monitor Gamer Gigabyte GS24F14 23,8 pol. IPS Full HD 144Hz 1ms",
+      "categoria": "Informática",
+      "loja": "TerabyteShop",
+      "seloLoja": "",
+      "modelo": "GS24F14",
+      "modeloFabricante": "Gigabyte GS24F14",
+      "produtoGrupo": "gigabyte-gs24f14-23-8-ips-144hz",
+      "precoAtual": 499.99,
+      "precoAnterior": 752.9,
+      "precoPix": 499.99,
+      "precoAvista": 499.99,
+      "precoCartao": 588.22,
+      "parcelas": 12,
+      "valorParcela": 49.02,
+      "condicaoPagamento": "R$ 499,99 à vista no boleto ou Pix; R$ 588,22 em 12x de R$ 49,02 sem juros no cartão.",
+      "desconto": 34,
+      "cupom": "",
+      "cashback": "",
+      "frete": "Frete grátis anunciado apenas para RS, PR, SC, SP, MG, RJ e ES; consultar para o CEP 72620-405",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Restam 148 unidades (informado na página da TerabyteShop)",
+      "voltagem": "Bivolt (AC 100–240V, 50/60Hz)",
+      "url": "https://www.terabyteshop.com.br/produto/41251/monitor-gamer-gigabyte-gs24f14-238-pol-full-hd-ips-144hz-1ms-104srgb-hdmidp",
+      "imagem": "https://img.terabyteshop.com.br/produto/g/monitor-gamer-gigabyte-gs24f14-238-pol-full-hd-ips-144hz-1ms-104srgb-hdmidp_285485.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-08T08:55:55-03:00",
+      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
+      "observacoes": "Preço anunciado em 08/11/2026: R$ 499,99 à vista no Pix/boleto e R$ 588,22 em até 12x de R$ 49,02 sem juros. A TerabyteShop informa frete grátis somente para RS, PR, SC, SP, MG, RJ e ES; frete e prazo para CEP 72620-405 (DF) não confirmados. Estoque exibido: 148 unidades. Tensão AC 100–240V, 50/60Hz conforme especificação oficial Gigabyte. O desconto de 34% usa o preço de referência informado pela loja; não há histórico independente anterior deste produto no catálogo.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-08T08:55:55-03:00",
+          "preco": 499.99,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 499.99,
+      "precoMedioHistorico": 499.99,
+      "scoreOferta": 68,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-12T12:06:08.071Z",
-      "tipo": "adicionado",
-      "produto": "Fogão Brastemp 4 Bocas Inox Mesa de Vidro Dupla Chama e Grill BFO4VBR 220V",
-      "id": "brastemp-bfo4vbr-fogao-4b-220v",
-      "detalhe": "Oferta adicionada de Loja Oficial Brastemp com preço e disponibilidade verificados."
-    },
     {
       "data": "2026-09-12T12:06:08.071Z",
       "tipo": "adicionado",
@@ -7910,6 +8011,84 @@
       "tipo": "verificacao",
       "ofertaId": "vivo-nintendo-switch-oled-mario-wonder-nso-20261106",
       "detalhes": "Preço de R$ 1.899,00 e 12x de R$ 158,25 sem juros reconfirmados na Loja Online Vivo; botão para adicionar ao carrinho ativo. Sem alteração de preço; histórico preservado. Ressalva de login mantida."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "magalu-sofa-multimoveis-cr45242",
+      "detalhes": "Preço Pix de R$ 2.823,99 reconfirmado; cartão R$ 3.529,99 em 10x sem juros. Sem mudança de preço; histórico preservado."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "magalu-sofa-luna-180-vinho",
+      "detalhes": "Preço Pix atual R$ 2.099,00 acima do último preço promocional registrado de R$ 2.027,45."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "magalu-sofa-mirela-170-bege",
+      "precoAnterior": 939.51,
+      "precoAtual": 934.92,
+      "detalhes": "Preço Pix caiu de R$ 939,51 para R$ 934,92; cartão R$ 1.099,90 em 10x sem juros."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "rack-sevilla-led-70",
+      "precoAnterior": 1375.63,
+      "precoAtual": 1195.96,
+      "detalhes": "Preço Pix caiu de R$ 1.375,63 para R$ 1.195,96; cartão R$ 1.258,90 em 10x sem juros."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "cozinha-demobile-alba",
+      "precoAnterior": 999.4,
+      "precoAtual": 999.38,
+      "detalhes": "Preço Pix ajustado de R$ 999,40 para R$ 999,38; cartão R$ 1.051,98 em 8x sem juros."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "magalu-tcl-55p7l-55-qled",
+      "detalhes": "Página do anúncio Magalu exibiu explicitamente 'Produto indisponível'."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "magalu-xiaomi-redmi-15c-256gb-azul",
+      "detalhes": "URL cadastrada do anúncio retornou 404 na verificação de 08/11/2026."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "magalu-mueller-family-aquatec-12kg-220v-khkb67e324",
+      "precoAnterior": 621,
+      "precoAtual": 493.2,
+      "detalhes": "Preço Pix caiu de R$ 621,00 para R$ 493,20; variante 220V confirmada; cartão R$ 548,00 em 4x sem juros."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "magalu-electrolux-lfc12-12kg-220v-feec5d2a10",
+      "detalhes": "Preço atual exibido de R$ 3.299,00 acima do último preço promocional de R$ 3.048,99; página apresenta variantes 110V/220V sem confirmação de seleção."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "dell-15-dc15250-i5-16gb-512gb-oficial",
+      "detalhes": "Configuração i5/16GB/512GB/Windows 11 Home a R$ 7.498,87; com DELL5 5% ainda acima do último preço registrado de R$ 6.498,66."
+    },
+    {
+      "data": "2026-11-08T08:55:55-03:00",
+      "tipo": "adicao",
+      "ofertaId": "terabyteshop-gigabyte-gs24f14-20261108",
+      "nome": "Monitor Gamer Gigabyte GS24F14 23,8 pol. IPS Full HD 144Hz 1ms",
+      "categoria": "Informática",
+      "loja": "TerabyteShop",
+      "precoAtual": 499.99,
+      "detalhes": "Oferta adicionada após conferência da página TerabyteShop: R$ 499,99 no Pix/boleto ou R$ 588,22 em 12x de R$ 49,02 sem juros; estoque anunciado de 148 unidades. Modelo GS24F14 e tensão AC 100–240V confirmados em ficha oficial Gigabyte. Frete grátis não cobre DF; CEP e prazo não confirmados."
     }
   ]
 }
