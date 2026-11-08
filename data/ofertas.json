@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-08T08:55:55-03:00",
-  "total": 145,
+  "geradoEm": "2026-11-08T18:03:28-03:00",
+  "total": 146,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6675,16 +6675,56 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "mobly-sofa-berna-suede-grafite-813093-20261108",
+      "nome": "Sofá 3 Lugares Retrátil Berna Suede Grafite 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "seloLoja": "Vendido e entregue pela Mobly",
+      "modelo": "Berna",
+      "produtoGrupo": "mobly-berna-813093-180cm-suede-grafite",
+      "precoAtual": 1014.04,
+      "precoAnterior": 2079.99,
+      "precoPix": 1014.04,
+      "precoAvista": 1014.04,
+      "precoCartao": 1192.99,
+      "parcelas": 10,
+      "valorParcela": 119.29,
+      "condicaoPagamento": "R$ 1.014,04 à vista com Pix; R$ 1.192,99 em até 10x de R$ 119,29 sem juros.",
+      "desconto": 51,
+      "cupom": "",
+      "cashback": 175,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Envio imediato",
+      "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-berna-suede-grafite-180-cm-842570.html",
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Suede-Grafite-180-cm-9005-075248-7.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-08T18:03:28-03:00",
+      "ultimaVerificacao": "2026-11-08T18:03:28-03:00",
+      "observacoes": "Página do produto consultada em 08/11/2026: R$ 1.014,04 no Pix; R$ 1.192,99 em até 10x de R$ 119,29 sem juros. Preço de referência R$ 2.079,99; a Mobly anuncia 51% de economia, cashback de R$ 175 e envio imediato. O desconto usa o preço de referência informado pela própria loja; não há histórico independente anterior. Frete e prazo não foram confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-08T18:03:28-03:00",
+          "preco": 1014.04,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 1014.04,
+      "precoMedioHistorico": 1014.04,
+      "scoreOferta": 62,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-12T12:06:08.071Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Brastemp Frost Free Duplex 415L Branca BRM51MB 220V",
-      "id": "brastemp-brm51mb-415l-branca-220v",
-      "detalhe": "Oferta adicionada de Loja Oficial Brastemp com preço e disponibilidade verificados."
-    },
     {
       "data": "2026-09-12T12:06:08.071Z",
       "tipo": "adicionado",
@@ -8089,6 +8129,16 @@
       "loja": "TerabyteShop",
       "precoAtual": 499.99,
       "detalhes": "Oferta adicionada após conferência da página TerabyteShop: R$ 499,99 no Pix/boleto ou R$ 588,22 em 12x de R$ 49,02 sem juros; estoque anunciado de 148 unidades. Modelo GS24F14 e tensão AC 100–240V confirmados em ficha oficial Gigabyte. Frete grátis não cobre DF; CEP e prazo não confirmados."
+    },
+    {
+      "data": "2026-11-08T18:03:28-03:00",
+      "tipo": "adicao",
+      "ofertaId": "mobly-sofa-berna-suede-grafite-813093-20261108",
+      "nome": "Sofá 3 Lugares Retrátil Berna Suede Grafite 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "precoAtual": 1014.04,
+      "detalhes": "Adicionada após conferência da página do produto: R$ 1.014,04 no Pix ou R$ 1.192,99 em até 10x de R$ 119,29 sem juros; modelo Berna, 180 cm, grafite, SKU 813093; vendido e entregue pela Mobly; envio imediato; frete e prazo não confirmados para CEP 72620-405."
     }
   ]
 }
