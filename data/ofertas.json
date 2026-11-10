@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-09T17:59:30-03:00",
-  "total": 145,
+  "geradoEm": "2026-11-10T08:57:24-03:00",
+  "total": 146,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6824,16 +6824,52 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "terabyteshop-monitor-duex-dxmo24f180-20261110",
+      "nome": "Monitor Gamer Duex 24\" Full HD IPS 180Hz 1ms DXMO24F180",
+      "categoria": "Informática",
+      "loja": "TerabyteShop",
+      "modelo": "DXMO24F180",
+      "modeloFabricante": "DXMO24F180",
+      "produtoGrupo": "duex-dxmo24f180",
+      "precoAtual": 569.99,
+      "precoPix": 569.99,
+      "precoAvista": 569.99,
+      "precoCartao": 670.58,
+      "parcelas": 12,
+      "valorParcela": 55.88,
+      "condicaoPagamento": "R$ 569,99 à vista no boleto ou Pix (15% de desconto); R$ 670,58 em até 12x de R$ 55,88 sem juros no cartão.",
+      "desconto": 26,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": false,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": null,
+      "estoqueStatus": "Restam 12 unidades; pronta entrega",
+      "voltagem": "Bivolt (100–240 V)",
+      "url": "https://www.terabyteshop.com.br/produto/38152/monitor-gamer-duex-24-pol-full-hd-1ms-180hz-ips-freesync-hdmidp-dxmo24f180",
+      "imagem": "https://img.terabyteshop.com.br/produto/g/monitor-gamer-duex-24-pol-full-hd-1ms-180hz-ips-freesync-hdmidp-dxmo24f180_249070.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-10T08:57:24-03:00",
+      "ultimaVerificacao": "2026-11-10T08:57:24-03:00",
+      "observacoes": "Preço, pagamento, estoque, modelo, imagem e alimentação 100–240 V conferidos na página da TerabyteShop em 10/11/2026. O desconto de 26% é o percentual anunciado pela loja sobre o preço de referência de R$ 771,90; não há histórico anterior independente para validar esse desconto. Frete grátis é anunciado somente para RS, PR, SC, SP, MG, RJ e ES; valor e prazo para o CEP 72620-405 não foram confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-10T08:57:24-03:00",
+          "preco": 569.99,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 569.99,
+      "precoMedioHistorico": 569.99,
+      "scoreOferta": 58,
+      "classificacaoOferta": "Normal"
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-11T20:57:32.136Z",
-      "tipo": "adicionado",
-      "produto": "Máquina de Lavar Brastemp 16Kg Cinza Timer Pro BWT16A9",
-      "id": "brastemp-bwt16a9-16kg-220v",
-      "detalhe": "Oferta adicionada de Loja Oficial Brastemp com preço e disponibilidade verificados."
-    },
     {
       "data": "2026-09-11T20:57:32.136Z",
       "tipo": "adicionado",
@@ -8250,6 +8286,16 @@
       "loja": "Loja Online Vivo",
       "precoAtual": 999,
       "detalhes": "Adicionada após conferência da página da Loja Online Vivo: Samsung H5000F 32 polegadas por R$ 999,00 ou 12x de R$ 83,25 sem juros; modelo UN32H5000FGXZD, EAN 7892509138291 e bivolt 100–240 V confirmados. Frete grátis anunciado para a loja, sem consulta do CEP 72620-405."
+    },
+    {
+      "data": "2026-11-10T08:57:24-03:00",
+      "tipo": "adicao",
+      "ofertaId": "terabyteshop-monitor-duex-dxmo24f180-20261110",
+      "nome": "Monitor Gamer Duex 24\" Full HD IPS 180Hz 1ms DXMO24F180",
+      "categoria": "Informática",
+      "loja": "TerabyteShop",
+      "precoAtual": 569.99,
+      "detalhes": "Nova oferta adicionada após conferência da página da TerabyteShop: monitor Duex DXMO24F180 24 pol., Full HD IPS 180Hz, 100–240 V; R$ 569,99 no Pix/boleto ou R$ 670,58 em 12x sem juros. Estoque anunciado: 12 unidades. Frete para o CEP 72620-405 não confirmado."
     }
   ]
 }
