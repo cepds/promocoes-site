@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-11T08:56:31-03:00",
+  "geradoEm": "2026-11-11T17:57:57-03:00",
   "total": 148,
   "ofertas": [
     {
@@ -5982,7 +5982,7 @@
       "loja": "Loja Motorola Oficial no Magalu",
       "seloLoja": "Loja Oficial",
       "modelo": "Moto G Max 5G 256GB",
-      "modeloFabricante": "Moto G Max 5G 256GB",
+      "modeloFabricante": "XT2621-5",
       "produtoGrupo": "motorola-moto-g-max-5g-256gb-8gb-ram-grafite",
       "precoAtual": 2499,
       "precoPix": 2499,
@@ -6002,8 +6002,8 @@
       "imagem": "https://a-static.mlcdn.com.br/420x420/smartphone-motorola-moto-g-max-5g-256gb-8gb-ram-16gb-ram-boost-camera-200mp-ois-tela-1-5k-extreme-amoled-120hz-ip68-e-ip69/lojamotorolaoficial/1911/c28d16e3b8674356f94b9b19ff0cc8d8.jpg",
       "ativa": true,
       "dataEncontrada": "2026-10-27T18:02:26-03:00",
-      "ultimaVerificacao": "2026-10-27T18:02:26-03:00",
-      "observacoes": "Preço Pix/cartão, modelo e venda pela Loja Motorola Oficial com entrega pelo Magalu conferidos em 27/10/2026. Histórico próprio insuficiente para confirmar menor preço histórico. Frete, prazo e estoque não confirmados para o CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-11T17:57:57-03:00",
+      "observacoes": "Preço Pix/cartão, modelo e venda pela Loja Motorola Oficial com entrega pelo Magalu conferidos em 27/10/2026. Histórico próprio insuficiente para confirmar menor preço histórico. Frete, prazo e estoque não confirmados para o CEP 72620-405. Em 11/11/2026, anúncio da Loja Motorola Oficial no Magalu reconfirmado a R$ 2.499,00 no Pix e R$ 2.776,67 em 10x de R$ 277,67 sem juros; preço sem alteração. EAN 7892597452217 e modelo XT2621-5 confirmados em página oficial Vivo do mesmo aparelho.",
       "historicoPrecos": [
         {
           "data": "2026-10-27T18:02:26-03:00",
@@ -6017,7 +6017,8 @@
       "scoreOferta": 50,
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "ultimaQuedaPreco": null,
+      "ean": "7892597452217"
     },
     {
       "id": "kabum-acer-aspire-go-15-ag15-71p-53d9-20261027",
@@ -6401,10 +6402,10 @@
       "estoqueStatus": "Envio imediato",
       "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-e-reclinavel-biarritz-suede-grafite-664194.html",
       "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Biarritz-Suede-Grafite-4030-491466-2.jpg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-11-03T09:03:18-03:00",
-      "ultimaVerificacao": "2026-11-03T09:03:18-03:00",
-      "observacoes": "Preço de R$ 1.191,90 no Pix e R$ 1.402,24 em até 10x sem juros, vendido e entregue pela Mobly. A página informa envio imediato e cashback de R$ 200. Frete e prazo não foram confirmados para o CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-11T17:57:57-03:00",
+      "observacoes": "Inativada em 11/11/2026: a página Mobly exibiu R$ 1.274,99 no Pix, acima do último preço promocional registrado de R$ 1.191,90. Produto mantido no histórico, mas removido das ofertas ativas.",
       "historicoPrecos": [
         {
           "data": "2026-11-03T09:03:18-03:00",
@@ -7022,30 +7023,53 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "vivo-motorola-moto-g-max-5g-256gb-grafite-20261111",
+      "nome": "Smartphone Motorola Moto G Max 5G 256GB Grafite 8GB RAM + 16GB RAM Boost",
+      "categoria": "Celulares",
+      "loja": "Loja Vivo",
+      "seloLoja": "Loja Oficial",
+      "ean": "7892597452217",
+      "modelo": "Moto G Max 5G 256GB",
+      "modeloFabricante": "XT2621-5",
+      "produtoGrupo": "motorola-moto-g-max-5g-256gb-8gb-ram-grafite",
+      "precoAtual": 2599,
+      "precoAnterior": 2799,
+      "precoCartao": 2599,
+      "parcelas": 12,
+      "valorParcela": 216.58,
+      "condicaoPagamento": "R$ 2.599,00 em até 12x de R$ 216,58 sem juros.",
+      "desconto": 7.14,
+      "frete": "Consultar na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "url": "https://store.vivo.com.br/smartphone-motorola-moto-g-max-5g-256gb-grafite-8gb-ram-16gb-ram-boost-tela-6-8-cam-traseira-200-mp-frontal-32-mp/p/TGMO6105",
+      "imagem": "https://m.magazineluiza.com.br/a-static/420x420/smartphone-motorola-moto-g-max-5g-256gb-8gb-ram-16gb-ram-boost-camera-200mp-ois-tela-1-5k-extreme-amoled-120hz-ip68-e-ip69/lojamotorolaoficial/1911/7edbcc35678e744c1800fbc556dc40ca.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-11T17:57:57-03:00",
+      "ultimaVerificacao": "2026-11-11T17:57:57-03:00",
+      "observacoes": "Página oficial da Vivo exibiu R$ 2.599,00 (de R$ 2.799,00) e até 12x de R$ 216,58 sem juros. A página da campanha Purple Friday informa que clientes Vivo têm descontos exclusivos; confirmar elegibilidade no checkout. Modelo XT2621-5, EAN 7892597452217 e cor grafite confirmados. Imagem direta reaproveitada do anúncio oficial Motorola no Magalu para o mesmo modelo/EAN. Frete e prazo para CEP 72620-405 não confirmados; histórico próprio ainda insuficiente para validar desconto real.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-11T17:57:57-03:00",
+          "preco": 2599,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2599,
+      "precoMedioHistorico": 2599,
+      "scoreOferta": 50,
+      "classificacaoOferta": "Normal",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Lava e Seca Smart LG 18kg Black Inox AI DD 2.0 220V",
-      "id": "magalu-lg-lava-seca-18kg-220v-ah49g03fkd",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Máquina de Lavar Midea Wave Agitator 15kg Branca 220V",
-      "id": "magalu-midea-wave-15kg-220v-jg869a58c8",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Máquina de Lavar Mueller Energy Automática 8kg 220V",
-      "id": "magalu-mueller-energy-8kg-220v-kac0gf324b",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
     {
       "data": "2026-09-11T20:46:39.144Z",
       "tipo": "adicionado",
@@ -8458,6 +8482,28 @@
       "loja": "Multimóveis no Magalu",
       "precoAtual": 959.99,
       "detalhes": "Adicionado após confirmação de R$ 959,99 no Pix ou R$ 1.199,99 em 10x; loja oficial Multimóveis no Magalu, modelo CRCOL-RCP026 e imagem direta conferidos."
+    },
+    {
+      "data": "2026-11-11T17:57:57-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "mobly-sofa-biarritz-grafite-641112",
+      "detalhes": "Mobly exibiu R$ 1.274,99 no Pix para o SKU 641112, acima do último promocional registrado de R$ 1.191,90; oferta inativada pela regra de retenção."
+    },
+    {
+      "data": "2026-11-11T17:57:57-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "magalu-motorola-moto-g-max-256gb-oficial-20261027",
+      "detalhes": "Loja Motorola Oficial no Magalu manteve R$ 2.499,00 no Pix e R$ 2.776,67 em 10x; sem mudança no histórico. EAN e código XT2621-5 corroborados pela página oficial Vivo."
+    },
+    {
+      "data": "2026-11-11T17:57:57-03:00",
+      "tipo": "adicao",
+      "ofertaId": "vivo-motorola-moto-g-max-5g-256gb-grafite-20261111",
+      "nome": "Smartphone Motorola Moto G Max 5G 256GB Grafite 8GB RAM + 16GB RAM Boost",
+      "categoria": "Celulares",
+      "loja": "Loja Vivo",
+      "precoAtual": 2599,
+      "detalhes": "Adicionado anúncio da Loja Vivo a R$ 2.599,00 (de R$ 2.799,00), em até 12x de R$ 216,58; desconto sujeito à elegibilidade da campanha Vivo. EAN 7892597452217 e modelo XT2621-5 confirmados; agrupado com o mesmo produto da Loja Motorola Oficial no Magalu. Frete/prazo para CEP 72620-405 não confirmados."
     }
   ]
 }
