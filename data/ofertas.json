@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-10T18:01:09-03:00",
-  "total": 146,
+  "geradoEm": "2026-11-11T08:56:31-03:00",
+  "total": 148,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -6530,7 +6530,7 @@
       "ativa": true,
       "voltagem": "220V",
       "dataEncontrada": "2026-11-04T09:04:48-03:00",
-      "ultimaVerificacao": "2026-11-04T09:04:48-03:00",
+      "ultimaVerificacao": "2026-11-11T08:56:31-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -6550,7 +6550,7 @@
       "modelo": "9QC",
       "modeloFabricante": "BRI-PRIMEAIR-9QC-B",
       "produtoGrupo": "britania-primeair-9qc-9000btus-220v",
-      "observacoes": "Preço, modelo, voltagem e parcelamento conferidos na loja oficial. A página exibe R$ 1.749,90 e 10x de R$ 174,99 sem juros; o site anuncia 5% de desconto no Pix em faixa geral, mas não informa o preço Pix específico deste item. Frete e prazo não confirmados para o CEP 72620-405. Desconto de 58% é o percentual anunciado pela loja, não uma série histórica independente."
+      "observacoes": "Verificado em 11/11/2026 na loja oficial Britânia: Prime Air 9QC, 9.000 BTUs, 220V, por R$ 1.749,90 ou 10x de R$ 174,99 sem juros. O site anuncia 5% de desconto geral no Pix, mas o preço Pix específico do produto não foi informado; por isso, não foi presumido. Frete e prazo para CEP 72620-405 não confirmados."
     },
     {
       "id": "vivo-nintendo-switch-oled-mario-wonder-nso-20261106",
@@ -6929,30 +6929,102 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "fastshop-lg-oled55c6psa-20261111",
+      "nome": "Smart TV LG OLED evo AI 4K C6 55 polegadas 2026 OLED55C6PSA",
+      "categoria": "TVs",
+      "loja": "Loja Oficial LG na Fast Shop",
+      "seloLoja": "Loja Oficial",
+      "ean": "7893299968389",
+      "gtin": "7893299968389",
+      "codigoBarras": "7893299968389",
+      "modelo": "OLED55C6PSA",
+      "modeloFabricante": "OLED55C6PSA",
+      "produtoGrupo": "lg-oled55c6psa-55-oled-2026",
+      "precoAtual": 7309.14,
+      "precoAnterior": 8499,
+      "precoPix": 7309.14,
+      "precoAvista": 7309.14,
+      "condicaoPagamento": "R$ 7.309,14 no Pix; preço padrão exibido de R$ 8.499,00 antes do desconto Pix. Parcelamento não informado na página consultada.",
+      "desconto": 14,
+      "frete": "Consulte na loja",
+      "cepFrete": "72620-405",
+      "freteValor": null,
+      "freteGratis": null,
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "voltagem": "Bivolt (AC 100–240V)",
+      "url": "https://site.fastshop.com.br/smart-tv-lg-oled-evo-ai-4k-c6-55-polegadas-2026-195990/p",
+      "imagem": "https://www.lg.com/content/dam/channel/wcms/br/images/promocoes/2026/tv-av/oledc6/oled83c6/imagens-galeria-v2/1-galeria-oledc6psa-2010x1334.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+      "ativa": true,
+      "dataEncontrada": "2026-11-11T08:56:31-03:00",
+      "ultimaVerificacao": "2026-11-11T08:56:31-03:00",
+      "observacoes": "Fast Shop confirmou R$ 7.309,14 no Pix e preço padrão exibido de R$ 8.499,00; vendido e entregue por Loja Oficial LG. Modelo OLED55C6PSA e EAN 7893299968389 confirmados na página da Fast Shop/LG; alimentação AC 100–240V confirmada na ficha técnica. O desconto de 14% é a diferença entre o preço Pix e o preço padrão exibido, não uma queda histórica comprovada. Frete e prazo não calculados para CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-11T08:56:31-03:00",
+          "preco": 7309.14,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 7309.14,
+      "precoMedioHistorico": 7309.14,
+      "scoreOferta": 60,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "magalu-multimoveis-crcol-rcp026-rack-painel-65-20261111",
+      "nome": "Rack com Painel Multimóveis CRCOL-RCP026 para TV até 65 polegadas LED Madeirado/Cinza",
+      "categoria": "Móveis",
+      "loja": "Multimóveis no Magalu",
+      "seloLoja": "Loja Oficial",
+      "modelo": "CRCOL-RCP026",
+      "modeloFabricante": "CRCOL-RCP026",
+      "produtoGrupo": "multimoveis-crcol-rcp026-rack-painel-tv-65",
+      "precoAtual": 959.99,
+      "precoAnterior": 1199.99,
+      "precoPix": 959.99,
+      "precoAvista": 959.99,
+      "precoCartao": 1199.99,
+      "parcelas": 10,
+      "valorParcela": 120,
+      "condicaoPagamento": "R$ 959,99 no Pix; R$ 1.199,99 em 10x de R$ 120,00 sem juros.",
+      "desconto": 20,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "url": "https://www.magazineluiza.com.br/rack-com-painel-para-tv-ate-65-polegadas-com-led-2-portas-3-nichos-multimoveis-crcol-rcp026/p/ckf71ac6dk/mo/rkcp/?seller_id=multimoveis2",
+      "imagem": "https://a-static.mlcdn.com.br/420x420/rack-com-painel-para-tv-ate-65-polegadas-com-led-2-portas-3-nichos-multimoveis-crcol-rcp026/multimoveis2/crcol-rcp026mdc/c34695e40826d7ec33191ea380f027cb.jpeg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-11T08:56:31-03:00",
+      "ultimaVerificacao": "2026-11-11T08:56:31-03:00",
+      "observacoes": "Vendido por Multimóveis e entregue por Magalu; página identifica a Multimóveis como loja oficial no Magalu, nota 5,0 e mais de 500 mil produtos vendidos. Preço confirmado de R$ 959,99 no Pix (20% abaixo do preço padrão exibido de R$ 1.199,99) ou R$ 1.199,99 em 10x de R$ 120,00 sem juros. Modelo CRCOL-RCP026, cor Madeirado/Cinza, painel para TV até 65 polegadas. Frete e prazo não calculados para CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-11T08:56:31-03:00",
+          "preco": 959.99,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 959.99,
+      "precoMedioHistorico": 959.99,
+      "scoreOferta": 70,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Máquina de Lavar Colormaq LCA14 14kg Automática 220V",
-      "id": "magalu-colormaq-lca14-14kg-220v-fe46ke30e3",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Máquina de Lavar Consul 16Kg CWN16AB Branca 220V",
-      "id": "magalu-consul-cwn16ab-16kg-220v-ckce4623fk",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Máquina de Lavar Brastemp 18Kg BWF18AB Branca 220V",
-      "id": "magalu-brastemp-bwf18ab-18kg-220v-ed46jf280b",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
     {
       "data": "2026-09-11T20:46:39.144Z",
       "tipo": "adicionado",
@@ -8360,6 +8432,32 @@
       "loja": "Loja Motorola Oficial no Magalu",
       "precoAtual": 2398.5,
       "detalhes": "Kit Moto G86 512GB + Moto Buds 2 adicionado do vendedor Loja Motorola Oficial no Magalu; R$ 2.398,50 no Pix ou R$ 2.665,00 em 10x, imagem direta confirmada."
+    },
+    {
+      "data": "2026-11-11T08:56:31-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "britania-primeair-9qc-220v",
+      "detalhes": "Britânia confirmou novamente o modelo 9QC 220V a R$ 1.749,90 ou 10x de R$ 174,99; preço sem alteração, sem novo registro no histórico."
+    },
+    {
+      "data": "2026-11-11T08:56:31-03:00",
+      "tipo": "adicao",
+      "ofertaId": "fastshop-lg-oled55c6psa-20261111",
+      "nome": "Smart TV LG OLED evo AI 4K C6 55 polegadas 2026 OLED55C6PSA",
+      "categoria": "TVs",
+      "loja": "Loja Oficial LG na Fast Shop",
+      "precoAtual": 7309.14,
+      "detalhes": "Adicionada após confirmação na Fast Shop: R$ 7.309,14 no Pix; modelo OLED55C6PSA, EAN 7893299968389 e alimentação bivolt 100–240V confirmados. Imagem direta da página oficial LG."
+    },
+    {
+      "data": "2026-11-11T08:56:31-03:00",
+      "tipo": "adicao",
+      "ofertaId": "magalu-multimoveis-crcol-rcp026-rack-painel-65-20261111",
+      "nome": "Rack com Painel Multimóveis CRCOL-RCP026 para TV até 65 polegadas",
+      "categoria": "Móveis",
+      "loja": "Multimóveis no Magalu",
+      "precoAtual": 959.99,
+      "detalhes": "Adicionado após confirmação de R$ 959,99 no Pix ou R$ 1.199,99 em 10x; loja oficial Multimóveis no Magalu, modelo CRCOL-RCP026 e imagem direta conferidos."
     }
   ]
 }
