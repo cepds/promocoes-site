@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-12T09:03:59-03:00",
-  "total": 147,
+  "geradoEm": "2026-11-12T18:03:21-03:00",
+  "total": 149,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1440,9 +1440,9 @@
       "categoria": "Máquinas de lavar",
       "loja": "Loja Oficial Electrolux",
       "seloLoja": "Loja Oficial",
-      "precoAtual": 1949,
-      "precoAnterior": 3169,
-      "desconto": 38,
+      "precoAtual": 1749,
+      "precoAnterior": 1949,
+      "desconto": 10.26,
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1455,25 +1455,32 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/266815/Washer_LED15_Basket_Electrolux_Portuguese4.jpg?v=638729934232300000",
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
-      "observacoes": "Oferta confirmada na Loja Oficial Electrolux em 11/09/2026. Página oferece variante 220V.",
+      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
+      "observacoes": "Em 12/11/2026, a Loja Oficial Electrolux exibiu R$ 1.749,00 para a lavadora LED15; a página oferece seleção de 127V ou 220V. Esta oferta corresponde à variante 220V, que deve ser selecionada antes da compra; a página não mostrou preço separado por voltagem. Frete e prazo para CEP 72620-405 não foram consultados.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
           "preco": 1949,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-12T18:03:21-03:00",
+          "preco": 1749,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 1949,
-      "precoMedioHistorico": 1949,
-      "scoreOferta": 78,
+      "menorPrecoHistorico": 1749,
+      "precoMedioHistorico": 1849,
+      "scoreOferta": 80,
       "classificacaoOferta": "Excelente",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
+      "variacaoPreco": -10.26,
+      "ultimaQuedaPreco": "2026-11-12T18:03:21-03:00",
       "modelo": "LED15",
       "modeloFabricante": "LED15",
-      "produtoGrupo": "electrolux-led15-15kg-220v"
+      "produtoGrupo": "electrolux-led15-15kg-220v",
+      "estoqueStatus": "Disponível para compra"
     },
     {
       "id": "electrolux-lfb12-12kg-220v",
@@ -3110,9 +3117,9 @@
       "modelo": "TF38",
       "modeloFabricante": "TF38",
       "produtoGrupo": "electrolux-tf38-320l-branca-220v",
-      "precoAtual": 2499,
-      "precoAnterior": 3189,
-      "desconto": 21,
+      "precoAtual": 2349,
+      "precoAnterior": 2499,
+      "desconto": 6,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
@@ -3122,23 +3129,31 @@
       "estoqueStatus": "Em estoque",
       "voltagem": "220V",
       "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-320l-duplex-branca-tf38/p",
-      "observacoes": "Preço, modelo TF38, EAN específico 220V 7909569472187 e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
+      "observacoes": "Em 12/11/2026, a Loja Oficial Electrolux exibiu R$ 2.349,00 para a geladeira TF38; a página oferece seleção de 127V ou 220V. Esta oferta corresponde à variante 220V, que deve ser selecionada antes da compra; a página não mostrou preço separado por voltagem. Frete e prazo para CEP 72620-405 não foram consultados.",
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/292138/Refrigerator_TF38_Front_Electrolux_Portuguese-1000x1000.raw.jpg?v=639102192178870000",
       "ativa": true,
       "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-09-14T12:10:52.647Z",
+      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T12:10:52.647Z",
           "preco": 2499,
           "freteValor": 0,
           "precoComFrete": 0
+        },
+        {
+          "data": "2026-11-12T18:03:21-03:00",
+          "preco": 2349,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 2499,
-      "precoMedioHistorico": 2499,
-      "scoreOferta": 69,
-      "classificacaoOferta": "Boa"
+      "menorPrecoHistorico": 2349,
+      "precoMedioHistorico": 2424,
+      "scoreOferta": 72,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": -6,
+      "ultimaQuedaPreco": "2026-11-12T18:03:21-03:00"
     },
     {
       "id": "electrolux-tf71s-481l-220v",
@@ -3319,11 +3334,11 @@
       "estoqueStatus": "Em estoque",
       "voltagem": "220V",
       "url": "https://loja.electrolux.com.br/air-fryer-electrolux-por-rita-lobo-4l-cinza-grand-efficient-1400w--eaf30-/p",
-      "observacoes": "Preço, modelo e disponibilidade de variante 220V confirmados na Loja Oficial Electrolux em 14/09/2026. A página consultada não exibiu preço anterior; desconto não foi inventado.",
+      "observacoes": "Em 12/11/2026, a Loja Oficial Electrolux exibiu R$ 369,90 e ofereceu seleção de 127V ou 220V. Preço igual ao último registro; selecionar 220V antes da compra. Frete e prazo não consultados.",
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/216097/Airfryer_EAF30_Perspective_Electrolux_Portuguese_600x600_principal.jpg?v=638751524130530000",
       "ativa": true,
       "dataEncontrada": "2026-09-14T12:12:33.225Z",
-      "ultimaVerificacao": "2026-09-14T12:12:33.225Z",
+      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T12:12:33.225Z",
@@ -6870,13 +6885,13 @@
       "modelo": "DXMO24F180",
       "modeloFabricante": "DXMO24F180",
       "produtoGrupo": "duex-dxmo24f180",
-      "precoAtual": 499.99,
-      "precoPix": 499.99,
-      "precoAvista": 499.99,
-      "precoCartao": 588.22,
+      "precoAtual": 569.99,
+      "precoPix": 569.99,
+      "precoAvista": 569.99,
+      "precoCartao": 670.58,
       "parcelas": 12,
-      "valorParcela": 49.02,
-      "condicaoPagamento": "R$ 499,99 à vista com 15% de desconto no Pix; R$ 588,22 em até 12x de R$ 49,02 sem juros no cartão.",
+      "valorParcela": 55.88,
+      "condicaoPagamento": "R$ 569,99 à vista com 15% de desconto no boleto ou Pix; R$ 670,58 em 12x de R$ 55,88 sem juros no cartão.",
       "desconto": 35,
       "frete": "Frete grátis somente para RS, PR, SC, SP, MG, RJ e ES; consultar valor para o CEP 72620-405.",
       "freteValor": null,
@@ -6884,14 +6899,14 @@
       "cepFrete": "72620-405",
       "precoComFrete": null,
       "prazoEntrega": null,
-      "estoqueStatus": "Restam 19 unidades; pronta entrega",
+      "estoqueStatus": "Restam 18 unidades; pronta entrega",
       "voltagem": "Bivolt (100–240 V)",
       "url": "https://www.terabyteshop.com.br/produto/38152/monitor-gamer-duex-24-pol-full-hd-1ms-180hz-ips-freesync-hdmidp-dxmo24f180",
       "imagem": "https://img.terabyteshop.com.br/produto/g/monitor-gamer-duex-24-pol-full-hd-1ms-180hz-ips-freesync-hdmidp-dxmo24f180_249070.jpg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-11-10T08:57:24-03:00",
-      "ultimaVerificacao": "2026-11-10T18:01:09-03:00",
-      "observacoes": "Em 10/11/2026, a página da TerabyteShop confirmou R$ 499,99 à vista no Pix e R$ 588,22 em 12x de R$ 49,02 sem juros; modelo DXMO24F180, alimentação 100–240 V e estoque anunciado de 19 unidades com pronta entrega. O preço caiu de R$ 569,99 para R$ 499,99 (12,28%); histórico atualizado. O desconto de 35% anunciado usa referência de R$ 771,90, sem histórico independente para validar esse percentual. Frete grátis é restrito a RS, PR, SC, SP, MG, RJ e ES; DF não está incluído, então frete e prazo para o CEP 72620-405 não foram confirmados.",
+      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
+      "observacoes": "Inativada em 12/11/2026: a TerabyteShop passou a exibir R$ 569,99 à vista no boleto/Pix, acima do último preço promocional registrado de R$ 499,99 (+14,00%). A página informa R$ 670,58 em 12x de R$ 55,88 sem juros, 18 unidades restantes e pronta entrega. Frete grátis anunciado apenas para RS, PR, SC, SP, MG, RJ e ES; DF não incluído. Frete e prazo para CEP 72620-405 não confirmados.",
       "historicoPrecos": [
         {
           "data": "2026-11-10T08:57:24-03:00",
@@ -6904,14 +6919,20 @@
           "preco": 499.99,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-12T18:03:21-03:00",
+          "preco": 569.99,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 499.99,
-      "precoMedioHistorico": 534.99,
-      "scoreOferta": 74,
-      "classificacaoOferta": "Boa",
-      "precoAnterior": 569.99,
-      "variacaoPreco": -12.28,
+      "precoMedioHistorico": 546.66,
+      "scoreOferta": 35,
+      "classificacaoOferta": "Normal",
+      "precoAnterior": 499.99,
+      "variacaoPreco": 14,
       "ultimaQuedaPreco": "2026-11-10T18:01:09-03:00"
     },
     {
@@ -6921,16 +6942,16 @@
       "loja": "Loja Motorola Oficial no Magalu",
       "seloLoja": "Loja Oficial",
       "modelo": "Moto G86 5G 512GB + Moto Buds 2",
-      "modeloFabricante": "Moto G86 5G 512GB",
+      "modeloFabricante": "XT2527-1",
       "produtoGrupo": "motorola-moto-g86-512gb-kit-motobuds2",
-      "precoAtual": 2398.5,
-      "precoAnterior": 2665,
-      "precoPix": 2398.5,
-      "precoAvista": 2398.5,
-      "precoCartao": 2665,
+      "precoAtual": 2159.1,
+      "precoAnterior": 2398.5,
+      "precoPix": 2159.1,
+      "precoAvista": 2159.1,
+      "precoCartao": 2399,
       "parcelas": 10,
-      "valorParcela": 266.5,
-      "condicaoPagamento": "R$ 2.398,50 no Pix (10% OFF); R$ 2.665,00 em 10x de R$ 266,50 sem juros.",
+      "valorParcela": 239.9,
+      "condicaoPagamento": "R$ 2.159,10 no Pix (10% OFF); R$ 2.399,00 em 10x de R$ 239,90 sem juros.",
       "desconto": 10,
       "frete": "Consulte na loja.",
       "freteValor": null,
@@ -6943,22 +6964,28 @@
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/kit-smartphone-motorola-moto-g86-512-gb-moto-buds-2/lojamotorolaoficial/2011/ee871edff6f6ed3736706a4309b14cd4.jpeg",
       "ativa": true,
       "dataEncontrada": "2026-11-10T18:01:09-03:00",
-      "ultimaVerificacao": "2026-11-10T18:01:09-03:00",
-      "observacoes": "Página do Magalu consultada em 10/11/2026: kit Motorola Moto G86 5G 512GB + Moto Buds 2, vendido por Loja Motorola Oficial e entregue pelo Magalu. Preço de R$ 2.398,50 no Pix (10% OFF) ou R$ 2.665,00 em 10x de R$ 266,50 sem juros. A loja oficial apresenta nota 4,6 e mais de 100 mil produtos vendidos; a página mostra as opções Adicionar à sacola e Comprar agora. Frete e prazo para CEP 72620-405 não confirmados. Imagem direta do anúncio conferida.",
+      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
+      "observacoes": "Em 12/11/2026, a página do Magalu confirmou o kit Moto G86 5G 512GB + Moto Buds 2, vendido pela Loja Motorola Oficial e entregue pelo Magalu: R$ 2.159,10 no Pix ou R$ 2.399,00 em 10x de R$ 239,90 sem juros. Loja com nota 4,6 e mais de 100 mil produtos vendidos. Modelo XT2527-1 e homologação Anatel 00489-25-00330 exibidos na ficha técnica. Frete e prazo para CEP 72620-405 não confirmados.",
       "historicoPrecos": [
         {
           "data": "2026-11-10T18:01:09-03:00",
           "preco": 2398.5,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-12T18:03:21-03:00",
+          "preco": 2159.1,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 2398.5,
-      "precoMedioHistorico": 2398.5,
-      "scoreOferta": 72,
+      "menorPrecoHistorico": 2159.1,
+      "precoMedioHistorico": 2278.8,
+      "scoreOferta": 80,
       "classificacaoOferta": "Boa",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "variacaoPreco": -9.98,
+      "ultimaQuedaPreco": "2026-11-12T18:03:21-03:00"
     },
     {
       "id": "fastshop-lg-oled55c6psa-20261111",
@@ -7142,65 +7169,144 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "mobly-sofa-berna-linho-grafite-813087-20261112",
+      "nome": "Sofá 3 Lugares Retrátil Berna Linho Grafite 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "seloLoja": "Vendido e entregue pela Mobly",
+      "modelo": "Berna",
+      "produtoGrupo": "mobly-berna-813087-180cm-linho-grafite",
+      "precoAtual": 764.99,
+      "precoPix": 764.99,
+      "precoAvista": 764.99,
+      "precoCartao": 899.99,
+      "parcelas": 10,
+      "valorParcela": 89.99,
+      "condicaoPagamento": "R$ 764,99 à vista com Pix; R$ 899,99 em até 10x de R$ 89,99 sem juros.",
+      "cashback": 125,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-berna-linho-grafite-180-cm-842564.html",
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-9507-465248-1.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-12T18:03:21-03:00",
+      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
+      "observacoes": "Página Mobly consultada em 12/11/2026: SKU 813087, vendido e entregue pela Mobly, R$ 764,99 no Pix ou R$ 899,99 em até 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. A loja exibe preço de referência de R$ 2.259,99, mas não há histórico independente para validar esse desconto como real. Frete e prazo para CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-12T18:03:21-03:00",
+          "preco": 764.99,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 764.99,
+      "precoMedioHistorico": 764.99,
+      "scoreOferta": 66,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "mobly-sofa-lubeck-suede-grafite-592995-20261112",
+      "nome": "Sofá 3 Lugares Retrátil Lubeck Suede Grafite 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "seloLoja": "Vendido e entregue pela Mobly",
+      "modelo": "Lubeck R180",
+      "produtoGrupo": "mobly-lubeck-r180-592995-180cm-suede-grafite",
+      "precoAtual": 943.47,
+      "precoPix": 943.47,
+      "precoAvista": 943.47,
+      "precoCartao": 1109.96,
+      "parcelas": 10,
+      "valorParcela": 110.99,
+      "condicaoPagamento": "R$ 943,47 à vista com Pix; R$ 1.109,96 em até 10x de R$ 110,99 sem juros.",
+      "cashback": 150,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-lubeck-suede-grafite-180-cm-615305.html",
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Lubeck-Suede-Grafite-180-cm-3563-503516-1.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-12T18:03:21-03:00",
+      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
+      "observacoes": "Página Mobly consultada em 12/11/2026: SKU 592995, modelo Lubeck R180, vendido e entregue pela Mobly, R$ 943,47 no Pix ou R$ 1.109,96 em até 10x de R$ 110,99 sem juros; cashback anunciado de R$ 150. A loja exibe preço de referência de R$ 1.769,99, mas não há histórico independente para validar esse desconto como real. Frete e prazo para CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-12T18:03:21-03:00",
+          "preco": 943.47,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 943.47,
+      "precoMedioHistorico": 943.47,
+      "scoreOferta": 64,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "magalu-dell-dc15i51334uu70-20261112",
+      "nome": "Notebook Dell 15 DC15I51334UU70 15,6\" Full HD Core i5 16GB 512GB SSD Linux",
+      "categoria": "Informática",
+      "loja": "Dell (Loja Oficial no Magalu)",
+      "seloLoja": "Loja Oficial",
+      "modelo": "DC15-I51334U-U70",
+      "modeloFabricante": "DC15I51334UU70",
+      "produtoGrupo": "dell-dc15-i51334u-u70-16gb-512gb-linux",
+      "precoAtual": 6230.07,
+      "precoAnterior": 6699,
+      "precoPix": 6230.07,
+      "precoAvista": 6230.07,
+      "precoCartao": 6699,
+      "parcelas": 10,
+      "valorParcela": 669.9,
+      "condicaoPagamento": "R$ 6.230,07 no Pix (7% OFF); R$ 6.699,00 em 10x de R$ 669,90 sem juros.",
+      "desconto": 7,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra; página permite selecionar quantidade de 1 a 20 unidades.",
+      "voltagem": "Bivolt (100–240V AC)",
+      "url": "https://www.magazineluiza.com.br/notebook-dell-15-dc15i51334uu70-15-6-full-hd-13a-gen-intel-core-i5-16gb-512gb-ssd-linux-preto/p/kk0j4632hg/in/nodl/?seller_id=dell",
+      "imagem": "https://a-static.mlcdn.com.br/420x420/notebook-dell-15-dc15i51334uu70-15-6-full-hd-13a-gen-intel-core-i5-16gb-512gb-ssd-linux-preto/dell/brpdc15250ubtohwjb-mp/32fc74c648ed6fc568e07fa8537a39fa.jpeg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-12T18:03:21-03:00",
+      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
+      "observacoes": "Página Magalu consultada em 12/11/2026: vendido e entregue por Dell, loja oficial no Magalu; R$ 6.230,07 no Pix ou R$ 6.699,00 em 10x de R$ 669,90 sem juros. Fonte bivolt 100–240V. A loja exibe nota 2,2 e mais de 200 mil produtos vendidos, com indicação de atrasos pontuais; esse sinal de reputação foi mantido explícito. Frete e prazo para CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-12T18:03:21-03:00",
+          "preco": 6230.07,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 6230.07,
+      "precoMedioHistorico": 6230.07,
+      "scoreOferta": 48,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-11T21:04:23.879Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free Inverter 481L AutoSense SmartBivolt IT70S",
-      "id": "electrolux-it70s-481l-bivolt-oficial",
-      "detalhe": "Oferta verificada adicionada de Loja Oficial Electrolux."
-    },
-    {
-      "data": "2026-09-11T21:04:23.879Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 5,6L Digital EAF45 220V",
-      "id": "electrolux-eaf45-56l-220v-oficial",
-      "detalhe": "Oferta verificada adicionada de Loja Oficial Electrolux."
-    },
-    {
-      "data": "2026-09-11T21:04:23.879Z",
-      "tipo": "adicionado",
-      "produto": "Fritadeira Elétrica WAP Air Fryer Family 4L 1500W 220V",
-      "id": "wap-air-fryer-family-4l-220v-oficial",
-      "detalhe": "Oferta verificada adicionada de Loja WAP."
-    },
-    {
-      "data": "2026-09-11T21:04:23.879Z",
-      "tipo": "adicionado",
-      "produto": "Jogo de Panelas Tramontina Ravena Starflon Max 5 Peças",
-      "id": "tramontina-ravena-5p-27899286-oficial",
-      "detalhe": "Oferta verificada adicionada de Tramontina Store."
-    },
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Gamer Acer Nitro V15 ANV15-52-77BG Core i7 16GB 512GB RTX 4050",
-      "id": "acer-anv15-52-77bg-rtx4050",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Acer Aspire GO 15 AG15-71P-73D2 Core i7 16GB 512GB Windows 11 Pro",
-      "id": "acer-ag15-71p-73d2",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Acer Aspire 16 A16-71M-55H0 Core Ultra 5 16GB 512GB",
-      "id": "acer-a16-71m-55h0",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Acer Aspire GO 15 AG15-51P-52BH Core 5 8GB 512GB",
-      "id": "acer-ag15-51p-52bh",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
     {
       "data": "2026-09-12T21:07:30.655Z",
       "tipo": "adicionado",
@@ -8584,6 +8690,75 @@
       "loja": "Mobly",
       "precoAtual": 764.99,
       "detalhes": "Adicionado sofá Berna Suede Bege 180cm da Mobly; R$ 764,99 no Pix, R$ 899,99 em 10x e cashback anunciado de R$ 125. Imagem direta da página confirmada; frete/prazo não confirmados para o CEP."
+    },
+    {
+      "data": "2026-11-12T18:03:21-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "electrolux-tf38-320l-220v",
+      "precoAnterior": 2499,
+      "precoAtual": 2349,
+      "detalhes": "Loja Oficial Electrolux reduziu a TF38 320L 220V de R$ 2.499,00 para R$ 2.349,00; variante 220V disponível para seleção. Frete/prazo não confirmados."
+    },
+    {
+      "data": "2026-11-12T18:03:21-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "electrolux-led15-15kg-220v",
+      "precoAnterior": 1949,
+      "precoAtual": 1749,
+      "detalhes": "Loja Oficial Electrolux reduziu a lavadora LED15 15kg 220V de R$ 1.949,00 para R$ 1.749,00; variante 220V disponível para seleção. Frete/prazo não confirmados."
+    },
+    {
+      "data": "2026-11-12T18:03:21-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "electrolux-eaf30-airfryer-4l-220v",
+      "precoAtual": 369.9,
+      "detalhes": "EAF30 4L: R$ 369,90 confirmado na Loja Oficial Electrolux; variante 220V selecionável; preço sem alteração."
+    },
+    {
+      "data": "2026-11-12T18:03:21-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "magalu-motorola-moto-g86-512gb-kit-buds2-20261110",
+      "precoAnterior": 2398.5,
+      "precoAtual": 2159.1,
+      "detalhes": "Kit Moto G86 512GB + Moto Buds 2 caiu de R$ 2.398,50 para R$ 2.159,10 no Pix na Loja Motorola Oficial do Magalu; cartão R$ 2.399,00 em 10x de R$ 239,90."
+    },
+    {
+      "data": "2026-11-12T18:03:21-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "terabyteshop-monitor-duex-dxmo24f180-20261110",
+      "precoAnterior": 499.99,
+      "precoAtual": 569.99,
+      "detalhes": "TerabyteShop elevou o DXMO24F180 de R$ 499,99 para R$ 569,99 (+14,00%); acima do último promocional. Página informa 18 unidades e pronta entrega; oferta inativada pela regra de retenção."
+    },
+    {
+      "data": "2026-11-12T18:03:21-03:00",
+      "tipo": "adicao",
+      "ofertaId": "mobly-sofa-berna-linho-grafite-813087-20261112",
+      "nome": "Sofá 3 Lugares Retrátil Berna Linho Grafite 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "precoAtual": 764.99,
+      "detalhes": "Adicionado após confirmação da página da loja: Sofá 3 Lugares Retrátil Berna Linho Grafite 180 cm; R$ 764,99 à vista com Pix; R$ 899,99 em até 10x de R$ 89,99 sem juros. Imagem direta conferida; frete/prazo não confirmados para o CEP."
+    },
+    {
+      "data": "2026-11-12T18:03:21-03:00",
+      "tipo": "adicao",
+      "ofertaId": "mobly-sofa-lubeck-suede-grafite-592995-20261112",
+      "nome": "Sofá 3 Lugares Retrátil Lubeck Suede Grafite 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "precoAtual": 943.47,
+      "detalhes": "Adicionado após confirmação da página da loja: Sofá 3 Lugares Retrátil Lubeck Suede Grafite 180 cm; R$ 943,47 à vista com Pix; R$ 1.109,96 em até 10x de R$ 110,99 sem juros. Imagem direta conferida; frete/prazo não confirmados para o CEP."
+    },
+    {
+      "data": "2026-11-12T18:03:21-03:00",
+      "tipo": "adicao",
+      "ofertaId": "magalu-dell-dc15i51334uu70-20261112",
+      "nome": "Notebook Dell 15 DC15I51334UU70 15,6\" Full HD Core i5 16GB 512GB SSD Linux",
+      "categoria": "Informática",
+      "loja": "Dell (Loja Oficial no Magalu)",
+      "precoAtual": 6230.07,
+      "detalhes": "Adicionado após confirmação da página da loja: Notebook Dell 15 DC15I51334UU70 15,6\" Full HD Core i5 16GB 512GB SSD Linux; R$ 6.230,07 no Pix (7% OFF); R$ 6.699,00 em 10x de R$ 669,90 sem juros. Imagem direta conferida; frete/prazo não confirmados para o CEP."
     }
   ]
 }
