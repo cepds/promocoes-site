@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-11T17:57:57-03:00",
-  "total": 148,
+  "geradoEm": "2026-11-12T09:03:59-03:00",
+  "total": 147,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -654,10 +654,10 @@
       "desconto": 8,
       "url": "https://www.magazineluiza.com.br/playstation-5-slim-disk-1tb-1-controle-branco-sony/p/240609000/ga/gap5/?seller_id=magazineluiza",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/playstation-5-slim-disk-1tb-1-controle-branco-sony/magazineluiza/240609000/d5d03fa3275793bec8a46b22fb8bf935.jpg",
-      "ativa": true,
+      "ativa": false,
       "voltagem": "Bivolt",
       "dataEncontrada": "2026-09-11T19:30:00Z",
-      "ultimaVerificacao": "2026-10-05T18:01:05-03:00",
+      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -690,8 +690,8 @@
       "parcelas": 10,
       "valorParcela": 509.9,
       "condicaoPagamento": "R$ 4.691,08 no Pix (8% OFF) ou R$ 5.099,00 em até 10x de R$ 509,90 sem juros no cartão de crédito",
-      "estoqueStatus": "Disponível para compra",
-      "observacoes": "Preço de R$ 4.691,08 no Pix e R$ 5.099,00 em até 10x sem juros, modelo PS5 Slim CFI 2114A, voltagem Bivolt e venda/entrega pelo Magalu confirmados em 05/10/2026. Frete e prazo dependem de consulta para o CEP."
+      "estoqueStatus": "Indisponível",
+      "observacoes": "Inativada em 12/11/2026: a página do Magalu exibe explicitamente “Produto indisponível” para o PlayStation 5 Slim Disk 1TB. Nenhum preço atual foi exibido; último preço promocional e histórico foram preservados."
     },
     {
       "id": "magalu-tcl-55c6k",
@@ -952,13 +952,13 @@
       "nome": "Máquina de Lavar Brastemp 16Kg BWF16AB Branca 220V",
       "categoria": "Máquinas de lavar",
       "loja": "Lojas TaQi no Magalu",
-      "precoAtual": 2436.66,
-      "precoAnterior": 2564.9,
-      "desconto": 5,
+      "precoAtual": 2168.76,
+      "precoAnterior": 2436.66,
+      "desconto": 18,
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/maquina-de-lavar-roupas-brastemp-16kg-bwf16ab-branca-220-volts/p/ak4d73dhff/ed/lava/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/maquina-de-lavar-roupas-brastemp-16kg-bwf16ab-branca-220-volts/lojastaqi/100082852/bc92228cf77c0e84d091e5dfba7d554f.jpg",
-      "observacoes": "Preço, pagamento, disponibilidade, modelo BWF16AB/BWF16ABBNA e voltagem 220V confirmados em 27/09/2026. Vendido e entregue por Lojas TaQi no Magalu; frete e prazo dependem da consulta do CEP.",
+      "observacoes": "Em 12/11/2026, página Magalu confirmou a variante 220V, vendida e entregue por Lojas TaQi: R$ 2.168,76 no Pix ou R$ 2.282,90 em 10x de R$ 228,29 sem juros. A página exibe R$ 2.659,90 como preço de referência (18% OFF). Frete e prazo para CEP 72620-405 não consultados.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -968,30 +968,36 @@
       "precoComFrete": null,
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-27T17:57:47-03:00",
+      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
           "preco": 2436.66,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-12T09:03:59-03:00",
+          "preco": 2168.76,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 2436.66,
-      "precoMedioHistorico": 2436.66,
-      "scoreOferta": 41,
-      "classificacaoOferta": "Normal",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
+      "menorPrecoHistorico": 2168.76,
+      "precoMedioHistorico": 2302.71,
+      "scoreOferta": 66,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": -10.99,
+      "ultimaQuedaPreco": "2026-11-12T09:03:59-03:00",
       "modelo": "BWF16AB",
       "modeloFabricante": "BWF16ABBNA",
       "produtoGrupo": "brastemp-bwf16ab-bwf16abbna-16kg-branca-220v",
-      "precoPix": 2436.66,
-      "precoAvista": 2436.66,
-      "precoCartao": 2564.9,
+      "precoPix": 2168.76,
+      "precoAvista": 2168.76,
+      "precoCartao": 2282.9,
       "parcelas": 10,
-      "valorParcela": 256.49,
-      "condicaoPagamento": "R$ 2.436,66 no Pix (5% OFF) ou R$ 2.564,90 em até 10x de R$ 256,49 sem juros.",
+      "valorParcela": 228.29,
+      "condicaoPagamento": "R$ 2.168,76 no Pix; R$ 2.282,90 em 10x de R$ 228,29 sem juros.",
       "estoqueStatus": "Disponível"
     },
     {
@@ -1089,13 +1095,13 @@
       "nome": "Máquina de Lavar Mueller Energy Automática 8kg 220V",
       "categoria": "Máquinas de lavar",
       "loja": "SBVendas no Magalu",
-      "precoAtual": 1399.11,
-      "precoAnterior": 1589.9,
-      "desconto": 12,
+      "precoAtual": 1410.92,
+      "precoAnterior": 1399.11,
+      "desconto": 29,
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/maquina-de-lavar-mueller-energy-automatica-8kg-ciclo-rapido-bco-220v/p/kac0gf324b/ed/lava/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/maquina-de-lavar-mueller-energy-automatica-8kg-ciclo-rapido-bco-220v/sanboxaudio/ti1740/8cbdeb189f7cf776137dcc20351f6ad0.jpeg",
-      "observacoes": "Preço, disponibilidade e voltagem 220V verificados no anúncio.",
+      "observacoes": "Inativada em 12/11/2026: página Magalu confirmou 220V, vendida por SBVendas e entregue por Magalu, a R$ 1.410,92 no Pix ou R$ 1.659,90 em 10x de R$ 165,99. O Pix supera o último preço promocional registrado de R$ 1.399,11; oferta inativada pela regra de retenção. Frete e prazo não consultados para CEP 72620-405.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1103,36 +1109,49 @@
       "freteGratis": false,
       "cepFrete": "72620-405",
       "precoComFrete": null,
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-11T20:46:39.144Z",
+      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
           "preco": 1399.11,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-12T09:03:59-03:00",
+          "preco": 1410.92,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 1399.11,
-      "precoMedioHistorico": 1399.11,
+      "precoMedioHistorico": 1405.02,
       "scoreOferta": 48,
       "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "variacaoPreco": 0.84,
+      "ultimaQuedaPreco": null,
+      "precoPix": 1410.92,
+      "precoAvista": 1410.92,
+      "precoCartao": 1659.9,
+      "parcelas": 10,
+      "valorParcela": 165.99,
+      "condicaoPagamento": "R$ 1.410,92 no Pix; R$ 1.659,90 em 10x de R$ 165,99 sem juros.",
+      "estoqueStatus": "Disponível para compra, mas acima do último preço promocional"
     },
     {
       "id": "magalu-midea-wave-15kg-220v-jg869a58c8",
       "nome": "Máquina de Lavar Midea Wave Agitator 15kg Branca 220V",
       "categoria": "Máquinas de lavar",
       "loja": "Lojas Certel no Magalu",
-      "precoAtual": 3092.69,
-      "precoAnterior": null,
+      "precoAtual": 2986.25,
+      "precoAnterior": 3092.69,
       "desconto": 0,
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/maquina-de-lavar-roupa-15kg-midea-wave-agitator-branca-220v/p/jg869a58c8/ed/lava/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/maquina-de-lavar-roupa-15kg-midea-wave-agitator-branca-220v/lojascertel/458621/2bb9edf22c9ce2352036aa9d79b76bf8.jpg",
-      "observacoes": "Preço, disponibilidade e voltagem 220V verificados. Vendido por Lojas Certel e entregue por Magalu.",
+      "observacoes": "Em 12/11/2026, Magalu confirmou a lavadora Midea Wave Agitator 15kg 220V, vendida por Lojas Certel e entregue por Magalu, por R$ 2.986,25 em até 10x de R$ 298,63 sem juros. A página não identificou condição Pix separada. Frete e prazo para CEP 72620-405 não consultados.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1142,21 +1161,31 @@
       "precoComFrete": null,
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-11T20:46:39.144Z",
+      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
           "preco": 3092.69,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-12T09:03:59-03:00",
+          "preco": 2986.25,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 3092.69,
-      "precoMedioHistorico": 3092.69,
-      "scoreOferta": 36,
-      "classificacaoOferta": "Normal",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "menorPrecoHistorico": 2986.25,
+      "precoMedioHistorico": 3039.47,
+      "scoreOferta": 43,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": -3.44,
+      "ultimaQuedaPreco": "2026-11-12T09:03:59-03:00",
+      "precoCartao": 2986.25,
+      "parcelas": 10,
+      "valorParcela": 298.63,
+      "condicaoPagamento": "R$ 2.986,25 em 10x de R$ 298,63 sem juros; preço anunciado na página."
     },
     {
       "id": "magalu-lg-lava-seca-18kg-220v-ah49g03fkd",
@@ -6578,8 +6607,8 @@
       "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rd56-m7s8ddxbp493c4",
       "ativa": true,
       "dataEncontrada": "2026-11-06T09:05:07-03:00",
-      "ultimaVerificacao": "2026-11-09T17:59:30-03:00",
-      "observacoes": "Preço de R$ 1.899,00 e parcelamento em até 12x de R$ 158,25 sem juros reconfirmados na página da Loja Online Vivo em 09/11/2026; botão “Colocar no carrinho” ativo. A loja anuncia frete grátis em toda a loja, mas o CEP 72620-405 e o prazo não foram consultados. A página informa EAN de 11 dígitos (45496885519), que não foi gravado por não corresponder a um GTIN/EAN-13 completo.",
+      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
+      "observacoes": "Em 12/11/2026, a Loja Online Vivo reconfirmou R$ 1.899,00 ou 12x de R$ 158,25 sem juros; botão “Colocar no carrinho” ativo. Frete grátis anunciado pela loja, mas CEP 72620-405 e prazo não consultados. Preço sem alteração; histórico preservado.",
       "historicoPrecos": [
         {
           "data": "2026-11-06T09:05:07-03:00",
@@ -6709,13 +6738,13 @@
       "cepFrete": "72620-405",
       "precoComFrete": null,
       "prazoEntrega": "",
-      "estoqueStatus": "Envio imediato",
+      "estoqueStatus": "Disponível para compra",
       "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-berna-suede-grafite-180-cm-842570.html",
       "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Suede-Grafite-180-cm-9019-075248-1.jpg",
       "ativa": true,
       "dataEncontrada": "2026-11-08T18:03:28-03:00",
-      "ultimaVerificacao": "2026-11-10T18:01:09-03:00",
-      "observacoes": "Página Mobly consultada em 10/11/2026: SKU 813093 vendido e entregue pela Mobly, R$ 764,99 no Pix ou R$ 899,99 em até 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125 e envio imediato. Preço permaneceu igual ao último registro; histórico preservado. Frete e prazo não confirmados para CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
+      "observacoes": "Em 12/11/2026, Mobly reconfirmou o SKU 813093, vendido e entregue pela Mobly, por R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. Preço igual ao último registro, sem novo ponto no histórico. Frete e prazo não confirmados para CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-11-08T18:03:28-03:00",
@@ -7067,58 +7096,55 @@
       "classificacaoOferta": "Normal",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "mobly-sofa-berna-suede-bege-180cm-20261112",
+      "nome": "Sofá 3 Lugares Retrátil Berna Suede Bege 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "seloLoja": "Vendido e entregue pela Mobly",
+      "modelo": "Berna",
+      "produtoGrupo": "mobly-berna-180cm-suede-bege",
+      "precoAtual": 764.99,
+      "precoAnterior": 2149.99,
+      "precoPix": 764.99,
+      "precoAvista": 764.99,
+      "precoCartao": 899.99,
+      "parcelas": 10,
+      "valorParcela": 89.99,
+      "condicaoPagamento": "R$ 764,99 à vista com Pix; R$ 899,99 em até 10x de R$ 89,99 sem juros.",
+      "desconto": 64,
+      "cashback": 125,
+      "frete": "Não confirmado para o CEP 72620-405; consultar na loja.",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Botão Comprar disponível; quantidade não informada.",
+      "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-berna-suede-bege-180-cm-842567.html",
+      "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Suede-Bege-180-cm-9419-765248-1.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-12T09:03:59-03:00",
+      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
+      "observacoes": "Página Mobly consultada em 12/11/2026: SKU 813090, sofá Berna Suede Bege 180cm, vendido e entregue pela Mobly. Preço de R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. A página anuncia 64% sobre referência de R$ 2.149,99, não tratado como histórico real. Frete e prazo não confirmados para CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-12T09:03:59-03:00",
+          "preco": 764.99,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 764.99,
+      "precoMedioHistorico": 764.99,
+      "scoreOferta": 62,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Máquina de Lavar Frontal Electrolux LFC12 12kg Cinza Ônix 220V",
-      "id": "magalu-electrolux-lfc12-12kg-220v-feec5d2a10",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Lavadora Mueller Family Aquatec 12kg Preta 220V",
-      "id": "magalu-mueller-family-aquatec-12kg-220v-khkb67e324",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Máquina de Lavar Brastemp 16Kg BWF16AB Branca 220V",
-      "id": "magalu-brastemp-bwf16ab-16kg-220v-ak4d73dhff",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
-    {
-      "data": "2026-09-11T20:46:39.144Z",
-      "tipo": "adicionado",
-      "produto": "Lavadora Midea Wave Agitator 13kg Branco 220V",
-      "id": "magalu-midea-wave-13kg-220v-jb8djafkka",
-      "detalhe": "Oferta 220V validada e adicionada para completar a categoria."
-    },
-    {
-      "data": "2026-09-11T20:37:42.710Z",
-      "tipo": "adicionado",
-      "produto": "Xiaomi Redmi 15C 256GB 8GB RAM Azul",
-      "id": "magalu-xiaomi-redmi-15c-256gb-azul",
-      "detalhe": "Nova oferta validada e adicionada ao catálogo."
-    },
-    {
-      "data": "2026-09-11T20:37:42.710Z",
-      "tipo": "adicionado",
-      "produto": "Smart TV TCL 55” QLED 4K P7L Google TV 120Hz",
-      "id": "magalu-tcl-55p7l-55-qled",
-      "detalhe": "Nova oferta validada e adicionada ao catálogo."
-    },
-    {
-      "data": "2026-09-11T21:03:58.059Z",
-      "tipo": "dados_comerciais_enriquecidos",
-      "produto": "Catálogo",
-      "id": "catalogo",
-      "detalhe": "30 oferta(s) receberam modelo/grupo de produto e/ou estoque estruturado somente a partir de dados já confirmados no catálogo."
-    },
     {
       "data": "2026-09-11T21:04:23.879Z",
       "tipo": "adicionado",
@@ -8504,6 +8530,60 @@
       "loja": "Loja Vivo",
       "precoAtual": 2599,
       "detalhes": "Adicionado anúncio da Loja Vivo a R$ 2.599,00 (de R$ 2.799,00), em até 12x de R$ 216,58; desconto sujeito à elegibilidade da campanha Vivo. EAN 7892597452217 e modelo XT2621-5 confirmados; agrupado com o mesmo produto da Loja Motorola Oficial no Magalu. Frete/prazo para CEP 72620-405 não confirmados."
+    },
+    {
+      "data": "2026-11-12T09:03:59-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "magalu-brastemp-bwf16ab-16kg-220v-ak4d73dhff",
+      "precoAnterior": 2436.66,
+      "precoAtual": 2168.76,
+      "detalhes": "Brastemp BWF16AB 16kg 220V caiu de R$ 2.436,66 para R$ 2.168,76 no Pix; página confirma 10x de R$ 228,29, venda/entrega por Lojas TaQi."
+    },
+    {
+      "data": "2026-11-12T09:03:59-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "magalu-mueller-energy-8kg-220v-kac0gf324b",
+      "precoAnterior": 1399.11,
+      "precoAtual": 1410.92,
+      "detalhes": "Mueller Energy 8kg 220V subiu de R$ 1.399,11 para R$ 1.410,92 no Pix; acima do último promocional, oferta inativada. Vendedor SBVendas, entrega Magalu."
+    },
+    {
+      "data": "2026-11-12T09:03:59-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "magalu-midea-wave-15kg-220v-jg869a58c8",
+      "precoAnterior": 3092.69,
+      "precoAtual": 2986.25,
+      "detalhes": "Midea Wave Agitator 15kg 220V caiu de R$ 3.092,69 para R$ 2.986,25; página informa 10x de R$ 298,63 sem juros, venda por Lojas Certel e entrega Magalu."
+    },
+    {
+      "data": "2026-11-12T09:03:59-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "ps5-slim-disk-1tb",
+      "precoAnterior": 4691.08,
+      "precoAtual": null,
+      "detalhes": "Página Magalu exibiu “Produto indisponível” para o PS5 Slim Disk 1TB; oferta inativada sem alterar o último preço registrado."
+    },
+    {
+      "data": "2026-11-12T09:03:59-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "vivo-nintendo-switch-oled-mario-wonder-nso-20261106",
+      "detalhes": "Nintendo Switch OLED + Mario Wonder reconfirmado na Vivo a R$ 1.899,00 ou 12x de R$ 158,25; botão de compra ativo, sem mudança no histórico."
+    },
+    {
+      "data": "2026-11-12T09:03:59-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "mobly-sofa-berna-suede-grafite-813093-20261108",
+      "detalhes": "Sofá Berna Suede Grafite 180cm reconfirmado na Mobly a R$ 764,99 no Pix / R$ 899,99 em 10x; preço inalterado."
+    },
+    {
+      "data": "2026-11-12T09:03:59-03:00",
+      "tipo": "adicao",
+      "ofertaId": "mobly-sofa-berna-suede-bege-180cm-20261112",
+      "nome": "Sofá 3 Lugares Retrátil Berna Suede Bege 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "precoAtual": 764.99,
+      "detalhes": "Adicionado sofá Berna Suede Bege 180cm da Mobly; R$ 764,99 no Pix, R$ 899,99 em 10x e cashback anunciado de R$ 125. Imagem direta da página confirmada; frete/prazo não confirmados para o CEP."
     }
   ]
 }
