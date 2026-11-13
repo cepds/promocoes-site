@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-12T18:03:21-03:00",
+  "geradoEm": "2026-11-13T08:58:09-03:00",
   "total": 149,
   "ofertas": [
     {
@@ -4131,13 +4131,13 @@
       "condicaoPagamento": "R$ 489,00 no Pix; 10x de R$ 48,90 sem juros",
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
-      "estoqueStatus": "Em estoque",
+      "estoqueStatus": "Esgotado",
       "url": "https://www.kabum.com.br/produto/1027438/controle-sem-fio-sony-dualsense-edicao-limitada-007-first-light-playstation-5-bluetooth-com-feedback-haptico-preto-e-dourado-1000052026",
-      "observacoes": "Preço, estoque e venda/entrega pela KaBuM! confirmados em 14/09/2026.",
+      "observacoes": "Preço, estoque e venda/entrega pela KaBuM! confirmados em 14/09/2026. KaBuM! indicava produto esgotado na consulta de 13/11/2026; oferta inativada.",
       "imagem": "https://images.kabum.com.br/produtos/fotos/1027438/controle-sem-fio-sony-dualsense-edicao-limitada-lux-playstation-5-bluetooth-com-feedback-hatico-brancoe-e-dourado-1000052026_1776374887_m.jpg",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-11-13T08:58:09-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -7304,23 +7304,46 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "kabum-borderlands-4-ps5-908152",
+      "nome": "Jogo Borderlands 4, PS5 - TT000265PS5",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "seloLoja": "Vendido e entregue por KaBuM!",
+      "ean": "710425673504",
+      "modelo": "TT000265PS5",
+      "modeloFabricante": "TT000265PS5",
+      "produtoGrupo": "ean-710425673504",
+      "precoAtual": 204.5,
+      "precoPix": 204.5,
+      "precoCartao": 227.22,
+      "parcelas": 9,
+      "condicaoPagamento": "R$ 204,50 no Pix; R$ 227,22 em até 9x sem juros no cartão.",
+      "estoqueStatus": "Oferta disponível; sujeita ao estoque",
+      "cepFrete": "72620-405",
+      "frete": "Não consultado",
+      "url": "https://www.kabum.com.br/produto/908152/jogo-borderlands-4-ps5-tt000265ps5",
+      "imagem": "https://images2.kabum.com.br/produtos/fotos/908152/jogo-borderlands-4-ps5-tt000265ps5_1753820727_gg.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-13T08:58:09-03:00",
+      "ultimaVerificacao": "2026-11-13T08:58:09-03:00",
+      "observacoes": "Preço confirmado pelo monitor Poupano em 13/11/2026 às 06h30: R$ 204,50 no Pix ou R$ 227,22 em até 9x sem juros no cartão. Histórico de acompanhamento curto (2 dias); não há confirmação de frete/prazo para o CEP 72620-405. A ficha da loja não deixa inequívoco se a embalagem é disco ou código; verificar compatibilidade com PS5 Digital antes da compra.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-13",
+          "preco": 204.5,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 204.5,
+      "precoMedioHistorico": 204.5,
+      "scoreOferta": 72,
+      "classificacaoOferta": "Boa"
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Acer Aspire GO 15 AG15-71P-753G Core i7 8GB 256GB Linux",
-      "id": "acer-ag15-71p-753g",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Acer Aspire GO 15 Touch AG15-71PT-72EL Core i7 16GB 512GB",
-      "id": "acer-ag15-71pt-72el",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
     {
       "data": "2026-09-12T21:07:30.655Z",
       "tipo": "adicionado",
@@ -8759,6 +8782,27 @@
       "loja": "Dell (Loja Oficial no Magalu)",
       "precoAtual": 6230.07,
       "detalhes": "Adicionado após confirmação da página da loja: Notebook Dell 15 DC15I51334UU70 15,6\" Full HD Core i5 16GB 512GB SSD Linux; R$ 6.230,07 no Pix (7% OFF); R$ 6.699,00 em 10x de R$ 669,90 sem juros. Imagem direta conferida; frete/prazo não confirmados para o CEP."
+    },
+    {
+      "data": "2026-11-13T08:58:09-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "kabum-dualsense-007-1027438",
+      "nome": "Controle Sony DualSense Edição Limitada 007 First Light PS5",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "precoAnterior": 489,
+      "precoAtual": 489,
+      "detalhes": "Página do KaBuM! indicava 'Produto Esgotado' em 13/11/2026; oferta marcada como inativa."
+    },
+    {
+      "data": "2026-11-13T08:58:09-03:00",
+      "tipo": "adicao",
+      "ofertaId": "kabum-borderlands-4-ps5-908152",
+      "nome": "Jogo Borderlands 4, PS5 - TT000265PS5",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "precoAtual": 204.5,
+      "detalhes": "Adicionado com preço verificado em 13/11/2026 às 06h30: R$ 204,50 no Pix e R$ 227,22 em até 9x sem juros no cartão; anúncio KaBuM! e imagem direta confirmados. Frete/prazo não consultados."
     }
   ]
 }
