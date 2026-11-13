@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-13T08:58:09-03:00",
+  "geradoEm": "2026-11-13T17:58:47-03:00",
   "total": 149,
   "ofertas": [
     {
@@ -1455,8 +1455,8 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/266815/Washer_LED15_Basket_Electrolux_Portuguese4.jpg?v=638729934232300000",
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
-      "observacoes": "Em 12/11/2026, a Loja Oficial Electrolux exibiu R$ 1.749,00 para a lavadora LED15; a página oferece seleção de 127V ou 220V. Esta oferta corresponde à variante 220V, que deve ser selecionada antes da compra; a página não mostrou preço separado por voltagem. Frete e prazo para CEP 72620-405 não foram consultados.",
+      "ultimaVerificacao": "2026-11-13T17:58:47-03:00",
+      "observacoes": "Em 13/11/2026, a página oficial Electrolux Black Friday confirmou R$ 1.749,00 para a lavadora LED15. A página do produto apresenta opções 127V e 220V e botão Comprar; esta oferta corresponde à variante 220V. Preço inalterado frente à verificação de 12/11. Frete e prazo para CEP 72620-405 não consultados.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
@@ -3129,11 +3129,11 @@
       "estoqueStatus": "Em estoque",
       "voltagem": "220V",
       "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-320l-duplex-branca-tf38/p",
-      "observacoes": "Em 12/11/2026, a Loja Oficial Electrolux exibiu R$ 2.349,00 para a geladeira TF38; a página oferece seleção de 127V ou 220V. Esta oferta corresponde à variante 220V, que deve ser selecionada antes da compra; a página não mostrou preço separado por voltagem. Frete e prazo para CEP 72620-405 não foram consultados.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/292138/Refrigerator_TF38_Front_Electrolux_Portuguese-1000x1000.raw.jpg?v=639102192178870000",
+      "observacoes": "Em 13/11/2026, a página oficial Electrolux Black Friday confirmou R$ 2.349,00 para a TF38. A página do produto apresenta opções 127V e 220V e botão Comprar; esta oferta corresponde à variante 220V. Preço inalterado frente à verificação de 12/11. Frete e prazo para CEP 72620-405 não consultados.",
+      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/292138-1000-1000?aspect=true&format=auto&height=1000&v=639102192178870000&width=1000",
       "ativa": true,
       "dataEncontrada": "2026-09-14T12:10:52.647Z",
-      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
+      "ultimaVerificacao": "2026-11-13T17:58:47-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T12:10:52.647Z",
@@ -3439,9 +3439,9 @@
       "modelo": "TF70S",
       "modeloFabricante": "TF70S",
       "produtoGrupo": "electrolux-tf70s-432l-inox-220v",
-      "precoAtual": 3099,
-      "precoAnterior": 4049,
-      "desconto": 23,
+      "precoAtual": 3049,
+      "precoAnterior": 3099,
+      "desconto": 1.61,
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": false,
@@ -3451,23 +3451,31 @@
       "estoqueStatus": "Em estoque",
       "voltagem": "220V",
       "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-432l-efficient-autosense-duplex-inox-look--tf70s-/p",
-      "observacoes": "Preço de R$ 3.099,00, modelo TF70S e disponibilidade 220V confirmados em página oficial Electrolux atualizada em 14/09/2026. Frete e prazo dependem da consulta do CEP.",
+      "observacoes": "Em 13/11/2026, a página oficial Electrolux Black Friday exibiu R$ 3.049,00 (de R$ 3.199,00) para a TF70S. A página do produto confirma referência TF70S, opções 127V e 220V e botão Comprar. Esta oferta corresponde à variante 220V. Queda de R$ 50,00 (1,61%) frente ao último preço cadastrado de R$ 3.099,00. Frete e prazo para CEP 72620-405 não consultados.",
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/288219/TF70S-FRONTAL-1000x1000.jpg?v=639102206258470000",
       "ativa": true,
       "dataEncontrada": "2026-09-14T12:12:33.225Z",
-      "ultimaVerificacao": "2026-09-14T12:12:33.225Z",
+      "ultimaVerificacao": "2026-11-13T17:58:47-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T12:12:33.225Z",
           "preco": 3099,
           "freteValor": 0,
           "precoComFrete": 0
+        },
+        {
+          "data": "2026-11-13T17:58:47-03:00",
+          "preco": 3049,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 3099,
-      "precoMedioHistorico": 3099,
-      "scoreOferta": 71,
-      "classificacaoOferta": "Boa"
+      "menorPrecoHistorico": 3049,
+      "precoMedioHistorico": 3074,
+      "scoreOferta": 72,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": -1.61,
+      "ultimaQuedaPreco": "2026-11-13T17:58:47-03:00"
     },
     {
       "id": "mm-sofa-majestoso-290-grafite-866913",
@@ -7347,27 +7355,6 @@
     {
       "data": "2026-09-12T21:07:30.655Z",
       "tipo": "adicionado",
-      "produto": "Notebook Gamer Acer Nitro V15 ANV15-41-R6J0 Ryzen 7 8GB 512GB RTX 4050",
-      "id": "acer-anv15-41-r6j0",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Gamer Acer Nitro V16 ANV16-72-7327 Core 7 32GB 1TB RTX 5060",
-      "id": "acer-anv16-72-7327",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Gamer Acer Predator Helios Neo 16 AI PHN16-73-76H8 Ultra 7 32GB 512GB RTX 5070",
-      "id": "acer-phn16-73-76h8",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
       "produto": "Notebook Acer Aspire 5 A515-45-R478 Ryzen 5 16GB 512GB Linux",
       "id": "acer-a515-45-r478",
       "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
@@ -8803,6 +8790,28 @@
       "loja": "KaBuM!",
       "precoAtual": 204.5,
       "detalhes": "Adicionado com preço verificado em 13/11/2026 às 06h30: R$ 204,50 no Pix e R$ 227,22 em até 9x sem juros no cartão; anúncio KaBuM! e imagem direta confirmados. Frete/prazo não consultados."
+    },
+    {
+      "data": "2026-11-13T17:58:47-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "electrolux-tf70s-432l-220v",
+      "precoAnterior": 3099,
+      "precoAtual": 3049,
+      "detalhes": "Loja Oficial Electrolux reduziu a TF70S 432L de R$ 3.099,00 para R$ 3.049,00; página do produto oferece seleção 220V e botão Comprar. Queda de 1,61%; frete/prazo não consultados."
+    },
+    {
+      "data": "2026-11-13T17:58:47-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "electrolux-tf38-320l-220v",
+      "precoAtual": 2349,
+      "detalhes": "Página oficial Electrolux confirmou TF38 320L a R$ 2.349,00; opções 127V/220V e botão Comprar. Variante 220V mantida; sem mudança no preço."
+    },
+    {
+      "data": "2026-11-13T17:58:47-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "electrolux-led15-15kg-220v",
+      "precoAtual": 1749,
+      "detalhes": "Página oficial Electrolux confirmou LED15 15kg a R$ 1.749,00; opções 127V/220V e botão Comprar. Variante 220V mantida; sem mudança no preço."
     }
   ]
 }
