@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-14T08:59:56-03:00",
-  "total": 150,
+  "geradoEm": "2026-11-14T18:04:48-03:00",
+  "total": 151,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1247,13 +1247,13 @@
       "nome": "Máquina de Lavar Brastemp 18Kg BWF18AB Branca 220V",
       "categoria": "Máquinas de lavar",
       "loja": "Lojas TaQi no Magalu",
-      "precoAtual": 2436.66,
-      "precoAnterior": 2564.9,
-      "desconto": 5,
+      "precoAtual": 2207.43,
+      "precoAnterior": 2436.66,
+      "desconto": 13,
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/maquina-de-lavar-roupas-automatica-brastemp-18kg-bwf18ab-branca-220-volts/p/ed46jf280b/ed/lava/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/maquina-de-lavar-roupas-automatica-brastemp-18kg-bwf18ab-branca-220-volts/lojastaqi/100062840/52de657c618553789712073557473b9f.jpg",
-      "observacoes": "Preço, disponibilidade e voltagem 220V verificados. Vendido e entregue por Lojas TaQi.",
+      "observacoes": "Em 14/11/2026, Magalu confirmou a variante 220V vendida e entregue por Lojas TaQi: R$ 2.207,43 no Pix e R$ 2.323,61 em 10x de R$ 232,36 sem juros. Redução de 9,41% frente ao último preço registrado. Frete e prazo para CEP 72620-405 não confirmados.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1263,24 +1263,36 @@
       "precoComFrete": null,
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-11T20:46:39.144Z",
+      "ultimaVerificacao": "2026-11-14T18:04:48-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
           "preco": 2436.66,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-14T18:04:48-03:00",
+          "preco": 2207.43,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 2436.66,
-      "precoMedioHistorico": 2436.66,
-      "scoreOferta": 41,
-      "classificacaoOferta": "Normal",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
+      "menorPrecoHistorico": 2207.43,
+      "precoMedioHistorico": 2322.05,
+      "scoreOferta": 53,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": -9.41,
+      "ultimaQuedaPreco": "2026-11-14T18:04:48-03:00",
       "modelo": "BWF18AB",
       "modeloFabricante": "BWF18AB",
-      "produtoGrupo": "brastemp-bwf18ab-18kg-branca-220v"
+      "produtoGrupo": "brastemp-bwf18ab-18kg-branca-220v",
+      "precoPix": 2207.43,
+      "precoAvista": 2207.43,
+      "precoCartao": 2323.61,
+      "parcelas": 10,
+      "valorParcela": 232.36,
+      "condicaoPagamento": "R$ 2.207,43 no Pix; R$ 2.323,61 em 10x de R$ 232,36 sem juros."
     },
     {
       "id": "magalu-consul-cwn16ab-16kg-220v-ckce4623fk",
@@ -1505,9 +1517,9 @@
       "categoria": "Máquinas de lavar",
       "loja": "Loja Oficial Electrolux",
       "seloLoja": "Loja Oficial",
-      "precoAtual": 2899,
-      "precoAnterior": 3399,
-      "desconto": 14,
+      "precoAtual": 2699,
+      "precoAnterior": 2899,
+      "desconto": 15,
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1520,22 +1532,28 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/288950/Washmachine_LFB12_Front_Electrolux_Portuguese-1000x1000.jpg?v=639053175179700000",
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
-      "observacoes": "Oferta confirmada na Loja Oficial Electrolux em 11/09/2026. Página oferece variante 220V.",
+      "ultimaVerificacao": "2026-11-14T18:04:48-03:00",
+      "observacoes": "Em 14/11/2026, a Loja Oficial Electrolux exibiu R$ 2.699,00 (de R$ 3.199,00) e ofereceu seleção de 127V/220V; variante 220V mantida. A página não detalhou a modalidade de pagamento. Frete e prazo para CEP 72620-405 não confirmados.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
           "preco": 2899,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-14T18:04:48-03:00",
+          "preco": 2699,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 2899,
-      "precoMedioHistorico": 2899,
-      "scoreOferta": 54,
-      "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
+      "menorPrecoHistorico": 2699,
+      "precoMedioHistorico": 2799,
+      "scoreOferta": 60,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": -6.9,
+      "ultimaQuedaPreco": "2026-11-14T18:04:48-03:00",
       "modelo": "LFB12",
       "modeloFabricante": "LFB12",
       "produtoGrupo": "electrolux-lfb12-12kg-branca-220v"
@@ -1546,9 +1564,9 @@
       "categoria": "Máquinas de lavar",
       "loja": "Loja Oficial Electrolux",
       "seloLoja": "Loja Oficial",
-      "precoAtual": 2429,
-      "precoAnterior": 2799,
-      "desconto": 13,
+      "precoAtual": 2249,
+      "precoAnterior": 2429,
+      "desconto": 8,
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1561,22 +1579,28 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/282594/7909569483992_1-1000x1000_2.jpg?v=638924995701170000",
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
-      "observacoes": "Oferta confirmada na Loja Oficial Electrolux em 11/09/2026. Página oferece variante 220V.",
+      "ultimaVerificacao": "2026-11-14T18:04:48-03:00",
+      "observacoes": "Em 14/11/2026, a Loja Oficial Electrolux exibiu R$ 2.249,00 (de R$ 2.449,00) e ofereceu seleção de 127V/220V; variante 220V mantida. A página não detalhou a modalidade de pagamento. Frete e prazo para CEP 72620-405 não confirmados.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
           "preco": 2429,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-14T18:04:48-03:00",
+          "preco": 2249,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 2429,
-      "precoMedioHistorico": 2429,
-      "scoreOferta": 53,
+      "menorPrecoHistorico": 2249,
+      "precoMedioHistorico": 2339,
+      "scoreOferta": 56,
       "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
+      "variacaoPreco": -7.41,
+      "ultimaQuedaPreco": "2026-11-14T18:04:48-03:00",
       "modelo": "LEE18",
       "modeloFabricante": "LEE18",
       "produtoGrupo": "electrolux-lee18-18kg-220v"
@@ -6607,7 +6631,7 @@
       "ativa": true,
       "voltagem": "220V",
       "dataEncontrada": "2026-11-04T09:04:48-03:00",
-      "ultimaVerificacao": "2026-11-11T08:56:31-03:00",
+      "ultimaVerificacao": "2026-11-14T18:04:48-03:00",
       "cepFrete": "72620-405",
       "frete": "Consulte na loja",
       "historicoPrecos": [
@@ -6627,7 +6651,7 @@
       "modelo": "9QC",
       "modeloFabricante": "BRI-PRIMEAIR-9QC-B",
       "produtoGrupo": "britania-primeair-9qc-9000btus-220v",
-      "observacoes": "Verificado em 11/11/2026 na loja oficial Britânia: Prime Air 9QC, 9.000 BTUs, 220V, por R$ 1.749,90 ou 10x de R$ 174,99 sem juros. O site anuncia 5% de desconto geral no Pix, mas o preço Pix específico do produto não foi informado; por isso, não foi presumido. Frete e prazo para CEP 72620-405 não confirmados."
+      "observacoes": "Verificado em 14/11/2026 na loja oficial Britânia: Prime Air 9QC, 9.000 BTUs, 220V, por R$ 1.749,90 ou 10x de R$ 174,99 sem juros. Preço igual ao último registro; não foi acrescentado histórico. Frete e prazo para CEP 72620-405 não confirmados."
     },
     {
       "id": "vivo-nintendo-switch-oled-mario-wonder-nso-20261106",
@@ -7419,44 +7443,54 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "webcontinental-consul-cwn14ab-14kg-220v-20261114",
+      "nome": "Máquina de Lavar Consul 14kg Branca com Modo Eco CWN14AB 220V",
+      "categoria": "Máquinas de lavar",
+      "loja": "WebContinental",
+      "modelo": "CWN14AB",
+      "modeloFabricante": "CWN14AB",
+      "produtoGrupo": "consul-cwn14ab-14kg-branca-220v",
+      "precoAtual": 1959.94,
+      "precoAnterior": 2279,
+      "precoPix": 1959.94,
+      "precoAvista": 1959.94,
+      "precoCartao": 2005.52,
+      "parcelas": 8,
+      "valorParcela": 250.69,
+      "condicaoPagamento": "R$ 1.959,94 à vista no Pix ou boleto; R$ 2.005,52 em até 8x de R$ 250,69.",
+      "desconto": 14,
+      "frete": "Consultar na loja",
+      "freteValor": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Disponível para compra",
+      "voltagem": "220V",
+      "url": "https://www.webcontinental.com.br/maquina-de-lavar-14kg-branca-consul-com-modo-eco-cwn14ab-220v-000392001094/p",
+      "imagem": "https://lojawebcontinental.vtexassets.com/arquivos/ids/71465922-150-150?aspect=true&height=150&v=639100330461130000&width=150",
+      "ativa": true,
+      "dataEncontrada": "2026-11-14T18:04:48-03:00",
+      "ultimaVerificacao": "2026-11-14T18:04:48-03:00",
+      "observacoes": "Em 14/11/2026, página WebContinental confirmou a Consul CWN14AB 14kg 220V por R$ 1.959,94 à vista no Pix ou boleto; R$ 2.005,52 em até 8x de R$ 250,69. Página exibiu botão Comprar agora. Frete e prazo para CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-14T18:04:48-03:00",
+          "preco": 1959.94,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 1959.94,
+      "precoMedioHistorico": 1959.94,
+      "scoreOferta": 55,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-13T21:04:03.529Z",
-      "tipo": "adicionado",
-      "produto": "Console Nintendo Switch OLED + Super Mario Bros. Wonder + 3 meses Nintendo Switch Online",
-      "id": "kabum-switch-oled-mario-wonder-nso",
-      "detalhe": "Preço e venda/entrega pela KaBuM! confirmados em 13/09/2026."
-    },
-    {
-      "data": "2026-09-13T21:06:03.280Z",
-      "tipo": "adicionado",
-      "produto": "Smartphone Motorola Moto G86 5G 256GB 8GB RAM Vermelho",
-      "id": "carrefour-moto-g86-256-vermelho",
-      "detalhe": "Preço, condição Pix/cartão, modelo e venda/entrega pelo Carrefour confirmados em 13/09/2026. Frete e prazo dependem de consulta do CEP no site."
-    },
-    {
-      "data": "2026-09-13T21:06:03.280Z",
-      "tipo": "adicionado",
-      "produto": "Smartphone Motorola Edge 60 Fusion 5G 256GB 8GB RAM Cinza",
-      "id": "carrefour-edge60fusion-256-cinza",
-      "detalhe": "Preço, modelo e venda/entrega pelo Carrefour confirmados em 13/09/2026."
-    },
-    {
-      "data": "2026-09-13T21:06:03.280Z",
-      "tipo": "adicionado",
-      "produto": "Smartphone Motorola Moto G15 4G 256GB Grafite",
-      "id": "carrefour-moto-g15-256-grafite",
-      "detalhe": "Preço, condição de pagamento e venda/entrega pelo Carrefour confirmados em 13/09/2026."
-    },
-    {
-      "data": "2026-09-13T21:06:03.280Z",
-      "tipo": "adicionado",
-      "produto": "Console PlayStation 5 Slim Digital 825GB com ASTRO BOT e Gran Turismo 7",
-      "id": "carrefour-ps5-slim-digital-astro-gt7-825",
-      "detalhe": "Preço e venda/entrega pelo Carrefour confirmados em 13/09/2026. Pacote inclui ASTRO BOT e Gran Turismo 7."
-    },
     {
       "data": "2026-09-13T21:06:03.280Z",
       "tipo": "adicionado",
@@ -8888,6 +8922,59 @@
       "loja": "KaBuM!",
       "precoAtual": 314.91,
       "detalhes": "Adicionado com preço confirmado na página KaBuM!: R$ 314,91 no Pix (10% OFF) ou R$ 349,80 em 10x de R$ 34,98 sem juros; vendido e entregue por KaBuM!, imagem direta verificada. Frete/prazo não consultados."
+    },
+    {
+      "data": "2026-11-14T18:04:48-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "magalu-brastemp-bwf18ab-18kg-220v-ed46jf280b",
+      "nome": "Máquina de Lavar Brastemp 18Kg BWF18AB Branca 220V",
+      "categoria": "Máquinas de lavar",
+      "loja": "Lojas TaQi no Magalu",
+      "precoAnterior": 2436.66,
+      "precoAtual": 2207.43,
+      "detalhes": "Em 14/11/2026, Magalu confirmou a variante 220V vendida e entregue por Lojas TaQi: R$ 2.207,43 no Pix e R$ 2.323,61 em 10x de R$ 232,36 sem juros. Redução de 9,41% frente ao último preço registrado. Frete e prazo para CEP 72620-405 não confirmados."
+    },
+    {
+      "data": "2026-11-14T18:04:48-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "electrolux-lfb12-12kg-220v",
+      "nome": "Máquina de Lavar Frontal Electrolux 12kg Inverter Água Quente LFB12",
+      "categoria": "Máquinas de lavar",
+      "loja": "Loja Oficial Electrolux",
+      "precoAnterior": 2899,
+      "precoAtual": 2699,
+      "detalhes": "Em 14/11/2026, a Loja Oficial Electrolux exibiu R$ 2.699,00 (de R$ 3.199,00) e ofereceu seleção de 127V/220V; variante 220V mantida. A página não detalhou a modalidade de pagamento. Frete e prazo para CEP 72620-405 não confirmados."
+    },
+    {
+      "data": "2026-11-14T18:04:48-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "electrolux-lee18-18kg-220v",
+      "nome": "Máquina de Lavar Electrolux 18kg Efficient Cesto Inox LEE18",
+      "categoria": "Máquinas de lavar",
+      "loja": "Loja Oficial Electrolux",
+      "precoAnterior": 2429,
+      "precoAtual": 2249,
+      "detalhes": "Em 14/11/2026, a Loja Oficial Electrolux exibiu R$ 2.249,00 (de R$ 2.449,00) e ofereceu seleção de 127V/220V; variante 220V mantida. A página não detalhou a modalidade de pagamento. Frete e prazo para CEP 72620-405 não confirmados."
+    },
+    {
+      "data": "2026-11-14T18:04:48-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "britania-primeair-9qc-220v",
+      "nome": "Ar-Condicionado Prime Air Split Inverter 9000BTUs 9QC - 220V",
+      "categoria": "Climatização",
+      "loja": "Britânia Loja Oficial",
+      "precoAtual": 1749.9,
+      "detalhes": "Preço e disponibilidade reconfirmados na página oficial; sem mudança no histórico."
+    },
+    {
+      "data": "2026-11-14T18:04:48-03:00",
+      "tipo": "adicao",
+      "ofertaId": "webcontinental-consul-cwn14ab-14kg-220v-20261114",
+      "nome": "Máquina de Lavar Consul 14kg Branca com Modo Eco CWN14AB 220V",
+      "categoria": "Máquinas de lavar",
+      "loja": "WebContinental",
+      "precoAtual": 1959.94,
+      "detalhes": "Adicionada após confirmação da página WebContinental: Consul CWN14AB 14kg 220V por R$ 1.959,94 no Pix/boleto ou R$ 2.005,52 em até 8x de R$ 250,69; imagem direta e botão de compra conferidos. Frete/prazo não confirmados."
     }
   ]
 }
