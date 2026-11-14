@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-13T17:58:47-03:00",
-  "total": 149,
+  "geradoEm": "2026-11-14T08:59:56-03:00",
+  "total": 150,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -952,23 +952,21 @@
       "nome": "Máquina de Lavar Brastemp 16Kg BWF16AB Branca 220V",
       "categoria": "Máquinas de lavar",
       "loja": "Lojas TaQi no Magalu",
-      "precoAtual": 2168.76,
-      "precoAnterior": 2436.66,
-      "desconto": 18,
+      "precoAtual": 2207.43,
+      "precoAnterior": 2168.76,
+      "desconto": 13,
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/maquina-de-lavar-roupas-brastemp-16kg-bwf16ab-branca-220-volts/p/ak4d73dhff/ed/lava/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/maquina-de-lavar-roupas-brastemp-16kg-bwf16ab-branca-220-volts/lojastaqi/100082852/bc92228cf77c0e84d091e5dfba7d554f.jpg",
-      "observacoes": "Em 12/11/2026, página Magalu confirmou a variante 220V, vendida e entregue por Lojas TaQi: R$ 2.168,76 no Pix ou R$ 2.282,90 em 10x de R$ 228,29 sem juros. A página exibe R$ 2.659,90 como preço de referência (18% OFF). Frete e prazo para CEP 72620-405 não consultados.",
-      "cupom": "Não informado",
-      "cashback": "Não informado",
-      "frete": "Consulte na loja",
+      "observacoes": "Inativada em 14/11/2026: o Magalu confirmou R$ 2.207,43 no Pix ou R$ 2.323,61 em 10x de R$ 232,36, acima do último preço promocional registrado de R$ 2.168,76. Vendedor Lojas TaQi, loja oficial no Magalu. O modelo permanece agrupado com o anúncio da Loja Oficial Brastemp.",
+      "frete": null,
       "freteValor": null,
-      "freteGratis": false,
+      "freteGratis": null,
       "cepFrete": "72620-405",
       "precoComFrete": null,
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
+      "ultimaVerificacao": "2026-11-14T08:59:56-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
@@ -981,24 +979,32 @@
           "preco": 2168.76,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-14T08:59:56-03:00",
+          "preco": 2207.43,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 2168.76,
-      "precoMedioHistorico": 2302.71,
-      "scoreOferta": 66,
-      "classificacaoOferta": "Boa",
-      "variacaoPreco": -10.99,
+      "precoMedioHistorico": 2270.95,
+      "scoreOferta": 45,
+      "classificacaoOferta": "Normal",
+      "variacaoPreco": 1.78,
       "ultimaQuedaPreco": "2026-11-12T09:03:59-03:00",
       "modelo": "BWF16AB",
       "modeloFabricante": "BWF16ABBNA",
-      "produtoGrupo": "brastemp-bwf16ab-bwf16abbna-16kg-branca-220v",
-      "precoPix": 2168.76,
-      "precoAvista": 2168.76,
-      "precoCartao": 2282.9,
+      "produtoGrupo": "brastemp-bwf16ab-16kg-branca-220v",
+      "precoPix": 2207.43,
+      "precoAvista": 2207.43,
+      "precoCartao": 2323.61,
       "parcelas": 10,
-      "valorParcela": 228.29,
-      "condicaoPagamento": "R$ 2.168,76 no Pix; R$ 2.282,90 em 10x de R$ 228,29 sem juros.",
-      "estoqueStatus": "Disponível"
+      "valorParcela": 232.36,
+      "condicaoPagamento": "R$ 2.207,43 no Pix; R$ 2.323,61 em 10x de R$ 232,36 sem juros.",
+      "estoqueStatus": "Disponível",
+      "seloLoja": "Loja Oficial no Magalu",
+      "prazoEntrega": null
     },
     {
       "id": "magalu-mueller-family-aquatec-12kg-220v-khkb67e324",
@@ -1055,40 +1061,50 @@
       "categoria": "Máquinas de lavar",
       "loja": "Electrolux no Magalu",
       "seloLoja": "Loja Oficial",
-      "precoAtual": 3048.99,
-      "precoAnterior": null,
-      "desconto": 0,
+      "precoAtual": 2799,
+      "precoAnterior": 3048.99,
+      "desconto": 19,
       "voltagem": "220V",
-      "url": "https://m.magazineluiza.com.br/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/feec5d2a10/ed/lava/",
-      "imagem": "https://a-static.mlcdn.com.br/420x420/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/electrolux/310128347/12e7e6733a4536bf020729d920187ead.jpeg",
-      "observacoes": "Inativada em 08/11/2026: a página Magalu exibiu R$ 3.299,00 para a LFC12, acima do último preço promocional registrado de R$ 3.048,99. A página apresenta variantes 110V e 220V; não foi presumida uma variante selecionada.",
-      "cupom": "Não informado",
-      "cashback": "Não informado",
-      "frete": "Consulte na loja",
+      "url": "https://m.magazineluiza.com.br/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/p/feec5d2a10/ed/lava/?seller_id=electrolux",
+      "imagem": "https://m.magazineluiza.com.br/a-static/420x420/maquina-de-lavar-frontal-electrolux-12kg-cinza-onix-inverter-com-agua-quente-e-lavagem-inteligente-lfc12/electrolux/310128347/9570f164a60324fb0244868ffebb2a20.jpg",
+      "observacoes": "Reativada em 14/11/2026: página do Magalu confirmou a Electrolux LFC12 12kg na variante 220V, vendida e entregue pela Electrolux (Loja Oficial), por R$ 2.799,00 em 10x de R$ 279,90 sem juros. Valor abaixo do último preço promocional registrado de R$ 3.048,99. Frete e prazo não confirmados para CEP 72620-405.",
+      "frete": null,
       "freteValor": null,
-      "freteGratis": false,
+      "freteGratis": null,
       "cepFrete": "72620-405",
       "precoComFrete": null,
-      "ativa": false,
+      "ativa": true,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-11-08T08:55:55-03:00",
+      "ultimaVerificacao": "2026-11-14T08:59:56-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
           "preco": 3048.99,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-14T08:59:56-03:00",
+          "preco": 2799,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 3048.99,
-      "precoMedioHistorico": 3048.99,
-      "scoreOferta": 40,
-      "classificacaoOferta": "Normal",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null,
+      "menorPrecoHistorico": 2799,
+      "precoMedioHistorico": 2924,
+      "scoreOferta": 64,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": -8.2,
+      "ultimaQuedaPreco": "2026-11-14T08:59:56-03:00",
       "modelo": "LFC12",
       "modeloFabricante": "LFC12",
-      "produtoGrupo": "electrolux-lfc12-12kg-cinza-onix-220v"
+      "produtoGrupo": "electrolux-lfc12-12kg-cinza-onix-220v",
+      "precoCartao": 2799,
+      "parcelas": 10,
+      "valorParcela": 279.9,
+      "condicaoPagamento": "R$ 2.799,00 em 10x de R$ 279,90 sem juros.",
+      "estoqueStatus": "Disponível",
+      "prazoEntrega": null
     },
     {
       "id": "magalu-mueller-energy-8kg-220v-kac0gf324b",
@@ -1199,7 +1215,7 @@
       "voltagem": "220V",
       "url": "https://www.magazineluiza.com.br/lava-e-seca-smart-lg-18kg-black-inox-com-aidd-2-0-220v/p/ah49g03fkd/ed/ela1/",
       "imagem": "https://m.magazineluiza.com.br/a-static/420x420/lava-e-seca-smart-lg-18kg-black-inox-com-aidd-2-0-220v/lgelectronicsdobrasil/2002869/bd05227230cab22ec00e504dbacefc35.jpeg",
-      "observacoes": "Preço, disponibilidade e voltagem 220V verificados. Vendido e entregue pela LG.",
+      "observacoes": "Inativada em 14/11/2026: a página do Magalu exibiu “Produto indisponível” para o anúncio LG 18kg 220V; preço atual não pôde ser reconfirmado.",
       "cupom": "Não informado",
       "cashback": "Não informado",
       "frete": "Consulte na loja",
@@ -1207,9 +1223,9 @@
       "freteGratis": false,
       "cepFrete": "72620-405",
       "precoComFrete": null,
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:46:39.144Z",
-      "ultimaVerificacao": "2026-09-11T20:46:39.144Z",
+      "ultimaVerificacao": "2026-11-14T08:59:56-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:46:39.144Z",
@@ -1223,7 +1239,8 @@
       "scoreOferta": 52,
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "ultimaQuedaPreco": null,
+      "estoqueStatus": "Indisponível"
     },
     {
       "id": "magalu-brastemp-bwf18ab-18kg-220v-ed46jf280b",
@@ -1570,23 +1587,21 @@
       "categoria": "Máquinas de lavar",
       "loja": "Loja Oficial Brastemp",
       "seloLoja": "Loja Oficial",
-      "precoAtual": 2152,
-      "precoAnterior": 2499,
-      "desconto": 20,
-      "cupom": "Não informado",
-      "cashback": "Não informado",
-      "frete": "Consulte na loja",
+      "precoAtual": 2076.91,
+      "precoAnterior": 2152,
+      "desconto": 18,
+      "frete": null,
       "freteValor": null,
-      "freteGratis": false,
+      "freteGratis": null,
       "cepFrete": "72620-405",
       "precoComFrete": null,
       "voltagem": "220V",
-      "url": "https://www.brastemp.com.br/maquina-de-lavar-brastemp-16kg-branca-bwf16ab/p",
-      "imagem": "https://brastemp.vtexassets.com/arquivos/ids/287901/Brastemp_Lavadora_BWF16AB_Imagem_Frontal_jpg.jpg?v=639155698862570000",
-      "ativa": false,
+      "url": "https://www.brastemp.com.br/maquina-de-lavar-brastemp-16kg-branca-bwf16ab-326199275/p",
+      "imagem": "https://brastemp.vtexassets.com/arquivos/ids/287901-1440-auto/Brastemp_Lavadora_BWF16AB_Imagem_Frontal_jpg.webp?quality=80&v=639155698862570000",
+      "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-13T12:03:18.196Z",
-      "observacoes": "Preço e variante 220V revalidados na Loja Oficial Brastemp em 13/09/2026; preço promocional anterior encerrou.",
+      "ultimaVerificacao": "2026-11-14T08:59:56-03:00",
+      "observacoes": "Reativada em 14/11/2026 após confirmação da variante 220V na Loja Oficial Brastemp: R$ 2.076,91 no Pix ou R$ 2.186,22 em até 10x de R$ 218,62 sem juros. Valor abaixo do último preço promocional registrado (R$ 2.152,00). Frete e prazo não consultados para CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
@@ -1599,22 +1614,31 @@
           "preco": 2152,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-14T08:59:56-03:00",
+          "preco": 2076.91,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 1999.99,
-      "precoMedioHistorico": 2075.99,
-      "scoreOferta": 60,
+      "precoMedioHistorico": 2076.3,
+      "scoreOferta": 72,
       "classificacaoOferta": "Boa",
-      "variacaoPreco": 152.01,
-      "ultimaQuedaPreco": null,
+      "variacaoPreco": -3.49,
+      "ultimaQuedaPreco": "2026-11-14T08:59:56-03:00",
       "modelo": "BWF16AB",
       "modeloFabricante": "BWF16AB",
       "produtoGrupo": "brastemp-bwf16ab-16kg-branca-220v",
-      "estoqueStatus": "Em estoque",
-      "precoCartao": 2152,
-      "parcelas": 8,
-      "valorParcela": 269,
-      "condicaoPagamento": "R$ 2.152,00 em até 8x de R$ 269,00 sem juros"
+      "estoqueStatus": "Disponível",
+      "precoCartao": 2186.22,
+      "parcelas": 10,
+      "valorParcela": 218.62,
+      "condicaoPagamento": "R$ 2.076,91 no Pix; R$ 2.186,22 em até 10x de R$ 218,62 sem juros.",
+      "precoPix": 2076.91,
+      "precoAvista": 2076.91,
+      "prazoEntrega": null
     },
     {
       "id": "brastemp-bwt16a9-16kg-220v",
@@ -7349,44 +7373,55 @@
       "precoMedioHistorico": 204.5,
       "scoreOferta": 72,
       "classificacaoOferta": "Boa"
+    },
+    {
+      "id": "kabum-nba-2k27-ps5-1063709",
+      "nome": "Jogo NBA 2K27, PS5 - P5DA10000044FGM",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "seloLoja": "Vendido e entregue por KaBuM!",
+      "modelo": "NBA 2K27 PS5",
+      "modeloFabricante": "NBA 2K27 PS5",
+      "produtoGrupo": "take-two-nba-2k27-ps5",
+      "precoAtual": 314.91,
+      "precoPix": 314.91,
+      "precoAvista": 314.91,
+      "precoCartao": 349.8,
+      "parcelas": 10,
+      "valorParcela": 34.98,
+      "condicaoPagamento": "R$ 314,91 no Pix (10% OFF); R$ 349,80 em 10x de R$ 34,98 sem juros. Cupom LIQUIDA10 exibido na página; não foi presumido desconto adicional.",
+      "desconto": 10,
+      "cupom": "LIQUIDA10",
+      "frete": null,
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": null,
+      "estoqueStatus": "Disponível",
+      "url": "https://www.kabum.com.br/produto/1063709/jogo-nba-2k27-ps5-p5da10000044fgm",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/1063709/jogo-nba-2k27-ps5-p5da10000044fgm_1786456565_gg.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-14T08:59:56-03:00",
+      "ultimaVerificacao": "2026-11-14T08:59:56-03:00",
+      "observacoes": "Vendido e entregue por KaBuM!. R$ 314,91 no Pix (10% OFF) ou R$ 349,80 em 10x de R$ 34,98 sem juros. A página exibe o cupom LIQUIDA10, mas nenhum desconto adicional foi presumido. Frete e prazo não consultados para CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-14T08:59:56-03:00",
+          "preco": 314.91,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 314.91,
+      "precoMedioHistorico": 314.91,
+      "scoreOferta": 72,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-12T21:07:30.655Z",
-      "tipo": "adicionado",
-      "produto": "Notebook Acer Aspire 5 A515-45-R478 Ryzen 5 16GB 512GB Linux",
-      "id": "acer-a515-45-r478",
-      "detalhe": "Oferta verificada na Loja Oficial Acer, com imagem oficial e fonte bivolt confirmadas."
-    },
-    {
-      "data": "2026-09-13T12:03:18.196Z",
-      "tipo": "preco_subiu_removido",
-      "produto": "Máquina de Lavar Brastemp 16Kg Branca Smart Sensor BWF16AB",
-      "id": "brastemp-bwf16ab-16kg-220v",
-      "detalhe": "Preço verificado subiu de R$ 1999.99 para R$ 2152.00; oferta desativada conforme regra de retenção."
-    },
-    {
-      "data": "2026-09-13T12:03:18.196Z",
-      "tipo": "preco_subiu_removido",
-      "produto": "Geladeira Brastemp Frost Free Duplex 415L Inox BRM52MK 220V",
-      "id": "brastemp-brm52mk-415l-inox-220v",
-      "detalhe": "Preço verificado subiu de R$ 3299.99 para R$ 3300.29; oferta desativada conforme regra de retenção."
-    },
-    {
-      "data": "2026-09-13T12:03:18.196Z",
-      "tipo": "preco_subiu_removido",
-      "produto": "Fogão Brastemp 4 Bocas Inox Mesa de Vidro Dupla Chama e Grill BFO4VBR 220V",
-      "id": "brastemp-bfo4vbr-fogao-4b-220v",
-      "detalhe": "Preço verificado subiu de R$ 2553.04 para R$ 2696.86; oferta desativada conforme regra de retenção."
-    },
-    {
-      "data": "2026-09-13T12:03:18.196Z",
-      "tipo": "adicionado",
-      "produto": "Ar-Condicionado Split Electrolux Inverter 24.000 BTUs Color Adapt Quente/Frio JI24R/JE24R",
-      "id": "electrolux-ji24r-je24r-24000-qf-220v",
-      "detalhe": "Oferta adicionada da Loja Oficial Electrolux com preço, modelo e voltagem 220V verificados."
-    },
     {
       "data": "2026-09-13T21:04:03.529Z",
       "tipo": "adicionado",
@@ -8812,6 +8847,47 @@
       "ofertaId": "electrolux-led15-15kg-220v",
       "precoAtual": 1749,
       "detalhes": "Página oficial Electrolux confirmou LED15 15kg a R$ 1.749,00; opções 127V/220V e botão Comprar. Variante 220V mantida; sem mudança no preço."
+    },
+    {
+      "data": "2026-11-14T08:59:56-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "magalu-lg-lava-seca-18kg-220v-ah49g03fkd",
+      "precoAnterior": 6159.12,
+      "detalhes": "Página Magalu exibiu “Produto indisponível”; anúncio inativado sem presumir preço."
+    },
+    {
+      "data": "2026-11-14T08:59:56-03:00",
+      "tipo": "inativacao",
+      "ofertaId": "magalu-brastemp-bwf16ab-16kg-220v-ak4d73dhff",
+      "precoAnterior": 2168.76,
+      "precoAtual": 2207.43,
+      "detalhes": "Preço efetivo subiu de R$ 2.168,76 para R$ 2.207,43 no Pix (+1,78%); acima do último promocional. Anúncio inativado."
+    },
+    {
+      "data": "2026-11-14T08:59:56-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "brastemp-bwf16ab-16kg-220v",
+      "precoAnterior": 2152,
+      "precoAtual": 2076.91,
+      "detalhes": "Variante 220V da Loja Oficial Brastemp caiu de R$ 2.152,00 para R$ 2.076,91 no Pix (-3,49%); oferta reativada."
+    },
+    {
+      "data": "2026-11-14T08:59:56-03:00",
+      "tipo": "reativacao",
+      "ofertaId": "magalu-electrolux-lfc12-12kg-220v-feec5d2a10",
+      "precoAnterior": 3048.99,
+      "precoAtual": 2799,
+      "detalhes": "LFC12 220V reativada na Loja Oficial Electrolux do Magalu: R$ 2.799,00 em 10x de R$ 279,90, abaixo do último promocional de R$ 3.048,99 (-8,20%)."
+    },
+    {
+      "data": "2026-11-14T08:59:56-03:00",
+      "tipo": "adicao",
+      "ofertaId": "kabum-nba-2k27-ps5-1063709",
+      "nome": "Jogo NBA 2K27, PS5 - P5DA10000044FGM",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "precoAtual": 314.91,
+      "detalhes": "Adicionado com preço confirmado na página KaBuM!: R$ 314,91 no Pix (10% OFF) ou R$ 349,80 em 10x de R$ 34,98 sem juros; vendido e entregue por KaBuM!, imagem direta verificada. Frete/prazo não consultados."
     }
   ]
 }
