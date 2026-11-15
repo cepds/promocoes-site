@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-15T18:01:37-03:00",
+  "geradoEm": "2026-11-15T18:02:00-03:00",
   "total": 151,
   "ofertas": [
     {
@@ -5172,29 +5172,40 @@
       "seloLoja": "Loja Oficial",
       "modelo": "NI09R/NE09R",
       "produtoGrupo": "electrolux-ni09r-ne09r-9000-qf-220v",
-      "precoAtual": 2399,
+      "precoAtual": 1999,
       "voltagem": "220V",
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
-      "estoqueStatus": "Em estoque",
+      "estoqueStatus": "Botão Comprar disponível",
       "url": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-maxcomfort-full-inverter-quente-frio-9-000-btus-ni09r-ne09r/p",
-      "observacoes": "Preço, modelo e variante 220V confirmados na Loja Oficial Electrolux em 14/09/2026.",
-      "imagem": "https://electrolux.vtexassets.com/arquivos/ids/293792/Air-Conditioner_NI09R_Pack_Electrolux_Portuguese-1000x1000.jpg?v=639166170494300000",
+      "observacoes": "Em 15/11/2026, a Loja Oficial Electrolux reconfirmou o modelo NI09R/NE09R 9.000 BTUs quente/frio por R$ 1.999,00 (de R$ 2.299,00), variante 220V e botão Comprar disponível. O preço caiu de R$ 2.399,00, registrado em 14/09/2026, para R$ 1.999,00 (-16,67%). A página não detalhou modalidade de pagamento. Imagem direta do mesmo modelo conferida na página KaBuM! (CDN images.kabum.com.br). Frete e prazo para CEP 72620-405 não confirmados.",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/1082576/xlarge/Ar-Condicionado-Electrolux-Maxcomfort-Full-Inverter-Quente-Frio-9000-Btus-Ni09r_1792520919.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-11-15T18:02:00-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
           "preco": 2399,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-15T18:02:00-03:00",
+          "preco": 1999,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 2399,
-      "precoMedioHistorico": 2399,
-      "scoreOferta": 43,
-      "classificacaoOferta": "Interessante"
+      "menorPrecoHistorico": 1999,
+      "precoMedioHistorico": 2199,
+      "scoreOferta": 72,
+      "classificacaoOferta": "Boa",
+      "precoAnterior": 2399,
+      "desconto": 13,
+      "modeloFabricante": "NI09R/NE09R",
+      "variacaoPreco": -16.67,
+      "ultimaQuedaPreco": "2026-11-15T18:02:00-03:00"
     },
     {
       "id": "electrolux-ni18r-ne18r-18000-qf-220",
@@ -7513,13 +7524,6 @@
     {
       "data": "2026-09-14T12:10:52.647Z",
       "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free 481L AutoSense Duplex Inox Look TF71S 220V",
-      "id": "electrolux-tf71s-481l-220v",
-      "detalhe": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
       "produto": "Geladeira Electrolux Frost Free Inverter 380L AutoSense Black Inox IF41B 220V",
       "id": "electrolux-if41b-380l-220v",
       "detalhe": "Preço, modelo IF41B, EAN específico 220V 7909569522585 e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
@@ -9022,6 +9026,17 @@
       "precoAnterior": 1728.09,
       "precoAtual": 2299,
       "detalhes": "Página oficial Electrolux exibiu R$ 2.299,00 na variante 220V; acima do último promocional de R$ 1.728,09. Oferta inativada."
+    },
+    {
+      "data": "2026-11-15T18:02:00-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "electrolux-ni09r-ne09r-9000-qf-220",
+      "nome": "Ar-Condicionado Electrolux MaxComfort Inverter Quente/Frio 9.000 BTUs NI09R/NE09R",
+      "categoria": "Climatização",
+      "loja": "Loja Oficial Electrolux",
+      "precoAnterior": 2399,
+      "precoAtual": 1999,
+      "detalhes": "Em 15/11/2026, a Loja Oficial Electrolux reduziu o NI09R/NE09R 9.000 BTUs 220V de R$ 2.399,00 para R$ 1.999,00; queda de 16,67% frente ao último preço registrado. Pagamento, frete e prazo não detalhados."
     }
   ]
 }
