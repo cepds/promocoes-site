@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-15T08:57:09-03:00",
-  "total": 152,
+  "geradoEm": "2026-11-15T18:01:37-03:00",
+  "total": 151,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1746,8 +1746,8 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/282114/Airfryer_EAF31_Perspective_Electrolux_Portuguese_600x600_principal.jpg?v=638906233355070000",
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
-      "observacoes": "Oferta confirmada na Loja Oficial Electrolux em 11/09/2026. Página oferece variante 220V.",
+      "ultimaVerificacao": "2026-11-15T18:01:37-03:00",
+      "observacoes": "Em 15/11/2026, a Loja Oficial Electrolux reconfirmou o modelo EAF31 por R$ 479,90; a página permite selecionar 127V ou 220V, mantendo-se a variante 220V cadastrada. Sem alteração de preço ou frete; nenhum novo registro foi acrescentado ao histórico.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
@@ -1833,20 +1833,26 @@
       "voltagem": "220V",
       "url": "https://loja.electrolux.com.br/ar-condicionado-split-electrolux-inverter-9000-btus-color-adapt-frio-ji09f-je09f/p",
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/296037/7909569412275_4-1000x1000.jpg?v=639232608344070000",
-      "ativa": true,
+      "ativa": false,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-09-11T20:57:32.136Z",
-      "observacoes": "Oferta confirmada na Loja Oficial Electrolux em 11/09/2026. Produto 220V.",
+      "ultimaVerificacao": "2026-11-15T18:01:37-03:00",
+      "observacoes": "Inativada em 15/11/2026: a página oficial Electrolux exibiu R$ 2.299,00 para JI09F/JE09F, variante 220V e botão Comprar disponível, acima do último preço promocional registrado de R$ 1.728,09. O último preço promocional foi preservado em precoAtual; a observação de R$ 2.299,00 foi acrescentada ao histórico. Frete e prazo não confirmados para CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
           "preco": 1728.09,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-15T18:01:37-03:00",
+          "preco": 2299,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
       "menorPrecoHistorico": 1728.09,
-      "precoMedioHistorico": 1728.09,
+      "precoMedioHistorico": 2013.55,
       "scoreOferta": 70,
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
@@ -6822,13 +6828,13 @@
       "cepFrete": "72620-405",
       "precoComFrete": null,
       "prazoEntrega": "",
-      "estoqueStatus": "Disponível para compra",
+      "estoqueStatus": "Botão Comprar disponível; quantidade não informada.",
       "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-berna-suede-grafite-180-cm-842570.html",
       "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Suede-Grafite-180-cm-9019-075248-1.jpg",
       "ativa": true,
       "dataEncontrada": "2026-11-08T18:03:28-03:00",
-      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
-      "observacoes": "Em 12/11/2026, Mobly reconfirmou o SKU 813093, vendido e entregue pela Mobly, por R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. Preço igual ao último registro, sem novo ponto no histórico. Frete e prazo não confirmados para CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-15T18:01:37-03:00",
+      "observacoes": "Em 15/11/2026, Mobly reconfirmou SKU 813093, Suede Grafite 180 cm, vendido e entregue pela Mobly, por R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. Preço igual ao último registro, sem novo ponto no histórico. Frete e prazo não confirmados para CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-11-08T18:03:28-03:00",
@@ -7222,8 +7228,8 @@
       "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Suede-Bege-180-cm-9419-765248-1.jpg",
       "ativa": true,
       "dataEncontrada": "2026-11-12T09:03:59-03:00",
-      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
-      "observacoes": "Página Mobly consultada em 12/11/2026: SKU 813090, sofá Berna Suede Bege 180cm, vendido e entregue pela Mobly. Preço de R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. A página anuncia 64% sobre referência de R$ 2.149,99, não tratado como histórico real. Frete e prazo não confirmados para CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-15T18:01:37-03:00",
+      "observacoes": "Em 15/11/2026, Mobly reconfirmou SKU 813090, Suede Bege 180 cm, vendido e entregue pela Mobly, por R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. Preço igual ao último registro, sem novo ponto no histórico. Frete e prazo não confirmados para CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-11-12T09:03:59-03:00",
@@ -7261,13 +7267,13 @@
       "cepFrete": "72620-405",
       "precoComFrete": null,
       "prazoEntrega": "",
-      "estoqueStatus": "Disponível para compra",
+      "estoqueStatus": "Botão Comprar disponível; quantidade não informada.",
       "url": "https://www.mobly.com.br/sofa-3-lugares-retratil-berna-linho-grafite-180-cm-842564.html",
       "imagem": "https://static.mobly.com.br/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-9507-465248-1.jpg",
       "ativa": true,
       "dataEncontrada": "2026-11-12T18:03:21-03:00",
-      "ultimaVerificacao": "2026-11-12T18:03:21-03:00",
-      "observacoes": "Página Mobly consultada em 12/11/2026: SKU 813087, vendido e entregue pela Mobly, R$ 764,99 no Pix ou R$ 899,99 em até 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. A loja exibe preço de referência de R$ 2.259,99, mas não há histórico independente para validar esse desconto como real. Frete e prazo para CEP 72620-405 não confirmados.",
+      "ultimaVerificacao": "2026-11-15T18:01:37-03:00",
+      "observacoes": "Em 15/11/2026, Mobly reconfirmou SKU 813087, Linho Grafite 180 cm, vendido e entregue pela Mobly, por R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99 sem juros; cashback anunciado de R$ 125. Preço igual ao último registro, sem novo ponto no histórico. Frete e prazo não confirmados para CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-11-12T18:03:21-03:00",
@@ -7504,41 +7510,6 @@
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "atualizado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 7L Digital Expert EAF180",
-      "id": "electrolux-eaf180-airfryer-7l-220v",
-      "detalhe": "Preço R$ 999,90 e variante 220V revalidados na Loja Oficial Electrolux em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 3,2L Digital EAF20 220V",
-      "id": "electrolux-eaf20-airfryer-32l-220v",
-      "detalhe": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 5,6L Efficient EAF41 220V",
-      "id": "electrolux-eaf41-airfryer-56l-220v",
-      "detalhe": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 5,1L Expert com Visor EAF170 220V",
-      "id": "electrolux-eaf170-airfryer-51l-220v",
-      "detalhe": "Preço, modelo, EAN informado na página, variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:10:52.647Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free 320L Duplex Branca TF38 220V",
-      "id": "electrolux-tf38-320l-220v",
-      "detalhe": "Preço, modelo TF38, EAN específico 220V 7909569472187 e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
     {
       "data": "2026-09-14T12:10:52.647Z",
       "tipo": "adicionado",
@@ -9000,6 +8971,57 @@
       "precoAnterior": 5382.74,
       "precoAtual": 5382.74,
       "detalhes": "Oferta reativada em 15/11/2026 após reconfirmação da página Fast Shop: preço de R$ 5.382,74 no Pix, botão Comprar disponível, vendida e entregue pela Loja Oficial LG; EAN 7893299969751 e bivolt confirmados."
+    },
+    {
+      "data": "2026-11-15T18:01:37-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "electrolux-eaf31-airfryer-4l-220v",
+      "nome": "Air Fryer Electrolux por Rita Lobo 4L Grand Efficient EAF31",
+      "categoria": "Air Fryers",
+      "loja": "Loja Oficial Electrolux",
+      "precoAtual": 479.9,
+      "detalhes": "Preço de R$ 479,90 e opção 220V reconfirmados na página oficial; sem mudança no histórico."
+    },
+    {
+      "data": "2026-11-15T18:01:37-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "mobly-sofa-berna-suede-grafite-813093-20261108",
+      "nome": "Sofá 3 Lugares Retrátil Berna Suede Grafite 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "precoAtual": 764.99,
+      "detalhes": "SKU 813093, Suede Grafite 180 cm: R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99; cashback anunciado R$ 125; preço sem alteração."
+    },
+    {
+      "data": "2026-11-15T18:01:37-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "mobly-sofa-berna-suede-bege-180cm-20261112",
+      "nome": "Sofá 3 Lugares Retrátil Berna Suede Bege 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "precoAtual": 764.99,
+      "detalhes": "SKU 813090, Suede Bege 180 cm: R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99; cashback anunciado R$ 125; preço sem alteração."
+    },
+    {
+      "data": "2026-11-15T18:01:37-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "mobly-sofa-berna-linho-grafite-813087-20261112",
+      "nome": "Sofá 3 Lugares Retrátil Berna Linho Grafite 180 cm",
+      "categoria": "Sofás",
+      "loja": "Mobly",
+      "precoAtual": 764.99,
+      "detalhes": "SKU 813087, Linho Grafite 180 cm: R$ 764,99 no Pix ou R$ 899,99 em 10x de R$ 89,99; cashback anunciado R$ 125; preço sem alteração."
+    },
+    {
+      "data": "2026-11-15T18:01:37-03:00",
+      "tipo": "inativacao_preco",
+      "ofertaId": "electrolux-ji09f-ar-9000-220v",
+      "nome": "Ar-condicionado Electrolux Color Adapt Inverter 9.000 BTUs Frio JI09F/JE09F",
+      "categoria": "Climatização",
+      "loja": "Loja Oficial Electrolux",
+      "precoAnterior": 1728.09,
+      "precoAtual": 2299,
+      "detalhes": "Página oficial Electrolux exibiu R$ 2.299,00 na variante 220V; acima do último promocional de R$ 1.728,09. Oferta inativada."
     }
   ]
 }
