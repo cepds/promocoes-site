@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-16T09:10:28-03:00",
-  "total": 150,
+  "geradoEm": "2026-11-16T17:55:12-03:00",
+  "total": 152,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -7531,23 +7531,101 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "fastshop-ponto-lg-55qned70bsa-20261116",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "Ponto",
+      "seloLoja": "Vendido e entregue por Ponto",
+      "ean": "7893299969812",
+      "gtin": "7893299969812",
+      "codigoBarras": "7893299969812",
+      "modelo": "55QNED70BSA",
+      "modeloFabricante": "55QNED70BSA",
+      "produtoGrupo": "lg-55qned70bsa",
+      "precoAtual": 2981.87,
+      "precoPix": 2981.87,
+      "precoAvista": 2981.87,
+      "desconto": 21.4,
+      "condicaoPagamento": "R$ 2.981,87 no Pix; demais formas de pagamento não confirmadas.",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Botão Comprar exibido; quantidade em estoque não informada",
+      "voltagem": "Bivolt",
+      "url": "https://site.fastshop.com.br/smart-tv-55-polegadaslg-qned-mini-led-ai-4k-qned70-webos-2026-186648/p",
+      "imagem": "https://fastshopbr.vtexassets.com/arquivos/ids/5551355-154-auto/17885131749937.webp?quality=8&v=639241302632300000",
+      "ativa": true,
+      "dataEncontrada": "2026-11-16T17:55:12-03:00",
+      "ultimaVerificacao": "2026-11-16T17:55:12-03:00",
+      "observacoes": "Preço Pix e vendedor confirmados na página Fast Shop. Valor de referência exibido pela página: R$ 3.794,84 (desconto exibido de 21.4%); esse valor de referência não constitui histórico próprio. Modelo 55QNED70BSA, EAN 7893299969812 e voltagem Bivolt confirmados. Frete e prazo não confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-16T17:55:12-03:00",
+          "preco": 2981.87,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2981.87,
+      "precoMedioHistorico": 2981.87,
+      "scoreOferta": 60,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "fastshop-casasbahia-lg-55qned70bsa-20261116",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "Casas Bahia",
+      "seloLoja": "Vendido e entregue por Casas Bahia",
+      "ean": "7893299969812",
+      "gtin": "7893299969812",
+      "codigoBarras": "7893299969812",
+      "modelo": "55QNED70BSA",
+      "modeloFabricante": "55QNED70BSA",
+      "produtoGrupo": "lg-55qned70bsa",
+      "precoAtual": 3002.85,
+      "precoPix": 3002.85,
+      "precoAvista": 3002.85,
+      "desconto": 19.9,
+      "condicaoPagamento": "R$ 3.002,85 no Pix; demais formas de pagamento não confirmadas.",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Botão Comprar exibido; quantidade em estoque não informada",
+      "voltagem": "Bivolt",
+      "url": "https://site.fastshop.com.br/smart-tv-55-polegadaslg-qned-mini-led-ai-4k-qned70-webos-2026-186630-196963/p",
+      "imagem": "https://fastshopbr.vtexassets.com/arquivos/ids/5551355-154-auto/17885131749937.webp?quality=8&v=639241302632300000",
+      "ativa": true,
+      "dataEncontrada": "2026-11-16T17:55:12-03:00",
+      "ultimaVerificacao": "2026-11-16T17:55:12-03:00",
+      "observacoes": "Preço Pix e vendedor confirmados na página Fast Shop. Valor de referência exibido pela página: R$ 3.747,78 (desconto exibido de 19.9%); esse valor de referência não constitui histórico próprio. Modelo 55QNED70BSA, EAN 7893299969812 e voltagem Bivolt confirmados. Frete e prazo não confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-16T17:55:12-03:00",
+          "preco": 3002.85,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 3002.85,
+      "precoMedioHistorico": 3002.85,
+      "scoreOferta": 58,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-14T12:12:33.225Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Oven Electrolux Rita Lobo 12L Digital EAF90 220V",
-      "id": "electrolux-eaf90-airfryer-oven-12l-220v",
-      "detalhe": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:12:33.225Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 4L Grand Efficient EAF30 220V",
-      "id": "electrolux-eaf30-airfryer-4l-220v",
-      "detalhe": "Preço, modelo e disponibilidade de variante 220V confirmados na Loja Oficial Electrolux em 14/09/2026. A página consultada não exibiu preço anterior; desconto não foi inventado."
-    },
     {
       "data": "2026-09-14T12:12:33.225Z",
       "tipo": "adicionado",
@@ -9058,6 +9136,26 @@
       "precoAnterior": 2299,
       "precoAtual": 2299,
       "detalhes": "Página oficial Electrolux indica variante 220V temporariamente fora de estoque; oferta inativada."
+    },
+    {
+      "data": "2026-11-16T17:55:12-03:00",
+      "tipo": "nova_oferta",
+      "ofertaId": "fastshop-ponto-lg-55qned70bsa-20261116",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "Ponto",
+      "precoAtual": 2981.87,
+      "detalhes": "Oferta adicionada: R$ 2.981,87 no Pix; vendedor e voltagem Bivolt confirmados na página do anúncio. Frete e prazo não confirmados."
+    },
+    {
+      "data": "2026-11-16T17:55:12-03:00",
+      "tipo": "nova_oferta",
+      "ofertaId": "fastshop-casasbahia-lg-55qned70bsa-20261116",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "Casas Bahia",
+      "precoAtual": 3002.85,
+      "detalhes": "Oferta adicionada: R$ 3.002,85 no Pix; vendedor e voltagem Bivolt confirmados na página do anúncio. Frete e prazo não confirmados."
     }
   ]
 }
