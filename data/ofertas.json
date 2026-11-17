@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-16T17:55:12-03:00",
-  "total": 152,
+  "geradoEm": "2026-11-17T08:56:47-03:00",
+  "total": 155,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -7623,30 +7623,147 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "walita-philips-na230-62l-220v-20261117",
+      "nome": "Fritadeira Airfryer Philips Walita Série 2000 XL Digital 6,2L NA230/00 220V",
+      "categoria": "Air Fryers",
+      "loja": "Loja Oficial Philips Walita",
+      "seloLoja": "Loja Oficial",
+      "ean": "8720389050190",
+      "modelo": "NA230/00",
+      "modeloFabricante": "NA230/00",
+      "produtoGrupo": "philips-walita-na230-220v",
+      "precoAtual": 460.9,
+      "precoAnterior": 749.9,
+      "precoCartao": 483.95,
+      "parcelas": 9,
+      "valorParcela": 53.77,
+      "condicaoPagamento": "R$ 460,90 no preço promocional anunciado; ou R$ 483,95 em até 9x de R$ 53,77 sem juros.",
+      "desconto": 39,
+      "frete": "A consultar no checkout",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "voltagem": "220V",
+      "url": "https://www.walita.com.br/fritadeira-airfryer-digital-serie-2000-xl-philips-walita-preta-1700w-na230-na230_00/p",
+      "imagem": "https://walitastore.vtexassets.com/arquivos/ids/162885/NA230_Fritadeira-Airfryer-Digital-Se%E2%95%A0urie-2000-XL-Philips-Walita-Preta-1700W_Frente_1.png?v=638972783746500000",
+      "ativa": true,
+      "dataEncontrada": "2026-11-17T08:56:47-03:00",
+      "ultimaVerificacao": "2026-11-17T08:56:47-03:00",
+      "observacoes": "Página oficial Philips Walita anuncia R$ 460,90 e alternativa de R$ 483,95 em até 9x de R$ 53,77 sem juros. A página oferece variantes 127V e 220V; o EAN 8720389050190 corresponde à versão 220V. O preço promocional não foi identificado explicitamente como Pix. Frete e prazo para o CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-17T08:56:47-03:00",
+          "preco": 460.9,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 460.9,
+      "precoMedioHistorico": 460.9,
+      "scoreOferta": 71,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "magalu-brastemp-bwj14ab-14kg-220v-taqi-20261117",
+      "nome": "Máquina de Lavar Brastemp 14kg Smart Sensor BWJ14AB Branca 220V",
+      "categoria": "Máquinas de lavar",
+      "loja": "Lojas TaQi no Magalu",
+      "modelo": "BWJ14AB",
+      "modeloFabricante": "BWJ14AB",
+      "produtoGrupo": "brastemp-bwj14ab-14kg-branca-220v",
+      "precoAtual": 1867.61,
+      "precoAnterior": 2047.9,
+      "precoPix": 1867.61,
+      "precoAvista": 1867.61,
+      "precoCartao": 1965.9,
+      "parcelas": 10,
+      "valorParcela": 196.59,
+      "condicaoPagamento": "R$ 1.867,61 no Pix; R$ 1.965,90 em 10x de R$ 196,59 sem juros.",
+      "desconto": 9,
+      "frete": "A consultar no checkout",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "voltagem": "220V",
+      "url": "https://www.magazineluiza.com.br/maquina-de-lavar-roupas-brastemp-bwj14ab-14-kg-branca-220v/p/kaj89b226c/ed/lava/",
+      "imagem": "https://m.magazineluiza.com.br/a-static/420x420/maquina-de-lavar-roupas-brastemp-bwj14ab-14-kg-branca-220v/lojastaqi/100075929/bc625a579fc57d40e49c5d5ea492de6f.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-17T08:56:47-03:00",
+      "ultimaVerificacao": "2026-11-17T08:56:47-03:00",
+      "observacoes": "Página Magalu confirma variante 220V, vendida e entregue por Lojas TaQi. Preço anunciado: R$ 1.867,61 no Pix ou R$ 1.965,90 em 10x sem juros. A página mostrava avaliação 4,8/5 com 280 avaliações. Frete e prazo para o CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-17T08:56:47-03:00",
+          "preco": 1867.61,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 1867.61,
+      "precoMedioHistorico": 1867.61,
+      "scoreOferta": 66,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
+    },
+    {
+      "id": "centralar-lg-s3nq09ja31e-s3uq09ja31e-9000-220v-20261117",
+      "nome": "Ar-Condicionado Split LG AI Smart Inverter Voice 9.000 BTUs Frio 220V",
+      "categoria": "Climatização",
+      "loja": "CentralAr.com",
+      "modelo": "S3NQ09JA31E.EB2GAM1 / S3UQ09JA31E.EB2GAM1",
+      "modeloFabricante": "S3NQ09JA31E.EB2GAM1 / S3UQ09JA31E.EB2GAM1",
+      "produtoGrupo": "lg-s3nq09ja31e-s3uq09ja31e-9000-frio-220v",
+      "precoAtual": 2082.27,
+      "precoAnterior": 2239,
+      "precoPix": 2082.27,
+      "precoAvista": 2082.27,
+      "precoCartao": 2239,
+      "parcelas": 8,
+      "valorParcela": 279.88,
+      "condicaoPagamento": "R$ 2.082,27 no Pix; R$ 2.239,00 em até 8x de R$ 279,88 sem juros.",
+      "desconto": 7,
+      "frete": "A consultar no checkout",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "",
+      "voltagem": "220V",
+      "url": "https://www.centralar.com.br/p/ar-condicionado-split-hw-inverter-r-32-lg-voice-ai-smart-9000-btus-frio-220v-monofasico-s3nq09ja31eeb2gam1",
+      "imagem": "https://castaticstorage.blob.core.windows.net/centralar/mds/produtos/lg/inverter/3960/1000x1000/conjunto-split-hw-lg-inverter-voice-ai-1.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-17T08:56:47-03:00",
+      "ultimaVerificacao": "2026-11-17T08:56:47-03:00",
+      "observacoes": "CentralAr confirma R$ 2.082,27 no Pix (7% de desconto) ou R$ 2.239,00 a prazo, em até 8x de R$ 279,88 sem juros. Tensão 220V monofásica; modelos da evaporadora e condensadora confirmados na ficha técnica. A loja informa 36 anos de mercado e 10 anos de RA1000. Frete e prazo para o CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-17T08:56:47-03:00",
+          "preco": 2082.27,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2082.27,
+      "precoMedioHistorico": 2082.27,
+      "scoreOferta": 68,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-14T12:12:33.225Z",
-      "tipo": "adicionado",
-      "produto": "Air Fryer Electrolux por Rita Lobo 6,5L Family Efficient EAF51 220V",
-      "id": "electrolux-eaf51-airfryer-65l-220v",
-      "detalhe": "Preço, modelo, disponibilidade de variante 220V e desconto confirmados na Loja Oficial Electrolux em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:12:33.225Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free 432L AutoSense Duplex Branca TF70 220V",
-      "id": "electrolux-tf70-432l-220v",
-      "detalhe": "Preço de R$ 2.999,00, modelo TF70 e disponibilidade 220V confirmados em páginas oficiais Electrolux consultadas em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
-    {
-      "data": "2026-09-14T12:12:33.225Z",
-      "tipo": "adicionado",
-      "produto": "Geladeira Electrolux Frost Free 432L AutoSense Duplex Inox Look TF70S 220V",
-      "id": "electrolux-tf70s-432l-220v",
-      "detalhe": "Preço de R$ 3.099,00, modelo TF70S e disponibilidade 220V confirmados em página oficial Electrolux atualizada em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
     {
       "data": "2026-09-14T21:07:52.566Z",
       "tipo": "adicionado",
@@ -9156,6 +9273,36 @@
       "loja": "Casas Bahia",
       "precoAtual": 3002.85,
       "detalhes": "Oferta adicionada: R$ 3.002,85 no Pix; vendedor e voltagem Bivolt confirmados na página do anúncio. Frete e prazo não confirmados."
+    },
+    {
+      "data": "2026-11-17T08:56:47-03:00",
+      "tipo": "nova_oferta",
+      "ofertaId": "walita-philips-na230-62l-220v-20261117",
+      "nome": "Fritadeira Airfryer Philips Walita Série 2000 XL Digital 6,2L NA230/00 220V",
+      "categoria": "Air Fryers",
+      "loja": "Loja Oficial Philips Walita",
+      "precoAtual": 460.9,
+      "detalhes": "Incluída oferta da loja oficial Philips Walita; NA230/00, variante 220V, EAN 8720389050190. Preço anunciado R$ 460,90; opção de R$ 483,95 em até 9x."
+    },
+    {
+      "data": "2026-11-17T08:56:47-03:00",
+      "tipo": "nova_oferta",
+      "ofertaId": "magalu-brastemp-bwj14ab-14kg-220v-taqi-20261117",
+      "nome": "Máquina de Lavar Brastemp 14kg Smart Sensor BWJ14AB Branca 220V",
+      "categoria": "Máquinas de lavar",
+      "loja": "Lojas TaQi no Magalu",
+      "precoAtual": 1867.61,
+      "detalhes": "Incluída Brastemp BWJ14AB 14kg 220V, vendida e entregue por Lojas TaQi no Magalu; R$ 1.867,61 no Pix ou R$ 1.965,90 em 10x."
+    },
+    {
+      "data": "2026-11-17T08:56:47-03:00",
+      "tipo": "nova_oferta",
+      "ofertaId": "centralar-lg-s3nq09ja31e-s3uq09ja31e-9000-220v-20261117",
+      "nome": "Ar-Condicionado Split LG AI Smart Inverter Voice 9.000 BTUs Frio 220V",
+      "categoria": "Climatização",
+      "loja": "CentralAr.com",
+      "precoAtual": 2082.27,
+      "detalhes": "Incluído LG AI Smart Inverter Voice 9.000 BTUs 220V na CentralAr; R$ 2.082,27 no Pix ou R$ 2.239,00 em até 8x."
     }
   ]
 }
