@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-18T09:02:06-03:00",
-  "total": 156,
+  "geradoEm": "2026-11-18T17:55:43-03:00",
+  "total": 157,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -4246,13 +4246,13 @@
       "valorParcela": 149.9,
       "frete": "Consulte na loja",
       "cepFrete": "72620-405",
-      "estoqueStatus": "Em estoque",
+      "estoqueStatus": "Listado na página promocional KaBuM!; quantidade não informada.",
       "url": "https://www.kabum.com.br/produto/697722/controle-sony-dualsense-edge-ps5-sem-fio-midnight-black-cfi-zcp1wy",
-      "observacoes": "Preço e venda/entrega pela KaBuM! confirmados em 14/09/2026.",
+      "observacoes": "Em 18/11/2026, a listagem promocional oficial KaBuM! exibiu o DualSense Edge Midnight Black por R$ 1.394,07 no Pix ou R$ 1.499,00 em 10x de R$ 149,90; cupom CONTROLE10 aparece na listagem. A página individual retornou bloqueio de acesso nesta verificação; não foi presumido desconto adicional, estoque quantitativo, frete ou prazo para CEP 72620-405.",
       "imagem": "https://images.kabum.com.br/produtos/fotos/697722/controle-sony-dualsense-edge-ps5-sem-fio-midnight-black-cfi-zcp1wy_1736941868_m.jpg",
       "ativa": true,
       "dataEncontrada": "2026-09-14T21:07:52.566Z",
-      "ultimaVerificacao": "2026-09-14T21:07:52.566Z",
+      "ultimaVerificacao": "2026-11-18T17:55:43-03:00",
       "historicoPrecos": [
         {
           "data": "2026-09-14T21:07:52.566Z",
@@ -4264,7 +4264,11 @@
       "menorPrecoHistorico": 1394.07,
       "precoMedioHistorico": 1394.07,
       "scoreOferta": 43,
-      "classificacaoOferta": "Interessante"
+      "classificacaoOferta": "Interessante",
+      "precoAvista": 1394.07,
+      "precoCartao": 1499,
+      "cupom": "CONTROLE10 (exibido na listagem; desconto adicional não aplicado ao preço registrado)",
+      "condicaoPagamento": "R$ 1.394,07 no Pix; R$ 1.499,00 em 10x de R$ 149,90 sem juros. Cupom CONTROLE10 aparece na listagem, sem desconto adicional presumido."
     },
     {
       "id": "kabum-kit-dualsense-yotei-fc26-1023131",
@@ -6721,8 +6725,8 @@
       "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rd56-m7s8ddxbp493c4",
       "ativa": true,
       "dataEncontrada": "2026-11-06T09:05:07-03:00",
-      "ultimaVerificacao": "2026-11-12T09:03:59-03:00",
-      "observacoes": "Em 12/11/2026, a Loja Online Vivo reconfirmou R$ 1.899,00 ou 12x de R$ 158,25 sem juros; botão “Colocar no carrinho” ativo. Frete grátis anunciado pela loja, mas CEP 72620-405 e prazo não consultados. Preço sem alteração; histórico preservado.",
+      "ultimaVerificacao": "2026-11-18T17:55:43-03:00",
+      "observacoes": "Em 18/11/2026, a Loja Online Vivo confirmou R$ 1.899,00 ou 12x de R$ 158,25 sem juros; botão “Colocar no carrinho” disponível. A página informa frete grátis em toda a loja, mas o cálculo específico para CEP 72620-405 e o prazo não foram consultados. Preço sem alteração; histórico preservado.",
       "historicoPrecos": [
         {
           "data": "2026-11-06T09:05:07-03:00",
@@ -7416,18 +7420,18 @@
       "produtoGrupo": "ean-710425673504",
       "precoAtual": 204.5,
       "precoPix": 204.5,
-      "precoCartao": 227.22,
+      "precoCartao": 227.16,
       "parcelas": 9,
-      "condicaoPagamento": "R$ 204,50 no Pix; R$ 227,22 em até 9x sem juros no cartão.",
-      "estoqueStatus": "Oferta disponível; sujeita ao estoque",
+      "condicaoPagamento": "R$ 204,50 no Pix; R$ 227,16 em 9x de R$ 25,24 sem juros.",
+      "estoqueStatus": "Comprar agora e Adicionar ao carrinho disponíveis; vendido e entregue por KaBuM!, quantidade não informada.",
       "cepFrete": "72620-405",
       "frete": "Não consultado",
       "url": "https://www.kabum.com.br/produto/908152/jogo-borderlands-4-ps5-tt000265ps5",
       "imagem": "https://images2.kabum.com.br/produtos/fotos/908152/jogo-borderlands-4-ps5-tt000265ps5_1753820727_gg.jpg",
       "ativa": true,
       "dataEncontrada": "2026-11-13T08:58:09-03:00",
-      "ultimaVerificacao": "2026-11-13T08:58:09-03:00",
-      "observacoes": "Preço confirmado pelo monitor Poupano em 13/11/2026 às 06h30: R$ 204,50 no Pix ou R$ 227,22 em até 9x sem juros no cartão. Histórico de acompanhamento curto (2 dias); não há confirmação de frete/prazo para o CEP 72620-405. A ficha da loja não deixa inequívoco se a embalagem é disco ou código; verificar compatibilidade com PS5 Digital antes da compra.",
+      "ultimaVerificacao": "2026-11-18T17:55:43-03:00",
+      "observacoes": "Em 18/11/2026, a página KaBuM! confirmou R$ 204,50 no Pix ou R$ 227,16 em 9x de R$ 25,24 sem juros; vendido e entregue por KaBuM! e botão de compra disponível. O preço promocional não mudou; corrigido o total do parcelamento frente ao registro anterior. Frete e prazo para CEP 72620-405 não consultados.",
       "historicoPrecos": [
         {
           "data": "2026-11-13",
@@ -7439,7 +7443,8 @@
       "menorPrecoHistorico": 204.5,
       "precoMedioHistorico": 204.5,
       "scoreOferta": 72,
-      "classificacaoOferta": "Boa"
+      "classificacaoOferta": "Boa",
+      "valorParcela": 25.24
     },
     {
       "id": "kabum-nba-2k27-ps5-1063709",
@@ -7456,22 +7461,21 @@
       "precoCartao": 349.8,
       "parcelas": 10,
       "valorParcela": 34.98,
-      "condicaoPagamento": "R$ 314,91 no Pix (10% OFF); R$ 349,80 em 10x de R$ 34,98 sem juros. Cupom LIQUIDA10 exibido na página; não foi presumido desconto adicional.",
+      "condicaoPagamento": "R$ 314,91 no Pix (10% OFF); R$ 349,80 em 10x de R$ 34,98 sem juros.",
       "desconto": 10,
-      "cupom": "LIQUIDA10",
       "frete": null,
       "freteValor": null,
       "freteGratis": null,
       "cepFrete": "72620-405",
       "precoComFrete": null,
       "prazoEntrega": null,
-      "estoqueStatus": "Disponível",
+      "estoqueStatus": "Comprar agora e Adicionar ao carrinho disponíveis; vendido e entregue por KaBuM!, quantidade não informada.",
       "url": "https://www.kabum.com.br/produto/1063709/jogo-nba-2k27-ps5-p5da10000044fgm",
       "imagem": "https://images.kabum.com.br/produtos/fotos/1063709/jogo-nba-2k27-ps5-p5da10000044fgm_1786456565_gg.jpg",
       "ativa": true,
       "dataEncontrada": "2026-11-14T08:59:56-03:00",
-      "ultimaVerificacao": "2026-11-14T08:59:56-03:00",
-      "observacoes": "Vendido e entregue por KaBuM!. R$ 314,91 no Pix (10% OFF) ou R$ 349,80 em 10x de R$ 34,98 sem juros. A página exibe o cupom LIQUIDA10, mas nenhum desconto adicional foi presumido. Frete e prazo não consultados para CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-18T17:55:43-03:00",
+      "observacoes": "Em 18/11/2026, a página KaBuM! confirmou R$ 314,91 no Pix (10% OFF) ou R$ 349,80 em 10x de R$ 34,98 sem juros; vendido e entregue por KaBuM! e botão de compra disponível. O cupom LIQUIDA10 registrado anteriormente não apareceu na página atual; preço Pix permanece confirmado sem depender desse cupom. Frete e prazo para CEP 72620-405 não consultados.",
       "historicoPrecos": [
         {
           "data": "2026-11-14T08:59:56-03:00",
@@ -7803,37 +7807,50 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "kabum-dualsense-cfi-zct2w-midnight-black-20261118",
+      "nome": "Controle Sem Fio Sony DualSense para PlayStation 5 Bluetooth Midnight Black CFI-ZCT2W",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "seloLoja": "Vendido e entregue por KaBuM!",
+      "modelo": "CFI-ZCT2W",
+      "modeloFabricante": "CFI-ZCT2W",
+      "produtoGrupo": "sony-dualsense-cfi-zct2w-midnight-black",
+      "precoAtual": 398.97,
+      "precoAnterior": 499,
+      "precoPix": 398.97,
+      "precoAvista": 398.97,
+      "precoCartao": 429,
+      "parcelas": 10,
+      "valorParcela": 42.9,
+      "condicaoPagamento": "R$ 398,97 no Pix; R$ 429,00 em 10x de R$ 42,90 sem juros. A página também anuncia o cupom CONTROLE10 com 10% OFF; desconto adicional do cupom não incluído no preço registrado.",
+      "cupom": "CONTROLE10 (10% OFF anunciado; confirmar elegibilidade e valor final no checkout)",
+      "cepFrete": "72620-405",
+      "estoqueStatus": "Botões “Comprar agora” e “Adicionar ao carrinho” disponíveis; quantidade não informada.",
+      "url": "https://www.kabum.com.br/produto/1032835/controle-sem-fio-sony-dualsense-playstation-5-bluetooth-midnight-black-cfi-zct2w",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/1032835/controle-sem-fio-sony-dualsense-playstation-5-bluetooth-midnight-black-cfi-zct2w_1780665845_gg.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-18T17:55:43-03:00",
+      "ultimaVerificacao": "2026-11-18T17:55:43-03:00",
+      "observacoes": "Em 18/11/2026, a página KaBuM! confirmou o controle Sony DualSense Midnight Black CFI-ZCT2W, vendido e entregue por KaBuM!, por R$ 398,97 no Pix ou R$ 429,00 em 10x de R$ 42,90; botões de compra disponíveis. A página anuncia o cupom CONTROLE10 com 10% OFF, mas o desconto adicional não foi aplicado nem calculado no precoAtual. Imagem direta da CDN KaBuM! conferida. Frete e prazo para CEP 72620-405 não consultados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-18T17:55:43-03:00",
+          "preco": 398.97,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 398.97,
+      "precoMedioHistorico": 398.97,
+      "scoreOferta": 60,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Sofá Retrátil e Reclinável Ellen 200cm 3 Lugares Bege",
-      "id": "mm-sofa-ellen-200-bege-666785",
-      "detalhe": "Preço, estoque e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Rack com Painel Ripado Retrô para TV até 55 Polegadas 100% MDF",
-      "id": "mm-rack-painel-ripado-55-850154",
-      "detalhe": "Preço e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Rack com Painel Ripado para TV até 65 Polegadas 185x196cm MDF Gaia",
-      "id": "mm-rack-painel-gaia-65-280105686",
-      "detalhe": "Preço e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Rack com Painel Ripado para TV até 75 Polegadas com LED MDF Ouro Preto",
-      "id": "mm-rack-painel-ouro-preto-75-831708",
-      "detalhe": "Preço e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026."
-    },
     {
       "data": "2026-09-14T21:07:52.566Z",
       "tipo": "adicionado",
@@ -9348,6 +9365,46 @@
       "loja": "Loja WAP Oficial",
       "precoAtual": 290.38,
       "detalhes": "Página oficial WAP: modelo WAFF2-C, variante 220V identificada pelo EAN 7899831331826; preço exibido R$ 290,38 ou R$ 312,24 em até 6x de R$ 52,04. Imagem direta da CDN WAP. Frete/prazo não confirmados para CEP 72620-405; não foi presumido desconto histórico."
+    },
+    {
+      "data": "2026-11-18T17:55:43-03:00",
+      "tipo": "verificacao_pagamento",
+      "ofertaId": "kabum-borderlands-4-ps5-908152",
+      "categoria": "Games",
+      "nome": "Jogo Borderlands 4, PS5 - TT000265PS5",
+      "loja": "KaBuM!",
+      "precoAtual": 204.5,
+      "detalhes": "Preço Pix mantido em R$ 204,50; página atual confirmou 9x de R$ 25,24 (total R$ 227,16), corrigindo o total parcelado anteriormente registrado."
+    },
+    {
+      "data": "2026-11-18T17:55:43-03:00",
+      "tipo": "verificacao_condicao",
+      "ofertaId": "kabum-nba-2k27-ps5-1063709",
+      "categoria": "Games",
+      "nome": "Jogo NBA 2K27, PS5 - P5DA10000044FGM",
+      "loja": "KaBuM!",
+      "precoAtual": 314.91,
+      "detalhes": "Preço Pix R$ 314,91 e cartão R$ 349,80 confirmados; removida referência ao cupom LIQUIDA10, ausente na página atual, pois o desconto Pix é exibido diretamente."
+    },
+    {
+      "data": "2026-11-18T17:55:43-03:00",
+      "tipo": "verificacao_pagamento",
+      "ofertaId": "kabum-dualsense-edge-black-697722",
+      "categoria": "Games",
+      "nome": "Controle Sony DualSense Edge PS5 Midnight Black",
+      "loja": "KaBuM!",
+      "precoAtual": 1394.07,
+      "detalhes": "Listagem promocional KaBuM! confirmou R$ 1.394,07 no Pix e 10x de R$ 149,90; cupom CONTROLE10 exibido, sem aplicação presumida. Página individual bloqueou a consulta."
+    },
+    {
+      "data": "2026-11-18T17:55:43-03:00",
+      "tipo": "adicao",
+      "ofertaId": "kabum-dualsense-cfi-zct2w-midnight-black-20261118",
+      "nome": "Controle Sem Fio Sony DualSense Midnight Black CFI-ZCT2W",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "precoAtual": 398.97,
+      "detalhes": "Adicionado após confirmação da página KaBuM!: R$ 398,97 no Pix ou R$ 429,00 em 10x de R$ 42,90; vendido e entregue por KaBuM!. Cupom CONTROLE10 anunciado, mas desconto adicional não aplicado ao preço registrado; imagem direta conferida."
     }
   ]
 }
