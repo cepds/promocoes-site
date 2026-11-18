@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-17T08:56:47-03:00",
-  "total": 155,
+  "geradoEm": "2026-11-18T09:02:06-03:00",
+  "total": 156,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -7761,16 +7761,51 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "wap-waff2-c-family-4l-220v-20261118",
+      "nome": "Fritadeira Elétrica WAP Family 4L WAFF2-C 220V",
+      "categoria": "Air Fryers",
+      "loja": "Loja WAP Oficial",
+      "seloLoja": "Loja Oficial",
+      "ean": "7899831331826",
+      "modelo": "WAFF2-C",
+      "modeloFabricante": "WAFF2-C",
+      "produtoGrupo": "wap-waff2-c-4l-220v-ean7899831331826",
+      "precoAtual": 290.38,
+      "parcelas": 6,
+      "valorParcela": 52.04,
+      "condicaoPagamento": "R$ 290,38; ou R$ 312,24 em até 6x de R$ 52,04.",
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": null,
+      "estoqueStatus": "Botão Adicionar ao carrinho disponível",
+      "voltagem": "220V",
+      "url": "https://loja.wap.ind.br/fritadeira-eletrica-wap-family-4l-waff2-c/p",
+      "imagem": "https://lojawap.vtexassets.com/arquivos/ids/198964-800-auto?aspect=true&height=auto&v=639179938764970000&width=800",
+      "ativa": true,
+      "dataEncontrada": "2026-11-18T09:02:06-03:00",
+      "ultimaVerificacao": "2026-11-18T09:02:06-03:00",
+      "observacoes": "Em 18/11/2026, a página oficial da Loja WAP exibiu R$ 290,38 e opção de R$ 312,24 em até 6x de R$ 52,04. A variante 220V foi identificada pelo EAN 7899831331826. O preço não foi rotulado explicitamente como Pix e não há histórico independente para comprovar desconto real; por isso, não foi declarado desconto. A ficha técnica apresenta códigos de referência divergentes para a variante; o SKU não foi gravado. Frete e prazo para o CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-18T09:02:06-03:00",
+          "preco": 290.38,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 290.38,
+      "precoMedioHistorico": 290.38,
+      "scoreOferta": 55,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Sofá Retrátil Reclinável Majestoso 290cm Cinza Grafite",
-      "id": "mm-sofa-majestoso-290-grafite-866913",
-      "detalhe": "Preço, estoque e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026. Frete e prazo dependem da consulta do CEP."
-    },
     {
       "data": "2026-09-14T21:07:52.566Z",
       "tipo": "adicionado",
@@ -9303,6 +9338,16 @@
       "loja": "CentralAr.com",
       "precoAtual": 2082.27,
       "detalhes": "Incluído LG AI Smart Inverter Voice 9.000 BTUs 220V na CentralAr; R$ 2.082,27 no Pix ou R$ 2.239,00 em até 8x."
+    },
+    {
+      "data": "2026-11-18T09:02:06-03:00",
+      "tipo": "nova_oferta",
+      "ofertaId": "wap-waff2-c-family-4l-220v-20261118",
+      "nome": "Fritadeira Elétrica WAP Family 4L WAFF2-C 220V",
+      "categoria": "Air Fryers",
+      "loja": "Loja WAP Oficial",
+      "precoAtual": 290.38,
+      "detalhes": "Página oficial WAP: modelo WAFF2-C, variante 220V identificada pelo EAN 7899831331826; preço exibido R$ 290,38 ou R$ 312,24 em até 6x de R$ 52,04. Imagem direta da CDN WAP. Frete/prazo não confirmados para CEP 72620-405; não foi presumido desconto histórico."
     }
   ]
 }
