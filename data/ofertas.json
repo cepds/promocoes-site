@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-19T08:58:32-03:00",
-  "total": 158,
+  "geradoEm": "2026-11-19T18:04:29-03:00",
+  "total": 159,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -7887,16 +7887,51 @@
       "classificacaoOferta": "Boa",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "kabum-gta-vi-ps5-tt000272ps5-20261119",
+      "nome": "Jogo Grand Theft Auto VI, PS5 - TT000272PS5 (Code in Box)",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "seloLoja": "Vendido e entregue por KaBuM!",
+      "modelo": "TT000272PS5",
+      "produtoGrupo": "take-two-gta-vi-ps5-code-in-box",
+      "precoAtual": 418.41,
+      "precoAnterior": 449.9,
+      "precoPix": 418.41,
+      "precoAvista": 418.41,
+      "precoCartao": 449.8,
+      "parcelas": 10,
+      "valorParcela": 44.98,
+      "condicaoPagamento": "R$ 418,41 à vista no Pix; ou 10x de R$ 44,98 sem juros (R$ 449,80 no cartão).",
+      "desconto": 7,
+      "frete": "Consulte na loja",
+      "freteValor": null,
+      "cepFrete": "72620-405",
+      "estoqueStatus": "Botão Comprar agora disponível",
+      "url": "https://www.kabum.com.br/produto/1051619/jogo-grand-theft-auto-gta-vi-6-ps5-tt000272ps5",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/1051619/jogo-gta-vi-6-ps5_1782389703_gg.jpg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-19T18:04:29-03:00",
+      "ultimaVerificacao": "2026-11-19T18:04:29-03:00",
+      "observacoes": "Página KaBuM! consultada em 19/11/2026: R$ 418,41 à vista no Pix (7% OFF) ou 10x de R$ 44,98 sem juros; vendido e entregue por KaBuM!; botão Comprar agora disponível. Formato Code in Box: a caixa contém código de resgate digital, não disco. Frete e prazo para CEP 72620-405 não confirmados.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-19T18:04:29-03:00",
+          "preco": 418.41,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 418.41,
+      "precoMedioHistorico": 418.41,
+      "scoreOferta": 58,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Escrivaninha Mesa Escritório 120cm Cinza Grafite e Nogal",
-      "id": "mm-escrivaninha-120-grafite-nogal-710065",
-      "detalhe": "Preço e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026."
-    },
     {
       "data": "2026-09-14T21:07:52.566Z",
       "tipo": "adicionado",
@@ -9447,6 +9482,16 @@
       "loja": "Casa&Ferramentas no Magalu",
       "precoAtual": 358.71,
       "detalhes": "Adicionada após conferência do anúncio Magalu: Bosch GSB 550 RE 550W, variante 220V; R$ 358,71 no Pix (8% OFF) ou R$ 389,90 em 8x de R$ 48,74 sem juros. Vendida por Casa&Ferramentas e entregue por Magalu; lojista 5,0 e +10 mil vendas. Imagem direta confirmada; frete/prazo não confirmados para CEP 72620-405."
+    },
+    {
+      "data": "2026-11-19T18:04:29-03:00",
+      "tipo": "adicao",
+      "ofertaId": "kabum-gta-vi-ps5-tt000272ps5-20261119",
+      "nome": "Jogo Grand Theft Auto VI, PS5 - TT000272PS5 (Code in Box)",
+      "categoria": "Games",
+      "loja": "KaBuM!",
+      "precoAtual": 418.41,
+      "detalhes": "Adicionada após conferência da página KaBuM!: R$ 418,41 no Pix (7% OFF) ou 10x de R$ 44,98 sem juros; vendida e entregue por KaBuM!, botão Comprar agora disponível. Produto Code in Box (código digital em caixa, sem disco). Imagem direta da CDN KaBuM! confirmada. Frete/prazo não confirmados para CEP 72620-405."
     }
   ]
 }
