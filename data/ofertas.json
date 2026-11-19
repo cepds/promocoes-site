@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-18T17:55:43-03:00",
-  "total": 157,
+  "geradoEm": "2026-11-19T08:58:32-03:00",
+  "total": 158,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -7848,16 +7848,48 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "magalu-bosch-gsb550-220v-casaferramentas-20261119",
+      "nome": "Furadeira de Impacto Bosch GSB 550 RE 550W 220V com Maleta",
+      "categoria": "Ferramentas",
+      "loja": "Casa&Ferramentas no Magalu",
+      "modelo": "GSB 550",
+      "modeloFabricante": "GSB 550",
+      "produtoGrupo": "bosch-gsb550-06011b60e2-000",
+      "precoAtual": 358.71,
+      "precoPix": 358.71,
+      "precoAvista": 358.71,
+      "precoCartao": 389.9,
+      "parcelas": 8,
+      "valorParcela": 48.74,
+      "condicaoPagamento": "R$ 358,71 no Pix (8% de desconto); R$ 389,90 em 8x de R$ 48,74 sem juros.",
+      "desconto": 8,
+      "voltagem": "220V",
+      "url": "https://www.magazineluiza.com.br/furadeira-impacto-bosch-13mm-550w-maleta-gsb-550-re-220v/p/fk4h91bd98/fs/otfs/?seller_id=casaferramentas",
+      "imagem": "https://a-static.mlcdn.com.br/420x420/furadeira-impacto-bosch-13mm-550w-maleta-gsb-550-re-220v/casaferramentas/gsb550re-220-maleta/6df7d5547b2b669799192a70bdcba9c9.jpeg",
+      "ativa": true,
+      "dataEncontrada": "2026-11-19T08:58:32-03:00",
+      "ultimaVerificacao": "2026-11-19T08:58:32-03:00",
+      "observacoes": "Anúncio do Magalu vendido por Casa&Ferramentas e entregue por Magalu; lojista desde 2022, avaliação 5,0 e mais de 10 mil produtos vendidos. Página identifica a variante 220V, mostra R$ 358,71 no Pix e R$ 389,90 em 8x sem juros, com opções Adicionar à sacola e Comprar agora. Frete e prazo para CEP 72620-405 não confirmados.",
+      "estoqueStatus": "Disponível para compra",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-19T08:58:32-03:00",
+          "preco": 358.71,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 358.71,
+      "precoMedioHistorico": 358.71,
+      "scoreOferta": 68,
+      "classificacaoOferta": "Boa",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Guarda-Roupa Casal 6 Portas com Pés Imperatriz 100% MDF",
-      "id": "mm-guarda-roupa-imperatriz-350053779",
-      "detalhe": "Preço, estoque e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026."
-    },
     {
       "data": "2026-09-14T21:07:52.566Z",
       "tipo": "adicionado",
@@ -9405,6 +9437,16 @@
       "loja": "KaBuM!",
       "precoAtual": 398.97,
       "detalhes": "Adicionado após confirmação da página KaBuM!: R$ 398,97 no Pix ou R$ 429,00 em 10x de R$ 42,90; vendido e entregue por KaBuM!. Cupom CONTROLE10 anunciado, mas desconto adicional não aplicado ao preço registrado; imagem direta conferida."
+    },
+    {
+      "data": "2026-11-19T08:58:32-03:00",
+      "tipo": "adicao",
+      "ofertaId": "magalu-bosch-gsb550-220v-casaferramentas-20261119",
+      "nome": "Furadeira de Impacto Bosch GSB 550 RE 550W 220V com Maleta",
+      "categoria": "Ferramentas",
+      "loja": "Casa&Ferramentas no Magalu",
+      "precoAtual": 358.71,
+      "detalhes": "Adicionada após conferência do anúncio Magalu: Bosch GSB 550 RE 550W, variante 220V; R$ 358,71 no Pix (8% OFF) ou R$ 389,90 em 8x de R$ 48,74 sem juros. Vendida por Casa&Ferramentas e entregue por Magalu; lojista 5,0 e +10 mil vendas. Imagem direta confirmada; frete/prazo não confirmados para CEP 72620-405."
     }
   ]
 }
