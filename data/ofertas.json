@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-11-19T18:04:29-03:00",
-  "total": 159,
+  "geradoEm": "2026-11-20T09:03:39-03:00",
+  "total": 160,
   "ofertas": [
     {
       "id": "magalu-sofa-multimoveis-cr45242",
@@ -1759,8 +1759,8 @@
       "imagem": "https://electrolux.vtexassets.com/arquivos/ids/282114/Airfryer_EAF31_Perspective_Electrolux_Portuguese_600x600_principal.jpg?v=638906233355070000",
       "ativa": true,
       "dataEncontrada": "2026-09-11T20:57:32.136Z",
-      "ultimaVerificacao": "2026-11-15T18:01:37-03:00",
-      "observacoes": "Em 15/11/2026, a Loja Oficial Electrolux reconfirmou o modelo EAF31 por R$ 479,90; a página permite selecionar 127V ou 220V, mantendo-se a variante 220V cadastrada. Sem alteração de preço ou frete; nenhum novo registro foi acrescentado ao histórico.",
+      "ultimaVerificacao": "2026-11-20T09:03:39-03:00",
+      "observacoes": "Em 20/11/2026, a página oficial Electrolux exibiu R$ 479,90 e permitiu selecionar a variante 220V do modelo EAF31. Preço permaneceu igual; histórico mantido sem registro artificial. Frete e prazo não confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-09-11T20:57:32.136Z",
@@ -6098,7 +6098,7 @@
       "url": "https://www.lg.com/br/tvs-e-soundbars/qned/55qned70bsa/",
       "imagem": "https://www.lg.com/content/dam/channel/wcms/1-channel/br/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned80/gp1/gallery/75-qned80/gallery/imagens-galeria-v2/1-2010-tv-qned70.png/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
       "ativa": true,
-      "observacoes": "Preço Pix de R$ 2.944,05, preço no cartão de R$ 3.099,00 em até 12x sem juros e modelo 55QNED70BSA reconfirmados na página oficial LG em 05/11/2026. O cupom CUPOMLG5 aparece na página, mas não foi presumido desconto adicional. Frete, prazo e estoque não confirmados para o CEP 72620-405.",
+      "observacoes": "Em 20/11/2026 às 02h57, o rastreador Poupano confirmou R$ 2.944,05 à vista na loja LG para o modelo 55QNED70BSA; a página oficial LG confirma o modelo. O preço permaneceu igual e o histórico não foi alterado. As condições de cartão de R$ 3.099,00 em 12x permanecem da última consulta oficial de 05/11 e não foram reconfirmadas nesta verificação. Frete e prazo não confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-10-27T18:02:26-03:00",
@@ -6114,7 +6114,7 @@
       "variacaoPreco": null,
       "ultimaQuedaPreco": null,
       "dataEncontrada": "2026-10-27T18:02:26-03:00",
-      "ultimaVerificacao": "2026-11-05T17:56:07-03:00"
+      "ultimaVerificacao": "2026-11-20T02:57:00-03:00"
     },
     {
       "id": "magalu-motorola-moto-g-max-256gb-oficial-20261027",
@@ -7551,8 +7551,7 @@
       "precoAtual": 2981.87,
       "precoPix": 2981.87,
       "precoAvista": 2981.87,
-      "desconto": 21.4,
-      "condicaoPagamento": "R$ 2.981,87 no Pix; demais formas de pagamento não confirmadas.",
+      "condicaoPagamento": "R$ 2.981,87 no Pix; R$ 3.172,20 em até 8x sem juros (valor por parcela não informado).",
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": null,
@@ -7565,8 +7564,8 @@
       "imagem": "https://fastshopbr.vtexassets.com/arquivos/ids/5551355-154-auto/17885131749937.webp?quality=8&v=639241302632300000",
       "ativa": true,
       "dataEncontrada": "2026-11-16T17:55:12-03:00",
-      "ultimaVerificacao": "2026-11-16T17:55:12-03:00",
-      "observacoes": "Preço Pix e vendedor confirmados na página Fast Shop. Valor de referência exibido pela página: R$ 3.794,84 (desconto exibido de 21.4%); esse valor de referência não constitui histórico próprio. Modelo 55QNED70BSA, EAN 7893299969812 e voltagem Bivolt confirmados. Frete e prazo não confirmados para o CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-20T04:00:00-03:00",
+      "observacoes": "Poupano conferiu em 20/11/2026 às 04h00: R$ 2.981,87 no Pix e R$ 3.172,20 em até 8x sem juros; vendedor Ponto identificado no anúncio Fast Shop. O preço Pix permaneceu igual ao último registro. Preço de referência anunciado não foi tratado como desconto histórico. Frete e prazo não confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-11-16T17:55:12-03:00",
@@ -7577,10 +7576,12 @@
       ],
       "menorPrecoHistorico": 2981.87,
       "precoMedioHistorico": 2981.87,
-      "scoreOferta": 60,
-      "classificacaoOferta": "Interessante",
+      "scoreOferta": 55,
+      "classificacaoOferta": "Normal",
       "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "ultimaQuedaPreco": null,
+      "precoCartao": 3172.2,
+      "parcelas": 8
     },
     {
       "id": "fastshop-casasbahia-lg-55qned70bsa-20261116",
@@ -7594,11 +7595,11 @@
       "modelo": "55QNED70BSA",
       "modeloFabricante": "55QNED70BSA",
       "produtoGrupo": "lg-55qned70bsa",
-      "precoAtual": 3002.85,
-      "precoPix": 3002.85,
-      "precoAvista": 3002.85,
-      "desconto": 19.9,
-      "condicaoPagamento": "R$ 3.002,85 no Pix; demais formas de pagamento não confirmadas.",
+      "precoAtual": 2981.87,
+      "precoPix": 2981.87,
+      "precoAvista": 2981.87,
+      "desconto": 0.7,
+      "condicaoPagamento": "R$ 2.981,87 no Pix; R$ 3.172,20 em até 8x sem juros (valor por parcela não informado).",
       "frete": "Consulte na loja",
       "freteValor": null,
       "freteGratis": null,
@@ -7611,22 +7612,31 @@
       "imagem": "https://fastshopbr.vtexassets.com/arquivos/ids/5551355-154-auto/17885131749937.webp?quality=8&v=639241302632300000",
       "ativa": true,
       "dataEncontrada": "2026-11-16T17:55:12-03:00",
-      "ultimaVerificacao": "2026-11-16T17:55:12-03:00",
-      "observacoes": "Preço Pix e vendedor confirmados na página Fast Shop. Valor de referência exibido pela página: R$ 3.747,78 (desconto exibido de 19.9%); esse valor de referência não constitui histórico próprio. Modelo 55QNED70BSA, EAN 7893299969812 e voltagem Bivolt confirmados. Frete e prazo não confirmados para o CEP 72620-405.",
+      "ultimaVerificacao": "2026-11-20T04:00:00-03:00",
+      "observacoes": "Poupano conferiu em 20/11/2026 às 04h00: R$ 2.981,87 no Pix e R$ 3.172,20 em até 8x sem juros; vendedor Casas Bahia identificado no anúncio Fast Shop. O Pix caiu de R$ 3002,85 para R$ 2.981,87 (0,7% abaixo do último preço registrado). O desconto foi calculado somente contra o preço promocional anterior, sem usar preço de tabela. Frete e prazo não confirmados para o CEP 72620-405.",
       "historicoPrecos": [
         {
           "data": "2026-11-16T17:55:12-03:00",
           "preco": 3002.85,
           "freteValor": null,
           "precoComFrete": null
+        },
+        {
+          "data": "2026-11-20T04:00:00-03:00",
+          "preco": 2981.87,
+          "freteValor": null,
+          "precoComFrete": null
         }
       ],
-      "menorPrecoHistorico": 3002.85,
-      "precoMedioHistorico": 3002.85,
-      "scoreOferta": 58,
+      "menorPrecoHistorico": 2981.87,
+      "precoMedioHistorico": 2992.36,
+      "scoreOferta": 59,
       "classificacaoOferta": "Interessante",
-      "variacaoPreco": null,
-      "ultimaQuedaPreco": null
+      "variacaoPreco": -0.7,
+      "ultimaQuedaPreco": "2026-11-20T04:00:00-03:00",
+      "precoAnterior": 3002.85,
+      "precoCartao": 3172.2,
+      "parcelas": 8
     },
     {
       "id": "walita-philips-na230-62l-220v-20261117",
@@ -7929,44 +7939,55 @@
       "classificacaoOferta": "Interessante",
       "variacaoPreco": null,
       "ultimaQuedaPreco": null
+    },
+    {
+      "id": "fastshop-lg-55qned70bsa-20261120",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 2026 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "Fast Shop",
+      "seloLoja": "Vendido e entregue por Fast Shop",
+      "ean": "7893299969812",
+      "gtin": "7893299969812",
+      "codigoBarras": "7893299969812",
+      "modelo": "55QNED70BSA",
+      "modeloFabricante": "55QNED70BSA",
+      "produtoGrupo": "lg-55qned70bsa",
+      "precoAtual": 2649,
+      "precoPix": 2649,
+      "precoAvista": 2649,
+      "precoCartao": 2818.09,
+      "condicaoPagamento": "R$ 2.649,00 no Pix; R$ 2.818,09 no cartão (número de parcelas não informado).",
+      "frete": "Consultar na loja",
+      "freteValor": null,
+      "freteGratis": null,
+      "cepFrete": "72620-405",
+      "precoComFrete": null,
+      "prazoEntrega": "",
+      "estoqueStatus": "Botão Comprar exibido; quantidade não informada",
+      "voltagem": "Bivolt",
+      "url": "https://site.fastshop.com.br/smart-tv-lg-qned-mini-led-ai-4k-55--polegadas-com-recurso-para-jogos--google-assistente-e-wi-fi---55qned70bsa-lg55qnedpto_prd/p",
+      "imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50098247_1052509.png?v=1776645381",
+      "ativa": true,
+      "dataEncontrada": "2026-11-20T09:03:39-03:00",
+      "ultimaVerificacao": "2026-11-20T04:01:00-03:00",
+      "observacoes": "Preço Pix de R$ 2.649,00, cartão de R$ 2.818,09, venda/entrega pela Fast Shop, modelo 55QNED70BSA, EAN 7893299969812 e voltagem Bivolt confirmados na página Fast Shop e no rastreador Poupano (20/11/2026 às 04h01). O cupom de 7% divulgado pelo rastreador não foi aplicado, pois a elegibilidade do produto não foi confirmada. Desde 04/11, o menor preço observado entre lojas foi R$ 2.355,98 em 18/11; o preço atual está cerca de 12% acima desse mínimo. Frete e prazo não confirmados para o CEP 72620-405.",
+      "historicoPrecos": [
+        {
+          "data": "2026-11-20T04:01:00-03:00",
+          "preco": 2649,
+          "freteValor": null,
+          "precoComFrete": null
+        }
+      ],
+      "menorPrecoHistorico": 2649,
+      "precoMedioHistorico": 2649,
+      "scoreOferta": 62,
+      "classificacaoOferta": "Interessante",
+      "variacaoPreco": null,
+      "ultimaQuedaPreco": null
     }
   ],
   "logAlteracoes": [
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Mesa de Jantar Extensível Madeira Maciça Tampo com Vidro Paris",
-      "id": "mm-mesa-jantar-paris-787146",
-      "detalhe": "Preço e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Guarda-Roupa Casal MDF 6 Portas 6 Gavetas Reno Branco",
-      "id": "mm-guarda-roupa-reno-832815",
-      "detalhe": "Preço, estoque e venda/entrega pela MadeiraMadeira confirmados em 14/09/2026."
-    },
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Rack com Painel para TV até 65 Polegadas Preto Madesa Orlando",
-      "id": "madesa-rack-painel-orlando-65-451091959",
-      "detalhe": "Preço e vendedor Madesa confirmados em 14/09/2026 na MadeiraMadeira."
-    },
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Rack com Painel para TV até 65 Polegadas Life Caemmun",
-      "id": "caemmun-rack-painel-life-65-250256320",
-      "detalhe": "Preço e vendedor Caemmun confirmados em 14/09/2026 na MadeiraMadeira; página indica bom atendimento e entrega no prazo."
-    },
-    {
-      "data": "2026-09-14T21:07:52.566Z",
-      "tipo": "adicionado",
-      "produto": "Panela de Pressão Tramontina Solar Aço Inox Fundo Triplo 6L",
-      "id": "tramontina-solar-pressao-6l-62516223",
-      "detalhe": "Preço e condição de pagamento confirmados na Loja Oficial Tramontina em 14/09/2026."
-    },
     {
       "data": "2026-09-14T21:07:52.566Z",
       "tipo": "adicionado",
@@ -9492,6 +9513,57 @@
       "loja": "KaBuM!",
       "precoAtual": 418.41,
       "detalhes": "Adicionada após conferência da página KaBuM!: R$ 418,41 no Pix (7% OFF) ou 10x de R$ 44,98 sem juros; vendida e entregue por KaBuM!, botão Comprar agora disponível. Produto Code in Box (código digital em caixa, sem disco). Imagem direta da CDN KaBuM! confirmada. Frete/prazo não confirmados para CEP 72620-405."
+    },
+    {
+      "data": "2026-11-20T09:03:39-03:00",
+      "tipo": "verificacao",
+      "ofertaId": "electrolux-eaf31-airfryer-4l-220v",
+      "nome": "Air Fryer Electrolux por Rita Lobo 4L Grand Efficient EAF31",
+      "categoria": "Air Fryers",
+      "loja": "Loja Oficial Electrolux",
+      "precoAtual": 479.9,
+      "detalhes": "Página oficial Electrolux confirmou R$ 479,90 e opção 220V para EAF31; preço inalterado, histórico preservado."
+    },
+    {
+      "data": "2026-11-20T09:03:39-03:00",
+      "tipo": "verificacao_preco",
+      "ofertaId": "lg-55qned70bsa-oficial-20261027",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 2026 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "LG Brasil - Loja Oficial",
+      "precoAtual": 2944.05,
+      "detalhes": "Poupano conferiu 20/11 às 02h57: preço à vista LG R$ 2.944,05; modelo confirmado na página oficial; sem mudança no histórico."
+    },
+    {
+      "data": "2026-11-20T09:03:39-03:00",
+      "tipo": "verificacao_pagamento",
+      "ofertaId": "fastshop-ponto-lg-55qned70bsa-20261116",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "Ponto",
+      "precoAtual": 2981.87,
+      "detalhes": "Poupano conferiu 20/11 às 04h00: R$ 2.981,87 no Pix e R$ 3.172,20 em até 8x sem juros; vendedor Ponto; preço Pix inalterado."
+    },
+    {
+      "data": "2026-11-20T09:03:39-03:00",
+      "tipo": "queda_preco",
+      "ofertaId": "fastshop-casasbahia-lg-55qned70bsa-20261116",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "Casas Bahia",
+      "precoAnterior": 3002.85,
+      "precoAtual": 2981.87,
+      "detalhes": "Preço Pix caiu de R$ 3002,85 para R$ 2.981,87; R$ 3.172,20 em até 8x sem juros; vendedor Casas Bahia confirmado no rastreador Poupano."
+    },
+    {
+      "data": "2026-11-20T09:03:39-03:00",
+      "tipo": "adicao",
+      "ofertaId": "fastshop-lg-55qned70bsa-20261120",
+      "nome": "Smart TV LG QNED Mini LED AI 4K 55 polegadas 2026 55QNED70BSA",
+      "categoria": "TVs",
+      "loja": "Fast Shop",
+      "precoAtual": 2649,
+      "detalhes": "Adicionada oferta Fast Shop: R$ 2.649,00 no Pix ou R$ 2.818,09 no cartão; vendido e entregue pela Fast Shop, Bivolt, EAN 7893299969812. Imagem direta HTTPS do modelo confirmada; frete/prazo não confirmados."
     }
   ]
 }
